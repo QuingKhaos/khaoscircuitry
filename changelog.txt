@@ -1,4 +1,11 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.2.0
+Date: 2026-07-13
+  Features:
+    - Compact Circuits: Remove [item=advanced-circuit] advanced circuits and [item=processing-unit] processing units from recipes and make it available earlier (configurable, default: disabled).
+  Compatibility:
+    - Add tweaks for Compact Circuits.
+---------------------------------------------------------------------------------------------------
 Version: 1.1.0
 Date: 2026-07-13
   Features:

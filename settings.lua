@@ -10,6 +10,24 @@ if mods["beltcounter2"] then
   } :commit()
 end
 
+if mods["compaktcircuit"] then
+  khaoslib_setting:load {
+    type = "bool-setting",
+    name = "khaoscircuitry-compaktcircuit-rm-advanced-circuits",
+    setting_type = "startup",
+    default_value = false,
+    order = "a[tweaks]-b[compaktcircuit]-a[remove-advanced-circuits]",
+  } :commit()
+
+  khaoslib_setting:load {
+    type = "bool-setting",
+    name = "khaoscircuitry-compaktcircuit-rm-processing-units",
+    setting_type = "startup",
+    default_value = false,
+    order = "a[tweaks]-b[compaktcircuit]-b[remove-processing-units]",
+  } :commit()
+end
+
 if mods["cybersyn"] then
   if mods["Automatic_Train_Painter"] then
     khaoslib_setting:load {
@@ -17,7 +35,7 @@ if mods["cybersyn"] then
       name = "khaoscircuitry-cybersyn-atm-rm-manual-color-module",
       setting_type = "startup",
       default_value = true,
-      order = "a[tweaks]-b[cybersyn]-a[automatic-train-painter]-a[remove-manual-color-module]",
+      order = "a[tweaks]-c[cybersyn]-a[automatic-train-painter]-a[remove-manual-color-module]",
     } :commit()
   end
 end
@@ -28,6 +46,6 @@ if mods["Cybersyn-Content-Reader"] then
     name = "khaoscircuitry-cybersyn-content-reader-rm-custom-technology",
     setting_type = "startup",
     default_value = true,
-    order = "a[tweaks]-c[cybersyn-content-reader]-a[remove-custom-technology]",
+    order = "a[tweaks]-d[cybersyn-content-reader]-a[remove-custom-technology]",
   } :commit()
 end

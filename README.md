@@ -17,6 +17,7 @@ is installed (not configurable).
 
 - [Belt Counter 2.0](https://mods.factorio.com/mod/beltcounter2)
 - [Circuit HUD V2](https://mods.factorio.com/mod/CircuitHUD-V2)
+- [Compact Circuits](https://mods.factorio.com/mod/compaktcircuit)
 - [Cybersyn](https://mods.factorio.com/mod/cybersyn)
 - [Cybersyn Combinator](https://mods.factorio.com/mod/cybersyn-combinator)
 - [Cybersyn Network Content Reader](https://mods.factorio.com/mod/Cybersyn-Content-Reader)
