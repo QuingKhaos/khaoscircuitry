@@ -7,8 +7,11 @@
 
 # QuingKhaos' Circuitry Tweaks
 
-A collection of opinionated tweaks to many circuitry mods. If you don't like the support for a given mod or a tweak,
-each one can be disabled in the mod startup settings.
+A collection of opinionated tweaks to many circuitry mods. If you don't like a specific tweak, each one can be disabled
+in the mod startup settings.
+
+All circuitry stuff is properly sorted into its own tab if [Schall Circuit Group](https://mods.factorio.com/mod/CchallCircuitGroup)
+is installed (not configurable).
 
 ## Tweaked mods
 
