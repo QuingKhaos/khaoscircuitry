@@ -1,3 +1,6 @@
 ---------------------------------------------------------------------------------------------------
 Version: 1.0.0
-Date: ????
+Date: 2026-07-13
+  Features:
+    - Move circuitry stuff into circuit group, if Schall Circuit Group is installed. Supports individual combinator subgroups too.
+    - Cybersyn: Remove the manual color module from the Automatic Train Painter, if installed (configurable).

@@ -8,8 +8,15 @@
   "factorio_version": "2.0",
   "dependencies": [
     "base >= 2.0.77",
+    "(?) quality >= 2.0.77",
 
-    "khaoslib >= 1.15.0"
+    "khaoslib >= 1.15.0",
+
+    "? cybersyn >= 2.0.53",
+
+    "(?) Automatic_Train_Painter >= 2.0.1",
+    "(?) Flare Stack >= 4.1.1",
+    "? SchallCircuitGroup >= 2.0.1"
   ],
   "package": {
     "ignore": [
