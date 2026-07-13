@@ -22,6 +22,7 @@ is installed (not configurable).
 - [Cybersyn Combinator](https://mods.factorio.com/mod/cybersyn-combinator)
 - [Cybersyn Network Content Reader](https://mods.factorio.com/mod/Cybersyn-Content-Reader)
 - [Recipe Combinator](https://mods.factorio.com/mod/recipe_combinator)
+- [Spoilage Scanner](https://mods.factorio.com/mod/spoilage-scanner)
 
 If you want to see another mod tweaked, please open a discussion thread on the mod portal, or an issue on GitHub, or join
 the Discord server and let me know.
