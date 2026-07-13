@@ -1,5 +1,15 @@
 local khaoslib_setting = require("__khaoslib__.settings.setting")
 
+if mods["beltcounter2"] then
+  khaoslib_setting:load {
+    type = "bool-setting",
+    name = "khaoscircuitry-beltcounter2-change-recipe",
+    setting_type = "startup",
+    default_value = true,
+    order = "a[tweaks]-a[beltcounter2]-a[change-recipe]",
+  } :commit()
+end
+
 if mods["cybersyn"] then
   if mods["Automatic_Train_Painter"] then
     khaoslib_setting:load {
@@ -7,7 +17,7 @@ if mods["cybersyn"] then
       name = "khaoscircuitry-cybersyn-atm-rm-manual-color-module",
       setting_type = "startup",
       default_value = true,
-      order = "a[tweaks]-a[cybersyn]-a[automatic-train-painter]-a[remove-manual-color-module]",
+      order = "a[tweaks]-b[cybersyn]-a[automatic-train-painter]-a[remove-manual-color-module]",
     } :commit()
   end
 end
@@ -18,6 +28,6 @@ if mods["Cybersyn-Content-Reader"] then
     name = "khaoscircuitry-cybersyn-content-reader-rm-custom-technology",
     setting_type = "startup",
     default_value = true,
-    order = "a[tweaks]-b[cybersyn-content-reader]-a[remove-custom-technology]",
+    order = "a[tweaks]-c[cybersyn-content-reader]-a[remove-custom-technology]",
   } :commit()
 end

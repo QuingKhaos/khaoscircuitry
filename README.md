@@ -15,6 +15,7 @@ is installed (not configurable).
 
 ## Tweaked mods
 
+- [Belt Counter 2.0](https://mods.factorio.com/mod/beltcounter2)
 - [Cybersyn](https://mods.factorio.com/mod/cybersyn)
 - [Cybersyn Combinator](https://mods.factorio.com/mod/cybersyn-combinator)
 - [Cybersyn Network Content Reader](https://mods.factorio.com/mod/Cybersyn-Content-Reader)
