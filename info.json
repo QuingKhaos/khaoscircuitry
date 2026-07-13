@@ -13,6 +13,7 @@
     "khaoslib >= 1.15.0",
 
     "? beltcounter2 >= 0.1.0",
+    "? CircuitHUD-V2 >= 2.5.1",
     "? cybersyn >= 2.0.53",
     "? cybersyn-combinator >= 2.8.2",
     "? Cybersyn-Content-Reader >= 1.0.2",
