@@ -13,6 +13,7 @@ each one can be disabled in the mod startup settings.
 ## Tweaked mods
 
 - [Cybersyn](https://mods.factorio.com/mod/cybersyn)
+- [Cybersyn Combinator](https://mods.factorio.com/mod/cybersyn-combinator)
 
 If you want to see another mod tweaked, please open a discussion thread on the mod portal, or an issue on GitHub, or join
 the Discord server and let me know.
