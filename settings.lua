@@ -11,3 +11,13 @@ if mods["cybersyn"] then
     } :commit()
   end
 end
+
+if mods["Cybersyn-Content-Reader"] then
+  khaoslib_setting:load {
+    type = "bool-setting",
+    name = "khaoscircuitry-cybersyn-content-reader-rm-custom-technology",
+    setting_type = "startup",
+    default_value = true,
+    order = "a[tweaks]-b[cybersyn-content-reader]-a[remove-custom-technology]",
+  } :commit()
+end

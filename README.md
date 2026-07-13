@@ -17,6 +17,7 @@ is installed (not configurable).
 
 - [Cybersyn](https://mods.factorio.com/mod/cybersyn)
 - [Cybersyn Combinator](https://mods.factorio.com/mod/cybersyn-combinator)
+- [Cybersyn Network Content Reader](https://mods.factorio.com/mod/Cybersyn-Content-Reader)
 
 If you want to see another mod tweaked, please open a discussion thread on the mod portal, or an issue on GitHub, or join
 the Discord server and let me know.
