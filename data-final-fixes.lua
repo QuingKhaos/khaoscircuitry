@@ -1,3 +1,4 @@
+require("__khaoscircuitry__.prototypes.tweaks.aai-signal-transmission-final-fixes")
 require("__khaoscircuitry__.prototypes.tweaks.beltcounter2-final-fixes")
 require("__khaoscircuitry__.prototypes.tweaks.circuit-hud-v2-final-fixes")
 require("__khaoscircuitry__.prototypes.tweaks.compakt-circuit-final-fixes")
