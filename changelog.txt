@@ -5,6 +5,7 @@ Date: 2026-07-13
     - Belt Counter 2.0: Change recipe to use [item=arithmetic-combinator] arithmetic combinator as ingredient instead of [item=power-switch] power switch (configurable).
   Compatibility:
     - Add tweaks for Belt Counter 2.0 (see above).
+    - Add tweaks for Recipe Combinator.
 ---------------------------------------------------------------------------------------------------
 Version: 1.0.0
 Date: 2026-07-13
