@@ -35,6 +35,7 @@ There are also some non-circuitry mods in this list, because they contain circui
 - [Heat Sensor](https://mods.factorio.com/mod/heat-sensor)
 - [Inventory Sensor Improved](https://mods.factorio.com/mod/inventory-sensor-improved)
 - [Lignumis](https://mods.factorio.com/mod/lignumis)
+- [LTN Train Information Combinator](https://mods.factorio.com/mod/ltn-train-info)
 - [MicroController](https://mods.factorio.com/mod/m-microcontroller)
 - [Pollution Combinator](https://mods.factorio.com/mod/PollutionCombinator-JamieFork)
 - [Quantum Fabricator](https://mods.factorio.com/mod/quantum-fabricator)
