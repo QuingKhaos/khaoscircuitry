@@ -27,6 +27,7 @@ is installed (not configurable).
 - [Cybersyn Network Content Reader](https://mods.factorio.com/mod/Cybersyn-Content-Reader)
 - [Display Plates Forked](https://mods.factorio.com/mod/DisplayPlatesForked)
 - [Energy Combinator](https://mods.factorio.com/mod/energy-combinator)
+- [Fiber Optics](https://mods.factorio.com/mod/fiber-optics)
 - [Inventory Sensor Improved](https://mods.factorio.com/mod/inventory-sensor-improved)
 - [Heat Sensor](https://mods.factorio.com/mod/heat-sensor)
 - [Pollution Combinator](https://mods.factorio.com/mod/PollutionCombinator-JamieFork)

@@ -10,6 +10,7 @@ Date: 2026-07-15
     - Research Control Combinator Updated: Unlock the combinator together with circuit network researach, removing the custom technology (configurable).
   Compatibility:
     - Add tweaks for Heat Sensor (see above).
+    - Add tweaks for Fiber Optics.
     - Add tweaks for Research Control Combinator Updated (see above).
 ---------------------------------------------------------------------------------------------------
 Version: 1.5.0
