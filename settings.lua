@@ -49,3 +49,13 @@ if mods["Cybersyn-Content-Reader"] then
     order = "a[tweaks]-d[cybersyn-content-reader]-a[remove-custom-technology]",
   } :commit()
 end
+
+if mods["DisplayPlatesForked"] and mods["SchallCircuitGroup"] then
+  khaoslib_setting:load {
+    type = "bool-setting",
+    name = "khaoscircuitry-display-plates-forked-move-to-circuit-group",
+    setting_type = "startup",
+    default_value = true,
+    order = "a[tweaks]-e[display-plates-forked]-a[move-to-circuit-group]",
+  } :commit()
+end

@@ -4,6 +4,7 @@ Date: ????
   Compatibility:
     - Add tweaks for AAI Signal Transmission.
     - Add tweaks for Energy Combinator.
+    - Add tweaks for Display Plates Forked (configurable).
 ---------------------------------------------------------------------------------------------------
 Version: 1.2.0
 Date: 2026-07-13
