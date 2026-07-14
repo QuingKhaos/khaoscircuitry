@@ -2,6 +2,7 @@ require("__khaoscircuitry__.prototypes.tweaks.aai-signal-transmission-final-fixe
 require("__khaoscircuitry__.prototypes.tweaks.active-rails-final-fixes")
 require("__khaoscircuitry__.prototypes.tweaks.alert-scanner-final-fixes")
 require("__khaoscircuitry__.prototypes.tweaks.beltcounter2-final-fixes")
+require("__khaoscircuitry__.prototypes.tweaks.blueprint-reader-final-fixes")
 require("__khaoscircuitry__.prototypes.tweaks.circuit-hud-v2-final-fixes")
 require("__khaoscircuitry__.prototypes.tweaks.compakt-circuit-final-fixes")
 require("__khaoscircuitry__.prototypes.tweaks.cybersyn-final-fixes")

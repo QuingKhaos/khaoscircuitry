@@ -19,6 +19,7 @@ is installed (not configurable).
 - [Active Rails](https://mods.factorio.com/mod/Active_Rails)
 - [Alert Scanner](https://mods.factorio.com/mod/AlertScanner)
 - [Belt Counter 2.0](https://mods.factorio.com/mod/beltcounter2)
+- [Blueprint Reader Combinator](https://mods.factorio.com/mod/blueprint_reader)
 - [Circuit HUD V2](https://mods.factorio.com/mod/CircuitHUD-V2)
 - [Compact Circuits](https://mods.factorio.com/mod/compaktcircuit)
 - [Cybersyn](https://mods.factorio.com/mod/cybersyn)
