@@ -28,6 +28,7 @@ is installed (not configurable).
 - [Energy Combinator](https://mods.factorio.com/mod/energy-combinator)
 - [Inventory Sensor Improved](https://mods.factorio.com/mod/inventory-sensor-improved)
 - [Recipe Combinator](https://mods.factorio.com/mod/recipe_combinator)
+- [Pollution Combinator](https://mods.factorio.com/mod/PollutionCombinator-JamieFork)
 - [Simple Gauge](https://mods.factorio.com/mod/simple-gauge)
 - [Spoilage Scanner](https://mods.factorio.com/mod/spoilage-scanner)
 

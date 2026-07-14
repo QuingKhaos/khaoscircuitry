@@ -24,13 +24,16 @@
     "? DisplayPlatesForked >= 1.6.1",
     "? energy-combinator >= 1.1.1",
     "? inventory-sensor-improved >= 2.1.0",
+    "? PollutionCombinator-JamieFork >= 1.1.0",
     "? recipe_combinator >= 0.1.11",
     "? simple-gauge >= 1.0.0",
     "? spoilage-scanner >= 1.0.0",
 
     "(?) Automatic_Train_Painter >= 2.0.1",
     "(?) Flare Stack >= 4.1.1",
-    "? SchallCircuitGroup >= 2.0.1"
+    "? SchallCircuitGroup >= 2.0.1",
+
+    "! pollution-combinator"
   ],
   "package": {
     "ignore": [
