@@ -4,7 +4,7 @@
   "description": "Opinionated tweaks to many circuitry mods. Configurable!",
   "author": "QuingKhaos",
   "homepage": "https://discord.gg/SYmkaDjFCt",
-  "version": "1.7.0",
+  "version": "1.8.0",
   "factorio_version": "2.0",
   "dependencies": [
     "base >= 2.0.77",
@@ -27,6 +27,7 @@
     "? energy-combinator >= 1.1.1",
     "? factorissimo-2-notnotmelon >= 3.11.19",
     "? fiber-optics >= 2.1.1",
+    "? filter-combinator-improved >= 3.9.0",
     "? heat-sensor >= 0.1.1",
     "? inventory-sensor-improved >= 2.1.0",
     "? lignumis >= 1.10.0",
@@ -42,7 +43,8 @@
     "? SchallCircuitGroup >= 2.0.1",
 
     "! pollution-combinator",
-    "! Research_Control_Combinator"
+    "! Research_Control_Combinator",
+    "! silent-filter-combinator"
   ],
   "package": {
     "ignore": [

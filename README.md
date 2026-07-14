@@ -31,6 +31,7 @@ There are also some non-circuitry mods in this list, because they contain circui
 - [Energy Combinator](https://mods.factorio.com/mod/energy-combinator)
 - [Factorissimo 3](https://mods.factorio.com/mod/factorissimo-2-notnotmelon)
 - [Fiber Optics](https://mods.factorio.com/mod/fiber-optics)
+- [Filter Combinator (Reimagined)](https://mods.factorio.com/mod/filter-combinator-improved)
 - [Heat Sensor](https://mods.factorio.com/mod/heat-sensor)
 - [Inventory Sensor Improved](https://mods.factorio.com/mod/inventory-sensor-improved)
 - [Lignumis](https://mods.factorio.com/mod/lignumis)
