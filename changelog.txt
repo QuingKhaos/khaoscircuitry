@@ -1,4 +1,13 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.5.0
+Date: 2026-07-14
+  Features:
+    - Active Rails: Give the active rails planner a red tint to differientiate it from the normal rail planner.
+    - Active Rails: Disable the active rails recipe, so it isn't available from the start and polluting the crafting menu.
+    - Active Rails: Add new technology to unlock the active rails recipe.
+  Compatibility:
+    - Add tweaks for Active Rails (see above).
+---------------------------------------------------------------------------------------------------
 Version: 1.4.0
 Date: 2026-07-14
   Features:
