@@ -1,6 +1,6 @@
 ---------------------------------------------------------------------------------------------------
 Version: 1.3.0
-Date: ????
+Date: 2026-07-14
   Compatibility:
     - Add tweaks for AAI Signal Transmission.
     - Add tweaks for Energy Combinator.
