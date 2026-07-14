@@ -60,6 +60,16 @@ if mods["DisplayPlatesForked"] and mods["SchallCircuitGroup"] then
   } :commit()
 end
 
+if mods["Research_Control_Combinator_Updated"] then
+  khaoslib_setting:load {
+    type = "bool-setting",
+    name = "khaoscircuitry-research-control-combinator-rm-custom-technology",
+    setting_type = "startup",
+    default_value = true,
+    order = "a[tweaks]-f[research-control-combinator]-a[remove-custom-technology]",
+  } :commit()
+end
+
 if mods["simple-gauge"] then
   khaoslib_setting:load {
     type = "string-setting",
@@ -67,6 +77,6 @@ if mods["simple-gauge"] then
     setting_type = "startup",
     default_value = "fluid-handling",
     allowed_values = {"steam-power", "fluid-handling"},
-    order = "a[tweaks]-f[simple-gauge]-a[unlock]",
+    order = "a[tweaks]-g[simple-gauge]-a[unlock]",
   } :commit()
 end

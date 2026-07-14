@@ -29,6 +29,7 @@
     "? inventory-sensor-improved >= 2.1.0",
     "? PollutionCombinator-JamieFork >= 1.1.0",
     "? recipe_combinator >= 0.1.11",
+    "? Research_Control_Combinator_Updated >= 1.0.3",
     "? simple-gauge >= 1.0.0",
     "? spoilage-scanner >= 1.0.0",
 
@@ -36,10 +37,12 @@
     "(?) Flare Stack >= 4.1.1",
     "? SchallCircuitGroup >= 2.0.1",
 
-    "! pollution-combinator"
+    "! pollution-combinator",
+    "! Research_Control_Combinator"
   ],
   "package": {
     "ignore": [
+      "**/*.gimp",
       "**/*.xcf"
     ]
   }

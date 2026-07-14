@@ -1,17 +1,23 @@
 ---------------------------------------------------------------------------------------------------
 Version: 1.6.0
 Date: 2026-07-15
+  Bugfixes:
+    - Research Control Combinator Updated: Disable the combinator recipe, so it isn't available from the start and polluting the crafting menu.
   Features:
     - Heat Sensor: Unlock the heat sensor together with technologies, that unlock heat pipes.
     - Heat Sensor: New graphics, so it looks like a constant combinator and not a heat interface.
+    - Research Control Combinator Updated: New, custom graphics to differientiate it from the vanilla constant combinator.
+    - Research Control Combinator Updated: Unlock the combinator together with circuit network researach, removing the custom technology (configurable).
   Compatibility:
     - Add tweaks for Heat Sensor (see above).
+    - Add tweaks for Research Control Combinator Updated (see above).
 ---------------------------------------------------------------------------------------------------
 Version: 1.5.0
 Date: 2026-07-14
+  Bugfixes:
+    - Active Rails: Disable the active rails recipe, so it isn't available from the start and polluting the crafting menu.
   Features:
     - Active Rails: Give the active rails planner a red tint to differientiate it from the normal rail planner.
-    - Active Rails: Disable the active rails recipe, so it isn't available from the start and polluting the crafting menu.
     - Active Rails: Add new technology to unlock the active rails recipe.
   Compatibility:
     - Add tweaks for Active Rails (see above).
