@@ -59,3 +59,14 @@ if mods["DisplayPlatesForked"] and mods["SchallCircuitGroup"] then
     order = "a[tweaks]-e[display-plates-forked]-a[move-to-circuit-group]",
   } :commit()
 end
+
+if mods["simple-gauge"] then
+  khaoslib_setting:load {
+    type = "string-setting",
+    name = "khaoscircuitry-simple-gauge-unlock",
+    setting_type = "startup",
+    default_value = "fluid-handling",
+    allowed_values = {"steam-power", "fluid-handling"},
+    order = "a[tweaks]-f[simple-gauge]-a[unlock]",
+  } :commit()
+end

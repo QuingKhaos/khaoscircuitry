@@ -10,4 +10,5 @@ require("__khaoscircuitry__.prototypes.tweaks.display-plates-forked-final-fixes"
 require("__khaoscircuitry__.prototypes.tweaks.energy-combinator-final-fixes")
 require("__khaoscircuitry__.prototypes.tweaks.inventory-sensor-improved-final-fixes")
 require("__khaoscircuitry__.prototypes.tweaks.recipe-combinator-final-fixes")
+require("__khaoscircuitry__.prototypes.tweaks.simple-gauge-final-fixes")
 require("__khaoscircuitry__.prototypes.tweaks.spoilage-scanner-final-fixes")

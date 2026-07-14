@@ -1,8 +1,11 @@
 ---------------------------------------------------------------------------------------------------
 Version: 1.4.0
 Date: 2026-07-14
+  Features:
+    - Simple Gauge: Determine which technology unlocks the Simple Gauge (configurable).
   Compatibility:
     - Add tweaks for Alert Scanner.
+    - Add tweaks for Simple Gauge (see above).
 ---------------------------------------------------------------------------------------------------
 Version: 1.3.0
 Date: 2026-07-14
