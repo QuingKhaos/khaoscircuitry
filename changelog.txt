@@ -1,4 +1,12 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.6.0
+Date: 2026-07-15
+  Features:
+    - Heat Sensor: Unlock the heat sensor together with technologies, that unlock heat pipes.
+    - Heat Sensor: New graphics, so it looks like a constant combinator and not a heat interface.
+  Compatibility:
+    - Add tweaks for Heat Sensor (see above).
+---------------------------------------------------------------------------------------------------
 Version: 1.5.0
 Date: 2026-07-14
   Features:

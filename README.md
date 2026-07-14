@@ -28,6 +28,7 @@ is installed (not configurable).
 - [Display Plates Forked](https://mods.factorio.com/mod/DisplayPlatesForked)
 - [Energy Combinator](https://mods.factorio.com/mod/energy-combinator)
 - [Inventory Sensor Improved](https://mods.factorio.com/mod/inventory-sensor-improved)
+- [Heat Sensor](https://mods.factorio.com/mod/heat-sensor)
 - [Recipe Combinator](https://mods.factorio.com/mod/recipe_combinator)
 - [Pollution Combinator](https://mods.factorio.com/mod/PollutionCombinator-JamieFork)
 - [Simple Gauge](https://mods.factorio.com/mod/simple-gauge)
@@ -35,3 +36,7 @@ is installed (not configurable).
 
 If you want to see another mod tweaked, please open a discussion thread on the mod portal, or an issue on GitHub, or join
 the Discord server and let me know.
+
+## Credits
+
+- New heat sensor graphics by [MrLumme](https://mods.factorio.com/user/MrLumme), borrowed from [Gas Heat Stuff](https://mods.factorio.com/mod/GasHeatStuff).

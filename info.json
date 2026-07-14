@@ -4,11 +4,12 @@
   "description": "Opinionated tweaks to many circuitry mods. Configurable!",
   "author": "QuingKhaos",
   "homepage": "https://discord.gg/SYmkaDjFCt",
-  "version": "1.5.0",
+  "version": "1.6.0",
   "factorio_version": "2.0",
   "dependencies": [
     "base >= 2.0.77",
     "(?) quality >= 2.0.77",
+    "? space-age >= 2.0.77",
 
     "khaoslib >= 1.15.0",
 
@@ -24,6 +25,7 @@
     "? Cybersyn-Content-Reader >= 1.0.2",
     "? DisplayPlatesForked >= 1.6.1",
     "? energy-combinator >= 1.1.1",
+    "? heat-sensor >= 0.1.1",
     "? inventory-sensor-improved >= 2.1.0",
     "? PollutionCombinator-JamieFork >= 1.1.0",
     "? recipe_combinator >= 0.1.11",
