@@ -6,6 +6,7 @@ Date: 2026-07-14
     - Quantum Fabricator: Remove matter digitization technology if eartly digitizing chests are enabled (configurable).
   Compatibility:
     - Add tweaks for Factorissimo 3.
+    - Add tweaks for Lignumis.
     - Add tweaks for Quantum Fabricator (see above).
 ---------------------------------------------------------------------------------------------------
 Version: 1.6.0
