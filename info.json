@@ -4,7 +4,7 @@
   "description": "Opinionated tweaks to many circuitry mods. Configurable!",
   "author": "QuingKhaos",
   "homepage": "https://discord.gg/SYmkaDjFCt",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "factorio_version": "2.0",
   "dependencies": [
     "base >= 2.0.77",
@@ -13,6 +13,7 @@
     "khaoslib >= 1.15.0",
 
     "? aai-signal-transmission >= 0.5.3",
+    "? AlertScanner >= 0.2.2",
     "? beltcounter2 >= 0.1.0",
     "? CircuitHUD-V2 >= 2.5.1",
     "? compaktcircuit >= 2.0.28",

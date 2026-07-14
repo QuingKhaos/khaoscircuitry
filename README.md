@@ -16,6 +16,7 @@ is installed (not configurable).
 ## Tweaked mods
 
 - [AAI Signal Transmission](https://mods.factorio.com/mod/aai-signal-transmission)
+- [Alert Scanner](https://mods.factorio.com/mod/AlertScanner)
 - [Belt Counter 2.0](https://mods.factorio.com/mod/beltcounter2)
 - [Circuit HUD V2](https://mods.factorio.com/mod/CircuitHUD-V2)
 - [Compact Circuits](https://mods.factorio.com/mod/compaktcircuit)
