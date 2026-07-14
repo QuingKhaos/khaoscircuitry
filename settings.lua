@@ -60,13 +60,23 @@ if mods["DisplayPlatesForked"] and mods["SchallCircuitGroup"] then
   } :commit()
 end
 
+if mods["quantum-fabricator"] then
+  khaoslib_setting:load {
+    type = "bool-setting",
+    name = "khaoscircuitry-quantum-fabricator-rm-superfluous-technology",
+    setting_type = "startup",
+    default_value = true,
+    order = "a[tweaks]-f[quantum-fabricator]-a[remove-superfluous-technology]",
+  } :commit()
+end
+
 if mods["Research_Control_Combinator_Updated"] then
   khaoslib_setting:load {
     type = "bool-setting",
     name = "khaoscircuitry-research-control-combinator-rm-custom-technology",
     setting_type = "startup",
     default_value = true,
-    order = "a[tweaks]-f[research-control-combinator]-a[remove-custom-technology]",
+    order = "a[tweaks]-g[research-control-combinator]-a[remove-custom-technology]",
   } :commit()
 end
 
@@ -77,6 +87,6 @@ if mods["simple-gauge"] then
     setting_type = "startup",
     default_value = "fluid-handling",
     allowed_values = {"steam-power", "fluid-handling"},
-    order = "a[tweaks]-g[simple-gauge]-a[unlock]",
+    order = "a[tweaks]-h[simple-gauge]-a[unlock]",
   } :commit()
 end
