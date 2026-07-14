@@ -4,7 +4,7 @@
   "description": "Opinionated tweaks to many circuitry mods. Configurable!",
   "author": "QuingKhaos",
   "homepage": "https://discord.gg/SYmkaDjFCt",
-  "version": "1.6.0",
+  "version": "1.7.0",
   "factorio_version": "2.0",
   "dependencies": [
     "base >= 2.0.77",
@@ -25,6 +25,7 @@
     "? Cybersyn-Content-Reader >= 1.0.2",
     "? DisplayPlatesForked >= 1.6.1",
     "? energy-combinator >= 1.1.1",
+    "? factorissimo-2-notnotmelon >= 3.11.19",
     "? fiber-optics >= 2.1.1",
     "? heat-sensor >= 0.1.1",
     "? inventory-sensor-improved >= 2.1.0",

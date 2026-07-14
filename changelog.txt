@@ -1,6 +1,11 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.7.0
+Date: 2026-07-14
+  Compatibility:
+    - Add tweaks for Factorissimo 3.
+---------------------------------------------------------------------------------------------------
 Version: 1.6.0
-Date: 2026-07-15
+Date: 2026-07-14
   Bugfixes:
     - Research Control Combinator Updated: Disable the combinator recipe, so it isn't available from the start and polluting the crafting menu.
   Features:

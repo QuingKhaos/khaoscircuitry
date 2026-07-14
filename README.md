@@ -15,6 +15,8 @@ is installed (not configurable).
 
 ## Tweaked mods
 
+There are also some non-circuitry mods in this list, because they contain circuitry related content that was tweaked.
+
 - [AAI Signal Transmission](https://mods.factorio.com/mod/aai-signal-transmission)
 - [Active Rails](https://mods.factorio.com/mod/Active_Rails)
 - [Alert Scanner](https://mods.factorio.com/mod/AlertScanner)
@@ -27,6 +29,7 @@ is installed (not configurable).
 - [Cybersyn Network Content Reader](https://mods.factorio.com/mod/Cybersyn-Content-Reader)
 - [Display Plates Forked](https://mods.factorio.com/mod/DisplayPlatesForked)
 - [Energy Combinator](https://mods.factorio.com/mod/energy-combinator)
+- [Factorissimo 3](https://mods.factorio.com/mod/factorissimo-2-notnotmelon)
 - [Fiber Optics](https://mods.factorio.com/mod/fiber-optics)
 - [Inventory Sensor Improved](https://mods.factorio.com/mod/inventory-sensor-improved)
 - [Heat Sensor](https://mods.factorio.com/mod/heat-sensor)
