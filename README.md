@@ -22,6 +22,7 @@ is installed (not configurable).
 - [Cybersyn](https://mods.factorio.com/mod/cybersyn)
 - [Cybersyn Combinator](https://mods.factorio.com/mod/cybersyn-combinator)
 - [Cybersyn Network Content Reader](https://mods.factorio.com/mod/Cybersyn-Content-Reader)
+- [Energy Combinator](https://mods.factorio.com/mod/energy-combinator)
 - [Inventory Sensor Improved](https://mods.factorio.com/mod/inventory-sensor-improved)
 - [Recipe Combinator](https://mods.factorio.com/mod/recipe_combinator)
 - [Spoilage Scanner](https://mods.factorio.com/mod/spoilage-scanner)
