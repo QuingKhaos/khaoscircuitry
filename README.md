@@ -50,3 +50,5 @@ the Discord server and let me know.
 ## Credits
 
 - New heat sensor graphics by [MrLumme](https://mods.factorio.com/user/MrLumme), borrowed from [Gas Heat Stuff](https://mods.factorio.com/mod/GasHeatStuff).
+- This mod also uses modified base game assets from [QuingKhaos' Kitbash Toolkit](https://mods.factorio.com/mod/khaosbash),
+  which are licensed under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.
