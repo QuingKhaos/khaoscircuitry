@@ -4,6 +4,8 @@ local khaoslib_recipe = require("__khaoslib__.prototypes.recipe")
 local khaoslib_sprites = require("__khaoslib__.prototypes.sprites")
 local khaoslib_technology = require("__khaoslib__.prototypes.technology")
 
+local constant_combinator = require("__khaosbash__.prototypes.base.combinator.constant-combinator")
+
 if mods["quantum-fabricator"] then
   if mods["SchallCircuitGroup"] then
     khaoslib_entity:load("constant-combinator", "qf-storage-reader"):set {subgroup = "circuit-input"} :commit()
@@ -12,15 +14,13 @@ if mods["quantum-fabricator"] then
   end
 
   khaoslib_entity:load("constant-combinator", "qf-storage-reader")
-    :set_icons {{icon = "__quantum-fabricator__/graphics/icons/digitizer-combinator.png", icon_size = 64}}
+    :set_icons(constant_combinator.icons_from_tint(util.color("6a6a6a")))
     :unset("sprites")
-    :set {sprites = khaoslib_sprites.replace(khaoslib_entity.get("constant-combinator", "qf-storage-reader") --[[@as data.ConstantCombinatorPrototype]].sprites, {
-      ["__base__/graphics/entity/combinator/constant-combinator.png"] = "__quantum-fabricator__/graphics/entity/digitizer-combinator/hr-digitizer-combinator.png",
-    })}
+    :set {sprites = constant_combinator.entity_sprites_from_tint(util.color("6a6a6a"))}
     :commit()
 
   khaoslib_item:load("qf-storage-reader")
-    :set_icons {{icon = "__quantum-fabricator__/graphics/icons/digitizer-combinator.png", icon_size = 64}}
+    :set_icons(constant_combinator.icons_from_tint(util.color("6a6a6a")))
     :commit()
 
   if settings.startup["qf-early-digitizing-chest"].value and settings.startup["khaoscircuitry-quantum-fabricator-rm-superfluous-technology"].value then
