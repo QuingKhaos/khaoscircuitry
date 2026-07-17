@@ -1,6 +1,8 @@
 ---------------------------------------------------------------------------------------------------
 Version: 1.10.2
 Date: 2026-07-17
+  Bugfixes:
+    - Fail proof compact circuits ingredient removal, so it doesn't crash if the ingredient is not present.
   Changes:
     - Set subgroup for Research Control Combinator Updated, even if it was sorted correctly before, to ensure it is always in the correct subgroup.
 ---------------------------------------------------------------------------------------------------

@@ -38,7 +38,8 @@ if mods["compaktcircuit"] then
   if settings.startup["khaoscircuitry-compaktcircuit-rm-processing-units"].value then
     processor
       :replace_ingredient("advanced-circuit", function (ingredient)
-        ingredient.amount = ingredient.amount + processor:get_ingredient("processing-unit").amount
+        local processing_unit = processor:get_ingredient("processing-unit")
+        ingredient.amount = ingredient.amount + (processing_unit and processing_unit.amount or 0)
         return ingredient
       end)
       :remove_ingredient("processing-unit")
@@ -46,7 +47,8 @@ if mods["compaktcircuit"] then
 
     processor_1x1
       :replace_ingredient("advanced-circuit", function (ingredient)
-        ingredient.amount = ingredient.amount + processor_1x1:get_ingredient("processing-unit").amount
+        local processing_unit = processor_1x1:get_ingredient("processing-unit")
+        ingredient.amount = ingredient.amount + (processing_unit and processing_unit.amount or 0)
         return ingredient
       end)
       :remove_ingredient("processing-unit")
@@ -59,7 +61,8 @@ if mods["compaktcircuit"] then
   if settings.startup["khaoscircuitry-compaktcircuit-rm-advanced-circuits"].value then
     processor:
       replace_ingredient("electronic-circuit", function (ingredient)
-        ingredient.amount = ingredient.amount + processor:get_ingredient("advanced-circuit").amount
+        local advanced_circuit = processor:get_ingredient("advanced-circuit")
+        ingredient.amount = ingredient.amount + (advanced_circuit and advanced_circuit.amount or 0)
         return ingredient
       end)
       :remove_ingredient("advanced-circuit")
@@ -67,7 +70,8 @@ if mods["compaktcircuit"] then
 
     processor_1x1
       :replace_ingredient("electronic-circuit", function (ingredient)
-        ingredient.amount = ingredient.amount + processor_1x1:get_ingredient("advanced-circuit").amount
+        local advanced_circuit = processor:get_ingredient("advanced-circuit")
+        ingredient.amount = ingredient.amount + (advanced_circuit and advanced_circuit.amount or 0)
         return ingredient
       end)
       :remove_ingredient("advanced-circuit")
