@@ -28,6 +28,7 @@ There are also some non-circuitry mods in this list, because they contain circui
 - [Cybersyn](https://mods.factorio.com/mod/cybersyn)
 - [Cybersyn Combinator](https://mods.factorio.com/mod/cybersyn-combinator)
 - [Cybersyn Network Content Reader](https://mods.factorio.com/mod/Cybersyn-Content-Reader)
+- [Diode Combinator](https://mods.factorio.com/mod/diode-combinator)
 - [Display Plates Forked](https://mods.factorio.com/mod/DisplayPlatesForked)
 - [Energy Combinator](https://mods.factorio.com/mod/energy-combinator)
 - [Factorissimo 3](https://mods.factorio.com/mod/factorissimo-2-notnotmelon)
