@@ -16,7 +16,7 @@ if mods["compaktcircuit"] then
     name = "khaoscircuitry-compaktcircuit-rm-advanced-circuits",
     setting_type = "startup",
     default_value = false,
-    order = "a[tweaks]-b[compaktcircuit]-a[remove-advanced-circuits]",
+    order = "a[tweaks]-a[compaktcircuit]-a[remove-advanced-circuits]",
   } :commit()
 
   khaoslib_setting:load {
@@ -24,7 +24,7 @@ if mods["compaktcircuit"] then
     name = "khaoscircuitry-compaktcircuit-rm-processing-units",
     setting_type = "startup",
     default_value = false,
-    order = "a[tweaks]-b[compaktcircuit]-b[remove-processing-units]",
+    order = "a[tweaks]-a[compaktcircuit]-b[remove-processing-units]",
   } :commit()
 end
 
@@ -35,7 +35,7 @@ if mods["cybersyn"] then
       name = "khaoscircuitry-cybersyn-atm-rm-manual-color-module",
       setting_type = "startup",
       default_value = true,
-      order = "a[tweaks]-c[cybersyn]-a[automatic-train-painter]-a[remove-manual-color-module]",
+      order = "a[tweaks]-a[cybersyn]-a[automatic-train-painter]-a[remove-manual-color-module]",
     } :commit()
   end
 end
@@ -46,7 +46,17 @@ if mods["Cybersyn-Content-Reader"] then
     name = "khaoscircuitry-cybersyn-content-reader-rm-custom-technology",
     setting_type = "startup",
     default_value = true,
-    order = "a[tweaks]-d[cybersyn-content-reader]-a[remove-custom-technology]",
+    order = "a[tweaks]-a[cybersyn-content-reader]-a[remove-custom-technology]",
+  } :commit()
+end
+
+if mods["diode-combinator"] then
+  khaoslib_setting:load {
+    type = "bool-setting",
+    name = "khaoscircuitry-diode-combinator-rm-custom-technology",
+    setting_type = "startup",
+    default_value = true,
+    order = "a[tweaks]-a[diode-combinator]-a[remove-custom-technology]",
   } :commit()
 end
 
@@ -56,7 +66,7 @@ if mods["DisplayPlatesForked"] and mods["SchallCircuitGroup"] then
     name = "khaoscircuitry-display-plates-forked-move-to-circuit-group",
     setting_type = "startup",
     default_value = true,
-    order = "a[tweaks]-e[display-plates-forked]-a[move-to-circuit-group]",
+    order = "a[tweaks]-a[display-plates-forked]-a[move-to-circuit-group]",
   } :commit()
 end
 
@@ -66,7 +76,7 @@ if mods["quantum-fabricator"] then
     name = "khaoscircuitry-quantum-fabricator-rm-superfluous-technology",
     setting_type = "startup",
     default_value = true,
-    order = "a[tweaks]-f[quantum-fabricator]-a[remove-superfluous-technology]",
+    order = "a[tweaks]-a[quantum-fabricator]-a[remove-superfluous-technology]",
   } :commit()
 end
 
@@ -76,7 +86,7 @@ if mods["Research_Control_Combinator_Updated"] then
     name = "khaoscircuitry-research-control-combinator-rm-custom-technology",
     setting_type = "startup",
     default_value = true,
-    order = "a[tweaks]-g[research-control-combinator]-a[remove-custom-technology]",
+    order = "a[tweaks]-a[research-control-combinator]-a[remove-custom-technology]",
   } :commit()
 end
 
@@ -87,6 +97,6 @@ if mods["simple-gauge"] then
     setting_type = "startup",
     default_value = "fluid-handling",
     allowed_values = {"steam-power", "fluid-handling"},
-    order = "a[tweaks]-h[simple-gauge]-a[unlock]",
+    order = "a[tweaks]-a[simple-gauge]-a[unlock]",
   } :commit()
 end

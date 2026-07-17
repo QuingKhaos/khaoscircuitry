@@ -1,4 +1,9 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.10.1
+Date: 2026-07-17
+  Changes:
+    - Remove custom diode combinator technology and unlock it together with circuit network research (configurable).
+---------------------------------------------------------------------------------------------------
 Version: 1.10.0
 Date: 2026-07-17
   Bugfixes:
