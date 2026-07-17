@@ -45,6 +45,7 @@ There are also some non-circuitry mods in this list, because they contain circui
 - [Research Control Combinator Updated](https://mods.factorio.com/mod/Research_Control_Combinator_Updated)
 - [Simple Gauge](https://mods.factorio.com/mod/simple-gauge)
 - [Spoilage Scanner](https://mods.factorio.com/mod/spoilage-scanner)
+- [Stack Combinator (Redux)](https://mods.factorio.com/mod/stack-combinator-redux)
 
 If you want to see another mod tweaked, please open a discussion thread on the mod portal, or an issue on GitHub, or join
 the Discord server and let me know.

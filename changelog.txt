@@ -4,6 +4,7 @@ Date: 2026-07-17
   Features:
     - Add tweaks for Alchemical Combinator.
     - Add tweaks for Diode Combinator.
+    - Add tweaks for Stack Combinator (Redux).
 ---------------------------------------------------------------------------------------------------
 Version: 1.8.1
 Date: 2026-07-16
