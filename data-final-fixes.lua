@@ -27,3 +27,4 @@ require("__khaoscircuitry__.prototypes.tweaks.research-control-combinator-final-
 require("__khaoscircuitry__.prototypes.tweaks.simple-gauge-final-fixes")
 require("__khaoscircuitry__.prototypes.tweaks.spoilage-scanner-final-fixes")
 require("__khaoscircuitry__.prototypes.tweaks.stack-combinator-final-fixes")
+require("__khaoscircuitry__.prototypes.tweaks.statistics-combinator-final-fixes")

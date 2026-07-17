@@ -4,7 +4,7 @@
   "description": "Opinionated tweaks to many circuitry mods. Configurable!",
   "author": "QuingKhaos",
   "homepage": "https://discord.gg/SYmkaDjFCt",
-  "version": "1.9.0",
+  "version": "1.10.0",
   "factorio_version": "2.0",
   "dependencies": [
     "base >= 2.0.77",
@@ -43,6 +43,7 @@
     "? simple-gauge >= 1.0.0",
     "? spoilage-scanner >= 1.0.0",
     "? stack-combinator-redux >= 0.4.2",
+    "? statistics-combinator-updated >= 0.2.49",
 
     "(?) Automatic_Train_Painter >= 2.0.1",
     "(?) Flare Stack >= 4.1.1",

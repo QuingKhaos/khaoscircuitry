@@ -1,7 +1,12 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.10.0
+Date: 2026-07-17
+  Compatibility:
+    - Add tweaks for Statistics Combinator Updated.
+---------------------------------------------------------------------------------------------------
 Version: 1.9.0
 Date: 2026-07-17
-  Features:
+  Compatibility:
     - Add tweaks for Alchemical Combinator.
     - Add tweaks for Diode Combinator.
     - Add tweaks for Stack Combinator (Redux).
