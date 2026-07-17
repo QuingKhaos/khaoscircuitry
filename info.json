@@ -4,7 +4,7 @@
   "description": "Opinionated tweaks to many circuitry mods. Configurable!",
   "author": "QuingKhaos",
   "homepage": "https://discord.gg/SYmkaDjFCt",
-  "version": "1.8.1",
+  "version": "1.9.0",
   "factorio_version": "2.0",
   "dependencies": [
     "base >= 2.0.77",
@@ -16,6 +16,7 @@
 
     "? aai-signal-transmission >= 0.5.3",
     "? Active_Rails >= 0.0.3",
+    "? alchemical-combinator >= 1.0.7",
     "? AlertScanner >= 0.2.2",
     "? beltcounter2 >= 0.1.0",
     "? blueprint_reader >= 2.0.2",

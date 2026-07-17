@@ -19,6 +19,7 @@ There are also some non-circuitry mods in this list, because they contain circui
 
 - [AAI Signal Transmission](https://mods.factorio.com/mod/aai-signal-transmission)
 - [Active Rails](https://mods.factorio.com/mod/Active_Rails)
+- [Alchemical Combinator](https://mods.factorio.com/mod/alchemical-combinator)
 - [Alert Scanner](https://mods.factorio.com/mod/AlertScanner)
 - [Belt Counter 2.0](https://mods.factorio.com/mod/beltcounter2)
 - [Blueprint Reader Combinator](https://mods.factorio.com/mod/blueprint_reader)

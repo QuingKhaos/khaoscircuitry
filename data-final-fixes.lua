@@ -1,5 +1,6 @@
 require("__khaoscircuitry__.prototypes.tweaks.aai-signal-transmission-final-fixes")
 require("__khaoscircuitry__.prototypes.tweaks.active-rails-final-fixes")
+require("__khaoscircuitry__.prototypes.tweaks.alchemical-combinator-final-fixes")
 require("__khaoscircuitry__.prototypes.tweaks.alert-scanner-final-fixes")
 require("__khaoscircuitry__.prototypes.tweaks.beltcounter2-final-fixes")
 require("__khaoscircuitry__.prototypes.tweaks.blueprint-reader-final-fixes")
