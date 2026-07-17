@@ -3,7 +3,7 @@ local khaoslib_item = require("__khaoslib__.prototypes.item")
 local khaoslib_recipe = require("__khaoslib__.prototypes.recipe")
 local khaoslib_technology = require("__khaoslib__.prototypes.technology")
 
-if mods["beltcounter2"] then
+if mods["lignumis"] then
   if mods["SchallCircuitGroup"] then
     if settings.startup["Schall-CGP-individual-combinator-subgroups"].value then
       khaoslib_entity:load("assembling-machine", "burner-lamp"):set {subgroup = "circuit-visual-lamp"} :commit()
