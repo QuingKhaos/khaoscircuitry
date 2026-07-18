@@ -44,6 +44,7 @@ There are also some non-circuitry mods in this list, because they contain circui
 - [Recipe Combinator](https://mods.factorio.com/mod/recipe_combinator)
 - [Research Control Combinator Updated](https://mods.factorio.com/mod/Research_Control_Combinator_Updated)
 - [Simple Gauge](https://mods.factorio.com/mod/simple-gauge)
+- [Smart Train Combinator](https://mods.factorio.com/mod/smart-train-combinator)
 - [Spoilage Scanner](https://mods.factorio.com/mod/spoilage-scanner)
 - [Stack Combinator (Redux)](https://mods.factorio.com/mod/stack-combinator-redux)
 - [Stack Constant Combinator](https://mods.factorio.com/mod/stack-constant-combinator)

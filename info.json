@@ -41,6 +41,7 @@
     "? recipe_combinator >= 0.1.11",
     "? Research_Control_Combinator_Updated >= 1.0.3",
     "? simple-gauge >= 1.0.0",
+    "? smart-train-combinator >= 1.4.1",
     "? spoilage-scanner >= 1.0.0",
     "? stack-combinator-redux >= 0.4.2",
     "? stack-constant-combinator >= 2.0.0",

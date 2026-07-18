@@ -6,6 +6,7 @@ Date: 2026-07-18
     - New color for Research Control Combinator Updated, so it can be differientated from all the others.
     - Re-color badly tintent constant combinator based combinators with QuingKhaos' Kitbashing Toolkit.
   Compatibility:
+    - Add tweaks for Smart Train Combinator.
     - Add tweaks for Stack Constant Combinator.
 ---------------------------------------------------------------------------------------------------
 Version: 1.10.2
