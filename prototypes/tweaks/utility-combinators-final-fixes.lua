@@ -15,11 +15,6 @@ if mods["utility-combinators"] then
     khaoslib_item:load("location-combinator"):set {subgroup = location_subgroup} :commit()
     khaoslib_recipe:load("location-combinator"):set {subgroup = location_subgroup} :commit()
 
-    local research_subgroup = settings_util.get_circuit_subgroup("khaoscircuitry-utility-combinators-research-circuit-subgroup")
-    khaoslib_entity:load("constant-combinator", "research-combinator"):set {subgroup = research_subgroup} :commit()
-    khaoslib_item:load("research-combinator"):set {subgroup = research_subgroup} :commit()
-    khaoslib_recipe:load("research-combinator"):set {subgroup = research_subgroup} :commit()
-
     local player_subgroup = settings_util.get_circuit_subgroup("khaoscircuitry-utility-combinators-player-circuit-subgroup")
     khaoslib_entity:load("decider-combinator", "player-combinator"):set {subgroup = player_subgroup} :commit()
     khaoslib_item:load("player-combinator"):set {subgroup = player_subgroup} :commit()

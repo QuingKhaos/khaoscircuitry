@@ -7,12 +7,15 @@ if mods["DisplayPlatesForked"] then
   if mods["SchallCircuitGroup"] and settings.startup["khaoscircuitry-display-plates-circuit-group"].value then
     local subgroup = settings_util.get_circuit_subgroup("khaoscircuitry-display-plates-circuit-subgroup")
     local display_plates = {
+      "copper-display-xl",
       "copper-display",
       "copper-display-medium",
       "copper-display-small",
+      "iron-display-xl",
       "iron-display",
       "iron-display-medium",
       "iron-display-small",
+      "steel-display-xl",
       "steel-display",
       "steel-display-medium",
       "steel-display-small",

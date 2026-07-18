@@ -17,7 +17,7 @@ if mods["cybersyn"] then
     khaoslib_item.remove("manual-color-module")
     khaoslib_recipe.remove("manual-color-module")
 
-    if mods["quality"] then
+    if mods["recycler"] then
       khaoslib_recipe.remove("manual-color-module-recycling")
     end
 
