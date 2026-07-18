@@ -4,7 +4,7 @@ local khaoslib_recipe = require("__khaoslib__.prototypes.recipe")
 local settings_util = require("__khaoscircuitry__.prototypes.settings-util")
 
 if mods["stack-constant-combinator"] then
-  if mods["SchallCircuitGroup"] and settings.startup["khaoscircuitry-stack-constant-combinator-circuit-group"].value then
+  if (mods["khaoscircuitrygroup"] or mods["SchallCircuitGroup"]) and settings.startup["khaoscircuitry-stack-constant-combinator-circuit-group"].value then
     local subgroup = settings_util.get_circuit_subgroup("khaoscircuitry-stack-constant-combinator-circuit-subgroup")
 
     khaoslib_entity:load("constant-combinator", "stack-constant-combinator"):set {subgroup = subgroup} :commit()

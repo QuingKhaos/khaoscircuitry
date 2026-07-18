@@ -4,7 +4,7 @@ local khaoslib_recipe = require("__khaoslib__.prototypes.recipe")
 local settings_util = require("__khaoscircuitry__.prototypes.settings-util")
 
 if mods["smart-train-combinator"] then
-  if mods["SchallCircuitGroup"] and settings.startup["khaoscircuitry-smart-train-combinator-circuit-group"].value then
+  if (mods["khaoscircuitrygroup"] or mods["SchallCircuitGroup"]) and settings.startup["khaoscircuitry-smart-train-combinator-circuit-group"].value then
     local stc_subgroup = settings_util.get_circuit_subgroup("khaoscircuitry-smart-train-combinator-stc-circuit-subgroup")
     khaoslib_entity:load("constant-combinator", "smart-train-combinator"):set {subgroup = stc_subgroup} :commit()
     khaoslib_item:load("smart-train-combinator"):set {subgroup = stc_subgroup} :commit()

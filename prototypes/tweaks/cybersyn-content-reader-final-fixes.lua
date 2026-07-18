@@ -6,7 +6,7 @@ local khaoslib_technology = require("__khaoslib__.prototypes.technology")
 local settings_util = require("__khaoscircuitry__.prototypes.settings-util")
 
 if mods["Cybersyn-Content-Reader"] then
-  if mods["SchallCircuitGroup"] and settings.startup["khaoscircuitry-cybersyn-content-reader-circuit-group"].value then
+  if (mods["khaoscircuitrygroup"] or mods["SchallCircuitGroup"]) and settings.startup["khaoscircuitry-cybersyn-content-reader-circuit-group"].value then
     local subgroup = settings_util.get_circuit_subgroup("khaoscircuitry-cybersyn-content-reader-circuit-subgroup")
 
     khaoslib_entity:load("constant-combinator", "cybersyn-provider-reader"):set {subgroup = subgroup} :commit()

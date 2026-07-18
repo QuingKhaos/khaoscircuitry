@@ -2,7 +2,7 @@ local khaoslib_setting = require("__khaoslib__.settings.setting")
 local settings_constants = require("__khaoscircuitry__.settings.settings-constants")
 
 if mods["filter-combinator-improved"] then
-  if mods["SchallCircuitGroup"] then
+  if (mods["khaoscircuitrygroup"] or mods["SchallCircuitGroup"]) then
     khaoslib_setting:load {
       type = "bool-setting",
       name = "khaoscircuitry-filter-combinator-circuit-group",

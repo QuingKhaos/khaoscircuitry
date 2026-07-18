@@ -5,7 +5,7 @@ local khaoslib_technology = require("__khaoslib__.prototypes.technology")
 local settings_util = require("__khaoscircuitry__.prototypes.settings-util")
 
 if mods["compaktcircuit"] then
-  if mods["SchallCircuitGroup"] and settings.startup["khaoscircuitry-compaktcircuit-circuit-group"].value then
+  if (mods["khaoscircuitrygroup"] or mods["SchallCircuitGroup"]) and settings.startup["khaoscircuitry-compaktcircuit-circuit-group"].value then
     local processor_subgroup = settings_util.get_circuit_subgroup("khaoscircuitry-compaktcircuit-processor-circuit-subgroup")
 
     khaoslib_entity:load("simple-entity-with-owner", "compaktcircuit-processor"):set {subgroup = processor_subgroup} :commit()

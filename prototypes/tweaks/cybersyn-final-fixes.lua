@@ -5,7 +5,7 @@ local khaoslib_technology = require("__khaoslib__.prototypes.technology")
 local settings_util = require("__khaoscircuitry__.prototypes.settings-util")
 
 if mods["cybersyn"] then
-  if mods["SchallCircuitGroup"] and settings.startup["khaoscircuitry-cybersyn-circuit-group"].value then
+  if (mods["khaoscircuitrygroup"] or mods["SchallCircuitGroup"]) and settings.startup["khaoscircuitry-cybersyn-circuit-group"].value then
     local subgroup = settings_util.get_circuit_subgroup("khaoscircuitry-cybersyn-circuit-subgroup")
 
     khaoslib_item:load("cybersyn-combinator"):set {subgroup = subgroup} :commit()

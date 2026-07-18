@@ -5,7 +5,7 @@ local khaoslib_sprites = require("__khaoslib__.prototypes.sprites")
 local settings_util = require("__khaoscircuitry__.prototypes.settings-util")
 
 if mods["Active_Rails"] then
-  if mods["SchallCircuitGroup"]  and settings.startup["khaoscircuitry-active-rails-circuit-group"].value then
+  if (mods["khaoscircuitrygroup"] or mods["SchallCircuitGroup"])  and settings.startup["khaoscircuitry-active-rails-circuit-group"].value then
     local subgroup = settings_util.get_circuit_subgroup("khaoscircuitry-active-rails-circuit-subgroup")
 
     khaoslib_item:load("rail-planner", "active-rail"):set {subgroup = subgroup} :commit()

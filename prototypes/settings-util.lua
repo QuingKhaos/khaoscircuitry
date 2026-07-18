@@ -11,7 +11,7 @@ local settings_util = {}
 function settings_util.get_circuit_subgroup(setting)
   local value = settings.startup[setting].value --[[@as string]]
 
-  if not settings.startup["Schall-CGP-individual-combinator-subgroups"].value then
+  if not (settings.startup["khaoscircuitrygroup-individual-combinator-subgroups"].value or settings.startup["Schall-CGP-individual-combinator-subgroups"].value) then
     value = value:gsub("%-arithmetic", ""):gsub("%-decider", ""):gsub("%-selector", ""):gsub("%-constant", ""):gsub("%-lamp", "")
   end
 

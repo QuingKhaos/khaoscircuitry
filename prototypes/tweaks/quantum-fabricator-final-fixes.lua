@@ -5,7 +5,7 @@ local khaoslib_technology = require("__khaoslib__.prototypes.technology")
 local settings_util = require("__khaoscircuitry__.prototypes.settings-util")
 
 if mods["quantum-fabricator"] then
-  if mods["SchallCircuitGroup"] and settings.startup["khaoscircuitry-quantum-fabricator-circuit-group"].value then
+  if (mods["khaoscircuitrygroup"] or mods["SchallCircuitGroup"]) and settings.startup["khaoscircuitry-quantum-fabricator-circuit-group"].value then
     local subgroup = settings_util.get_circuit_subgroup("khaoscircuitry-quantum-fabricator-circuit-subgroup")
 
     khaoslib_entity:load("constant-combinator", "qf-storage-reader"):set {subgroup = subgroup} :commit()

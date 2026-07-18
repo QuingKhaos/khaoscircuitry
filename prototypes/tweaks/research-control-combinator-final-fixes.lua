@@ -5,7 +5,7 @@ local khaoslib_technology = require("__khaoslib__.prototypes.technology")
 local settings_util = require("__khaoscircuitry__.prototypes.settings-util")
 
 if mods["Research_Control_Combinator_Updated"] then
-  if mods["SchallCircuitGroup"] and settings.startup["khaoscircuitry-research-control-combinator-circuit-group"].value then
+  if (mods["khaoscircuitrygroup"] or mods["SchallCircuitGroup"]) and settings.startup["khaoscircuitry-research-control-combinator-circuit-group"].value then
     local subgroup = settings_util.get_circuit_subgroup("khaoscircuitry-research-control-combinator-circuit-subgroup")
 
     khaoslib_entity:load("constant-combinator", "Research_Control_Combinator"):set {subgroup = subgroup} :commit()

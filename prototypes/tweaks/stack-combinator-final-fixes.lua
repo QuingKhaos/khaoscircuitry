@@ -4,7 +4,7 @@ local khaoslib_recipe = require("__khaoslib__.prototypes.recipe")
 local settings_util = require("__khaoscircuitry__.prototypes.settings-util")
 
 if mods["stack-combinator-redux"] then
-  if mods["SchallCircuitGroup"] and settings.startup["khaoscircuitry-stack-combinator-circuit-group"].value then
+  if (mods["khaoscircuitrygroup"] or mods["SchallCircuitGroup"]) and settings.startup["khaoscircuitry-stack-combinator-circuit-group"].value then
     local subgroup = settings_util.get_circuit_subgroup("khaoscircuitry-stack-combinator-circuit-subgroup")
 
     khaoslib_entity:load("arithmetic-combinator", "hps__sc-stack-combinator-redux"):set {subgroup = subgroup} :commit()

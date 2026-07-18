@@ -5,7 +5,7 @@ local khaoslib_technology = require("__khaoslib__.prototypes.technology")
 local settings_util = require("__khaoscircuitry__.prototypes.settings-util")
 
 if mods["beltcounter2"] then
-  if mods["SchallCircuitGroup"] and settings.startup["khaoscircuitry-beltcounter2-circuit-group"].value then
+  if (mods["khaoscircuitrygroup"] or mods["SchallCircuitGroup"]) and settings.startup["khaoscircuitry-beltcounter2-circuit-group"].value then
     local subgroup = settings_util.get_circuit_subgroup("khaoscircuitry-beltcounter2-circuit-subgroup")
 
     khaoslib_entity:load("arithmetic-combinator", "belt-arithmetic-combinator"):set {subgroup = subgroup} :commit()

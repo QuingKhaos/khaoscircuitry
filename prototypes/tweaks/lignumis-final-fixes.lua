@@ -5,7 +5,7 @@ local khaoslib_technology = require("__khaoslib__.prototypes.technology")
 local settings_util = require("__khaoscircuitry__.prototypes.settings-util")
 
 if mods["lignumis"] then
-  if mods["SchallCircuitGroup"] and settings.startup["khaoscircuitry-lignumis-circuit-group"].value then
+  if (mods["khaoscircuitrygroup"] or mods["SchallCircuitGroup"]) and settings.startup["khaoscircuitry-lignumis-circuit-group"].value then
     local burner_lamp_subgroup = settings_util.get_circuit_subgroup("khaoscircuitry-lignumis-burner-lamp-circuit-subgroup")
     khaoslib_entity:load("assembling-machine", "burner-lamp"):set {subgroup = burner_lamp_subgroup} :commit()
     khaoslib_item:load("burner-lamp"):set {subgroup = burner_lamp_subgroup} :commit()

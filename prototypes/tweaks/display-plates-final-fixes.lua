@@ -4,7 +4,7 @@ local khaoslib_recipe = require("__khaoslib__.prototypes.recipe")
 local settings_util = require("__khaoscircuitry__.prototypes.settings-util")
 
 if mods["DisplayPlatesForked"] then
-  if mods["SchallCircuitGroup"] and settings.startup["khaoscircuitry-display-plates-circuit-group"].value then
+  if (mods["khaoscircuitrygroup"] or mods["SchallCircuitGroup"]) and settings.startup["khaoscircuitry-display-plates-circuit-group"].value then
     local subgroup = settings_util.get_circuit_subgroup("khaoscircuitry-display-plates-circuit-subgroup")
     local display_plates = {
       "copper-display-xl",

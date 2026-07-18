@@ -4,7 +4,7 @@ local khaoslib_recipe = require("__khaoslib__.prototypes.recipe")
 local settings_util = require("__khaoscircuitry__.prototypes.settings-util")
 
 if mods["m-microcontroller"] then
-  if mods["SchallCircuitGroup"] and settings.startup["khaoscircuitry-m-microcontroller-circuit-group"].value then
+  if (mods["khaoscircuitrygroup"] or mods["SchallCircuitGroup"]) and settings.startup["khaoscircuitry-m-microcontroller-circuit-group"].value then
     local subgroup = settings_util.get_circuit_subgroup("khaoscircuitry-m-microcontroller-circuit-subgroup")
 
     khaoslib_entity:load("arithmetic-combinator", "microcontroller"):set {subgroup = subgroup} :commit()

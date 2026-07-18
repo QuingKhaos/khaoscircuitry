@@ -4,7 +4,7 @@ local khaoslib_recipe = require("__khaoslib__.prototypes.recipe")
 local settings_util = require("__khaoscircuitry__.prototypes.settings-util")
 
 if mods["inventory-sensor-improved"] then
-  if mods["SchallCircuitGroup"] and settings.startup["khaoscircuitry-inventory-sensor-circuit-group"].value then
+  if (mods["khaoscircuitrygroup"] or mods["SchallCircuitGroup"]) and settings.startup["khaoscircuitry-inventory-sensor-circuit-group"].value then
     local subgroup = settings_util.get_circuit_subgroup("khaoscircuitry-inventory-sensor-circuit-subgroup")
 
     khaoslib_entity:load("constant-combinator", "hps__is-inventory-sensor"):set {subgroup = subgroup} :commit()
