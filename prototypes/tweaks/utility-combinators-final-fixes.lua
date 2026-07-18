@@ -1,23 +1,28 @@
 local khaoslib_entity = require("__khaoslib__.prototypes.entity")
 local khaoslib_item = require("__khaoslib__.prototypes.item")
 local khaoslib_recipe = require("__khaoslib__.prototypes.recipe")
+local settings_util = require("__khaoscircuitry__.prototypes.settings-util")
 
-if mods["alchemical-combinator"] then
-  if mods["SchallCircuitGroup"] then
-    khaoslib_entity:load("constant-combinator", "bonus-combinator"):set {subgroup = "circuit-input"} :commit()
-    khaoslib_item:load("bonus-combinator"):set {subgroup = "circuit-input"} :commit()
-    khaoslib_recipe:load("bonus-combinator"):set {subgroup = "circuit-input"} :commit()
+if mods["utility-combinators"] then
+  if mods["SchallCircuitGroup"] and settings.startup["khaoscircuitry-utility-combinators-circuit-group"].value then
+    local bonus_subgroup = settings_util.get_circuit_subgroup("khaoscircuitry-utility-combinators-bonus-circuit-subgroup")
+    khaoslib_entity:load("constant-combinator", "bonus-combinator"):set {subgroup = bonus_subgroup} :commit()
+    khaoslib_item:load("bonus-combinator"):set {subgroup = bonus_subgroup} :commit()
+    khaoslib_recipe:load("bonus-combinator"):set {subgroup = bonus_subgroup} :commit()
 
-    khaoslib_entity:load("constant-combinator", "location-combinator"):set {subgroup = "circuit-input"} :commit()
-    khaoslib_item:load("location-combinator"):set {subgroup = "circuit-input"} :commit()
-    khaoslib_recipe:load("location-combinator"):set {subgroup = "circuit-input"} :commit()
+    local location_subgroup = settings_util.get_circuit_subgroup("khaoscircuitry-utility-combinators-location-circuit-subgroup")
+    khaoslib_entity:load("constant-combinator", "location-combinator"):set {subgroup = location_subgroup} :commit()
+    khaoslib_item:load("location-combinator"):set {subgroup = location_subgroup} :commit()
+    khaoslib_recipe:load("location-combinator"):set {subgroup = location_subgroup} :commit()
 
-    khaoslib_entity:load("constant-combinator", "research-combinator"):set {subgroup = "circuit-input"} :commit()
-    khaoslib_item:load("research-combinator"):set {subgroup = "circuit-input"} :commit()
-    khaoslib_recipe:load("research-combinator"):set {subgroup = "circuit-input"} :commit()
+    local research_subgroup = settings_util.get_circuit_subgroup("khaoscircuitry-utility-combinators-research-circuit-subgroup")
+    khaoslib_entity:load("constant-combinator", "research-combinator"):set {subgroup = research_subgroup} :commit()
+    khaoslib_item:load("research-combinator"):set {subgroup = research_subgroup} :commit()
+    khaoslib_recipe:load("research-combinator"):set {subgroup = research_subgroup} :commit()
 
-    khaoslib_entity:load("decider-combinator", "player-combinator"):set {subgroup = "circuit-combinator"} :commit()
-    khaoslib_item:load("player-combinator"):set {subgroup = "circuit-combinator"} :commit()
-    khaoslib_recipe:load("player-combinator"):set {subgroup = "circuit-combinator"} :commit()
+    local player_subgroup = settings_util.get_circuit_subgroup("khaoscircuitry-utility-combinators-player-circuit-subgroup")
+    khaoslib_entity:load("decider-combinator", "player-combinator"):set {subgroup = player_subgroup} :commit()
+    khaoslib_item:load("player-combinator"):set {subgroup = player_subgroup} :commit()
+    khaoslib_recipe:load("player-combinator"):set {subgroup = player_subgroup} :commit()
   end
 end

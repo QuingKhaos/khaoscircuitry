@@ -2,18 +2,15 @@ local khaoslib_entity = require("__khaoslib__.prototypes.entity")
 local khaoslib_item = require("__khaoslib__.prototypes.item")
 local khaoslib_recipe = require("__khaoslib__.prototypes.recipe")
 local khaoslib_technology = require("__khaoslib__.prototypes.technology")
+local settings_util = require("__khaoscircuitry__.prototypes.settings-util")
 
 if mods["beltcounter2"] then
-  if mods["SchallCircuitGroup"] then
-    if settings.startup["Schall-CGP-individual-combinator-subgroups"].value then
-      khaoslib_entity:load("arithmetic-combinator", "belt-arithmetic-combinator"):set {subgroup = "circuit-combinator-arithmetic"} :commit()
-      khaoslib_item:load("belt-arithmetic-combinator"):set {subgroup = "circuit-combinator-arithmetic"} :commit()
-      khaoslib_recipe:load("belt-arithmetic-combinator"):set {subgroup = "circuit-combinator-arithmetic"} :commit()
-    else
-      khaoslib_entity:load("arithmetic-combinator", "belt-arithmetic-combinator"):set {subgroup = "circuit-combinator"} :commit()
-      khaoslib_item:load("belt-arithmetic-combinator"):set {subgroup = "circuit-combinator"} :commit()
-      khaoslib_recipe:load("belt-arithmetic-combinator"):set {subgroup = "circuit-combinator"} :commit()
-    end
+  if mods["SchallCircuitGroup"] and settings.startup["khaoscircuitry-beltcounter2-circuit-group"].value then
+    local subgroup = settings_util.get_circuit_subgroup("khaoscircuitry-beltcounter2-circuit-subgroup")
+
+    khaoslib_entity:load("arithmetic-combinator", "belt-arithmetic-combinator"):set {subgroup = subgroup} :commit()
+    khaoslib_item:load("belt-arithmetic-combinator"):set {subgroup = subgroup} :commit()
+    khaoslib_recipe:load("belt-arithmetic-combinator"):set {subgroup = subgroup} :commit()
   end
 
   if settings.startup["khaoscircuitry-beltcounter2-change-recipe"].value then

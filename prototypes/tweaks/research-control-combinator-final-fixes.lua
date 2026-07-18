@@ -1,37 +1,21 @@
-local khaosbash = require("__khaosbash__.prototypes.lib")
 local khaoslib_entity = require("__khaoslib__.prototypes.entity")
 local khaoslib_item = require("__khaoslib__.prototypes.item")
 local khaoslib_recipe = require("__khaoslib__.prototypes.recipe")
 local khaoslib_technology = require("__khaoslib__.prototypes.technology")
-
-local constant_combinator = require("__khaosbash__.prototypes.base.combinator.constant-combinator")
+local settings_util = require("__khaoscircuitry__.prototypes.settings-util")
 
 if mods["Research_Control_Combinator_Updated"] then
-  if mods["SchallCircuitGroup"] then
-    if settings.startup["Schall-CGP-individual-combinator-subgroups"].value then
-      khaoslib_entity:load("constant-combinator", "Research_Control_Combinator"):set {subgroup = "circuit-combinator-constant"} :commit()
-      khaoslib_item:load("Research_Control_Combinator"):set {subgroup = "circuit-combinator-constant"} :commit()
-      khaoslib_recipe:load("Research_Control_Combinator"):set {subgroup = "circuit-combinator-constant"} :commit()
-    else
-      khaoslib_entity:load("constant-combinator", "Research_Control_Combinator"):set {subgroup = "circuit-combinator"} :commit()
-      khaoslib_item:load("Research_Control_Combinator"):set {subgroup = "circuit-combinator"} :commit()
-      khaoslib_recipe:load("Research_Control_Combinator"):set {subgroup = "circuit-combinator"} :commit()
-    end
+  if mods["SchallCircuitGroup"] and settings.startup["khaoscircuitry-research-control-combinator-circuit-group"].value then
+    local subgroup = settings_util.get_circuit_subgroup("khaoscircuitry-research-control-combinator-circuit-subgroup")
+
+    khaoslib_entity:load("constant-combinator", "Research_Control_Combinator"):set {subgroup = subgroup} :commit()
+    khaoslib_item:load("Research_Control_Combinator"):set {subgroup = subgroup} :commit()
+    khaoslib_recipe:load("Research_Control_Combinator"):set {subgroup = subgroup} :commit()
   end
 
-  khaoslib_entity:load("constant-combinator", "Research_Control_Combinator")
-    :set_icons(khaosbash.load_icons("__khaosbash__/graphics/base/icons/constant-combinator", util.color("e01145")))
-    :unset("sprites")
-    :set {sprites = constant_combinator.entity_sprites_from_tint(util.color("e01145"))}
-    :commit()
-
-  khaoslib_item:load("Research_Control_Combinator")
-    :set_icons(khaosbash.load_icons("__khaosbash__/graphics/base/icons/constant-combinator", util.color("e01145")))
-    :commit()
-
-  khaoslib_recipe:load("Research_Control_Combinator")
-    :set {enabled = false}
-    :commit()
+  if settings.startup["khaoscircuitry-research-control-combinator-recolor"].value then
+    settings_util.recolor_constant_combinator("Research_Control_Combinator", "khaoscircuitry-research-control-combinator-color")
+  end
 
   if settings.startup["khaoscircuitry-research-control-combinator-rm-custom-technology"].value then
     khaoslib_technology:load("circuit-network")

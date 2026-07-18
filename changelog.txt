@@ -1,10 +1,14 @@
 ---------------------------------------------------------------------------------------------------
 Version: 1.11.0
 Date: 2026-07-18
+  Bugfixes:
+    - Fix several wrong conditions to detect installed mods, which caused some tweaks to not be applied or even crash the game.
   Changes:
     - Remove custom technology for Statistics Combinator Updated and unlock it together with advanced combinators research (configurable).
     - New color for Research Control Combinator Updated, so it can be differientated from all the others.
-    - Re-color badly tintent constant combinator based combinators with QuingKhaos' Kitbashing Toolkit.
+    - Re-color badly tinted constant combinator based combinators with QuingKhaos' Kitbashing Toolkit.
+  Features:
+    - Make almost every knob tunable via mod settings when QuingKhaos' Advanced Settings is installed.
   Compatibility:
     - Add tweaks for Smart Train Combinator.
     - Add tweaks for Stack Constant Combinator.

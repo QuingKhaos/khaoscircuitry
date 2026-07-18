@@ -11,7 +11,7 @@ A collection of opinionated tweaks to many circuitry mods. If you don't like a s
 in the mod startup settings.
 
 All circuitry stuff is properly sorted into its own tab if [Schall Circuit Group](https://mods.factorio.com/mod/SchallCircuitGroup)
-is installed (not configurable).
+is installed.
 
 ## Tweaked mods
 
@@ -39,7 +39,7 @@ There are also some non-circuitry mods in this list, because they contain circui
 - [Lignumis](https://mods.factorio.com/mod/lignumis)
 - [LTN Train Information Combinator](https://mods.factorio.com/mod/ltn-train-info)
 - [MicroController](https://mods.factorio.com/mod/m-microcontroller)
-- [Pollution Combinator](https://mods.factorio.com/mod/PollutionCombinator-JamieFork)
+- [Pollution Combinator (Jamie's Fork)](https://mods.factorio.com/mod/PollutionCombinator-JamieFork)
 - [Quantum Fabricator](https://mods.factorio.com/mod/quantum-fabricator)
 - [Recipe Combinator](https://mods.factorio.com/mod/recipe_combinator)
 - [Research Control Combinator Updated](https://mods.factorio.com/mod/Research_Control_Combinator_Updated)
@@ -56,6 +56,5 @@ the Discord server and let me know.
 
 ## Credits
 
-- New heat sensor graphics by [MrLumme](https://mods.factorio.com/user/MrLumme), borrowed from [Gas Heat Stuff](https://mods.factorio.com/mod/GasHeatStuff).
-- This mod also uses modified base game assets from [QuingKhaos' Kitbash Toolkit](https://mods.factorio.com/mod/khaosbash),
-  which are licensed under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.
+This mod also uses modified base game assets from [QuingKhaos' Kitbash Toolkit](https://mods.factorio.com/mod/khaosbash),
+which are licensed under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.

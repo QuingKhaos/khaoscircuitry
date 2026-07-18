@@ -1,9 +1,11 @@
 local khaoslib_entity = require("__khaoslib__.prototypes.entity")
 local khaoslib_item = require("__khaoslib__.prototypes.item")
 local khaoslib_recipe = require("__khaoslib__.prototypes.recipe")
+local settings_util = require("__khaoscircuitry__.prototypes.settings-util")
 
 if mods["DisplayPlatesForked"] then
-  if mods["SchallCircuitGroup"] and settings.startup["khaoscircuitry-display-plates-forked-move-to-circuit-group"].value then
+  if mods["SchallCircuitGroup"] and settings.startup["khaoscircuitry-display-plates-circuit-group"].value then
+    local subgroup = settings_util.get_circuit_subgroup("khaoscircuitry-display-plates-circuit-subgroup")
     local display_plates = {
       "copper-display",
       "copper-display-medium",
@@ -17,9 +19,9 @@ if mods["DisplayPlatesForked"] then
     }
 
     for _, plate in pairs(display_plates) do
-      khaoslib_entity:load("display-panel", plate):set {subgroup = "circuit-visual"} :commit()
-      khaoslib_item:load(plate):set {subgroup = "circuit-visual"} :commit()
-      khaoslib_recipe:load(plate):set {subgroup = "circuit-visual"} :commit()
+      khaoslib_entity:load("display-panel", plate):set {subgroup = subgroup} :commit()
+      khaoslib_item:load(plate):set {subgroup = subgroup} :commit()
+      khaoslib_recipe:load(plate):set {subgroup = subgroup} :commit()
     end
   end
 end

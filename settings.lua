@@ -1,112 +1,33 @@
-local khaoslib_setting = require("__khaoslib__.settings.setting")
-
-if mods["beltcounter2"] then
-  khaoslib_setting:load {
-    type = "bool-setting",
-    name = "khaoscircuitry-beltcounter2-change-recipe",
-    setting_type = "startup",
-    default_value = true,
-    order = "a[tweaks]-a[beltcounter2]-a[change-recipe]",
-  } :commit()
-end
-
-if mods["compaktcircuit"] then
-  khaoslib_setting:load {
-    type = "bool-setting",
-    name = "khaoscircuitry-compaktcircuit-rm-advanced-circuits",
-    setting_type = "startup",
-    default_value = false,
-    order = "a[tweaks]-a[compaktcircuit]-a[remove-advanced-circuits]",
-  } :commit()
-
-  khaoslib_setting:load {
-    type = "bool-setting",
-    name = "khaoscircuitry-compaktcircuit-rm-processing-units",
-    setting_type = "startup",
-    default_value = false,
-    order = "a[tweaks]-a[compaktcircuit]-b[remove-processing-units]",
-  } :commit()
-end
-
-if mods["cybersyn"] then
-  if mods["Automatic_Train_Painter"] then
-    khaoslib_setting:load {
-      type = "bool-setting",
-      name = "khaoscircuitry-cybersyn-atm-rm-manual-color-module",
-      setting_type = "startup",
-      default_value = true,
-      order = "a[tweaks]-a[cybersyn]-a[automatic-train-painter]-a[remove-manual-color-module]",
-    } :commit()
-  end
-end
-
-if mods["Cybersyn-Content-Reader"] then
-  khaoslib_setting:load {
-    type = "bool-setting",
-    name = "khaoscircuitry-cybersyn-content-reader-rm-custom-technology",
-    setting_type = "startup",
-    default_value = true,
-    order = "a[tweaks]-a[cybersyn-content-reader]-a[remove-custom-technology]",
-  } :commit()
-end
-
-if mods["diode-combinator"] then
-  khaoslib_setting:load {
-    type = "bool-setting",
-    name = "khaoscircuitry-diode-combinator-rm-custom-technology",
-    setting_type = "startup",
-    default_value = true,
-    order = "a[tweaks]-a[diode-combinator]-a[remove-custom-technology]",
-  } :commit()
-end
-
-if mods["DisplayPlatesForked"] and mods["SchallCircuitGroup"] then
-  khaoslib_setting:load {
-    type = "bool-setting",
-    name = "khaoscircuitry-display-plates-forked-move-to-circuit-group",
-    setting_type = "startup",
-    default_value = true,
-    order = "a[tweaks]-a[display-plates-forked]-a[move-to-circuit-group]",
-  } :commit()
-end
-
-if mods["quantum-fabricator"] then
-  khaoslib_setting:load {
-    type = "bool-setting",
-    name = "khaoscircuitry-quantum-fabricator-rm-superfluous-technology",
-    setting_type = "startup",
-    default_value = true,
-    order = "a[tweaks]-a[quantum-fabricator]-a[remove-superfluous-technology]",
-  } :commit()
-end
-
-if mods["Research_Control_Combinator_Updated"] then
-  khaoslib_setting:load {
-    type = "bool-setting",
-    name = "khaoscircuitry-research-control-combinator-rm-custom-technology",
-    setting_type = "startup",
-    default_value = true,
-    order = "a[tweaks]-a[research-control-combinator]-a[remove-custom-technology]",
-  } :commit()
-end
-
-if mods["simple-gauge"] then
-  khaoslib_setting:load {
-    type = "string-setting",
-    name = "khaoscircuitry-simple-gauge-unlock",
-    setting_type = "startup",
-    default_value = "fluid-handling",
-    allowed_values = {"steam-power", "fluid-handling"},
-    order = "a[tweaks]-a[simple-gauge]-a[unlock]",
-  } :commit()
-end
-
-if mods["statistics-combinator-updated"] then
-  khaoslib_setting:load {
-    type = "bool-setting",
-    name = "khaoscircuitry-statistics-combinator-rm-custom-technology",
-    setting_type = "startup",
-    default_value = true,
-    order = "a[tweaks]-a[statistics-combinator]-a[remove-custom-technology]",
-  } :commit()
-end
+require("__khaoscircuitry__.settings.tweaks.aai-signal-transmission")
+require("__khaoscircuitry__.settings.tweaks.active-rails")
+require("__khaoscircuitry__.settings.tweaks.alchemical-combinator")
+require("__khaoscircuitry__.settings.tweaks.alert-scanner")
+require("__khaoscircuitry__.settings.tweaks.beltcounter2")
+require("__khaoscircuitry__.settings.tweaks.blueprint-reader")
+require("__khaoscircuitry__.settings.tweaks.circuit-hud-v2")
+require("__khaoscircuitry__.settings.tweaks.compaktcircuit")
+require("__khaoscircuitry__.settings.tweaks.cybersyn")
+require("__khaoscircuitry__.settings.tweaks.cybersyn-combinator")
+require("__khaoscircuitry__.settings.tweaks.cybersyn-content-reader")
+require("__khaoscircuitry__.settings.tweaks.diode-combinator")
+require("__khaoscircuitry__.settings.tweaks.display-plates")
+require("__khaoscircuitry__.settings.tweaks.energy-combinator")
+require("__khaoscircuitry__.settings.tweaks.factorissimo")
+require("__khaoscircuitry__.settings.tweaks.fiber-optics")
+require("__khaoscircuitry__.settings.tweaks.filter-combinator")
+require("__khaoscircuitry__.settings.tweaks.heat-sensor")
+require("__khaoscircuitry__.settings.tweaks.inventory-sensor")
+require("__khaoscircuitry__.settings.tweaks.lignumis")
+require("__khaoscircuitry__.settings.tweaks.ltn-train-info")
+require("__khaoscircuitry__.settings.tweaks.m-microcontroller")
+require("__khaoscircuitry__.settings.tweaks.pollution-combinator")
+require("__khaoscircuitry__.settings.tweaks.quantum-fabricator")
+require("__khaoscircuitry__.settings.tweaks.recipe-combinator")
+require("__khaoscircuitry__.settings.tweaks.research-control-combinator")
+require("__khaoscircuitry__.settings.tweaks.simple-gauge")
+require("__khaoscircuitry__.settings.tweaks.smart-train-combinator")
+require("__khaoscircuitry__.settings.tweaks.spoilage-scanner")
+require("__khaoscircuitry__.settings.tweaks.stack-combinator")
+require("__khaoscircuitry__.settings.tweaks.stack-constant-combinator")
+require("__khaoscircuitry__.settings.tweaks.statistics-combinator")
+require("__khaoscircuitry__.settings.tweaks.utility-combinators")
