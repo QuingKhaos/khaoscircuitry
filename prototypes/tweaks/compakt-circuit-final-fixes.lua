@@ -1,7 +1,10 @@
+local khaosbash = require("__khaosbash__.prototypes.lib")
 local khaoslib_entity = require("__khaoslib__.prototypes.entity")
 local khaoslib_item = require("__khaoslib__.prototypes.item")
 local khaoslib_recipe = require("__khaoslib__.prototypes.recipe")
 local khaoslib_technology = require("__khaoslib__.prototypes.technology")
+
+local constant_combinator = require("__khaosbash__.prototypes.base.combinator.constant-combinator")
 
 if mods["compaktcircuit"] then
   if mods["SchallCircuitGroup"] then
@@ -28,6 +31,16 @@ if mods["compaktcircuit"] then
     khaoslib_entity:load("lamp", "compaktcircuit-display"):set {subgroup = "circuit-visual"} :commit()
     khaoslib_item:load("compaktcircuit-display"):set {subgroup = "circuit-visual"} :commit()
   end
+
+  khaoslib_entity:load("constant-combinator", "compaktcircuit-input")
+    :set_icons(khaosbash.load_icons("__khaosbash__/graphics/base/icons/constant-combinator", util.color("4445b0")))
+    :unset("sprites")
+    :set {sprites = constant_combinator.entity_sprites_from_tint(util.color("4445b0"))}
+    :commit()
+
+  khaoslib_item:load("compaktcircuit-input")
+    :set_icons(khaosbash.load_icons("__khaosbash__/graphics/base/icons/constant-combinator", util.color("4445b0")))
+    :commit()
 
   local processor = khaoslib_recipe:load("compaktcircuit-processor")
   local processor_1x1 = khaoslib_recipe:load("compaktcircuit-processor_1x1")

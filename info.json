@@ -43,6 +43,7 @@
     "? simple-gauge >= 1.0.0",
     "? spoilage-scanner >= 1.0.0",
     "? stack-combinator-redux >= 0.4.2",
+    "? stack-constant-combinator >= 2.0.0",
     "? statistics-combinator-updated >= 0.2.49",
     "? utility-combinators >= 2.0.2",
 
