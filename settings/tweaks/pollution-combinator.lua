@@ -22,4 +22,22 @@ if mods["PollutionCombinator-JamieFork"] then
       hidden = not mods["khaos-advanced-settings"]
     } :commit()
   end
+
+  khaoslib_setting:load {
+    type = "bool-setting",
+    name = "khaoscircuitry-pollution-combinator-combinator-recolor",
+    setting_type = "startup",
+    default_value = false,
+    order = "a[advanced]-b[pollution-combinator]-c[combinator-recolor]",
+    hidden = not mods["khaos-advanced-settings"]
+  } :commit()
+
+  khaoslib_setting:load {
+    type = "color-setting",
+    name = "khaoscircuitry-pollution-combinator-combinator-color",
+    setting_type = "startup",
+    default_value = util.color("de62eb"),
+    order = "a[advanced]-b[pollution-combinator]-d[combinator-color]",
+    hidden = not mods["khaos-advanced-settings"]
+  } :commit()
 end

@@ -52,6 +52,7 @@
     "(?) Flare Stack >= 4.1.1",
     "? SchallCircuitGroup >= 2.0.1",
 
+    "! Inventory Sensor",
     "! pollution-combinator",
     "! Research_Control_Combinator",
     "! silent-filter-combinator"

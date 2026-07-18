@@ -36,7 +36,7 @@ if mods["statistics-combinator-updated"] then
     type = "color-setting",
     name = "khaoscircuitry-statistics-combinator-production-color",
     setting_type = "startup",
-    default_value = util.color("3c3bb0"),
+    default_value = util.color("5955f4"),
     order = "a[advanced]-b[statistics-combinator]-c[production]-d[combinator-color]",
     hidden = not mods["khaos-advanced-settings"]
   } :commit()
@@ -54,7 +54,7 @@ if mods["statistics-combinator-updated"] then
     type = "color-setting",
     name = "khaoscircuitry-statistics-combinator-consumption-color",
     setting_type = "startup",
-    default_value = util.color("61ad4f"),
+    default_value = util.color("70f458"),
     order = "a[advanced]-b[statistics-combinator]-d[consumption]-d[combinator-color]",
     hidden = not mods["khaos-advanced-settings"]
   } :commit()

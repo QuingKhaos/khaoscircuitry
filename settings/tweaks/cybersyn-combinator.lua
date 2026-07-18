@@ -22,4 +22,22 @@ if mods["cybersyn-combinator"] then
       hidden = not mods["khaos-advanced-settings"]
     } :commit()
   end
+
+  khaoslib_setting:load {
+    type = "bool-setting",
+    name = "khaoscircuitry-cybersyn-combinator-combinator-recolor",
+    setting_type = "startup",
+    default_value = false,
+    order = "a[advanced]-b[cybersyn-combinator]-c[combinator-recolor]",
+    hidden = not mods["khaos-advanced-settings"]
+  } :commit()
+
+  khaoslib_setting:load {
+    type = "color-setting",
+    name = "khaoscircuitry-cybersyn-combinator-combinator-color",
+    setting_type = "startup",
+    default_value = util.color("a09400"),
+    order = "a[advanced]-b[cybersyn-combinator]-d[combinator-color]",
+    hidden = not mods["khaos-advanced-settings"]
+  } :commit()
 end

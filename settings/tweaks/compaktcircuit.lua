@@ -76,7 +76,7 @@ if mods["compaktcircuit"] then
     type = "color-setting",
     name = "khaoscircuitry-compaktcircuit-input-combinator-color",
     setting_type = "startup",
-    default_value = util.color("4445b0"),
+    default_value = util.color("545af5"),
     order = "a[advanced]-a[compaktcircuit]-c[input]-d[combinator-color]",
     hidden = not mods["khaos-advanced-settings"]
   } :commit()

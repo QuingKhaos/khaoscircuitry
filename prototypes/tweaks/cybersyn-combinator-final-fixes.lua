@@ -11,4 +11,8 @@ if mods["cybersyn-combinator"] then
     khaoslib_item:load("cybersyn-constant-combinator"):set {subgroup = subgroup} :commit()
     khaoslib_recipe:load("cybersyn-constant-combinator"):set {subgroup = subgroup} :commit()
   end
+
+  if settings.startup["khaoscircuitry-cybersyn-combinator-combinator-recolor"].value then
+    settings_util.recolor_constant_combinator("cybersyn-constant-combinator", "khaoscircuitry-cybersyn-combinator-combinator-color")
+  end
 end

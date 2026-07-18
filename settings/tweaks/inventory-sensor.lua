@@ -22,4 +22,22 @@ if mods["inventory-sensor-improved"] then
       hidden = not mods["khaos-advanced-settings"]
     } :commit()
   end
+
+  khaoslib_setting:load {
+    type = "bool-setting",
+    name = "khaoscircuitry-inventory-sensor-combinator-recolor",
+    setting_type = "startup",
+    default_value = false,
+    order = "a[advanced]-b[inventory-sensor]-c[combinator-recolor]",
+    hidden = not mods["khaos-advanced-settings"]
+  } :commit()
+
+  khaoslib_setting:load {
+    type = "color-setting",
+    name = "khaoscircuitry-inventory-sensor-combinator-color",
+    setting_type = "startup",
+    default_value = util.color("f1a55d"),
+    order = "a[advanced]-b[inventory-sensor]-d[combinator-color]",
+    hidden = not mods["khaos-advanced-settings"]
+  } :commit()
 end

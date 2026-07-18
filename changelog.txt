@@ -6,9 +6,10 @@ Date: 2026-07-18
   Changes:
     - Remove custom technology for Statistics Combinator Updated and unlock it together with advanced combinators research (configurable).
     - New color for Research Control Combinator Updated, so it can be differientated from all the others.
-    - Re-color badly tinted constant combinator based combinators with QuingKhaos' Kitbashing Toolkit.
+    - Recolor badly tinted constant combinator based combinators with QuingKhaos' Kitbashing Toolkit.
   Features:
     - Make almost every knob tunable via mod settings when QuingKhaos' Advanced Settings is installed.
+    - Make all other constant combinator based combinators optionally recolorable.
   Compatibility:
     - Add tweaks for Smart Train Combinator.
     - Add tweaks for Stack Constant Combinator.

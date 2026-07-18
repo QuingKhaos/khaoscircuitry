@@ -36,7 +36,7 @@ if mods["blueprint_reader"] then
     type = "color-setting",
     name = "khaoscircuitry-blueprint-reader-combinator-color",
     setting_type = "startup",
-    default_value = util.color("e3790e"),
+    default_value = util.color("f88502"),
     order = "a[advanced]-a[blueprint-reader]-d[combinator-color]",
     hidden = not mods["khaos-advanced-settings"]
   } :commit()

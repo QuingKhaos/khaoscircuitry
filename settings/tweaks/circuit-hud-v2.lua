@@ -22,4 +22,22 @@ if mods["CircuitHUD-V2"] then
       hidden = not mods["khaos-advanced-settings"]
     } :commit()
   end
+
+  khaoslib_setting:load {
+    type = "bool-setting",
+    name = "khaoscircuitry-circuit-hud-v2-combinator-recolor",
+    setting_type = "startup",
+    default_value = false,
+    order = "a[advanced]-a[circuit-hud-v2]-c[combinator-recolor]",
+    hidden = not mods["khaos-advanced-settings"]
+  } :commit()
+
+  khaoslib_setting:load {
+    type = "color-setting",
+    name = "khaoscircuitry-circuit-hud-v2-combinator-color",
+    setting_type = "startup",
+    default_value = util.color("7fa4cc"),
+    order = "a[advanced]-a[circuit-hud-v2]-d[combinator-color]",
+    hidden = not mods["khaos-advanced-settings"]
+  } :commit()
 end

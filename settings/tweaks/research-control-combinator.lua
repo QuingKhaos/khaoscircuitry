@@ -36,7 +36,7 @@ if mods["Research_Control_Combinator_Updated"] then
     type = "color-setting",
     name = "khaoscircuitry-research-control-combinator-color",
     setting_type = "startup",
-    default_value = util.color("e01145"),
+    default_value = util.color("f85981"),
     order = "a[advanced]-b[research-control-combinator]-d[combinator-color]",
     hidden = not mods["khaos-advanced-settings"]
   } :commit()

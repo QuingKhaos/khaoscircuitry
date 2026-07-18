@@ -11,4 +11,8 @@ if mods["inventory-sensor-improved"] then
     khaoslib_item:load("hps__is-inventory-sensor"):set {subgroup = subgroup} :commit()
     khaoslib_recipe:load("hps__is-inventory-sensor"):set {subgroup = subgroup} :commit()
   end
+
+  if settings.startup["khaoscircuitry-inventory-sensor-combinator-recolor"].value then
+    settings_util.recolor_constant_combinator("hps__is-inventory-sensor", "khaoscircuitry-inventory-sensor-combinator-color")
+  end
 end

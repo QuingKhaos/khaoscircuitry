@@ -11,4 +11,8 @@ if mods["CircuitHUD-V2"] then
     khaoslib_item:load("hud-combinator"):set {subgroup = subgroup} :commit()
     khaoslib_recipe:load("hud-combinator"):set {subgroup = subgroup} :commit()
   end
+
+  if settings.startup["khaoscircuitry-circuit-hud-v2-combinator-recolor"].value then
+    settings_util.recolor_constant_combinator("hud-combinator", "khaoscircuitry-circuit-hud-v2-combinator-color")
+  end
 end

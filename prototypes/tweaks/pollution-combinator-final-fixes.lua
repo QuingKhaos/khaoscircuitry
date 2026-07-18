@@ -11,4 +11,8 @@ if mods["PollutionCombinator-JamieFork"] then
     khaoslib_item:load("pc-pollution-combinator"):set {subgroup = subgroup} :commit()
     khaoslib_recipe:load("pc-pollution-combinator"):set {subgroup = subgroup} :commit()
   end
+
+  if settings.startup["khaoscircuitry-pollution-combinator-combinator-recolor"].value then
+    settings_util.recolor_constant_combinator("pc-pollution-combinator", "khaoscircuitry-pollution-combinator-combinator-color")
+  end
 end

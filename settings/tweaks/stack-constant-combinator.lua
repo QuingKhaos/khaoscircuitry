@@ -36,7 +36,7 @@ if mods["stack-constant-combinator"] then
     type = "color-setting",
     name = "khaoscircuitry-stack-constant-combinator-color",
     setting_type = "startup",
-    default_value = util.color("b07a7a"),
+    default_value = util.color("f5a5a5"),
     order = "a[advanced]-b[stack-constant-combinator]-d[combinator-color]",
     hidden = not mods["khaos-advanced-settings"]
   } :commit()

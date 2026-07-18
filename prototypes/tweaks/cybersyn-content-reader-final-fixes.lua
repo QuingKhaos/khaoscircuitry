@@ -1,3 +1,4 @@
+local constant_combinator = require("__khaosbash__.prototypes.base.combinator.constant-combinator")
 local khaoslib_entity = require("__khaoslib__.prototypes.entity")
 local khaoslib_item = require("__khaoslib__.prototypes.item")
 local khaoslib_recipe = require("__khaoslib__.prototypes.recipe")
@@ -19,6 +20,23 @@ if mods["Cybersyn-Content-Reader"] then
     khaoslib_entity:load("constant-combinator", "cybersyn-delivery-reader"):set {subgroup = subgroup} :commit()
     khaoslib_item:load("cybersyn-delivery-reader"):set {subgroup = subgroup} :commit()
     khaoslib_recipe:load("cybersyn-delivery-reader"):set {subgroup = subgroup} :commit()
+  end
+
+  if settings.startup["khaoscircuitry-cybersyn-content-reader-combinator-recolor"].value then
+    khaoslib_entity:load("constant-combinator", "cybersyn-provider-reader")
+      :unset("sprites")
+      :set {sprites = constant_combinator.entity_sprites_from_tint(settings.startup["khaoscircuitry-cybersyn-content-reader-provider-combinator-color"].value --[[@as data.Color]])}
+      :commit()
+
+    khaoslib_entity:load("constant-combinator", "cybersyn-requester-reader")
+      :unset("sprites")
+      :set {sprites = constant_combinator.entity_sprites_from_tint(settings.startup["khaoscircuitry-cybersyn-content-reader-requester-combinator-color"].value --[[@as data.Color]])}
+      :commit()
+
+    khaoslib_entity:load("constant-combinator", "cybersyn-delivery-reader")
+      :unset("sprites")
+      :set {sprites = constant_combinator.entity_sprites_from_tint(settings.startup["khaoscircuitry-cybersyn-content-reader-delivery-combinator-color"].value --[[@as data.Color]])}
+      :commit()
   end
 
   if settings.startup["khaoscircuitry-cybersyn-content-reader-rm-custom-technology"].value then
