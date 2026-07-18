@@ -10,8 +10,8 @@
 A collection of opinionated tweaks to many circuitry mods. If you don't like a specific tweak, each one can be disabled
 in the mod startup settings.
 
-All circuitry stuff is properly sorted into its own tab if [Schall Circuit Group](https://mods.factorio.com/mod/SchallCircuitGroup)
-is installed.
+All circuitry stuff is properly sorted into its own tab if [QuingKhaos' Circuitry Group](https://mods.factorio.com/mod/khaoscircuitrygroup)
+or [Schall Circuit Group](https://mods.factorio.com/mod/SchallCircuitGroup) is installed.
 
 ## Tweaked mods
 
