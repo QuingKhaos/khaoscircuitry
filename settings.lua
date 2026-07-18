@@ -100,3 +100,13 @@ if mods["simple-gauge"] then
     order = "a[tweaks]-a[simple-gauge]-a[unlock]",
   } :commit()
 end
+
+if mods["statistics-combinator-updated"] then
+  khaoslib_setting:load {
+    type = "bool-setting",
+    name = "khaoscircuitry-statistics-combinator-rm-custom-technology",
+    setting_type = "startup",
+    default_value = true,
+    order = "a[tweaks]-a[statistics-combinator]-a[remove-custom-technology]",
+  } :commit()
+end

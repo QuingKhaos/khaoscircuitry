@@ -1,4 +1,9 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.11.0
+Date: 2026-07-18
+  Changes:
+    - Remove custom technology for Statistics Combinator Updated and unlock it together with advanced combinators research (configurable).
+---------------------------------------------------------------------------------------------------
 Version: 1.10.2
 Date: 2026-07-17
   Bugfixes:
