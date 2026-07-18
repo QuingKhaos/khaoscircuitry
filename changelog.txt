@@ -3,6 +3,7 @@ Version: 1.11.0
 Date: 2026-07-18
   Changes:
     - Remove custom technology for Statistics Combinator Updated and unlock it together with advanced combinators research (configurable).
+    - New color for Research Control Combinator Updated, so it can be differientated from all the others.
 ---------------------------------------------------------------------------------------------------
 Version: 1.10.2
 Date: 2026-07-17
