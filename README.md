@@ -37,6 +37,7 @@ There are also some non-circuitry mods in this list, because they contain circui
 - [Quantum Fabricator](https://mods.factorio.com/mod/quantum-fabricator)
 - [Recipe Combinator](https://mods.factorio.com/mod/recipe_combinator)
 - [Research Control Combinator Updated](https://mods.factorio.com/mod/Research_Control_Combinator_Updated)
+- [Signal Lamp](https://mods.factorio.com/mod/signal-lamp)
 - [Simple Gauge](https://mods.factorio.com/mod/simple-gauge)
 - [Smart Train Combinator](https://mods.factorio.com/mod/smart-train-combinator)
 - [Space Platform Flow Monitor](https://mods.factorio.com/mod/space-platform-flow-monitor)

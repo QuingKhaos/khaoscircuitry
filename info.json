@@ -42,6 +42,7 @@
     "? quantum-fabricator >= 2.12.2",
     "? recipe_combinator >= 0.1.11",
     "? Research_Control_Combinator_Updated >= 1.0.3",
+    "? signal-lamp >= 2.1.0",
     "? simple-gauge >= 1.0.0",
     "? smart-train-combinator >= 1.4.1",
     "? space-platform-flow-monitor >= 0.1.7",
