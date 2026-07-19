@@ -4,7 +4,7 @@
   "description": "Opinionated tweaks to many circuitry mods. Configurable!",
   "author": "QuingKhaos",
   "homepage": "https://discord.gg/SYmkaDjFCt",
-  "version": "1.11.2",
+  "version": "1.12.0",
   "factorio_version": "2.0",
   "dependencies": [
     "base >= 2.0.77",
@@ -43,6 +43,7 @@
     "? Research_Control_Combinator_Updated >= 1.0.3",
     "? simple-gauge >= 1.0.0",
     "? smart-train-combinator >= 1.4.1",
+    "? space-platform-flow-monitor >= 0.1.7",
     "? spoilage-scanner >= 1.0.0",
     "? stack-combinator-redux >= 0.4.2",
     "? stack-constant-combinator >= 2.0.0",
