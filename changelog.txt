@@ -2,6 +2,7 @@
 Version: 2.1.0
 Date: 2026-07-20
   Compatibility:
+    - Add tweaks for Blueprint Reader Combinator (`BRCombinator`).
     - Add tweaks for Space Platform Flow Monitor.
 ---------------------------------------------------------------------------------------------------
 Version: 2.0.0
@@ -12,6 +13,7 @@ Date: 2026-07-18
 Version: 1.12.0
 Date: 2026-07-19
   Compatibility:
+    - Add tweaks for Blueprint Reader Combinator (`BRCombinator`).
     - Add tweaks for Space Platform Flow Monitor.
 ---------------------------------------------------------------------------------------------------
 Version: 1.11.2

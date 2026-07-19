@@ -15,7 +15,8 @@ There are also some non-circuitry mods in this list, because they contain circui
 - [Alchemical Combinator](https://mods.factorio.com/mod/alchemical-combinator)ᵃ
 - [Alert Scanner](https://mods.factorio.com/mod/AlertScanner)
 - [Belt Counter 2.0](https://mods.factorio.com/mod/beltcounter2)ᵃ
-- [Blueprint Reader Combinator](https://mods.factorio.com/mod/blueprint_reader)ᵃ
+- [Blueprint Reader Combinator (`blueprint_reader`)](https://mods.factorio.com/mod/blueprint_reader)ᵃ
+- [Blueprint Reader Combinator (`BRCombinator`)](https://mods.factorio.com/mod/BRCombinator)
 - [Circuit HUD V2](https://mods.factorio.com/mod/CircuitHUD-V2)ᵃ
 - [Compact Circuits](https://mods.factorio.com/mod/compaktcircuit)ᵃ
 - [Cybersyn](https://mods.factorio.com/mod/cybersyn)
