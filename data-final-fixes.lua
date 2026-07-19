@@ -4,6 +4,7 @@ require("__khaoscircuitry__.prototypes.tweaks.alchemical-combinator-final-fixes"
 require("__khaoscircuitry__.prototypes.tweaks.alert-scanner-final-fixes")
 require("__khaoscircuitry__.prototypes.tweaks.beltcounter2-final-fixes")
 require("__khaoscircuitry__.prototypes.tweaks.blueprint-reader-final-fixes")
+require("__khaoscircuitry__.prototypes.tweaks.br-combinator-final-fixes")
 require("__khaoscircuitry__.prototypes.tweaks.circuit-hud-v2-final-fixes")
 require("__khaoscircuitry__.prototypes.tweaks.compaktcircuit-final-fixes")
 require("__khaoscircuitry__.prototypes.tweaks.cybersyn-final-fixes")
