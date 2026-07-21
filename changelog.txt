@@ -1,4 +1,9 @@
 ---------------------------------------------------------------------------------------------------
+Version: 2.1.1
+Date: ????
+  Compatibility:
+    - Mark as incompatible with Nullius, it removes recipes and causes startup crashes during tweak execution.
+---------------------------------------------------------------------------------------------------
 Version: 2.1.0
 Date: 2026-07-20
   Compatibility:
@@ -10,6 +15,11 @@ Version: 2.0.0
 Date: 2026-07-18
   Compatibility:
     - Update for Factorio 2.1.
+---------------------------------------------------------------------------------------------------
+Version: 1.12.1
+Date: ????
+  Compatibility:
+    - Mark as incompatible with Nullius, it removes recipes and causes startup crashes during tweak execution.
 ---------------------------------------------------------------------------------------------------
 Version: 1.12.0
 Date: 2026-07-20
