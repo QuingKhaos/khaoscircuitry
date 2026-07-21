@@ -1,0 +1,9 @@
+mod_info:
+  title: "QuingKhaos' Circuitry Tweaks"
+  summary: "Opinionated tweaks to many circuitry mods. Configurable!"
+  description_file: README.md
+  attach_source_link: true
+  license: gnugplv3
+  category: tweaks
+  tags:
+    - circuit-network
