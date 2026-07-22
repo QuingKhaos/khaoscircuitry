@@ -516,6 +516,7 @@ return {
       }
     }
   },
+  subgroup = "circuit-combinator",
   type = "decider-combinator",
   water_reflection = {
     orientation_to_variation = true,

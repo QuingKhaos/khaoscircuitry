@@ -72,6 +72,7 @@ return {
       type = "item"
     }
   },
+  subgroup = "circuit-combinator",
   type = "recipe",
   unlock_results = false
 }

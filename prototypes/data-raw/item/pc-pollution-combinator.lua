@@ -33,6 +33,6 @@ return {
   },
   place_result = "pc-pollution-combinator",
   stack_size = 50,
-  subgroup = "circuit-network",
+  subgroup = "circuit-input",
   type = "item"
 }

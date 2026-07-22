@@ -257,6 +257,7 @@ return {
       0.5
     }
   },
+  subgroup = "circuit-visual",
   type = "lamp",
   water_reflection = {
     pictures = {

@@ -34,6 +34,6 @@ return {
     1
   },
   stack_size = 10,
-  subgroup = "circuit-network",
+  subgroup = "circuit-auditory",
   type = "item"
 }

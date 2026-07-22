@@ -93,5 +93,6 @@ return {
     }
   },
   selection_priority = 20,
+  subgroup = "circuit-connection",
   type = "simple-entity-with-owner"
 }

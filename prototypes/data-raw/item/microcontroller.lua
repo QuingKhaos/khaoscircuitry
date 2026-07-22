@@ -5,6 +5,6 @@ return {
   order = "zz",
   place_result = "microcontroller",
   stack_size = 20,
-  subgroup = "circuit-network",
+  subgroup = "circuit-combinator",
   type = "item"
 }

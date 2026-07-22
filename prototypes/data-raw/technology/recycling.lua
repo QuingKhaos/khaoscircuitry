@@ -155,11 +155,6 @@ return {
     },
     {
       hidden = true,
-      recipe = "display-panel-recycling",
-      type = "unlock-recipe"
-    },
-    {
-      hidden = true,
       recipe = "iron-stick-recycling",
       type = "unlock-recipe"
     },
@@ -261,11 +256,6 @@ return {
     {
       hidden = true,
       recipe = "radar-recycling",
-      type = "unlock-recipe"
-    },
-    {
-      hidden = true,
-      recipe = "small-lamp-recycling",
       type = "unlock-recipe"
     },
     {
@@ -446,36 +436,6 @@ return {
     {
       hidden = true,
       recipe = "train-stop-recycling",
-      type = "unlock-recipe"
-    },
-    {
-      hidden = true,
-      recipe = "arithmetic-combinator-recycling",
-      type = "unlock-recipe"
-    },
-    {
-      hidden = true,
-      recipe = "decider-combinator-recycling",
-      type = "unlock-recipe"
-    },
-    {
-      hidden = true,
-      recipe = "constant-combinator-recycling",
-      type = "unlock-recipe"
-    },
-    {
-      hidden = true,
-      recipe = "selector-combinator-recycling",
-      type = "unlock-recipe"
-    },
-    {
-      hidden = true,
-      recipe = "power-switch-recycling",
-      type = "unlock-recipe"
-    },
-    {
-      hidden = true,
-      recipe = "programmable-speaker-recycling",
       type = "unlock-recipe"
     },
     {
@@ -986,6 +946,46 @@ return {
     {
       hidden = true,
       recipe = "cybersyn-combinator-recycling",
+      type = "unlock-recipe"
+    },
+    {
+      hidden = true,
+      recipe = "power-switch-recycling",
+      type = "unlock-recipe"
+    },
+    {
+      hidden = true,
+      recipe = "arithmetic-combinator-recycling",
+      type = "unlock-recipe"
+    },
+    {
+      hidden = true,
+      recipe = "decider-combinator-recycling",
+      type = "unlock-recipe"
+    },
+    {
+      hidden = true,
+      recipe = "selector-combinator-recycling",
+      type = "unlock-recipe"
+    },
+    {
+      hidden = true,
+      recipe = "constant-combinator-recycling",
+      type = "unlock-recipe"
+    },
+    {
+      hidden = true,
+      recipe = "display-panel-recycling",
+      type = "unlock-recipe"
+    },
+    {
+      hidden = true,
+      recipe = "small-lamp-recycling",
+      type = "unlock-recipe"
+    },
+    {
+      hidden = true,
+      recipe = "programmable-speaker-recycling",
       type = "unlock-recipe"
     },
     {

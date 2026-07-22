@@ -31,5 +31,6 @@ return {
       type = "item"
     }
   },
+  subgroup = "circuit-connection",
   type = "recipe"
 }

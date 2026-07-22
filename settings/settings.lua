@@ -276,6 +276,272 @@ return {
       setting_type = "startup",
       type = "bool-setting"
     },
+    ["khaoscircuitry-aai-signal-transmission-circuit-group"] = {
+      default_value = true,
+      hidden = true,
+      name = "khaoscircuitry-aai-signal-transmission-circuit-group",
+      order = "a[advanced]-a[aai-signal-transmission]-a[circuit-group]",
+      setting_type = "startup",
+      type = "bool-setting"
+    },
+    ["khaoscircuitry-alert-scanner-circuit-group"] = {
+      default_value = true,
+      hidden = true,
+      name = "khaoscircuitry-alert-scanner-circuit-group",
+      order = "a[advanced]-a[alert-scanner]-a[circuit-group]",
+      setting_type = "startup",
+      type = "bool-setting"
+    },
+    ["khaoscircuitry-br-combinator-circuit-group"] = {
+      default_value = true,
+      hidden = true,
+      name = "khaoscircuitry-br-combinator-circuit-group",
+      order = "a[advanced]-a[br-combinator]-a[circuit-group]",
+      setting_type = "startup",
+      type = "bool-setting"
+    },
+    ["khaoscircuitry-circuit-hud-v2-circuit-group"] = {
+      default_value = true,
+      hidden = true,
+      name = "khaoscircuitry-circuit-hud-v2-circuit-group",
+      order = "a[advanced]-a[circuit-hud-v2]-a[circuit-group]",
+      setting_type = "startup",
+      type = "bool-setting"
+    },
+    ["khaoscircuitry-circuit-hud-v2-combinator-recolor"] = {
+      default_value = false,
+      hidden = true,
+      name = "khaoscircuitry-circuit-hud-v2-combinator-recolor",
+      order = "a[advanced]-a[circuit-hud-v2]-c[combinator-recolor]",
+      setting_type = "startup",
+      type = "bool-setting"
+    },
+    ["khaoscircuitry-cybersyn-atm-rm-manual-color-module"] = {
+      default_value = true,
+      name = "khaoscircuitry-cybersyn-atm-rm-manual-color-module",
+      order = "a[tweaks]-a[cybersyn]-a[automatic-train-painter]-a[remove-manual-color-module]",
+      setting_type = "startup",
+      type = "bool-setting"
+    },
+    ["khaoscircuitry-cybersyn-circuit-group"] = {
+      default_value = true,
+      hidden = true,
+      name = "khaoscircuitry-cybersyn-circuit-group",
+      order = "a[advanced]-a[cybersyn]-a[circuit-group]",
+      setting_type = "startup",
+      type = "bool-setting"
+    },
+    ["khaoscircuitry-cybersyn-combinator-circuit-group"] = {
+      default_value = true,
+      hidden = true,
+      name = "khaoscircuitry-cybersyn-combinator-circuit-group",
+      order = "a[advanced]-b[cybersyn-combinator]-a[circuit-group]",
+      setting_type = "startup",
+      type = "bool-setting"
+    },
+    ["khaoscircuitry-cybersyn-combinator-combinator-recolor"] = {
+      default_value = false,
+      hidden = true,
+      name = "khaoscircuitry-cybersyn-combinator-combinator-recolor",
+      order = "a[advanced]-b[cybersyn-combinator]-c[combinator-recolor]",
+      setting_type = "startup",
+      type = "bool-setting"
+    },
+    ["khaoscircuitry-display-plates-circuit-group"] = {
+      default_value = true,
+      name = "khaoscircuitry-display-plates-circuit-group",
+      order = "a[tweaks]-a[display-plates]-a[circuit-group]",
+      setting_type = "startup",
+      type = "bool-setting"
+    },
+    ["khaoscircuitry-factorissimo-circuit-group"] = {
+      default_value = true,
+      hidden = true,
+      name = "khaoscircuitry-factorissimo-circuit-group",
+      order = "a[advanced]-b[factorissimo]-a[circuit-group]",
+      setting_type = "startup",
+      type = "bool-setting"
+    },
+    ["khaoscircuitry-fiber-optics-circuit-group"] = {
+      default_value = true,
+      hidden = true,
+      name = "khaoscircuitry-fiber-optics-circuit-group",
+      order = "a[advanced]-b[fiber-optics]-a[circuit-group]",
+      setting_type = "startup",
+      type = "bool-setting"
+    },
+    ["khaoscircuitry-filter-combinator-circuit-group"] = {
+      default_value = true,
+      hidden = true,
+      name = "khaoscircuitry-filter-combinator-circuit-group",
+      order = "a[advanced]-b[filter-combinator]-a[circuit-group]",
+      setting_type = "startup",
+      type = "bool-setting"
+    },
+    ["khaoscircuitry-inventory-sensor-circuit-group"] = {
+      default_value = true,
+      hidden = true,
+      name = "khaoscircuitry-inventory-sensor-circuit-group",
+      order = "a[advanced]-b[inventory-sensor]-a[circuit-group]",
+      setting_type = "startup",
+      type = "bool-setting"
+    },
+    ["khaoscircuitry-inventory-sensor-combinator-recolor"] = {
+      default_value = false,
+      hidden = true,
+      name = "khaoscircuitry-inventory-sensor-combinator-recolor",
+      order = "a[advanced]-b[inventory-sensor]-c[combinator-recolor]",
+      setting_type = "startup",
+      type = "bool-setting"
+    },
+    ["khaoscircuitry-ltn-train-info-circuit-group"] = {
+      default_value = true,
+      hidden = true,
+      name = "khaoscircuitry-ltn-train-info-circuit-group",
+      order = "a[advanced]-b[ltn-train-info]-a[circuit-group]",
+      setting_type = "startup",
+      type = "bool-setting"
+    },
+    ["khaoscircuitry-m-microcontroller-circuit-group"] = {
+      default_value = true,
+      hidden = true,
+      name = "khaoscircuitry-m-microcontroller-circuit-group",
+      order = "a[advanced]-b[m-microcontroller]-a[circuit-group]",
+      setting_type = "startup",
+      type = "bool-setting"
+    },
+    ["khaoscircuitry-pollution-combinator-circuit-group"] = {
+      default_value = true,
+      hidden = true,
+      name = "khaoscircuitry-pollution-combinator-circuit-group",
+      order = "a[advanced]-b[pollution-combinator]-a[circuit-group]",
+      setting_type = "startup",
+      type = "bool-setting"
+    },
+    ["khaoscircuitry-pollution-combinator-combinator-recolor"] = {
+      default_value = false,
+      hidden = true,
+      name = "khaoscircuitry-pollution-combinator-combinator-recolor",
+      order = "a[advanced]-b[pollution-combinator]-c[combinator-recolor]",
+      setting_type = "startup",
+      type = "bool-setting"
+    },
+    ["khaoscircuitry-quantum-fabricator-circuit-group"] = {
+      default_value = true,
+      hidden = true,
+      name = "khaoscircuitry-quantum-fabricator-circuit-group",
+      order = "a[advanced]-b[quantum-fabricator]-a[circuit-group]",
+      setting_type = "startup",
+      type = "bool-setting"
+    },
+    ["khaoscircuitry-quantum-fabricator-combinator-recolor"] = {
+      default_value = true,
+      hidden = true,
+      name = "khaoscircuitry-quantum-fabricator-combinator-recolor",
+      order = "a[advanced]-a[quantum-fabricator]-c[combinator-recolor]",
+      setting_type = "startup",
+      type = "bool-setting"
+    },
+    ["khaoscircuitry-quantum-fabricator-rm-superfluous-technology"] = {
+      default_value = true,
+      name = "khaoscircuitry-quantum-fabricator-rm-superfluous-technology",
+      order = "a[tweaks]-a[quantum-fabricator]-a[remove-superfluous-technology]",
+      setting_type = "startup",
+      type = "bool-setting"
+    },
+    ["khaoscircuitry-recipe-combinator-circuit-group"] = {
+      default_value = true,
+      hidden = true,
+      name = "khaoscircuitry-recipe-combinator-circuit-group",
+      order = "a[advanced]-b[recipe-combinator]-a[circuit-group]",
+      setting_type = "startup",
+      type = "bool-setting"
+    },
+    ["khaoscircuitry-signal-lamp-circuit-group"] = {
+      default_value = true,
+      hidden = true,
+      name = "khaoscircuitry-signal-lamp-circuit-group",
+      order = "a[advanced]-b[signal-lamp]-a[circuit-group]",
+      setting_type = "startup",
+      type = "bool-setting"
+    },
+    ["khaoscircuitry-smart-train-combinator-circuit-group"] = {
+      default_value = true,
+      hidden = true,
+      name = "khaoscircuitry-smart-train-combinator-circuit-group",
+      order = "a[advanced]-b[smart-train-combinator]-a[circuit-group]",
+      setting_type = "startup",
+      type = "bool-setting"
+    },
+    ["khaoscircuitry-space-platform-flow-monitor-circuit-group"] = {
+      default_value = true,
+      hidden = true,
+      name = "khaoscircuitry-space-platform-flow-monitor-circuit-group",
+      order = "a[advanced]-b[space-platform-flow-monitor]-a[circuit-group]",
+      setting_type = "startup",
+      type = "bool-setting"
+    },
+    ["khaoscircuitry-spoilage-scanner-circuit-group"] = {
+      default_value = true,
+      hidden = true,
+      name = "khaoscircuitry-spoilage-scanner-circuit-group",
+      order = "a[advanced]-b[spoilage-scanner]-a[circuit-group]",
+      setting_type = "startup",
+      type = "bool-setting"
+    },
+    ["khaoscircuitry-stack-combinator-circuit-group"] = {
+      default_value = true,
+      hidden = true,
+      name = "khaoscircuitry-stack-combinator-circuit-group",
+      order = "a[advanced]-b[stack-combinator]-a[circuit-group]",
+      setting_type = "startup",
+      type = "bool-setting"
+    },
+    ["khaoscircuitry-statistics-combinator-circuit-group"] = {
+      default_value = true,
+      hidden = true,
+      name = "khaoscircuitry-statistics-combinator-circuit-group",
+      order = "a[advanced]-b[statistics-combinator]-a[circuit-group]",
+      setting_type = "startup",
+      type = "bool-setting"
+    },
+    ["khaoscircuitry-statistics-combinator-consumption-recolor"] = {
+      default_value = true,
+      hidden = true,
+      name = "khaoscircuitry-statistics-combinator-consumption-recolor",
+      order = "a[advanced]-b[statistics-combinator]-d[consumption]-c[combinator-recolor]",
+      setting_type = "startup",
+      type = "bool-setting"
+    },
+    ["khaoscircuitry-statistics-combinator-production-recolor"] = {
+      default_value = true,
+      hidden = true,
+      name = "khaoscircuitry-statistics-combinator-production-recolor",
+      order = "a[advanced]-b[statistics-combinator]-c[production]-c[combinator-recolor]",
+      setting_type = "startup",
+      type = "bool-setting"
+    },
+    ["khaoscircuitry-statistics-combinator-rm-custom-technology"] = {
+      default_value = true,
+      name = "khaoscircuitry-statistics-combinator-rm-custom-technology",
+      order = "a[tweaks]-a[statistics-combinator]-a[remove-custom-technology]",
+      setting_type = "startup",
+      type = "bool-setting"
+    },
+    ["khaoscircuitry-utility-combinators-circuit-group"] = {
+      default_value = true,
+      hidden = true,
+      name = "khaoscircuitry-utility-combinators-circuit-group",
+      order = "a[advanced]-b[utility-combinators]-a[circuit-group]",
+      setting_type = "startup",
+      type = "bool-setting"
+    },
+    ["khaoscircuitrygroup-individual-combinator-subgroups"] = {
+      default_value = false,
+      name = "khaoscircuitrygroup-individual-combinator-subgroups",
+      setting_type = "startup",
+      type = "bool-setting"
+    },
     ["loc-eqpm-grid"] = {
       default_value = false,
       name = "loc-eqpm-grid",
@@ -576,6 +842,92 @@ return {
       order = "ad",
       setting_type = "runtime-global",
       type = "bool-setting"
+    }
+  },
+  ["color-setting"] = {
+    ["khaoscircuitry-circuit-hud-v2-combinator-color"] = {
+      default_value = {
+        b = 0.8,
+        g = 0.64313725490196081,
+        r = 0.49803921568627452
+      },
+      hidden = true,
+      name = "khaoscircuitry-circuit-hud-v2-combinator-color",
+      order = "a[advanced]-a[circuit-hud-v2]-d[combinator-color]",
+      setting_type = "startup",
+      type = "color-setting"
+    },
+    ["khaoscircuitry-cybersyn-combinator-combinator-color"] = {
+      default_value = {
+        b = 0,
+        g = 0.58039215686274517,
+        r = 0.62745098039215685
+      },
+      hidden = true,
+      name = "khaoscircuitry-cybersyn-combinator-combinator-color",
+      order = "a[advanced]-b[cybersyn-combinator]-d[combinator-color]",
+      setting_type = "startup",
+      type = "color-setting"
+    },
+    ["khaoscircuitry-inventory-sensor-combinator-color"] = {
+      default_value = {
+        b = 0.36470588235294117,
+        g = 0.64705882352941178,
+        r = 0.94509803921568629
+      },
+      hidden = true,
+      name = "khaoscircuitry-inventory-sensor-combinator-color",
+      order = "a[advanced]-b[inventory-sensor]-d[combinator-color]",
+      setting_type = "startup",
+      type = "color-setting"
+    },
+    ["khaoscircuitry-pollution-combinator-combinator-color"] = {
+      default_value = {
+        b = 0.92156862745098032,
+        g = 0.3843137254901961,
+        r = 0.87058823529411775
+      },
+      hidden = true,
+      name = "khaoscircuitry-pollution-combinator-combinator-color",
+      order = "a[advanced]-b[pollution-combinator]-d[combinator-color]",
+      setting_type = "startup",
+      type = "color-setting"
+    },
+    ["khaoscircuitry-quantum-fabricator-combinator-color"] = {
+      default_value = {
+        b = 0.41568627450980395,
+        g = 0.41568627450980395,
+        r = 0.41568627450980395
+      },
+      hidden = true,
+      name = "khaoscircuitry-quantum-fabricator-combinator-color",
+      order = "a[advanced]-a[quantum-fabricator]-d[combinator-color]",
+      setting_type = "startup",
+      type = "color-setting"
+    },
+    ["khaoscircuitry-statistics-combinator-consumption-color"] = {
+      default_value = {
+        b = 0.34509803921568629,
+        g = 0.95686274509803919,
+        r = 0.43921568627450984
+      },
+      hidden = true,
+      name = "khaoscircuitry-statistics-combinator-consumption-color",
+      order = "a[advanced]-b[statistics-combinator]-d[consumption]-d[combinator-color]",
+      setting_type = "startup",
+      type = "color-setting"
+    },
+    ["khaoscircuitry-statistics-combinator-production-color"] = {
+      default_value = {
+        b = 0.95686274509803919,
+        g = 0.3333333333333333,
+        r = 0.34901960784313726
+      },
+      hidden = true,
+      name = "khaoscircuitry-statistics-combinator-production-color",
+      order = "a[advanced]-b[statistics-combinator]-c[production]-d[combinator-color]",
+      setting_type = "startup",
+      type = "color-setting"
     }
   },
   ["double-setting"] = {
@@ -1217,6 +1569,594 @@ return {
       name = "hps__sc-non_item_signals",
       order = "ab",
       setting_type = "runtime-per-user",
+      type = "string-setting"
+    },
+    ["khaoscircuitry-aai-signal-transmission-circuit-subgroup"] = {
+      allowed_values = {
+        "circuit-network",
+        "circuit-connection",
+        "circuit-combinator",
+        "circuit-combinator-arithmetic",
+        "circuit-combinator-decider",
+        "circuit-combinator-selector",
+        "circuit-combinator-constant",
+        "circuit-input",
+        "circuit-visual",
+        "circuit-visual-lamp",
+        "circuit-auditory"
+      },
+      default_value = "circuit-connection",
+      hidden = true,
+      name = "khaoscircuitry-aai-signal-transmission-circuit-subgroup",
+      order = "a[advanced]-a[aai-signal-transmission]-b[circuit-subgroup]",
+      setting_type = "startup",
+      type = "string-setting"
+    },
+    ["khaoscircuitry-alert-scanner-circuit-subgroup"] = {
+      allowed_values = {
+        "circuit-network",
+        "circuit-connection",
+        "circuit-combinator",
+        "circuit-combinator-arithmetic",
+        "circuit-combinator-decider",
+        "circuit-combinator-selector",
+        "circuit-combinator-constant",
+        "circuit-input",
+        "circuit-visual",
+        "circuit-visual-lamp",
+        "circuit-auditory"
+      },
+      default_value = "circuit-input",
+      hidden = true,
+      name = "khaoscircuitry-alert-scanner-circuit-subgroup",
+      order = "a[advanced]-a[alert-scanner]-b[circuit-subgroup]",
+      setting_type = "startup",
+      type = "string-setting"
+    },
+    ["khaoscircuitry-br-combinator-circuit-subgroup"] = {
+      allowed_values = {
+        "circuit-network",
+        "circuit-connection",
+        "circuit-combinator",
+        "circuit-combinator-arithmetic",
+        "circuit-combinator-decider",
+        "circuit-combinator-selector",
+        "circuit-combinator-constant",
+        "circuit-input",
+        "circuit-visual",
+        "circuit-visual-lamp",
+        "circuit-auditory"
+      },
+      default_value = "circuit-input",
+      hidden = true,
+      name = "khaoscircuitry-br-combinator-circuit-subgroup",
+      order = "a[advanced]-a[br-combinator]-b[circuit-subgroup]",
+      setting_type = "startup",
+      type = "string-setting"
+    },
+    ["khaoscircuitry-circuit-hud-v2-circuit-subgroup"] = {
+      allowed_values = {
+        "circuit-network",
+        "circuit-connection",
+        "circuit-combinator",
+        "circuit-combinator-arithmetic",
+        "circuit-combinator-decider",
+        "circuit-combinator-selector",
+        "circuit-combinator-constant",
+        "circuit-input",
+        "circuit-visual",
+        "circuit-visual-lamp",
+        "circuit-auditory"
+      },
+      default_value = "circuit-visual",
+      hidden = true,
+      name = "khaoscircuitry-circuit-hud-v2-circuit-subgroup",
+      order = "a[advanced]-a[circuit-hud-v2]-b[circuit-subgroup]",
+      setting_type = "startup",
+      type = "string-setting"
+    },
+    ["khaoscircuitry-cybersyn-circuit-subgroup"] = {
+      allowed_values = {
+        "circuit-network",
+        "circuit-connection",
+        "circuit-combinator",
+        "circuit-combinator-arithmetic",
+        "circuit-combinator-decider",
+        "circuit-combinator-selector",
+        "circuit-combinator-constant",
+        "circuit-input",
+        "circuit-visual",
+        "circuit-visual-lamp",
+        "circuit-auditory"
+      },
+      default_value = "circuit-combinator",
+      hidden = true,
+      name = "khaoscircuitry-cybersyn-circuit-subgroup",
+      order = "a[advanced]-a[cybersyn]-b[circuit-subgroup]",
+      setting_type = "startup",
+      type = "string-setting"
+    },
+    ["khaoscircuitry-cybersyn-combinator-circuit-subgroup"] = {
+      allowed_values = {
+        "circuit-network",
+        "circuit-connection",
+        "circuit-combinator",
+        "circuit-combinator-arithmetic",
+        "circuit-combinator-decider",
+        "circuit-combinator-selector",
+        "circuit-combinator-constant",
+        "circuit-input",
+        "circuit-visual",
+        "circuit-visual-lamp",
+        "circuit-auditory"
+      },
+      default_value = "circuit-combinator-constant",
+      hidden = true,
+      name = "khaoscircuitry-cybersyn-combinator-circuit-subgroup",
+      order = "a[advanced]-b[cybersyn-combinator]-b[circuit-subgroup]",
+      setting_type = "startup",
+      type = "string-setting"
+    },
+    ["khaoscircuitry-display-plates-circuit-subgroup"] = {
+      allowed_values = {
+        "circuit-network",
+        "circuit-connection",
+        "circuit-combinator",
+        "circuit-combinator-arithmetic",
+        "circuit-combinator-decider",
+        "circuit-combinator-selector",
+        "circuit-combinator-constant",
+        "circuit-input",
+        "circuit-visual",
+        "circuit-visual-lamp",
+        "circuit-auditory"
+      },
+      default_value = "circuit-visual",
+      hidden = true,
+      name = "khaoscircuitry-display-plates-circuit-subgroup",
+      order = "a[advanced]-b[display-plates]-b[circuit-subgroup]",
+      setting_type = "startup",
+      type = "string-setting"
+    },
+    ["khaoscircuitry-factorissimo-circuit-subgroup"] = {
+      allowed_values = {
+        "circuit-network",
+        "circuit-connection",
+        "circuit-combinator",
+        "circuit-combinator-arithmetic",
+        "circuit-combinator-decider",
+        "circuit-combinator-selector",
+        "circuit-combinator-constant",
+        "circuit-input",
+        "circuit-visual",
+        "circuit-visual-lamp",
+        "circuit-auditory"
+      },
+      default_value = "circuit-combinator",
+      hidden = true,
+      name = "khaoscircuitry-factorissimo-circuit-subgroup",
+      order = "a[advanced]-b[factorissimo]-b[circuit-subgroup]",
+      setting_type = "startup",
+      type = "string-setting"
+    },
+    ["khaoscircuitry-fiber-optics-circuit-subgroup"] = {
+      allowed_values = {
+        "circuit-network",
+        "circuit-connection",
+        "circuit-combinator",
+        "circuit-combinator-arithmetic",
+        "circuit-combinator-decider",
+        "circuit-combinator-selector",
+        "circuit-combinator-constant",
+        "circuit-input",
+        "circuit-visual",
+        "circuit-visual-lamp",
+        "circuit-auditory"
+      },
+      default_value = "circuit-connection",
+      hidden = true,
+      name = "khaoscircuitry-fiber-optics-circuit-subgroup",
+      order = "a[advanced]-b[fiber-optics]-b[circuit-subgroup]",
+      setting_type = "startup",
+      type = "string-setting"
+    },
+    ["khaoscircuitry-filter-combinator-circuit-subgroup"] = {
+      allowed_values = {
+        "circuit-network",
+        "circuit-connection",
+        "circuit-combinator",
+        "circuit-combinator-arithmetic",
+        "circuit-combinator-decider",
+        "circuit-combinator-selector",
+        "circuit-combinator-constant",
+        "circuit-input",
+        "circuit-visual",
+        "circuit-visual-lamp",
+        "circuit-auditory"
+      },
+      default_value = "circuit-combinator",
+      hidden = true,
+      name = "khaoscircuitry-filter-combinator-circuit-subgroup",
+      order = "a[advanced]-b[filter-combinator]-b[circuit-subgroup]",
+      setting_type = "startup",
+      type = "string-setting"
+    },
+    ["khaoscircuitry-inventory-sensor-circuit-subgroup"] = {
+      allowed_values = {
+        "circuit-network",
+        "circuit-connection",
+        "circuit-combinator",
+        "circuit-combinator-arithmetic",
+        "circuit-combinator-decider",
+        "circuit-combinator-selector",
+        "circuit-combinator-constant",
+        "circuit-input",
+        "circuit-visual",
+        "circuit-visual-lamp",
+        "circuit-auditory"
+      },
+      default_value = "circuit-input",
+      hidden = true,
+      name = "khaoscircuitry-inventory-sensor-circuit-subgroup",
+      order = "a[advanced]-b[inventory-sensor]-b[circuit-subgroup]",
+      setting_type = "startup",
+      type = "string-setting"
+    },
+    ["khaoscircuitry-ltn-train-info-circuit-subgroup"] = {
+      allowed_values = {
+        "circuit-network",
+        "circuit-connection",
+        "circuit-combinator",
+        "circuit-combinator-arithmetic",
+        "circuit-combinator-decider",
+        "circuit-combinator-selector",
+        "circuit-combinator-constant",
+        "circuit-input",
+        "circuit-visual",
+        "circuit-visual-lamp",
+        "circuit-auditory"
+      },
+      default_value = "circuit-input",
+      hidden = true,
+      name = "khaoscircuitry-ltn-train-info-circuit-subgroup",
+      order = "a[advanced]-b[ltn-train-info]-b[circuit-subgroup]",
+      setting_type = "startup",
+      type = "string-setting"
+    },
+    ["khaoscircuitry-m-microcontroller-circuit-subgroup"] = {
+      allowed_values = {
+        "circuit-network",
+        "circuit-connection",
+        "circuit-combinator",
+        "circuit-combinator-arithmetic",
+        "circuit-combinator-decider",
+        "circuit-combinator-selector",
+        "circuit-combinator-constant",
+        "circuit-input",
+        "circuit-visual",
+        "circuit-visual-lamp",
+        "circuit-auditory"
+      },
+      default_value = "circuit-combinator",
+      hidden = true,
+      name = "khaoscircuitry-m-microcontroller-circuit-subgroup",
+      order = "a[advanced]-b[m-microcontroller]-b[circuit-subgroup]",
+      setting_type = "startup",
+      type = "string-setting"
+    },
+    ["khaoscircuitry-pollution-combinator-circuit-subgroup"] = {
+      allowed_values = {
+        "circuit-network",
+        "circuit-connection",
+        "circuit-combinator",
+        "circuit-combinator-arithmetic",
+        "circuit-combinator-decider",
+        "circuit-combinator-selector",
+        "circuit-combinator-constant",
+        "circuit-input",
+        "circuit-visual",
+        "circuit-visual-lamp",
+        "circuit-auditory"
+      },
+      default_value = "circuit-input",
+      hidden = true,
+      name = "khaoscircuitry-pollution-combinator-circuit-subgroup",
+      order = "a[advanced]-b[pollution-combinator]-b[circuit-subgroup]",
+      setting_type = "startup",
+      type = "string-setting"
+    },
+    ["khaoscircuitry-quantum-fabricator-circuit-subgroup"] = {
+      allowed_values = {
+        "circuit-network",
+        "circuit-connection",
+        "circuit-combinator",
+        "circuit-combinator-arithmetic",
+        "circuit-combinator-decider",
+        "circuit-combinator-selector",
+        "circuit-combinator-constant",
+        "circuit-input",
+        "circuit-visual",
+        "circuit-visual-lamp",
+        "circuit-auditory"
+      },
+      default_value = "circuit-input",
+      hidden = true,
+      name = "khaoscircuitry-quantum-fabricator-circuit-subgroup",
+      order = "a[advanced]-b[quantum-fabricator]-b[circuit-subgroup]",
+      setting_type = "startup",
+      type = "string-setting"
+    },
+    ["khaoscircuitry-recipe-combinator-circuit-subgroup"] = {
+      allowed_values = {
+        "circuit-network",
+        "circuit-connection",
+        "circuit-combinator",
+        "circuit-combinator-arithmetic",
+        "circuit-combinator-decider",
+        "circuit-combinator-selector",
+        "circuit-combinator-constant",
+        "circuit-input",
+        "circuit-visual",
+        "circuit-visual-lamp",
+        "circuit-auditory"
+      },
+      default_value = "circuit-combinator",
+      hidden = true,
+      name = "khaoscircuitry-recipe-combinator-circuit-subgroup",
+      order = "a[advanced]-b[recipe-combinator]-b[circuit-subgroup]",
+      setting_type = "startup",
+      type = "string-setting"
+    },
+    ["khaoscircuitry-signal-lamp-circuit-subgroup"] = {
+      allowed_values = {
+        "circuit-network",
+        "circuit-connection",
+        "circuit-combinator",
+        "circuit-combinator-arithmetic",
+        "circuit-combinator-decider",
+        "circuit-combinator-selector",
+        "circuit-combinator-constant",
+        "circuit-input",
+        "circuit-visual",
+        "circuit-visual-lamp",
+        "circuit-auditory"
+      },
+      default_value = "circuit-visual-lamp",
+      hidden = true,
+      name = "khaoscircuitry-signal-lamp-circuit-subgroup",
+      order = "a[advanced]-b[signal-lamp]-b[circuit-subgroup]",
+      setting_type = "startup",
+      type = "string-setting"
+    },
+    ["khaoscircuitry-smart-train-combinator-stc-buffer-probe-circuit-subgroup"] = {
+      allowed_values = {
+        "circuit-network",
+        "circuit-connection",
+        "circuit-combinator",
+        "circuit-combinator-arithmetic",
+        "circuit-combinator-decider",
+        "circuit-combinator-selector",
+        "circuit-combinator-constant",
+        "circuit-input",
+        "circuit-visual",
+        "circuit-visual-lamp",
+        "circuit-auditory"
+      },
+      default_value = "circuit-combinator-arithmetic",
+      hidden = true,
+      name = "khaoscircuitry-smart-train-combinator-stc-buffer-probe-circuit-subgroup",
+      order = "a[advanced]-b[smart-train-combinator]-c[stc-buffer-probe]-b[circuit-subgroup]",
+      setting_type = "startup",
+      type = "string-setting"
+    },
+    ["khaoscircuitry-smart-train-combinator-stc-circuit-subgroup"] = {
+      allowed_values = {
+        "circuit-network",
+        "circuit-connection",
+        "circuit-combinator",
+        "circuit-combinator-arithmetic",
+        "circuit-combinator-decider",
+        "circuit-combinator-selector",
+        "circuit-combinator-constant",
+        "circuit-input",
+        "circuit-visual",
+        "circuit-visual-lamp",
+        "circuit-auditory"
+      },
+      default_value = "circuit-combinator",
+      hidden = true,
+      name = "khaoscircuitry-smart-train-combinator-stc-circuit-subgroup",
+      order = "a[advanced]-b[smart-train-combinator]-a[stc]-b[circuit-subgroup]",
+      setting_type = "startup",
+      type = "string-setting"
+    },
+    ["khaoscircuitry-smart-train-combinator-stc-multi-circuit-subgroup"] = {
+      allowed_values = {
+        "circuit-network",
+        "circuit-connection",
+        "circuit-combinator",
+        "circuit-combinator-arithmetic",
+        "circuit-combinator-decider",
+        "circuit-combinator-selector",
+        "circuit-combinator-constant",
+        "circuit-input",
+        "circuit-visual",
+        "circuit-visual-lamp",
+        "circuit-auditory"
+      },
+      default_value = "circuit-combinator",
+      hidden = true,
+      name = "khaoscircuitry-smart-train-combinator-stc-multi-circuit-subgroup",
+      order = "a[advanced]-b[smart-train-combinator]-b[stc-multi]-b[circuit-subgroup]",
+      setting_type = "startup",
+      type = "string-setting"
+    },
+    ["khaoscircuitry-smart-train-combinator-stc-typed-probe-circuit-subgroup"] = {
+      allowed_values = {
+        "circuit-network",
+        "circuit-connection",
+        "circuit-combinator",
+        "circuit-combinator-arithmetic",
+        "circuit-combinator-decider",
+        "circuit-combinator-selector",
+        "circuit-combinator-constant",
+        "circuit-input",
+        "circuit-visual",
+        "circuit-visual-lamp",
+        "circuit-auditory"
+      },
+      default_value = "circuit-combinator-arithmetic",
+      hidden = true,
+      name = "khaoscircuitry-smart-train-combinator-stc-typed-probe-circuit-subgroup",
+      order = "a[advanced]-b[smart-train-combinator]-d[stc-typed-probe]-b[circuit-subgroup]",
+      setting_type = "startup",
+      type = "string-setting"
+    },
+    ["khaoscircuitry-space-platform-flow-monitor-circuit-subgroup"] = {
+      allowed_values = {
+        "circuit-network",
+        "circuit-connection",
+        "circuit-combinator",
+        "circuit-combinator-arithmetic",
+        "circuit-combinator-decider",
+        "circuit-combinator-selector",
+        "circuit-combinator-constant",
+        "circuit-input",
+        "circuit-visual",
+        "circuit-visual-lamp",
+        "circuit-auditory"
+      },
+      default_value = "circuit-input",
+      hidden = true,
+      name = "khaoscircuitry-space-platform-flow-monitor-circuit-subgroup",
+      order = "a[advanced]-b[space-platform-flow-monitor]-b[circuit-subgroup]",
+      setting_type = "startup",
+      type = "string-setting"
+    },
+    ["khaoscircuitry-spoilage-scanner-circuit-subgroup"] = {
+      allowed_values = {
+        "circuit-network",
+        "circuit-connection",
+        "circuit-combinator",
+        "circuit-combinator-arithmetic",
+        "circuit-combinator-decider",
+        "circuit-combinator-selector",
+        "circuit-combinator-constant",
+        "circuit-input",
+        "circuit-visual",
+        "circuit-visual-lamp",
+        "circuit-auditory"
+      },
+      default_value = "circuit-input",
+      hidden = true,
+      name = "khaoscircuitry-spoilage-scanner-circuit-subgroup",
+      order = "a[advanced]-b[spoilage-scanner]-b[circuit-subgroup]",
+      setting_type = "startup",
+      type = "string-setting"
+    },
+    ["khaoscircuitry-stack-combinator-circuit-subgroup"] = {
+      allowed_values = {
+        "circuit-network",
+        "circuit-connection",
+        "circuit-combinator",
+        "circuit-combinator-arithmetic",
+        "circuit-combinator-decider",
+        "circuit-combinator-selector",
+        "circuit-combinator-constant",
+        "circuit-input",
+        "circuit-visual",
+        "circuit-visual-lamp",
+        "circuit-auditory"
+      },
+      default_value = "circuit-combinator-arithmetic",
+      hidden = true,
+      name = "khaoscircuitry-stack-combinator-circuit-subgroup",
+      order = "a[advanced]-b[stack-combinator]-b[circuit-subgroup]",
+      setting_type = "startup",
+      type = "string-setting"
+    },
+    ["khaoscircuitry-statistics-combinator-circuit-subgroup"] = {
+      allowed_values = {
+        "circuit-network",
+        "circuit-connection",
+        "circuit-combinator",
+        "circuit-combinator-arithmetic",
+        "circuit-combinator-decider",
+        "circuit-combinator-selector",
+        "circuit-combinator-constant",
+        "circuit-input",
+        "circuit-visual",
+        "circuit-visual-lamp",
+        "circuit-auditory"
+      },
+      default_value = "circuit-input",
+      hidden = true,
+      name = "khaoscircuitry-statistics-combinator-circuit-subgroup",
+      order = "a[advanced]-b[statistics-combinator]-b[circuit-subgroup]",
+      setting_type = "startup",
+      type = "string-setting"
+    },
+    ["khaoscircuitry-utility-combinators-bonus-circuit-subgroup"] = {
+      allowed_values = {
+        "circuit-network",
+        "circuit-connection",
+        "circuit-combinator",
+        "circuit-combinator-arithmetic",
+        "circuit-combinator-decider",
+        "circuit-combinator-selector",
+        "circuit-combinator-constant",
+        "circuit-input",
+        "circuit-visual",
+        "circuit-visual-lamp",
+        "circuit-auditory"
+      },
+      default_value = "circuit-input",
+      hidden = true,
+      name = "khaoscircuitry-utility-combinators-bonus-circuit-subgroup",
+      order = "a[advanced]-b[utility-combinators]-b[bonus]-b[circuit-subgroup]",
+      setting_type = "startup",
+      type = "string-setting"
+    },
+    ["khaoscircuitry-utility-combinators-location-circuit-subgroup"] = {
+      allowed_values = {
+        "circuit-network",
+        "circuit-connection",
+        "circuit-combinator",
+        "circuit-combinator-arithmetic",
+        "circuit-combinator-decider",
+        "circuit-combinator-selector",
+        "circuit-combinator-constant",
+        "circuit-input",
+        "circuit-visual",
+        "circuit-visual-lamp",
+        "circuit-auditory"
+      },
+      default_value = "circuit-input",
+      hidden = true,
+      name = "khaoscircuitry-utility-combinators-location-circuit-subgroup",
+      order = "a[advanced]-b[utility-combinators]-c[location]-b[circuit-subgroup]",
+      setting_type = "startup",
+      type = "string-setting"
+    },
+    ["khaoscircuitry-utility-combinators-player-circuit-subgroup"] = {
+      allowed_values = {
+        "circuit-network",
+        "circuit-connection",
+        "circuit-combinator",
+        "circuit-combinator-arithmetic",
+        "circuit-combinator-decider",
+        "circuit-combinator-selector",
+        "circuit-combinator-constant",
+        "circuit-input",
+        "circuit-visual",
+        "circuit-visual-lamp",
+        "circuit-auditory"
+      },
+      default_value = "circuit-combinator",
+      hidden = true,
+      name = "khaoscircuitry-utility-combinators-player-circuit-subgroup",
+      order = "a[advanced]-b[utility-combinators]-e[player]-b[circuit-subgroup]",
+      setting_type = "startup",
       type = "string-setting"
     },
     ["ltn-depot-stop-limit-trains"] = {

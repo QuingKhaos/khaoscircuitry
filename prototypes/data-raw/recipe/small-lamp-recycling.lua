@@ -78,6 +78,7 @@ return {
       type = "item"
     }
   },
+  subgroup = "circuit-visual",
   type = "recipe",
   unlock_results = false
 }

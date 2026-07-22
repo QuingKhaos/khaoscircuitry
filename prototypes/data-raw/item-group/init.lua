@@ -1,4 +1,5 @@
 return {
+  ["circuitry"] = require("___KHAOSDATA___.prototypes.data-raw.item-group.circuitry"),
   ["combat"] = require("___KHAOSDATA___.prototypes.data-raw.item-group.combat"),
   ["effects"] = require("___KHAOSDATA___.prototypes.data-raw.item-group.effects"),
   ["enemies"] = require("___KHAOSDATA___.prototypes.data-raw.item-group.enemies"),

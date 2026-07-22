@@ -38,5 +38,6 @@ return {
       type = "item"
     }
   },
+  subgroup = "circuit-input",
   type = "recipe"
 }

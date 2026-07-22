@@ -259,6 +259,7 @@ return {
       }
     }
   },
+  subgroup = "circuit-visual",
   text_color = {
     1,
     1,

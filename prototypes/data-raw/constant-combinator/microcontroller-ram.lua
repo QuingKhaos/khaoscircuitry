@@ -366,6 +366,7 @@ return {
       }
     }
   },
+  subgroup = "circuit-combinator",
   type = "constant-combinator",
   water_reflection = {
     pictures = {

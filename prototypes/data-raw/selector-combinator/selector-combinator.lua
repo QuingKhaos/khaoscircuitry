@@ -908,6 +908,7 @@ return {
       y = 44
     }
   },
+  subgroup = "circuit-combinator",
   time_symbol_sprites = {
     east = {
       draw_as_glow = true,

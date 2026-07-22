@@ -6,6 +6,6 @@ return {
   order = "c-b",
   place_result = "factory-circuit-connector",
   stack_size = 50,
-  subgroup = "factorissimo2",
+  subgroup = "circuit-combinator",
   type = "item"
 }

@@ -9,6 +9,6 @@ return {
   order = "c[combinators]-e[smart-train-combinator]-b[probe]",
   place_result = "stc2-buffer-probe",
   stack_size = 50,
-  subgroup = "circuit-network",
+  subgroup = "circuit-combinator",
   type = "item"
 }

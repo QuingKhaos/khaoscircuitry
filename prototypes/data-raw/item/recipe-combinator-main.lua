@@ -14,6 +14,6 @@ return {
   order = "c[combinators]-c[z-recipe-combinator]",
   place_result = "recipe-combinator-main",
   stack_size = 50,
-  subgroup = "circuit-network",
+  subgroup = "circuit-combinator",
   type = "item"
 }

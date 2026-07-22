@@ -257,6 +257,7 @@ return {
       width = 256
     }
   },
+  subgroup = "circuit-combinator",
   tile_height = 2,
   tile_width = 2,
   type = "constant-combinator",

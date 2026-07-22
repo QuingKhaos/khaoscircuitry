@@ -78,6 +78,7 @@ return {
       0.5
     }
   },
+  subgroup = "circuit-combinator",
   supply_area_distance = 0,
   surface_conditions = {},
   type = "electric-pole"

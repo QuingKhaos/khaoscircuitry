@@ -9,7 +9,20 @@ return {
   },
   icons = {
     {
-      icon = "__statistics-combinator-updated__/graphics/consumption-combinator-icon.png"
+      draw_background = true,
+      icon = "__khaosbash__/graphics/base/icons/constant-combinator-base.png",
+      icon_size = 64
+    },
+    {
+      draw_background = false,
+      icon = "__khaosbash__/graphics/base/icons/constant-combinator-mask-main-color.png",
+      icon_size = 64,
+      tint = {
+        a = 1,
+        b = 0.34509804844856262,
+        g = 0.95686274766921997,
+        r = 0.43921568989753723
+      }
     }
   },
   inventory_move_sound = {
@@ -32,6 +45,6 @@ return {
   },
   place_result = "consumption-combinator",
   stack_size = 50,
-  subgroup = "circuit-network",
+  subgroup = "circuit-input",
   type = "item"
 }

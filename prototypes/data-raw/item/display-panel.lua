@@ -29,6 +29,6 @@ return {
   },
   place_result = "display-panel",
   stack_size = 10,
-  subgroup = "circuit-network",
+  subgroup = "circuit-visual",
   type = "item"
 }

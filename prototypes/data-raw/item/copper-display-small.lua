@@ -5,6 +5,6 @@ return {
   order = "z[1]",
   place_result = "copper-display-small",
   stack_size = 100,
-  subgroup = "display-plates",
+  subgroup = "circuit-visual",
   type = "item"
 }

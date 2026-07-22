@@ -84,6 +84,7 @@ return {
       type = "item"
     }
   },
+  subgroup = "circuit-auditory",
   type = "recipe",
   unlock_results = false
 }

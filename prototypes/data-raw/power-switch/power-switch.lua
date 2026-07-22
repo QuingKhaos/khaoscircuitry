@@ -210,6 +210,7 @@ return {
       1
     }
   },
+  subgroup = "circuit-connection",
   type = "power-switch",
   water_reflection = {
     orientation_to_variation = false,

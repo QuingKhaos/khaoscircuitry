@@ -374,6 +374,7 @@ return {
       }
     }
   },
+  subgroup = "circuit-input",
   type = "constant-combinator",
   water_reflection = {
     pictures = {

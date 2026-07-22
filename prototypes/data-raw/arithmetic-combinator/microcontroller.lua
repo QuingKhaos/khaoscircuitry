@@ -1007,6 +1007,7 @@ return {
       }
     }
   },
+  subgroup = "circuit-combinator",
   type = "arithmetic-combinator",
   water_reflection = {
     orientation_to_variation = true,

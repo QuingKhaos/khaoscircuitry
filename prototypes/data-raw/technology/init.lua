@@ -263,7 +263,6 @@ return {
   ["spfm-monitoring"] = require("___KHAOSDATA___.prototypes.data-raw.technology.spfm-monitoring"),
   ["spidertron"] = require("___KHAOSDATA___.prototypes.data-raw.technology.spidertron"),
   ["stack-inserter"] = require("___KHAOSDATA___.prototypes.data-raw.technology.stack-inserter"),
-  ["statistics-combinator"] = require("___KHAOSDATA___.prototypes.data-raw.technology.statistics-combinator"),
   ["steam-power"] = require("___KHAOSDATA___.prototypes.data-raw.technology.steam-power"),
   ["steel-axe"] = require("___KHAOSDATA___.prototypes.data-raw.technology.steel-axe"),
   ["steel-plate-productivity"] = require("___KHAOSDATA___.prototypes.data-raw.technology.steel-plate-productivity"),

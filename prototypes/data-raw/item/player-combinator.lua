@@ -14,6 +14,6 @@ return {
   order = "c[combinators]-d[player-combinator]",
   place_result = "player-combinator",
   stack_size = 50,
-  subgroup = "circuit-network",
+  subgroup = "circuit-combinator",
   type = "item"
 }

@@ -28,7 +28,7 @@ return {
   },
   place_result = "hps__sc-stack-combinator-redux",
   stack_size = 50,
-  subgroup = "circuit-network",
+  subgroup = "circuit-combinator",
   type = "item",
   weight = 20000
 }

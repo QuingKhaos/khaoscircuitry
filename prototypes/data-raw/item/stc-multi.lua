@@ -9,6 +9,6 @@ return {
   order = "c[combinators]-e[smart-train-combinator]-am[multi]",
   place_result = "stc-multi",
   stack_size = 50,
-  subgroup = "circuit-network",
+  subgroup = "circuit-combinator",
   type = "item"
 }

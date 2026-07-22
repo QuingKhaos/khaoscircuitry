@@ -30,6 +30,6 @@ return {
   },
   place_result = "signal-lamp",
   stack_size = 50,
-  subgroup = "circuit-network",
+  subgroup = "circuit-visual",
   type = "item"
 }

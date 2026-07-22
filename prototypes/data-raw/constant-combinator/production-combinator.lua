@@ -205,9 +205,26 @@ return {
     "placeable-neutral",
     "player-creation"
   },
-  icon = "__base__/graphics/icons/constant-combinator.png",
   icon_draw_specification = {
     scale = 0.7
+  },
+  icons = {
+    {
+      draw_background = true,
+      icon = "__khaosbash__/graphics/base/icons/constant-combinator-base.png",
+      icon_size = 64
+    },
+    {
+      draw_background = false,
+      icon = "__khaosbash__/graphics/base/icons/constant-combinator-mask-main-color.png",
+      icon_size = 64,
+      tint = {
+        a = 1,
+        b = 0.95686274766921997,
+        g = 0.3333333432674408,
+        r = 0.3490196168422699
+      }
+    }
   },
   item_slot_count = 5,
   max_health = 120,
@@ -231,30 +248,224 @@ return {
     }
   },
   sprites = {
-    layers = {
-      {
-        filename = "__statistics-combinator-updated__/graphics/production-combinator.png",
-        height = 102,
-        scale = 0.5,
-        shift = {
-          0,
-          0.15625
+    east = {
+      layers = {
+        {
+          filename = "__khaosbash__/graphics/base/entity/combinator/constant-combinator-base.png",
+          height = 102,
+          priority = "high",
+          scale = 0.5,
+          shift = {
+            0,
+            0.15625
+          },
+          tint_as_overlay = false,
+          width = 114,
+          x = 114,
+          y = 0
         },
-        width = 114
-      },
-      {
-        draw_as_shadow = true,
-        filename = "__base__/graphics/entity/combinator/constant-combinator-shadow.png",
-        height = 66,
-        scale = 0.5,
-        shift = {
-          0.296875,
-          0.171875
+        {
+          blend_mode = "normal",
+          filename = "__khaosbash__/graphics/base/entity/combinator/constant-combinator-mask-main-color.png",
+          height = 102,
+          priority = "high",
+          scale = 0.5,
+          shift = {
+            0,
+            0.15625
+          },
+          tint = {
+            a = 1,
+            b = 0.95686274766921997,
+            g = 0.3333333432674408,
+            r = 0.3490196168422699
+          },
+          tint_as_overlay = false,
+          width = 114,
+          x = 114,
+          y = 0
         },
-        width = 98
+        {
+          draw_as_shadow = true,
+          filename = "__base__/graphics/entity/combinator/constant-combinator-shadow.png",
+          height = 66,
+          priority = "high",
+          scale = 0.5,
+          shift = {
+            0.265625,
+            0.171875
+          },
+          tint_as_overlay = false,
+          width = 98,
+          x = 98,
+          y = 0
+        }
+      }
+    },
+    north = {
+      layers = {
+        {
+          filename = "__khaosbash__/graphics/base/entity/combinator/constant-combinator-base.png",
+          height = 102,
+          priority = "high",
+          scale = 0.5,
+          shift = {
+            0,
+            0.15625
+          },
+          tint_as_overlay = false,
+          width = 114,
+          x = 0,
+          y = 0
+        },
+        {
+          blend_mode = "normal",
+          filename = "__khaosbash__/graphics/base/entity/combinator/constant-combinator-mask-main-color.png",
+          height = 102,
+          priority = "high",
+          scale = 0.5,
+          shift = {
+            0,
+            0.15625
+          },
+          tint = {
+            a = 1,
+            b = 0.95686274766921997,
+            g = 0.3333333432674408,
+            r = 0.3490196168422699
+          },
+          tint_as_overlay = false,
+          width = 114,
+          x = 0,
+          y = 0
+        },
+        {
+          draw_as_shadow = true,
+          filename = "__base__/graphics/entity/combinator/constant-combinator-shadow.png",
+          height = 66,
+          priority = "high",
+          scale = 0.5,
+          shift = {
+            0.265625,
+            0.171875
+          },
+          tint_as_overlay = false,
+          width = 98,
+          x = 0,
+          y = 0
+        }
+      }
+    },
+    south = {
+      layers = {
+        {
+          filename = "__khaosbash__/graphics/base/entity/combinator/constant-combinator-base.png",
+          height = 102,
+          priority = "high",
+          scale = 0.5,
+          shift = {
+            0,
+            0.15625
+          },
+          tint_as_overlay = false,
+          width = 114,
+          x = 228,
+          y = 0
+        },
+        {
+          blend_mode = "normal",
+          filename = "__khaosbash__/graphics/base/entity/combinator/constant-combinator-mask-main-color.png",
+          height = 102,
+          priority = "high",
+          scale = 0.5,
+          shift = {
+            0,
+            0.15625
+          },
+          tint = {
+            a = 1,
+            b = 0.95686274766921997,
+            g = 0.3333333432674408,
+            r = 0.3490196168422699
+          },
+          tint_as_overlay = false,
+          width = 114,
+          x = 228,
+          y = 0
+        },
+        {
+          draw_as_shadow = true,
+          filename = "__base__/graphics/entity/combinator/constant-combinator-shadow.png",
+          height = 66,
+          priority = "high",
+          scale = 0.5,
+          shift = {
+            0.265625,
+            0.171875
+          },
+          tint_as_overlay = false,
+          width = 98,
+          x = 196,
+          y = 0
+        }
+      }
+    },
+    west = {
+      layers = {
+        {
+          filename = "__khaosbash__/graphics/base/entity/combinator/constant-combinator-base.png",
+          height = 102,
+          priority = "high",
+          scale = 0.5,
+          shift = {
+            0,
+            0.15625
+          },
+          tint_as_overlay = false,
+          width = 114,
+          x = 342,
+          y = 0
+        },
+        {
+          blend_mode = "normal",
+          filename = "__khaosbash__/graphics/base/entity/combinator/constant-combinator-mask-main-color.png",
+          height = 102,
+          priority = "high",
+          scale = 0.5,
+          shift = {
+            0,
+            0.15625
+          },
+          tint = {
+            a = 1,
+            b = 0.95686274766921997,
+            g = 0.3333333432674408,
+            r = 0.3490196168422699
+          },
+          tint_as_overlay = false,
+          width = 114,
+          x = 342,
+          y = 0
+        },
+        {
+          draw_as_shadow = true,
+          filename = "__base__/graphics/entity/combinator/constant-combinator-shadow.png",
+          height = 66,
+          priority = "high",
+          scale = 0.5,
+          shift = {
+            0.265625,
+            0.171875
+          },
+          tint_as_overlay = false,
+          width = 98,
+          x = 294,
+          y = 0
+        }
       }
     }
   },
+  subgroup = "circuit-input",
   type = "constant-combinator",
   water_reflection = {
     pictures = {

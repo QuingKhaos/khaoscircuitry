@@ -29,6 +29,6 @@ return {
   },
   place_result = "cybersyn-constant-combinator",
   stack_size = 50,
-  subgroup = "train-transport",
+  subgroup = "circuit-combinator",
   type = "item"
 }
