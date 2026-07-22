@@ -13,4 +13,4 @@ jobs:
     uses: QuingKhaos/khaosdata-raw/.github/workflows/extraction.yml@main
     secrets: inherit
     with:
-      version: stable
+      version: experimental

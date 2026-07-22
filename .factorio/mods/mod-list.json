@@ -2,10 +2,6 @@
   "mods": [
     {
       "enabled": true,
-      "name": "Active_Rails"
-    },
-    {
-      "enabled": true,
       "name": "AlertScanner"
     },
     {
@@ -19,10 +15,6 @@
     {
       "enabled": true,
       "name": "CircuitHUD-V2"
-    },
-    {
-      "enabled": true,
-      "name": "Cybersyn-Content-Reader"
     },
     {
       "enabled": true,
@@ -42,31 +34,11 @@
     },
     {
       "enabled": true,
-      "name": "Research_Control_Combinator_Updated"
-    },
-    {
-      "enabled": true,
       "name": "aai-signal-transmission"
     },
     {
       "enabled": true,
-      "name": "alchemical-combinator"
-    },
-    {
-      "enabled": true,
-      "name": "beltcounter2"
-    },
-    {
-      "enabled": true,
-      "name": "blueprint_reader"
-    },
-    {
-      "enabled": true,
       "name": "bplib"
-    },
-    {
-      "enabled": true,
-      "name": "compaktcircuit"
     },
     {
       "enabled": true,
@@ -78,15 +50,7 @@
     },
     {
       "enabled": true,
-      "name": "diode-combinator"
-    },
-    {
-      "enabled": true,
       "name": "elevated-rails"
-    },
-    {
-      "enabled": true,
-      "name": "energy-combinator"
     },
     {
       "enabled": true,
@@ -107,10 +71,6 @@
     {
       "enabled": true,
       "name": "glib"
-    },
-    {
-      "enabled": true,
-      "name": "heat-sensor"
     },
     {
       "enabled": true,
@@ -138,6 +98,10 @@
     },
     {
       "enabled": true,
+      "name": "recycler"
+    },
+    {
+      "enabled": true,
       "name": "quantum-fabricator"
     },
     {
@@ -147,10 +111,6 @@
     {
       "enabled": true,
       "name": "signal-lamp"
-    },
-    {
-      "enabled": true,
-      "name": "simple-gauge"
     },
     {
       "enabled": true,
@@ -171,10 +131,6 @@
     {
       "enabled": true,
       "name": "stack-combinator-redux"
-    },
-    {
-      "enabled": true,
-      "name": "stack-constant-combinator"
     },
     {
       "enabled": true,
