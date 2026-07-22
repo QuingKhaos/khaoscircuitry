@@ -1,6 +1,6 @@
 ---------------------------------------------------------------------------------------------------
 Version: 2.1.3
-Date: ????
+Date: 2026-07-22
   Bugfixes:
     - Fix Factorissimo factory circuit connector being in the wrong subgroup. You may have to install QuingKhaos' Advanced Settings to set the subgroup to the default, if it is still in the wrong subgroup after updating.
 ---------------------------------------------------------------------------------------------------
@@ -28,7 +28,7 @@ Date: 2026-07-18
     - Update for Factorio 2.1.
 ---------------------------------------------------------------------------------------------------
 Version: 1.12.2
-Date: ????
+Date: 2026-07-22
   Bugfixes:
     - Fix Factorissimo factory circuit connector being in the wrong subgroup. You may have to install QuingKhaos' Advanced Settings to set the subgroup to the default, if it is still in the wrong subgroup after updating.
 ---------------------------------------------------------------------------------------------------
