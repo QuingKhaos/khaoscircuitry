@@ -19,6 +19,170 @@
     {
       "enabled": true,
       "name": "space-age"
+    },
+    {
+      "enabled": true,
+      "name": "aai-signal-transmission"
+    },
+    {
+      "enabled": true,
+      "name": "Active_Rails"
+    },
+    {
+      "enabled": true,
+      "name": "alchemical-combinator"
+    },
+    {
+      "enabled": true,
+      "name": "AlertScanner"
+    },
+    {
+      "enabled": true,
+      "name": "khaoslib"
+    },
+    {
+      "enabled": true,
+      "name": "beltcounter2"
+    },
+    {
+      "enabled": true,
+      "name": "blueprint_reader"
+    },
+    {
+      "enabled": true,
+      "name": "BRCombinator"
+    },
+    {
+      "enabled": true,
+      "name": "CircuitHUD-V2"
+    },
+    {
+      "enabled": true,
+      "name": "compaktcircuit"
+    },
+    {
+      "enabled": true,
+      "name": "cybersyn"
+    },
+    {
+      "enabled": true,
+      "name": "cybersyn-combinator"
+    },
+    {
+      "enabled": true,
+      "name": "Cybersyn-Content-Reader"
+    },
+    {
+      "enabled": true,
+      "name": "diode-combinator"
+    },
+    {
+      "enabled": true,
+      "name": "DisplayPlatesForked"
+    },
+    {
+      "enabled": true,
+      "name": "energy-combinator"
+    },
+    {
+      "enabled": true,
+      "name": "factorissimo-2-notnotmelon"
+    },
+    {
+      "enabled": true,
+      "name": "fiber-optics"
+    },
+    {
+      "enabled": true,
+      "name": "filter-combinator-improved"
+    },
+    {
+      "enabled": true,
+      "name": "heat-sensor"
+    },
+    {
+      "enabled": true,
+      "name": "inventory-sensor-improved"
+    },
+    {
+      "enabled": true,
+      "name": "ltn-train-info"
+    },
+    {
+      "enabled": true,
+      "name": "m-microcontroller"
+    },
+    {
+      "enabled": true,
+      "name": "PollutionCombinator-JamieFork"
+    },
+    {
+      "enabled": true,
+      "name": "quantum-fabricator"
+    },
+    {
+      "enabled": true,
+      "name": "recipe_combinator"
+    },
+    {
+      "enabled": true,
+      "name": "Research_Control_Combinator_Updated"
+    },
+    {
+      "enabled": true,
+      "name": "signal-lamp"
+    },
+    {
+      "enabled": true,
+      "name": "simple-gauge"
+    },
+    {
+      "enabled": true,
+      "name": "smart-train-combinator"
+    },
+    {
+      "enabled": true,
+      "name": "space-platform-flow-monitor"
+    },
+    {
+      "enabled": true,
+      "name": "spoilage-scanner"
+    },
+    {
+      "enabled": true,
+      "name": "stack-combinator-redux"
+    },
+    {
+      "enabled": true,
+      "name": "stack-constant-combinator"
+    },
+    {
+      "enabled": true,
+      "name": "statistics-combinator-updated"
+    },
+    {
+      "enabled": true,
+      "name": "utility-combinators"
+    },
+    {
+      "enabled": true,
+      "name": "Automatic_Train_Painter"
+    },
+    {
+      "enabled": true,
+      "name": "Flare Stack"
+    },
+    {
+      "enabled": true,
+      "name": "flib"
+    },
+    {
+      "enabled": true,
+      "name": "bplib"
+    },
+    {
+      "enabled": true,
+      "name": "LogisticTrainNetwork"
     }
   ]
 }
