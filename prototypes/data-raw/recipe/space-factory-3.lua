@@ -1,5 +1,7 @@
 return {
-  category = "metallurgy",
+  categories = {
+    "metallurgy"
+  },
   enabled = false,
   energy_required = 60,
   ingredients = {

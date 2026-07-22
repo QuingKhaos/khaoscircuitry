@@ -1,6 +1,8 @@
 return {
   allow_decomposition = false,
-  category = "recycling",
+  categories = {
+    "recycling"
+  },
   crafting_machine_tint = {
     primary = {
       0.5,
@@ -27,11 +29,12 @@ return {
       0.5
     }
   },
+  enabled = false,
   energy_required = 0.0625,
   hidden = true,
   icons = {
     {
-      icon = "__quality__/graphics/icons/recycling.png"
+      icon = "__recycler__/graphics/icons/recycling.png"
     },
     {
       icon = "__m-microcontroller__/graphics/ram.png",
@@ -39,7 +42,7 @@ return {
       scale = 0.8
     },
     {
-      icon = "__quality__/graphics/icons/recycling-top.png"
+      icon = "__recycler__/graphics/icons/recycling-top.png"
     }
   },
   ingredients = {
@@ -58,13 +61,13 @@ return {
   name = "microcontroller-ram-recycling",
   results = {
     {
-      amount = 0.75,
+      amount = 0,
       extra_count_fraction = 0.75,
       name = "arithmetic-combinator",
       type = "item"
     },
     {
-      amount = 0.5,
+      amount = 0,
       extra_count_fraction = 0.5,
       name = "advanced-circuit",
       type = "item"

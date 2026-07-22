@@ -3,7 +3,7 @@ return {
   attack_parameters = {
     ammo_category = "bullet",
     cooldown = 6,
-    health_penalty = 1,
+    health_penalty = 10,
     projectile_center = {
       0,
       -0.0875
@@ -89,6 +89,7 @@ return {
         }
       }
     },
+    threatening_asteroid_penalty = -20,
     type = "projectile"
   },
   attacking_animation = {

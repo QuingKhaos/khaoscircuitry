@@ -1,5 +1,4 @@
 return {
-  ["circuit-network"] = require("___KHAOSDATA___.prototypes.data-raw.tips-and-tricks-item-category.circuit-network"),
   ["copy-paste"] = require("___KHAOSDATA___.prototypes.data-raw.tips-and-tricks-item-category.copy-paste"),
   ["drag-building"] = require("___KHAOSDATA___.prototypes.data-raw.tips-and-tricks-item-category.drag-building"),
   ["electric-network"] = require("___KHAOSDATA___.prototypes.data-raw.tips-and-tricks-item-category.electric-network"),

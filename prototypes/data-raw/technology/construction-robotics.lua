@@ -21,6 +21,11 @@ return {
       type = "create-ghost-on-entity-death"
     },
     {
+      hidden = true,
+      modifier = true,
+      type = "unlock-logistic-network"
+    },
+    {
       recipe = "alert-scanner",
       type = "unlock-recipe"
     }

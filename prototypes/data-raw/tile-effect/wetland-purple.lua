@@ -41,14 +41,10 @@ return {
     texture_variations_rows = 1,
     textures = {
       {
-        filename = "__space-age__/graphics/terrain/gleba/watercaustics.png",
-        height = 512,
-        width = 512
+        filename = "__space-age__/graphics/terrain/gleba/watercaustics.png"
       },
       {
-        filename = "__space-age__/graphics/terrain/gleba/wetland-purple-tentacle-shader.png",
-        height = 1024,
-        width = 2048
+        filename = "__space-age__/graphics/terrain/gleba/wetland-purple-tentacle-shader.png"
       }
     },
     tick_scale = 6

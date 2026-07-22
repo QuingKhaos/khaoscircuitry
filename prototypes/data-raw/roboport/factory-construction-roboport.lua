@@ -193,7 +193,8 @@ return {
     {
       sound = {
         aggregation = {
-          max_count = 1,
+          count_already_playing = true,
+          max_count = 3,
           remove = true
         },
         category = "environment",
@@ -324,7 +325,8 @@ return {
     {
       sound = {
         aggregation = {
-          max_count = 1,
+          count_already_playing = true,
+          max_count = 3,
           remove = true
         },
         category = "environment",

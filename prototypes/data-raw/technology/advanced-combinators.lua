@@ -5,19 +5,11 @@ return {
       type = "unlock-recipe"
     },
     {
-      recipe = "stack-constant-combinator",
-      type = "unlock-recipe"
-    },
-    {
       recipe = "bonus-combinator",
       type = "unlock-recipe"
     },
     {
       recipe = "location-combinator",
-      type = "unlock-recipe"
-    },
-    {
-      recipe = "research-combinator",
       type = "unlock-recipe"
     },
     {

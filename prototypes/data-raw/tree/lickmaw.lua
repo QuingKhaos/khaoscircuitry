@@ -402,7 +402,7 @@ return {
           scale = 0.33000000000000003,
           shift = {
             1.625,
-            2.5
+            1.875
           },
           surface = "gleba",
           width = 640,
@@ -542,7 +542,7 @@ return {
           scale = 0.33000000000000003,
           shift = {
             1.625,
-            2.5
+            1.875
           },
           surface = "gleba",
           width = 640,
@@ -682,7 +682,7 @@ return {
           scale = 0.33000000000000003,
           shift = {
             1.625,
-            2.5
+            1.875
           },
           surface = "gleba",
           width = 640,
@@ -822,7 +822,7 @@ return {
           scale = 0.33000000000000003,
           shift = {
             1.625,
-            2.5
+            1.875
           },
           surface = "gleba",
           width = 640,
@@ -962,7 +962,7 @@ return {
           scale = 0.33000000000000003,
           shift = {
             1.625,
-            2.5
+            1.875
           },
           surface = "gleba",
           width = 640,

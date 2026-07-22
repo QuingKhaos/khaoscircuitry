@@ -34,9 +34,7 @@ return {
     },
     textures = {
       {
-        filename = "__base__/graphics/terrain/effects/water-noise.png",
-        height = 512,
-        width = 512
+        filename = "__base__/graphics/terrain/effects/water-noise.png"
       }
     },
     tick_scale = 0.09

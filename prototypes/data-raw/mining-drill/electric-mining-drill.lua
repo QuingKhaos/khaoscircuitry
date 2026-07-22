@@ -3598,9 +3598,26 @@ return {
     }
   },
   type = "mining-drill",
+  use_mirroring = true,
   vector_to_place_result = {
     0,
     -1.85
+  },
+  water_reflection = {
+    orientation_to_variation = true,
+    pictures = {
+      filename = "__base__/graphics/entity/electric-mining-drill/electric-mining-drill-reflection.png",
+      height = 36,
+      priority = "extra-high",
+      scale = 5,
+      shift = {
+        0.15625,
+        1.875
+      },
+      variation_count = 4,
+      width = 28
+    },
+    rotate = false
   },
   wet_mining_graphics_set = {
     animation = {

@@ -1,6 +1,7 @@
 return {
   name = "vulcanus-10-vulcanus-factory-floor",
   planet = "vulcanus-factory-floor",
+  title = "Vulcanus 10 - Smouldering Fire",
   track_type = "main-track",
   type = "ambient-sound",
   variable_sound = {

@@ -1255,6 +1255,22 @@ return {
     }
   },
   type = "train-stop",
+  water_reflection = {
+    orientation_to_variation = true,
+    pictures = {
+      filename = "__base__/graphics/entity/train-stop/train-stop-reflection.png",
+      height = 48,
+      priority = "extra-high",
+      scale = 5,
+      shift = {
+        0,
+        3
+      },
+      variation_count = 4,
+      width = 48
+    },
+    rotate = false
+  },
   working_sound = {
     audible_distance_modifier = 0.2,
     filename = "__base__/sound/train-stop.ogg",

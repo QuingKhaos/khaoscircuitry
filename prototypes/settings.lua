@@ -13,36 +13,6 @@ return {
     ["alert-scanner-convert-ghost-scanner"] = {
       value = false
     },
-    ["compaktcircuit-comm_enabled"] = {
-      value = true
-    },
-    ["compaktcircuit-comm_interval"] = {
-      value = 30
-    },
-    ["compaktcircuit-iopoint_color"] = {
-      value = "0000FF"
-    },
-    ["compaktcircuit-iopoint_connected_color"] = {
-      value = "FF0000"
-    },
-    ["compaktcircuit-iopoint_default_color"] = {
-      value = "00FF00"
-    },
-    ["compaktcircuit-iopoint_disconnected_color"] = {
-      value = "FFFF00"
-    },
-    ["compaktcircuit-iopoint_text_color"] = {
-      value = "0000FF"
-    },
-    ["compaktcircuit-iopoint_with_alt"] = {
-      value = true
-    },
-    ["compaktcircuit-no_energy"] = {
-      value = true
-    },
-    ["compaktcircuit-no_processor_in_build"] = {
-      value = false
-    },
     ["cybersyn-combinator-loglevel"] = {
       value = "WARN"
     },
@@ -109,14 +79,14 @@ return {
     ["loc-eqpm-grid-w"] = {
       value = 2
     },
+    ["loc-eqpm-module"] = {
+      value = true
+    },
     ["ltn-depot-stop-limit-trains"] = {
       value = "0"
     },
     mc_update_tick_time = {
       value = 60
-    },
-    ["power-combinator-update-tick"] = {
-      value = 5
     },
     ["qf-chests-processed-per-second"] = {
       value = 6

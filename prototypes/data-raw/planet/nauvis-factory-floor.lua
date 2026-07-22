@@ -78,10 +78,120 @@ return {
   },
   platform_procession_set = {
     arrival = {
-      "planet-to-platform-b"
+      "planet-to-platform-b",
+      "platform-to-platform-b"
     },
     departure = {
-      "platform-to-planet-a"
+      "platform-to-planet-a",
+      "platform-to-platform-a"
+    }
+  },
+  platform_surface_render_parameters = {
+    platform_backdrop = {
+      atmosphere_color = {
+        0.055,
+        0.09,
+        0.11000000000000001,
+        0.1
+      },
+      cloud_flow_intensity = 0.5,
+      cloud_panning_rate = -0.1,
+      cloud_vertical_offset = 0.015,
+      cloudiness = 0.5,
+      global_cloud = {
+        filename = "__space-age__/graphics/space/nauvis-cloud.png",
+        height = 1024,
+        width = 2048
+      },
+      global_cloud_flow = {
+        filename = "__space-age__/graphics/space/nauvis-cloud-flow.png",
+        height = 1024,
+        width = 2048
+      },
+      global_cloud_normal = {
+        filename = "__space-age__/graphics/space/nauvis-cloud-normal.png",
+        height = 1024,
+        width = 2048
+      },
+      light_direction = {
+        -0.42000000000000002,
+        0.23000000000000003,
+        0.67000000000000002
+      },
+      light_intensity_contrast = 0.3,
+      light_radius = 8.9000000000000004,
+      parallax_strength = {
+        0.95,
+        0.95
+      },
+      planet_axis = {
+        -33,
+        -3
+      },
+      planet_axis_deviation_amplitude = {
+        10,
+        10
+      },
+      planet_axis_deviation_seconds = {
+        890.5,
+        753.70000000000005
+      },
+      planet_normal = {
+        filename = "__space-age__/graphics/space/nauvis-normal.png",
+        height = 1024,
+        width = 2048
+      },
+      planet_reflectivity = {
+        filename = "__space-age__/graphics/space/nauvis-reflectivity.png",
+        height = 1024,
+        width = 2048
+      },
+      planet_surface = {
+        filename = "__space-age__/graphics/space/nauvis.png",
+        height = 1024,
+        width = 2048
+      },
+      position = {
+        -680,
+        601
+      },
+      radius = 600,
+      rotation_seconds = -660,
+      specular_intensity = 1,
+      surface_vertical_offset = 0.1
+    },
+    shadow_opacity = 0.5,
+    space_dust_background = {
+      animation_speed = 1,
+      asteroid_normal_texture = {
+        filename = "__space-age__/graphics/space/asteroidNormalTexture.png",
+        size = 1024
+      },
+      asteroid_texture = {
+        filename = "__space-age__/graphics/space/asteroidTexture.png",
+        size = 1024
+      },
+      noise_texture = {
+        filename = "__space-age__/graphics/space/dustTrailSpeckDust.png",
+        premul_alpha = false,
+        size = 4096
+      }
+    },
+    space_dust_foreground = {
+      animation_speed = 1,
+      asteroid_normal_texture = {
+        filename = "__space-age__/graphics/space/asteroidNormalTexture.png",
+        size = 1024
+      },
+      asteroid_texture = {
+        filename = "__space-age__/graphics/space/asteroidTexture.png",
+        size = 1024
+      },
+      noise_texture = {
+        filename = "__space-age__/graphics/space/dustTrailSpeckDust.png",
+        premul_alpha = false,
+        size = 4096
+      }
     }
   },
   pollutant_type = "pollution",
@@ -93,13 +203,11 @@ return {
         draw_as_glow = true,
         filename = "__space-age__/graphics/procession/clouds/nauvis-cloudscape.png",
         flags = {
-          "group=effect-texture",
-          "linear-minification",
-          "linear-magnification"
+          "procession-cover"
         },
         height = 960,
         line_length = 1,
-        priority = "no-atlas",
+        priority = "medium",
         scale = 0.5,
         shift = {
           0.703125,
@@ -116,13 +224,11 @@ return {
         draw_as_glow = true,
         filename = "__space-age__/graphics/procession/clouds/mask-cloudscape.png",
         flags = {
-          "group=effect-texture",
-          "linear-minification",
-          "linear-magnification"
+          "procession-cover"
         },
         height = 960,
         line_length = 1,
-        priority = "no-atlas",
+        priority = "medium",
         scale = 0.5,
         shift = {
           -1.21875,
@@ -139,13 +245,11 @@ return {
         draw_as_glow = true,
         filename = "__space-age__/graphics/procession/clouds/nauvis-cloudscape-layered-0.png",
         flags = {
-          "group=effect-texture",
-          "linear-minification",
-          "linear-magnification"
+          "procession-cover"
         },
         height = 1500,
         line_length = 1,
-        priority = "no-atlas",
+        priority = "medium",
         scale = 0.5,
         shift = {
           0.015625,
@@ -160,12 +264,10 @@ return {
       sprite = {
         filename = "__space-age__/graphics/procession/clouds/mask-cloudscape-layered-0.png",
         flags = {
-          "group=effect-texture",
-          "linear-minification",
-          "linear-magnification"
+          "procession-cover"
         },
         height = 1500,
-        priority = "no-atlas",
+        priority = "medium",
         width = 2000
       },
       type = "sprite"
@@ -175,12 +277,10 @@ return {
       sprite = {
         filename = "__space-age__/graphics/procession/clouds/nauvis-cloudscape-layered-1.png",
         flags = {
-          "group=effect-texture",
-          "linear-minification",
-          "linear-magnification"
+          "procession-cover"
         },
         height = 1200,
-        priority = "no-atlas",
+        priority = "medium",
         width = 1600
       },
       type = "sprite"
@@ -190,12 +290,10 @@ return {
       sprite = {
         filename = "__space-age__/graphics/procession/clouds/mask-cloudscape-layered-1.png",
         flags = {
-          "group=effect-texture",
-          "linear-minification",
-          "linear-magnification"
+          "procession-cover"
         },
         height = 1200,
-        priority = "no-atlas",
+        priority = "medium",
         width = 1600
       },
       type = "sprite"
@@ -205,12 +303,10 @@ return {
       sprite = {
         filename = "__space-age__/graphics/procession/clouds/nauvis-cloudscape-layered-2.png",
         flags = {
-          "group=effect-texture",
-          "linear-minification",
-          "linear-magnification"
+          "procession-cover"
         },
         height = 1050,
-        priority = "no-atlas",
+        priority = "medium",
         width = 1400
       },
       type = "sprite"
@@ -220,12 +316,10 @@ return {
       sprite = {
         filename = "__space-age__/graphics/procession/clouds/mask-cloudscape-layered-2.png",
         flags = {
-          "group=effect-texture",
-          "linear-minification",
-          "linear-magnification"
+          "procession-cover"
         },
         height = 1050,
-        priority = "no-atlas",
+        priority = "medium",
         width = 1400
       },
       type = "sprite"
@@ -235,12 +329,10 @@ return {
       sprite = {
         filename = "__space-age__/graphics/procession/clouds/nauvis-cloudscape-layered-3.png",
         flags = {
-          "group=effect-texture",
-          "linear-minification",
-          "linear-magnification"
+          "procession-cover"
         },
         height = 900,
-        priority = "no-atlas",
+        priority = "medium",
         width = 1200
       },
       type = "sprite"
@@ -250,12 +342,10 @@ return {
       sprite = {
         filename = "__space-age__/graphics/procession/clouds/mask-cloudscape-layered-3.png",
         flags = {
-          "group=effect-texture",
-          "linear-minification",
-          "linear-magnification"
+          "procession-cover"
         },
         height = 900,
-        priority = "no-atlas",
+        priority = "medium",
         width = 1200
       },
       type = "sprite"
@@ -265,12 +355,10 @@ return {
       sprite = {
         filename = "__space-age__/graphics/procession/space-rear-star.png",
         flags = {
-          "group=effect-texture",
-          "linear-minification",
-          "linear-magnification"
+          "procession-cover"
         },
         height = 1024,
-        priority = "no-atlas",
+        priority = "medium",
         width = 1024
       },
       type = "sprite"
@@ -280,12 +368,10 @@ return {
       sprite = {
         filename = "__space-age__/graphics/procession/clouds/nauvis-sky-tint.png",
         flags = {
-          "group=effect-texture",
-          "linear-minification",
-          "linear-magnification"
+          "procession-cover"
         },
         height = 16,
-        priority = "no-atlas",
+        priority = "medium",
         width = 16
       },
       type = "sprite"

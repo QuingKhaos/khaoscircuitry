@@ -257,5 +257,14 @@ return {
       0.5
     }
   },
-  type = "lamp"
+  type = "lamp",
+  water_reflection = {
+    pictures = {
+      filename = "__base__/graphics/entity/wooden-chest/chest-reflection.png",
+      height = 20,
+      scale = 5,
+      width = 13
+    },
+    rotate = false
+  }
 }

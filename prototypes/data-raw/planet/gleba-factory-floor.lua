@@ -229,10 +229,116 @@ return {
   },
   platform_procession_set = {
     arrival = {
-      "planet-to-platform-b"
+      "planet-to-platform-b",
+      "platform-to-platform-b"
     },
     departure = {
-      "platform-to-planet-a"
+      "platform-to-planet-a",
+      "platform-to-platform-a"
+    }
+  },
+  platform_surface_render_parameters = {
+    platform_backdrop = {
+      atmosphere_color = {
+        0.053000000000000007,
+        0.06,
+        0.037150000000000007,
+        0.1
+      },
+      cloud_flow_intensity = 0.8,
+      cloud_panning_rate = -0.01,
+      cloud_vertical_offset = 0.05,
+      cloudiness = 0.6,
+      emission_scales_with_shadow = false,
+      global_cloud = {
+        filename = "__space-age__/graphics/space/gleba-cloud.png",
+        height = 1024,
+        width = 2048
+      },
+      global_cloud_flow = {
+        filename = "__space-age__/graphics/space/gleba-cloud-flow.png",
+        height = 1024,
+        width = 2048
+      },
+      global_cloud_normal = {
+        filename = "__space-age__/graphics/space/gleba-cloud-normal.png",
+        height = 1024,
+        width = 2048
+      },
+      light_direction = {
+        -0.42000000000000002,
+        0.23000000000000003,
+        0.67000000000000002
+      },
+      light_intensity_contrast = 0.3,
+      light_radius = 13.9,
+      parallax_strength = {
+        0.95,
+        0.95
+      },
+      planet_axis = {
+        -37,
+        18
+      },
+      planet_axis_deviation_amplitude = {
+        10,
+        10
+      },
+      planet_axis_deviation_seconds = {
+        1484.1666666666667,
+        1256.1666666666667
+      },
+      planet_reflectivity = {
+        filename = "__space-age__/graphics/space/gleba-reflectivity.png",
+        height = 1024,
+        width = 2048
+      },
+      planet_surface = {
+        filename = "__space-age__/graphics/space/gleba.png",
+        height = 1024,
+        width = 2048
+      },
+      position = {
+        -680,
+        601
+      },
+      radius = 680,
+      rotation_seconds = -1100,
+      specular_intensity = 1,
+      surface_vertical_offset = 0.1
+    },
+    shadow_opacity = 0.5,
+    space_dust_background = {
+      animation_speed = 1,
+      asteroid_normal_texture = {
+        filename = "__space-age__/graphics/space/asteroidNormalTexture.png",
+        size = 1024
+      },
+      asteroid_texture = {
+        filename = "__space-age__/graphics/space/asteroidTexture.png",
+        size = 1024
+      },
+      noise_texture = {
+        filename = "__space-age__/graphics/space/dustTrailSpeckDust.png",
+        premul_alpha = false,
+        size = 4096
+      }
+    },
+    space_dust_foreground = {
+      animation_speed = 1,
+      asteroid_normal_texture = {
+        filename = "__space-age__/graphics/space/asteroidNormalTexture.png",
+        size = 1024
+      },
+      asteroid_texture = {
+        filename = "__space-age__/graphics/space/asteroidTexture.png",
+        size = 1024
+      },
+      noise_texture = {
+        filename = "__space-age__/graphics/space/dustTrailSpeckDust.png",
+        premul_alpha = false,
+        size = 4096
+      }
     }
   },
   pollutant_type = "spores",
@@ -240,14 +346,12 @@ return {
     {
       index = 400,
       sprite = {
-        filename = "__space-age__/graphics/procession/clouds/fulgora-cloudscape.png",
+        filename = "__space-age__/graphics/procession/clouds/gleba-cloudscape.png",
         flags = {
-          "group=effect-texture",
-          "linear-minification",
-          "linear-magnification"
+          "procession-cover"
         },
         height = 960,
-        priority = "no-atlas",
+        priority = "medium",
         width = 960
       },
       type = "sprite"
@@ -257,12 +361,10 @@ return {
       sprite = {
         filename = "__space-age__/graphics/procession/clouds/mask-cloudscape.png",
         flags = {
-          "group=effect-texture",
-          "linear-minification",
-          "linear-magnification"
+          "procession-cover"
         },
         height = 960,
-        priority = "no-atlas",
+        priority = "medium",
         width = 960
       },
       type = "sprite"
@@ -270,14 +372,12 @@ return {
     {
       index = 402,
       sprite = {
-        filename = "__space-age__/graphics/procession/clouds/fulgora-cloudscape-layered-0.png",
+        filename = "__space-age__/graphics/procession/clouds/gleba-cloudscape-layered-0.png",
         flags = {
-          "group=effect-texture",
-          "linear-minification",
-          "linear-magnification"
+          "procession-cover"
         },
         height = 1500,
-        priority = "no-atlas",
+        priority = "medium",
         width = 2000
       },
       type = "sprite"
@@ -287,12 +387,10 @@ return {
       sprite = {
         filename = "__space-age__/graphics/procession/clouds/mask-cloudscape-layered-0.png",
         flags = {
-          "group=effect-texture",
-          "linear-minification",
-          "linear-magnification"
+          "procession-cover"
         },
         height = 1500,
-        priority = "no-atlas",
+        priority = "medium",
         width = 2000
       },
       type = "sprite"
@@ -300,14 +398,12 @@ return {
     {
       index = 404,
       sprite = {
-        filename = "__space-age__/graphics/procession/clouds/fulgora-cloudscape-layered-1.png",
+        filename = "__space-age__/graphics/procession/clouds/gleba-cloudscape-layered-1.png",
         flags = {
-          "group=effect-texture",
-          "linear-minification",
-          "linear-magnification"
+          "procession-cover"
         },
         height = 1200,
-        priority = "no-atlas",
+        priority = "medium",
         width = 1600
       },
       type = "sprite"
@@ -317,12 +413,10 @@ return {
       sprite = {
         filename = "__space-age__/graphics/procession/clouds/mask-cloudscape-layered-1.png",
         flags = {
-          "group=effect-texture",
-          "linear-minification",
-          "linear-magnification"
+          "procession-cover"
         },
         height = 1200,
-        priority = "no-atlas",
+        priority = "medium",
         width = 1600
       },
       type = "sprite"
@@ -330,14 +424,12 @@ return {
     {
       index = 406,
       sprite = {
-        filename = "__space-age__/graphics/procession/clouds/fulgora-cloudscape-layered-2.png",
+        filename = "__space-age__/graphics/procession/clouds/gleba-cloudscape-layered-2.png",
         flags = {
-          "group=effect-texture",
-          "linear-minification",
-          "linear-magnification"
+          "procession-cover"
         },
         height = 1050,
-        priority = "no-atlas",
+        priority = "medium",
         width = 1400
       },
       type = "sprite"
@@ -347,12 +439,10 @@ return {
       sprite = {
         filename = "__space-age__/graphics/procession/clouds/mask-cloudscape-layered-2.png",
         flags = {
-          "group=effect-texture",
-          "linear-minification",
-          "linear-magnification"
+          "procession-cover"
         },
         height = 1050,
-        priority = "no-atlas",
+        priority = "medium",
         width = 1400
       },
       type = "sprite"
@@ -360,14 +450,12 @@ return {
     {
       index = 408,
       sprite = {
-        filename = "__space-age__/graphics/procession/clouds/fulgora-cloudscape-layered-3.png",
+        filename = "__space-age__/graphics/procession/clouds/gleba-cloudscape-layered-3.png",
         flags = {
-          "group=effect-texture",
-          "linear-minification",
-          "linear-magnification"
+          "procession-cover"
         },
         height = 900,
-        priority = "no-atlas",
+        priority = "medium",
         width = 1200
       },
       type = "sprite"
@@ -377,12 +465,10 @@ return {
       sprite = {
         filename = "__space-age__/graphics/procession/clouds/mask-cloudscape-layered-3.png",
         flags = {
-          "group=effect-texture",
-          "linear-minification",
-          "linear-magnification"
+          "procession-cover"
         },
         height = 900,
-        priority = "no-atlas",
+        priority = "medium",
         width = 1200
       },
       type = "sprite"
@@ -392,12 +478,10 @@ return {
       sprite = {
         filename = "__space-age__/graphics/procession/space-rear-star.png",
         flags = {
-          "group=effect-texture",
-          "linear-minification",
-          "linear-magnification"
+          "procession-cover"
         },
         height = 1024,
-        priority = "no-atlas",
+        priority = "medium",
         width = 1024
       },
       type = "sprite"
@@ -407,12 +491,10 @@ return {
       sprite = {
         filename = "__space-age__/graphics/procession/clouds/gleba-sky-tint.png",
         flags = {
-          "group=effect-texture",
-          "linear-minification",
-          "linear-magnification"
+          "procession-cover"
         },
         height = 16,
-        priority = "no-atlas",
+        priority = "medium",
         width = 16
       },
       type = "sprite"
@@ -666,6 +748,7 @@ return {
         0.15
       },
       noise_texture = {
+        color_channels = 3,
         filename = "__space-age__/graphics/terrain/vulcanus/tint-noise.png",
         size = 4096
       },

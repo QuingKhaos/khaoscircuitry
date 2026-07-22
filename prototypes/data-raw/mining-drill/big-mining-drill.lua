@@ -5580,9 +5580,26 @@ return {
     }
   },
   type = "mining-drill",
+  use_mirroring = true,
   vector_to_place_result = {
     0,
     -2.85
+  },
+  water_reflection = {
+    orientation_to_variation = true,
+    pictures = {
+      filename = "__space-age__/graphics/entity/big-mining-drill/big-mining-drill-reflection.png",
+      height = 48,
+      priority = "extra-high",
+      scale = 5,
+      shift = {
+        0,
+        3
+      },
+      variation_count = 4,
+      width = 48
+    },
+    rotate = false
   },
   wet_mining_graphics_set = {
     animation = {

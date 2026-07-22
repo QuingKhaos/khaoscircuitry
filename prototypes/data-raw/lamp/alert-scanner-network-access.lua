@@ -113,7 +113,7 @@ return {
     color = {
       1,
       1,
-      0.75
+      1
     },
     intensity = 0,
     size = 40
@@ -122,7 +122,7 @@ return {
     color = {
       1,
       1,
-      0.75
+      1
     },
     intensity = 0,
     size = 6
@@ -240,5 +240,14 @@ return {
       type = "virtual"
     }
   },
-  type = "lamp"
+  type = "lamp",
+  water_reflection = {
+    pictures = {
+      filename = "__base__/graphics/entity/wooden-chest/chest-reflection.png",
+      height = 20,
+      scale = 5,
+      width = 13
+    },
+    rotate = false
+  }
 }

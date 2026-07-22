@@ -19,6 +19,10 @@ return {
     {
       recipe = "steel-display",
       type = "unlock-recipe"
+    },
+    {
+      recipe = "steel-display-xl",
+      type = "unlock-recipe"
     }
   },
   icon = "__base__/graphics/technology/steel-processing.png",

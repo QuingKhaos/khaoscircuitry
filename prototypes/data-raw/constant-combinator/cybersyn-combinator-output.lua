@@ -169,5 +169,14 @@ return {
     height = 1,
     width = 1
   },
-  type = "constant-combinator"
+  type = "constant-combinator",
+  water_reflection = {
+    pictures = {
+      filename = "__base__/graphics/entity/wooden-chest/chest-reflection.png",
+      height = 20,
+      scale = 5,
+      width = 13
+    },
+    rotate = false
+  }
 }

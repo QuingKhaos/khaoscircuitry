@@ -9,6 +9,10 @@ return {
       space_location = "gleba-factory-floor",
       type = "unlock-space-location",
       use_icon_overlay_constant = false
+    },
+    {
+      modifier = true,
+      type = "unlock-travel-to-space-platforms"
     }
   },
   essential = true,

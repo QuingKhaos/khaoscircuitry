@@ -3322,25 +3322,7 @@ return {
       },
       maximal_height = 400,
       scroll_pane_style = {
-        extra_padding_when_activated = 0,
-        graphical_set = {
-          shadow = {
-            corner_size = 8,
-            draw_type = "outer",
-            position = {
-              200,
-              128
-            },
-            scale = 0.5,
-            tint = {
-              0,
-              0,
-              0,
-              0.35
-            }
-          }
-        },
-        padding = 0,
+        parent = "dropdown_list_box_scroll_pane",
         type = "scroll_pane_style"
       },
       type = "list_box_style"
@@ -3544,65 +3526,6 @@ return {
     horizontal_spacing = 2,
     type = "table_style",
     vertical_spacing = 2
-  },
-  compaktcircuit_count_label_bottom = {
-    height = 40,
-    horizontal_align = "right",
-    parent = "count_label",
-    right_padding = 4,
-    type = "label_style",
-    vertical_align = "bottom",
-    width = 44
-  },
-  compaktcircuit_slot_button_blue = {
-    parent = "flib_slot_button_blue",
-    size = 40,
-    type = "button_style"
-  },
-  compaktcircuit_slot_button_cyan = {
-    parent = "flib_slot_button_cyan",
-    size = 40,
-    type = "button_style"
-  },
-  compaktcircuit_slot_button_default = {
-    parent = "flib_slot_button_default",
-    size = 40,
-    type = "button_style"
-  },
-  compaktcircuit_slot_button_green = {
-    parent = "flib_slot_button_green",
-    size = 40,
-    type = "button_style"
-  },
-  compaktcircuit_slot_button_grey = {
-    parent = "flib_slot_button_grey",
-    size = 40,
-    type = "button_style"
-  },
-  compaktcircuit_slot_button_orange = {
-    parent = "flib_slot_button_orange",
-    size = 40,
-    type = "button_style"
-  },
-  compaktcircuit_slot_button_pink = {
-    parent = "flib_slot_button_pink",
-    size = 40,
-    type = "button_style"
-  },
-  compaktcircuit_slot_button_purple = {
-    parent = "flib_slot_button_purple",
-    size = 40,
-    type = "button_style"
-  },
-  compaktcircuit_slot_button_red = {
-    parent = "flib_slot_button_red",
-    size = 40,
-    type = "button_style"
-  },
-  compaktcircuit_slot_button_yellow = {
-    parent = "flib_slot_button_yellow",
-    size = 40,
-    type = "button_style"
   },
   compilatron_gui_message = {
     arrow_graphical_set = {
@@ -5344,42 +5267,6 @@ return {
     parent = "button",
     type = "button_style"
   },
-  cybersyn_content_reader_label_signal_count_inventory = {
-    horizontal_align = "right",
-    parent = "count_label",
-    parent_hovered_font_color = {
-      1,
-      1,
-      1
-    },
-    right_padding = 2,
-    size = 36,
-    type = "label_style",
-    vertical_align = "bottom",
-    width = 36
-  },
-  cybersyn_content_reader_network_selector = {
-    height = 28,
-    type = "textbox_style",
-    width = 30
-  },
-  cybersyn_content_reader_network_selector_frame = {
-    bottom_margin = 12,
-    horizontal_flow_style = {
-      horizontal_spacing = 12,
-      type = "horizontal_flow_style",
-      vertical_align = "center"
-    },
-    parent = "subheader_frame",
-    top_margin = 4,
-    type = "frame_style",
-    vertical_align = "center"
-  },
-  cybersyn_content_reader_signal_display = {
-    height = 300,
-    type = "frame_style",
-    width = 280
-  },
   dark_button = {
     default_graphical_set = {
       base = {
@@ -5581,6 +5468,34 @@ return {
       }
     },
     parent = "decider_combinator_condition_frame",
+    type = "frame_style"
+  },
+  decider_combinator_fulfilled_frame = {
+    graphical_set = {
+      base = {
+        corner_size = 8,
+        position = {
+          412,
+          86
+        }
+      },
+      shadow = {
+        corner_size = 8,
+        draw_type = "outer",
+        position = {
+          200,
+          128
+        },
+        scale = 0.5,
+        tint = {
+          0,
+          0,
+          0,
+          0.35
+        }
+      }
+    },
+    parent = "decider_combinator_frame",
     type = "frame_style"
   },
   decider_combinator_fulfilled_signal_select_button = {
@@ -7281,26 +7196,7 @@ return {
     list_box_style = {
       maximal_height = 400,
       scroll_pane_style = {
-        always_draw_borders = true,
-        extra_padding_when_activated = 0,
-        graphical_set = {
-          shadow = {
-            corner_size = 8,
-            draw_type = "outer",
-            position = {
-              200,
-              128
-            },
-            scale = 0.5,
-            tint = {
-              0,
-              0,
-              0,
-              0.35
-            }
-          }
-        },
-        padding = 0,
+        parent = "dropdown_list_box_scroll_pane",
         type = "scroll_pane_style"
       },
       type = "list_box_style"
@@ -7321,6 +7217,33 @@ return {
     left_click_sound = "__core__/sound/gui-click.ogg",
     padding = 0,
     type = "button_style"
+  },
+  dropdown_list_box_scroll_pane = {
+    always_draw_borders = true,
+    extra_padding_when_activated = 0,
+    graphical_set = {
+      shadow = {
+        corner_size = 8,
+        draw_type = "outer",
+        position = {
+          200,
+          128
+        },
+        scale = 0.5,
+        tint = {
+          0,
+          0,
+          0,
+          0.35
+        }
+      }
+    },
+    padding = 0,
+    type = "scroll_pane_style",
+    vertical_flow_style = {
+      parent = "packed_vertical_flow",
+      type = "vertical_flow_style"
+    }
   },
   edit_blueprint_description_textbox = {
     height = 120,
@@ -14768,7 +14691,7 @@ return {
   flib_technology_slot_available = {
     clicked_graphical_set = {
       base = {
-        filename = "__filter-combinator-improved__/framework/graphics/technology-slots.png",
+        filename = "__ltn-train-info__/framework/graphics/technology-slots.png",
         position = {
           144,
           0
@@ -14796,7 +14719,7 @@ return {
     },
     default_graphical_set = {
       base = {
-        filename = "__filter-combinator-improved__/framework/graphics/technology-slots.png",
+        filename = "__ltn-train-info__/framework/graphics/technology-slots.png",
         position = {
           0,
           0
@@ -14824,7 +14747,7 @@ return {
     },
     hovered_graphical_set = {
       base = {
-        filename = "__filter-combinator-improved__/framework/graphics/technology-slots.png",
+        filename = "__ltn-train-info__/framework/graphics/technology-slots.png",
         position = {
           144,
           0
@@ -14857,7 +14780,7 @@ return {
     padding = 0,
     selected_clicked_graphical_set = {
       base = {
-        filename = "__filter-combinator-improved__/framework/graphics/technology-slots.png",
+        filename = "__ltn-train-info__/framework/graphics/technology-slots.png",
         position = {
           432,
           0
@@ -14885,7 +14808,7 @@ return {
     },
     selected_graphical_set = {
       base = {
-        filename = "__filter-combinator-improved__/framework/graphics/technology-slots.png",
+        filename = "__ltn-train-info__/framework/graphics/technology-slots.png",
         position = {
           288,
           0
@@ -14913,7 +14836,7 @@ return {
     },
     selected_hovered_graphical_set = {
       base = {
-        filename = "__filter-combinator-improved__/framework/graphics/technology-slots.png",
+        filename = "__ltn-train-info__/framework/graphics/technology-slots.png",
         position = {
           432,
           0
@@ -14948,7 +14871,7 @@ return {
   flib_technology_slot_available_multilevel = {
     clicked_graphical_set = {
       base = {
-        filename = "__filter-combinator-improved__/framework/graphics/technology-slots.png",
+        filename = "__ltn-train-info__/framework/graphics/technology-slots.png",
         position = {
           720,
           0
@@ -14976,7 +14899,7 @@ return {
     },
     default_graphical_set = {
       base = {
-        filename = "__filter-combinator-improved__/framework/graphics/technology-slots.png",
+        filename = "__ltn-train-info__/framework/graphics/technology-slots.png",
         position = {
           576,
           0
@@ -15004,7 +14927,7 @@ return {
     },
     hovered_graphical_set = {
       base = {
-        filename = "__filter-combinator-improved__/framework/graphics/technology-slots.png",
+        filename = "__ltn-train-info__/framework/graphics/technology-slots.png",
         position = {
           720,
           0
@@ -15037,7 +14960,7 @@ return {
     padding = 0,
     selected_clicked_graphical_set = {
       base = {
-        filename = "__filter-combinator-improved__/framework/graphics/technology-slots.png",
+        filename = "__ltn-train-info__/framework/graphics/technology-slots.png",
         position = {
           1008,
           0
@@ -15065,7 +14988,7 @@ return {
     },
     selected_graphical_set = {
       base = {
-        filename = "__filter-combinator-improved__/framework/graphics/technology-slots.png",
+        filename = "__ltn-train-info__/framework/graphics/technology-slots.png",
         position = {
           864,
           0
@@ -15093,7 +15016,7 @@ return {
     },
     selected_hovered_graphical_set = {
       base = {
-        filename = "__filter-combinator-improved__/framework/graphics/technology-slots.png",
+        filename = "__ltn-train-info__/framework/graphics/technology-slots.png",
         position = {
           1008,
           0
@@ -15128,7 +15051,7 @@ return {
   flib_technology_slot_conditionally_available = {
     clicked_graphical_set = {
       base = {
-        filename = "__filter-combinator-improved__/framework/graphics/technology-slots.png",
+        filename = "__ltn-train-info__/framework/graphics/technology-slots.png",
         position = {
           144,
           200
@@ -15156,7 +15079,7 @@ return {
     },
     default_graphical_set = {
       base = {
-        filename = "__filter-combinator-improved__/framework/graphics/technology-slots.png",
+        filename = "__ltn-train-info__/framework/graphics/technology-slots.png",
         position = {
           0,
           200
@@ -15184,7 +15107,7 @@ return {
     },
     hovered_graphical_set = {
       base = {
-        filename = "__filter-combinator-improved__/framework/graphics/technology-slots.png",
+        filename = "__ltn-train-info__/framework/graphics/technology-slots.png",
         position = {
           144,
           200
@@ -15217,7 +15140,7 @@ return {
     padding = 0,
     selected_clicked_graphical_set = {
       base = {
-        filename = "__filter-combinator-improved__/framework/graphics/technology-slots.png",
+        filename = "__ltn-train-info__/framework/graphics/technology-slots.png",
         position = {
           432,
           200
@@ -15245,7 +15168,7 @@ return {
     },
     selected_graphical_set = {
       base = {
-        filename = "__filter-combinator-improved__/framework/graphics/technology-slots.png",
+        filename = "__ltn-train-info__/framework/graphics/technology-slots.png",
         position = {
           288,
           200
@@ -15273,7 +15196,7 @@ return {
     },
     selected_hovered_graphical_set = {
       base = {
-        filename = "__filter-combinator-improved__/framework/graphics/technology-slots.png",
+        filename = "__ltn-train-info__/framework/graphics/technology-slots.png",
         position = {
           432,
           200
@@ -15308,7 +15231,7 @@ return {
   flib_technology_slot_conditionally_available_multilevel = {
     clicked_graphical_set = {
       base = {
-        filename = "__filter-combinator-improved__/framework/graphics/technology-slots.png",
+        filename = "__ltn-train-info__/framework/graphics/technology-slots.png",
         position = {
           720,
           200
@@ -15336,7 +15259,7 @@ return {
     },
     default_graphical_set = {
       base = {
-        filename = "__filter-combinator-improved__/framework/graphics/technology-slots.png",
+        filename = "__ltn-train-info__/framework/graphics/technology-slots.png",
         position = {
           576,
           200
@@ -15364,7 +15287,7 @@ return {
     },
     hovered_graphical_set = {
       base = {
-        filename = "__filter-combinator-improved__/framework/graphics/technology-slots.png",
+        filename = "__ltn-train-info__/framework/graphics/technology-slots.png",
         position = {
           720,
           200
@@ -15397,7 +15320,7 @@ return {
     padding = 0,
     selected_clicked_graphical_set = {
       base = {
-        filename = "__filter-combinator-improved__/framework/graphics/technology-slots.png",
+        filename = "__ltn-train-info__/framework/graphics/technology-slots.png",
         position = {
           1008,
           200
@@ -15425,7 +15348,7 @@ return {
     },
     selected_graphical_set = {
       base = {
-        filename = "__filter-combinator-improved__/framework/graphics/technology-slots.png",
+        filename = "__ltn-train-info__/framework/graphics/technology-slots.png",
         position = {
           864,
           200
@@ -15453,7 +15376,7 @@ return {
     },
     selected_hovered_graphical_set = {
       base = {
-        filename = "__filter-combinator-improved__/framework/graphics/technology-slots.png",
+        filename = "__ltn-train-info__/framework/graphics/technology-slots.png",
         position = {
           1008,
           200
@@ -15488,7 +15411,7 @@ return {
   flib_technology_slot_disabled = {
     clicked_graphical_set = {
       base = {
-        filename = "__filter-combinator-improved__/framework/graphics/technology-slots.png",
+        filename = "__ltn-train-info__/framework/graphics/technology-slots.png",
         position = {
           144,
           800
@@ -15516,7 +15439,7 @@ return {
     },
     default_graphical_set = {
       base = {
-        filename = "__filter-combinator-improved__/framework/graphics/technology-slots.png",
+        filename = "__ltn-train-info__/framework/graphics/technology-slots.png",
         position = {
           0,
           800
@@ -15544,7 +15467,7 @@ return {
     },
     hovered_graphical_set = {
       base = {
-        filename = "__filter-combinator-improved__/framework/graphics/technology-slots.png",
+        filename = "__ltn-train-info__/framework/graphics/technology-slots.png",
         position = {
           144,
           800
@@ -15577,7 +15500,7 @@ return {
     padding = 0,
     selected_clicked_graphical_set = {
       base = {
-        filename = "__filter-combinator-improved__/framework/graphics/technology-slots.png",
+        filename = "__ltn-train-info__/framework/graphics/technology-slots.png",
         position = {
           432,
           800
@@ -15605,7 +15528,7 @@ return {
     },
     selected_graphical_set = {
       base = {
-        filename = "__filter-combinator-improved__/framework/graphics/technology-slots.png",
+        filename = "__ltn-train-info__/framework/graphics/technology-slots.png",
         position = {
           288,
           800
@@ -15633,7 +15556,7 @@ return {
     },
     selected_hovered_graphical_set = {
       base = {
-        filename = "__filter-combinator-improved__/framework/graphics/technology-slots.png",
+        filename = "__ltn-train-info__/framework/graphics/technology-slots.png",
         position = {
           432,
           800
@@ -15668,7 +15591,7 @@ return {
   flib_technology_slot_disabled_multilevel = {
     clicked_graphical_set = {
       base = {
-        filename = "__filter-combinator-improved__/framework/graphics/technology-slots.png",
+        filename = "__ltn-train-info__/framework/graphics/technology-slots.png",
         position = {
           720,
           800
@@ -15696,7 +15619,7 @@ return {
     },
     default_graphical_set = {
       base = {
-        filename = "__filter-combinator-improved__/framework/graphics/technology-slots.png",
+        filename = "__ltn-train-info__/framework/graphics/technology-slots.png",
         position = {
           576,
           800
@@ -15724,7 +15647,7 @@ return {
     },
     hovered_graphical_set = {
       base = {
-        filename = "__filter-combinator-improved__/framework/graphics/technology-slots.png",
+        filename = "__ltn-train-info__/framework/graphics/technology-slots.png",
         position = {
           720,
           800
@@ -15757,7 +15680,7 @@ return {
     padding = 0,
     selected_clicked_graphical_set = {
       base = {
-        filename = "__filter-combinator-improved__/framework/graphics/technology-slots.png",
+        filename = "__ltn-train-info__/framework/graphics/technology-slots.png",
         position = {
           1008,
           800
@@ -15785,7 +15708,7 @@ return {
     },
     selected_graphical_set = {
       base = {
-        filename = "__filter-combinator-improved__/framework/graphics/technology-slots.png",
+        filename = "__ltn-train-info__/framework/graphics/technology-slots.png",
         position = {
           864,
           800
@@ -15813,7 +15736,7 @@ return {
     },
     selected_hovered_graphical_set = {
       base = {
-        filename = "__filter-combinator-improved__/framework/graphics/technology-slots.png",
+        filename = "__ltn-train-info__/framework/graphics/technology-slots.png",
         position = {
           1008,
           800
@@ -15983,7 +15906,7 @@ return {
   flib_technology_slot_not_available = {
     clicked_graphical_set = {
       base = {
-        filename = "__filter-combinator-improved__/framework/graphics/technology-slots.png",
+        filename = "__ltn-train-info__/framework/graphics/technology-slots.png",
         position = {
           144,
           400
@@ -16011,7 +15934,7 @@ return {
     },
     default_graphical_set = {
       base = {
-        filename = "__filter-combinator-improved__/framework/graphics/technology-slots.png",
+        filename = "__ltn-train-info__/framework/graphics/technology-slots.png",
         position = {
           0,
           400
@@ -16039,7 +15962,7 @@ return {
     },
     hovered_graphical_set = {
       base = {
-        filename = "__filter-combinator-improved__/framework/graphics/technology-slots.png",
+        filename = "__ltn-train-info__/framework/graphics/technology-slots.png",
         position = {
           144,
           400
@@ -16072,7 +15995,7 @@ return {
     padding = 0,
     selected_clicked_graphical_set = {
       base = {
-        filename = "__filter-combinator-improved__/framework/graphics/technology-slots.png",
+        filename = "__ltn-train-info__/framework/graphics/technology-slots.png",
         position = {
           432,
           400
@@ -16100,7 +16023,7 @@ return {
     },
     selected_graphical_set = {
       base = {
-        filename = "__filter-combinator-improved__/framework/graphics/technology-slots.png",
+        filename = "__ltn-train-info__/framework/graphics/technology-slots.png",
         position = {
           288,
           400
@@ -16128,7 +16051,7 @@ return {
     },
     selected_hovered_graphical_set = {
       base = {
-        filename = "__filter-combinator-improved__/framework/graphics/technology-slots.png",
+        filename = "__ltn-train-info__/framework/graphics/technology-slots.png",
         position = {
           432,
           400
@@ -16163,7 +16086,7 @@ return {
   flib_technology_slot_not_available_multilevel = {
     clicked_graphical_set = {
       base = {
-        filename = "__filter-combinator-improved__/framework/graphics/technology-slots.png",
+        filename = "__ltn-train-info__/framework/graphics/technology-slots.png",
         position = {
           720,
           400
@@ -16191,7 +16114,7 @@ return {
     },
     default_graphical_set = {
       base = {
-        filename = "__filter-combinator-improved__/framework/graphics/technology-slots.png",
+        filename = "__ltn-train-info__/framework/graphics/technology-slots.png",
         position = {
           576,
           400
@@ -16219,7 +16142,7 @@ return {
     },
     hovered_graphical_set = {
       base = {
-        filename = "__filter-combinator-improved__/framework/graphics/technology-slots.png",
+        filename = "__ltn-train-info__/framework/graphics/technology-slots.png",
         position = {
           720,
           400
@@ -16252,7 +16175,7 @@ return {
     padding = 0,
     selected_clicked_graphical_set = {
       base = {
-        filename = "__filter-combinator-improved__/framework/graphics/technology-slots.png",
+        filename = "__ltn-train-info__/framework/graphics/technology-slots.png",
         position = {
           1008,
           400
@@ -16280,7 +16203,7 @@ return {
     },
     selected_graphical_set = {
       base = {
-        filename = "__filter-combinator-improved__/framework/graphics/technology-slots.png",
+        filename = "__ltn-train-info__/framework/graphics/technology-slots.png",
         position = {
           864,
           400
@@ -16308,7 +16231,7 @@ return {
     },
     selected_hovered_graphical_set = {
       base = {
-        filename = "__filter-combinator-improved__/framework/graphics/technology-slots.png",
+        filename = "__ltn-train-info__/framework/graphics/technology-slots.png",
         position = {
           1008,
           400
@@ -16399,7 +16322,7 @@ return {
   flib_technology_slot_researched = {
     clicked_graphical_set = {
       base = {
-        filename = "__filter-combinator-improved__/framework/graphics/technology-slots.png",
+        filename = "__ltn-train-info__/framework/graphics/technology-slots.png",
         position = {
           144,
           600
@@ -16427,7 +16350,7 @@ return {
     },
     default_graphical_set = {
       base = {
-        filename = "__filter-combinator-improved__/framework/graphics/technology-slots.png",
+        filename = "__ltn-train-info__/framework/graphics/technology-slots.png",
         position = {
           0,
           600
@@ -16455,7 +16378,7 @@ return {
     },
     hovered_graphical_set = {
       base = {
-        filename = "__filter-combinator-improved__/framework/graphics/technology-slots.png",
+        filename = "__ltn-train-info__/framework/graphics/technology-slots.png",
         position = {
           144,
           600
@@ -16488,7 +16411,7 @@ return {
     padding = 0,
     selected_clicked_graphical_set = {
       base = {
-        filename = "__filter-combinator-improved__/framework/graphics/technology-slots.png",
+        filename = "__ltn-train-info__/framework/graphics/technology-slots.png",
         position = {
           432,
           600
@@ -16516,7 +16439,7 @@ return {
     },
     selected_graphical_set = {
       base = {
-        filename = "__filter-combinator-improved__/framework/graphics/technology-slots.png",
+        filename = "__ltn-train-info__/framework/graphics/technology-slots.png",
         position = {
           288,
           600
@@ -16544,7 +16467,7 @@ return {
     },
     selected_hovered_graphical_set = {
       base = {
-        filename = "__filter-combinator-improved__/framework/graphics/technology-slots.png",
+        filename = "__ltn-train-info__/framework/graphics/technology-slots.png",
         position = {
           432,
           600
@@ -16579,7 +16502,7 @@ return {
   flib_technology_slot_researched_multilevel = {
     clicked_graphical_set = {
       base = {
-        filename = "__filter-combinator-improved__/framework/graphics/technology-slots.png",
+        filename = "__ltn-train-info__/framework/graphics/technology-slots.png",
         position = {
           720,
           600
@@ -16607,7 +16530,7 @@ return {
     },
     default_graphical_set = {
       base = {
-        filename = "__filter-combinator-improved__/framework/graphics/technology-slots.png",
+        filename = "__ltn-train-info__/framework/graphics/technology-slots.png",
         position = {
           576,
           600
@@ -16635,7 +16558,7 @@ return {
     },
     hovered_graphical_set = {
       base = {
-        filename = "__filter-combinator-improved__/framework/graphics/technology-slots.png",
+        filename = "__ltn-train-info__/framework/graphics/technology-slots.png",
         position = {
           720,
           600
@@ -16668,7 +16591,7 @@ return {
     padding = 0,
     selected_clicked_graphical_set = {
       base = {
-        filename = "__filter-combinator-improved__/framework/graphics/technology-slots.png",
+        filename = "__ltn-train-info__/framework/graphics/technology-slots.png",
         position = {
           1008,
           600
@@ -16696,7 +16619,7 @@ return {
     },
     selected_graphical_set = {
       base = {
-        filename = "__filter-combinator-improved__/framework/graphics/technology-slots.png",
+        filename = "__ltn-train-info__/framework/graphics/technology-slots.png",
         position = {
           864,
           600
@@ -16724,7 +16647,7 @@ return {
     },
     selected_hovered_graphical_set = {
       base = {
-        filename = "__filter-combinator-improved__/framework/graphics/technology-slots.png",
+        filename = "__ltn-train-info__/framework/graphics/technology-slots.png",
         position = {
           1008,
           600
@@ -18540,7 +18463,7 @@ return {
     clicked_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           160,
           560
@@ -18552,7 +18475,7 @@ return {
     default_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           80,
           560
@@ -18563,7 +18486,7 @@ return {
     disabled_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           80,
           560
@@ -18574,7 +18497,7 @@ return {
     hovered_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           80,
           560
@@ -18590,7 +18513,7 @@ return {
     clicked_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           400,
           560
@@ -18620,7 +18543,7 @@ return {
     default_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           320,
           560
@@ -18649,7 +18572,7 @@ return {
     disabled_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           320,
           560
@@ -18678,7 +18601,7 @@ return {
     hovered_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           320,
           560
@@ -18730,7 +18653,7 @@ return {
     clicked_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           400,
           480
@@ -18760,7 +18683,7 @@ return {
     default_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           320,
           480
@@ -18789,7 +18712,7 @@ return {
     disabled_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           320,
           480
@@ -18818,7 +18741,7 @@ return {
     hovered_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           320,
           480
@@ -18870,7 +18793,7 @@ return {
     clicked_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           400,
           0
@@ -18900,7 +18823,7 @@ return {
     default_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           320,
           0
@@ -18929,7 +18852,7 @@ return {
     disabled_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           320,
           0
@@ -18958,7 +18881,7 @@ return {
     hovered_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           320,
           0
@@ -19010,7 +18933,7 @@ return {
     clicked_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           400,
           400
@@ -19040,7 +18963,7 @@ return {
     default_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           320,
           400
@@ -19069,7 +18992,7 @@ return {
     disabled_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           320,
           400
@@ -19098,7 +19021,7 @@ return {
     hovered_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           320,
           400
@@ -19150,7 +19073,7 @@ return {
     clicked_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           400,
           80
@@ -19180,7 +19103,7 @@ return {
     default_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           320,
           80
@@ -19209,7 +19132,7 @@ return {
     disabled_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           320,
           80
@@ -19238,7 +19161,7 @@ return {
     hovered_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           320,
           80
@@ -19290,7 +19213,7 @@ return {
     clicked_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           400,
           240
@@ -19320,7 +19243,7 @@ return {
     default_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           320,
           240
@@ -19349,7 +19272,7 @@ return {
     disabled_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           320,
           240
@@ -19378,7 +19301,7 @@ return {
     hovered_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           320,
           240
@@ -19430,7 +19353,7 @@ return {
     clicked_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           400,
           720
@@ -19460,7 +19383,7 @@ return {
     default_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           320,
           720
@@ -19489,7 +19412,7 @@ return {
     disabled_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           320,
           720
@@ -19518,7 +19441,7 @@ return {
     hovered_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           320,
           720
@@ -19570,7 +19493,7 @@ return {
     clicked_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           400,
           640
@@ -19600,7 +19523,7 @@ return {
     default_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           320,
           640
@@ -19629,7 +19552,7 @@ return {
     disabled_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           320,
           640
@@ -19658,7 +19581,7 @@ return {
     hovered_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           320,
           640
@@ -19710,7 +19633,7 @@ return {
     clicked_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           400,
           160
@@ -19740,7 +19663,7 @@ return {
     default_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           320,
           160
@@ -19769,7 +19692,7 @@ return {
     disabled_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           320,
           160
@@ -19798,7 +19721,7 @@ return {
     hovered_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           320,
           160
@@ -19850,7 +19773,7 @@ return {
     clicked_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           400,
           320
@@ -19880,7 +19803,7 @@ return {
     default_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           320,
           320
@@ -19909,7 +19832,7 @@ return {
     disabled_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           320,
           320
@@ -19938,7 +19861,7 @@ return {
     hovered_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           320,
           320
@@ -19990,7 +19913,7 @@ return {
     clicked_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           160,
           480
@@ -20002,7 +19925,7 @@ return {
     default_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           80,
           480
@@ -20013,7 +19936,7 @@ return {
     disabled_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           80,
           480
@@ -20024,7 +19947,7 @@ return {
     hovered_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           80,
           480
@@ -20040,7 +19963,7 @@ return {
     clicked_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           160,
           0
@@ -20052,7 +19975,7 @@ return {
     default_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           80,
           0
@@ -20063,7 +19986,7 @@ return {
     disabled_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           80,
           0
@@ -20074,7 +19997,7 @@ return {
     hovered_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           80,
           0
@@ -20090,7 +20013,7 @@ return {
     clicked_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           160,
           400
@@ -20102,7 +20025,7 @@ return {
     default_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           80,
           400
@@ -20113,7 +20036,7 @@ return {
     disabled_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           80,
           400
@@ -20124,7 +20047,7 @@ return {
     hovered_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           80,
           400
@@ -20140,7 +20063,7 @@ return {
     clicked_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           160,
           80
@@ -20152,7 +20075,7 @@ return {
     default_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           80,
           80
@@ -20163,7 +20086,7 @@ return {
     disabled_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           80,
           80
@@ -20174,7 +20097,7 @@ return {
     hovered_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           80,
           80
@@ -20190,7 +20113,7 @@ return {
     clicked_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           160,
           240
@@ -20202,7 +20125,7 @@ return {
     default_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           80,
           240
@@ -20213,7 +20136,7 @@ return {
     disabled_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           80,
           240
@@ -20224,7 +20147,7 @@ return {
     hovered_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           80,
           240
@@ -20240,7 +20163,7 @@ return {
     clicked_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           160,
           720
@@ -20252,7 +20175,7 @@ return {
     default_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           80,
           720
@@ -20263,7 +20186,7 @@ return {
     disabled_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           80,
           720
@@ -20274,7 +20197,7 @@ return {
     hovered_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           80,
           720
@@ -20290,7 +20213,7 @@ return {
     clicked_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           160,
           640
@@ -20302,7 +20225,7 @@ return {
     default_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           80,
           640
@@ -20313,7 +20236,7 @@ return {
     disabled_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           80,
           640
@@ -20324,7 +20247,7 @@ return {
     hovered_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           80,
           640
@@ -20340,7 +20263,7 @@ return {
     clicked_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           160,
           160
@@ -20352,7 +20275,7 @@ return {
     default_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           80,
           160
@@ -20363,7 +20286,7 @@ return {
     disabled_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           80,
           160
@@ -20374,7 +20297,7 @@ return {
     hovered_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           80,
           160
@@ -20390,7 +20313,7 @@ return {
     clicked_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           160,
           320
@@ -20402,7 +20325,7 @@ return {
     default_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           80,
           320
@@ -20413,7 +20336,7 @@ return {
     disabled_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           80,
           320
@@ -20424,7 +20347,7 @@ return {
     hovered_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           80,
           320
@@ -20440,7 +20363,7 @@ return {
     clicked_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           400,
           560
@@ -20464,7 +20387,7 @@ return {
     default_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           320,
           560
@@ -20487,7 +20410,7 @@ return {
     disabled_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           320,
           560
@@ -20510,7 +20433,7 @@ return {
     hovered_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           320,
           560
@@ -20538,7 +20461,7 @@ return {
     clicked_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           400,
           480
@@ -20562,7 +20485,7 @@ return {
     default_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           320,
           480
@@ -20585,7 +20508,7 @@ return {
     disabled_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           320,
           480
@@ -20608,7 +20531,7 @@ return {
     hovered_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           320,
           480
@@ -20636,7 +20559,7 @@ return {
     clicked_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           400,
           0
@@ -20660,7 +20583,7 @@ return {
     default_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           320,
           0
@@ -20683,7 +20606,7 @@ return {
     disabled_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           320,
           0
@@ -20706,7 +20629,7 @@ return {
     hovered_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           320,
           0
@@ -20734,7 +20657,7 @@ return {
     clicked_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           400,
           400
@@ -20758,7 +20681,7 @@ return {
     default_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           320,
           400
@@ -20781,7 +20704,7 @@ return {
     disabled_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           320,
           400
@@ -20804,7 +20727,7 @@ return {
     hovered_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           320,
           400
@@ -20832,7 +20755,7 @@ return {
     clicked_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           400,
           80
@@ -20856,7 +20779,7 @@ return {
     default_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           320,
           80
@@ -20879,7 +20802,7 @@ return {
     disabled_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           320,
           80
@@ -20902,7 +20825,7 @@ return {
     hovered_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           320,
           80
@@ -20930,7 +20853,7 @@ return {
     clicked_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           400,
           240
@@ -20954,7 +20877,7 @@ return {
     default_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           320,
           240
@@ -20977,7 +20900,7 @@ return {
     disabled_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           320,
           240
@@ -21000,7 +20923,7 @@ return {
     hovered_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           320,
           240
@@ -21028,7 +20951,7 @@ return {
     clicked_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           400,
           720
@@ -21052,7 +20975,7 @@ return {
     default_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           320,
           720
@@ -21075,7 +20998,7 @@ return {
     disabled_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           320,
           720
@@ -21098,7 +21021,7 @@ return {
     hovered_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           320,
           720
@@ -21126,7 +21049,7 @@ return {
     clicked_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           400,
           640
@@ -21150,7 +21073,7 @@ return {
     default_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           320,
           640
@@ -21173,7 +21096,7 @@ return {
     disabled_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           320,
           640
@@ -21196,7 +21119,7 @@ return {
     hovered_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           320,
           640
@@ -21224,7 +21147,7 @@ return {
     clicked_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           400,
           160
@@ -21248,7 +21171,7 @@ return {
     default_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           320,
           160
@@ -21271,7 +21194,7 @@ return {
     disabled_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           320,
           160
@@ -21294,7 +21217,7 @@ return {
     hovered_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           320,
           160
@@ -21322,7 +21245,7 @@ return {
     clicked_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           400,
           320
@@ -21346,7 +21269,7 @@ return {
     default_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           320,
           320
@@ -21369,7 +21292,7 @@ return {
     disabled_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           320,
           320
@@ -21392,7 +21315,7 @@ return {
     hovered_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           320,
           320
@@ -21575,7 +21498,7 @@ return {
     clicked_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           160,
           560
@@ -21587,7 +21510,7 @@ return {
     default_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           0,
           560
@@ -21598,7 +21521,7 @@ return {
     disabled_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           0,
           560
@@ -21609,7 +21532,7 @@ return {
     hovered_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           80,
           560
@@ -21625,7 +21548,7 @@ return {
     clicked_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           400,
           560
@@ -21655,7 +21578,7 @@ return {
     default_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           240,
           560
@@ -21684,7 +21607,7 @@ return {
     disabled_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           240,
           560
@@ -21713,7 +21636,7 @@ return {
     hovered_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           320,
           560
@@ -21765,7 +21688,7 @@ return {
     clicked_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           400,
           480
@@ -21795,7 +21718,7 @@ return {
     default_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           240,
           480
@@ -21824,7 +21747,7 @@ return {
     disabled_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           240,
           480
@@ -21853,7 +21776,7 @@ return {
     hovered_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           320,
           480
@@ -21905,7 +21828,7 @@ return {
     clicked_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           400,
           0
@@ -21935,7 +21858,7 @@ return {
     default_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           240,
           0
@@ -21964,7 +21887,7 @@ return {
     disabled_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           240,
           0
@@ -21993,7 +21916,7 @@ return {
     hovered_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           320,
           0
@@ -22045,7 +21968,7 @@ return {
     clicked_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           400,
           400
@@ -22075,7 +21998,7 @@ return {
     default_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           240,
           400
@@ -22104,7 +22027,7 @@ return {
     disabled_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           240,
           400
@@ -22133,7 +22056,7 @@ return {
     hovered_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           320,
           400
@@ -22185,7 +22108,7 @@ return {
     clicked_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           400,
           80
@@ -22215,7 +22138,7 @@ return {
     default_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           240,
           80
@@ -22244,7 +22167,7 @@ return {
     disabled_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           240,
           80
@@ -22273,7 +22196,7 @@ return {
     hovered_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           320,
           80
@@ -22325,7 +22248,7 @@ return {
     clicked_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           400,
           240
@@ -22355,7 +22278,7 @@ return {
     default_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           240,
           240
@@ -22384,7 +22307,7 @@ return {
     disabled_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           240,
           240
@@ -22413,7 +22336,7 @@ return {
     hovered_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           320,
           240
@@ -22465,7 +22388,7 @@ return {
     clicked_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           400,
           720
@@ -22495,7 +22418,7 @@ return {
     default_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           240,
           720
@@ -22524,7 +22447,7 @@ return {
     disabled_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           240,
           720
@@ -22553,7 +22476,7 @@ return {
     hovered_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           320,
           720
@@ -22605,7 +22528,7 @@ return {
     clicked_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           400,
           640
@@ -22635,7 +22558,7 @@ return {
     default_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           240,
           640
@@ -22664,7 +22587,7 @@ return {
     disabled_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           240,
           640
@@ -22693,7 +22616,7 @@ return {
     hovered_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           320,
           640
@@ -22745,7 +22668,7 @@ return {
     clicked_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           400,
           160
@@ -22775,7 +22698,7 @@ return {
     default_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           240,
           160
@@ -22804,7 +22727,7 @@ return {
     disabled_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           240,
           160
@@ -22833,7 +22756,7 @@ return {
     hovered_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           320,
           160
@@ -22885,7 +22808,7 @@ return {
     clicked_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           400,
           320
@@ -22915,7 +22838,7 @@ return {
     default_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           240,
           320
@@ -22944,7 +22867,7 @@ return {
     disabled_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           240,
           320
@@ -22973,7 +22896,7 @@ return {
     hovered_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           320,
           320
@@ -23025,7 +22948,7 @@ return {
     clicked_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           160,
           480
@@ -23037,7 +22960,7 @@ return {
     default_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           0,
           480
@@ -23048,7 +22971,7 @@ return {
     disabled_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           0,
           480
@@ -23059,7 +22982,7 @@ return {
     hovered_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           80,
           480
@@ -23075,7 +22998,7 @@ return {
     clicked_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           160,
           0
@@ -23087,7 +23010,7 @@ return {
     default_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           0,
           0
@@ -23098,7 +23021,7 @@ return {
     disabled_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           0,
           0
@@ -23109,7 +23032,7 @@ return {
     hovered_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           80,
           0
@@ -23125,7 +23048,7 @@ return {
     clicked_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           160,
           400
@@ -23137,7 +23060,7 @@ return {
     default_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           0,
           400
@@ -23148,7 +23071,7 @@ return {
     disabled_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           0,
           400
@@ -23159,7 +23082,7 @@ return {
     hovered_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           80,
           400
@@ -23175,7 +23098,7 @@ return {
     clicked_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           160,
           80
@@ -23187,7 +23110,7 @@ return {
     default_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           0,
           80
@@ -23198,7 +23121,7 @@ return {
     disabled_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           0,
           80
@@ -23209,7 +23132,7 @@ return {
     hovered_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           80,
           80
@@ -23225,7 +23148,7 @@ return {
     clicked_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           160,
           240
@@ -23237,7 +23160,7 @@ return {
     default_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           0,
           240
@@ -23248,7 +23171,7 @@ return {
     disabled_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           0,
           240
@@ -23259,7 +23182,7 @@ return {
     hovered_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           80,
           240
@@ -23275,7 +23198,7 @@ return {
     clicked_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           160,
           720
@@ -23287,7 +23210,7 @@ return {
     default_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           0,
           720
@@ -23298,7 +23221,7 @@ return {
     disabled_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           0,
           720
@@ -23309,7 +23232,7 @@ return {
     hovered_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           80,
           720
@@ -23325,7 +23248,7 @@ return {
     clicked_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           160,
           640
@@ -23337,7 +23260,7 @@ return {
     default_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           0,
           640
@@ -23348,7 +23271,7 @@ return {
     disabled_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           0,
           640
@@ -23359,7 +23282,7 @@ return {
     hovered_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           80,
           640
@@ -23375,7 +23298,7 @@ return {
     clicked_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           160,
           160
@@ -23387,7 +23310,7 @@ return {
     default_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           0,
           160
@@ -23398,7 +23321,7 @@ return {
     disabled_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           0,
           160
@@ -23409,7 +23332,7 @@ return {
     hovered_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           80,
           160
@@ -23425,7 +23348,7 @@ return {
     clicked_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           160,
           320
@@ -23437,7 +23360,7 @@ return {
     default_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           0,
           320
@@ -23448,7 +23371,7 @@ return {
     disabled_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           0,
           320
@@ -23459,7 +23382,7 @@ return {
     hovered_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           80,
           320
@@ -23475,7 +23398,7 @@ return {
     clicked_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           400,
           560
@@ -23499,7 +23422,7 @@ return {
     default_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           240,
           560
@@ -23522,7 +23445,7 @@ return {
     disabled_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           240,
           560
@@ -23545,7 +23468,7 @@ return {
     hovered_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           320,
           560
@@ -23573,7 +23496,7 @@ return {
     clicked_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           400,
           480
@@ -23597,7 +23520,7 @@ return {
     default_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           240,
           480
@@ -23620,7 +23543,7 @@ return {
     disabled_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           240,
           480
@@ -23643,7 +23566,7 @@ return {
     hovered_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           320,
           480
@@ -23671,7 +23594,7 @@ return {
     clicked_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           400,
           0
@@ -23695,7 +23618,7 @@ return {
     default_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           240,
           0
@@ -23718,7 +23641,7 @@ return {
     disabled_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           240,
           0
@@ -23741,7 +23664,7 @@ return {
     hovered_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           320,
           0
@@ -23769,7 +23692,7 @@ return {
     clicked_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           400,
           400
@@ -23793,7 +23716,7 @@ return {
     default_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           240,
           400
@@ -23816,7 +23739,7 @@ return {
     disabled_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           240,
           400
@@ -23839,7 +23762,7 @@ return {
     hovered_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           320,
           400
@@ -23867,7 +23790,7 @@ return {
     clicked_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           400,
           80
@@ -23891,7 +23814,7 @@ return {
     default_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           240,
           80
@@ -23914,7 +23837,7 @@ return {
     disabled_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           240,
           80
@@ -23937,7 +23860,7 @@ return {
     hovered_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           320,
           80
@@ -23965,7 +23888,7 @@ return {
     clicked_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           400,
           240
@@ -23989,7 +23912,7 @@ return {
     default_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           240,
           240
@@ -24012,7 +23935,7 @@ return {
     disabled_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           240,
           240
@@ -24035,7 +23958,7 @@ return {
     hovered_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           320,
           240
@@ -24063,7 +23986,7 @@ return {
     clicked_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           400,
           720
@@ -24087,7 +24010,7 @@ return {
     default_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           240,
           720
@@ -24110,7 +24033,7 @@ return {
     disabled_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           240,
           720
@@ -24133,7 +24056,7 @@ return {
     hovered_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           320,
           720
@@ -24161,7 +24084,7 @@ return {
     clicked_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           400,
           640
@@ -24185,7 +24108,7 @@ return {
     default_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           240,
           640
@@ -24208,7 +24131,7 @@ return {
     disabled_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           240,
           640
@@ -24231,7 +24154,7 @@ return {
     hovered_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           320,
           640
@@ -24259,7 +24182,7 @@ return {
     clicked_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           400,
           160
@@ -24283,7 +24206,7 @@ return {
     default_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           240,
           160
@@ -24306,7 +24229,7 @@ return {
     disabled_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           240,
           160
@@ -24329,7 +24252,7 @@ return {
     hovered_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           320,
           160
@@ -24357,7 +24280,7 @@ return {
     clicked_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           400,
           320
@@ -24381,7 +24304,7 @@ return {
     default_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           240,
           320
@@ -24404,7 +24327,7 @@ return {
     disabled_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           240,
           320
@@ -24427,7 +24350,7 @@ return {
     hovered_graphical_set = {
       base = {
         border = 4,
-        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        filename = "__ltn-train-info__/framework/graphics/slots.png",
         position = {
           320,
           320
@@ -24464,7 +24387,7 @@ return {
     border = {
       border_width = 8,
       horizontal_line = {
-        filename = "__filter-combinator-improved__/framework/graphics/subheader-line.png",
+        filename = "__ltn-train-info__/framework/graphics/subheader-line.png",
         size = {
           1,
           8
@@ -24574,7 +24497,7 @@ return {
     clicked_graphical_set = {
       base = {
         corner_size = 8,
-        filename = "__filter-combinator-improved__/framework/graphics/dark-red-button.png",
+        filename = "__ltn-train-info__/framework/graphics/dark-red-button.png",
         position = {
           34,
           0
@@ -24599,7 +24522,7 @@ return {
     default_graphical_set = {
       base = {
         corner_size = 8,
-        filename = "__filter-combinator-improved__/framework/graphics/dark-red-button.png",
+        filename = "__ltn-train-info__/framework/graphics/dark-red-button.png",
         position = {
           0,
           0
@@ -24624,7 +24547,7 @@ return {
     hovered_graphical_set = {
       base = {
         corner_size = 8,
-        filename = "__filter-combinator-improved__/framework/graphics/dark-red-button.png",
+        filename = "__ltn-train-info__/framework/graphics/dark-red-button.png",
         position = {
           17,
           0
@@ -24749,25 +24672,7 @@ return {
       },
       maximal_height = 400,
       scroll_pane_style = {
-        extra_padding_when_activated = 0,
-        graphical_set = {
-          shadow = {
-            corner_size = 8,
-            draw_type = "outer",
-            position = {
-              200,
-              128
-            },
-            scale = 0.5,
-            tint = {
-              0,
-              0,
-              0,
-              0.35
-            }
-          }
-        },
-        padding = 0,
+        parent = "dropdown_list_box_scroll_pane",
         type = "scroll_pane_style"
       },
       type = "list_box_style"
@@ -25596,6 +25501,26 @@ return {
     size = 68,
     type = "button_style"
   },
+  ime_composition_textfield = {
+    active_background = {
+      position = {
+        203,
+        80
+      },
+      size = 1
+    },
+    default_background = {
+      position = {
+        203,
+        80
+      },
+      size = 1
+    },
+    minimal_height = 20,
+    padding = 0,
+    type = "textbox_style",
+    width = 0
+  },
   info_label = {
     font = "default",
     font_color = {
@@ -26204,31 +26129,88 @@ return {
     parent = "lab_progress_and_slot_divider",
     type = "line_style"
   },
-  lab_technology_frame = {
-    bottom_margin = 4,
-    horizontal_flow_style = {
-      horizontal_spacing = 12,
-      type = "horizontal_flow_style",
-      vertical_align = "center"
+  lab_research_info_button = {
+    clicked_graphical_set = {
+      base = {
+        corner_size = 19,
+        draw_type = "inner",
+        position = {
+          242,
+          584
+        },
+        scale = 1
+      },
+      shadow = {
+        corner_size = 8,
+        draw_type = "inner",
+        position = {
+          183,
+          128
+        },
+        scale = 0.5,
+        tint = {
+          0,
+          0,
+          0,
+          1
+        }
+      }
     },
-    left_padding = 12,
-    parent = "shallow_frame_in_shallow_frame",
-    top_margin = 4,
-    type = "frame_style",
-    vertically_stretchable = "off"
-  },
-  lab_technology_frame_empty = {
-    bottom_margin = 4,
-    horizontal_flow_style = {
-      horizontal_spacing = 12,
-      type = "horizontal_flow_style",
-      vertical_align = "center"
+    default_graphical_set = {
+      base = {
+        corner_size = 19,
+        draw_type = "inner",
+        position = {
+          162,
+          584
+        },
+        scale = 1
+      },
+      shadow = {
+        corner_size = 8,
+        draw_type = "inner",
+        position = {
+          183,
+          128
+        },
+        scale = 0.5,
+        tint = {
+          0,
+          0,
+          0,
+          1
+        }
+      }
     },
-    left_padding = 12,
-    parent = "deep_frame_in_shallow_frame",
-    top_margin = 4,
-    type = "frame_style",
-    vertically_stretchable = "off"
+    hovered_graphical_set = {
+      base = {
+        corner_size = 19,
+        draw_type = "inner",
+        position = {
+          202,
+          584
+        },
+        scale = 1
+      },
+      shadow = {
+        corner_size = 8,
+        draw_type = "inner",
+        position = {
+          183,
+          128
+        },
+        scale = 0.5,
+        tint = {
+          0,
+          0,
+          0,
+          1
+        }
+      }
+    },
+    padding = -8,
+    type = "button_style",
+    width = 400
   },
   label = {
     disabled_font_color = {
@@ -26773,7 +26755,11 @@ return {
     },
     never_hide_by_search = true,
     padding = 0,
-    type = "scroll_pane_style"
+    type = "scroll_pane_style",
+    vertical_flow_style = {
+      parent = "packed_vertical_flow",
+      type = "vertical_flow_style"
+    }
   },
   list_box_under_subheader = {
     scroll_pane_style = {
@@ -26821,41 +26807,6 @@ return {
     parent = "list_box_scroll_pane",
     type = "scroll_pane_style"
   },
-  locale_dropdown = {
-    list_box_style = {
-      item_style = {
-        font = "locale-pick",
-        parent = "button",
-        type = "button_style"
-      },
-      maximal_height = 400,
-      scroll_pane_style = {
-        extra_padding_when_activated = 0,
-        graphical_set = {
-          shadow = {
-            corner_size = 8,
-            draw_type = "outer",
-            position = {
-              200,
-              128
-            },
-            scale = 0.5,
-            tint = {
-              0,
-              0,
-              0,
-              0.35
-            }
-          }
-        },
-        padding = 0,
-        type = "scroll_pane_style"
-      },
-      type = "list_box_style"
-    },
-    parent = "dropdown",
-    type = "dropdown_style"
-  },
   locomotive_minimap_button = {
     clicked_graphical_set = {
       base = {
@@ -26883,12 +26834,11 @@ return {
           183,
           128
         },
-        scale = 0.5,
+        scale = 1,
         tint = {
-          0,
-          0,
-          0,
-          1
+          b = 0,
+          g = 122,
+          r = 219
         }
       }
     },
@@ -26988,12 +26938,11 @@ return {
           183,
           128
         },
-        scale = 0.5,
+        scale = 1,
         tint = {
-          0,
-          0,
-          0,
-          1
+          b = 0,
+          g = 162,
+          r = 255
         }
       }
     },
@@ -28119,6 +28068,255 @@ return {
     size = 240,
     type = "frame_style"
   },
+  minimap_slot = {
+    clicked_graphical_set = {
+      base = {
+        center = {
+          position = {
+            42,
+            8
+          },
+          size = {
+            1,
+            1
+          }
+        },
+        corner_size = 8,
+        draw_type = "outer",
+        position = {
+          17,
+          0
+        }
+      },
+      shadow = {
+        corner_size = 8,
+        draw_type = "inner",
+        position = {
+          183,
+          128
+        },
+        scale = 1,
+        tint = {
+          b = 0,
+          g = 122,
+          r = 219
+        }
+      }
+    },
+    default_graphical_set = {
+      base = {
+        center = {
+          position = {
+            42,
+            8
+          },
+          size = {
+            1,
+            1
+          }
+        },
+        corner_size = 8,
+        draw_type = "outer",
+        position = {
+          17,
+          0
+        }
+      },
+      shadow = {
+        corner_size = 8,
+        draw_type = "inner",
+        position = {
+          183,
+          128
+        },
+        scale = 0.5,
+        tint = {
+          0,
+          0,
+          0,
+          1
+        }
+      }
+    },
+    disabled_graphical_set = {
+      base = {
+        center = {
+          position = {
+            42,
+            8
+          },
+          size = {
+            1,
+            1
+          }
+        },
+        corner_size = 8,
+        draw_type = "outer",
+        position = {
+          17,
+          0
+        }
+      },
+      shadow = {
+        corner_size = 8,
+        draw_type = "inner",
+        position = {
+          183,
+          128
+        },
+        scale = 0.5,
+        tint = {
+          0,
+          0,
+          0,
+          1
+        }
+      }
+    },
+    hovered_graphical_set = {
+      base = {
+        center = {
+          position = {
+            42,
+            8
+          },
+          size = {
+            1,
+            1
+          }
+        },
+        corner_size = 8,
+        draw_type = "outer",
+        position = {
+          17,
+          0
+        }
+      },
+      shadow = {
+        corner_size = 8,
+        draw_type = "inner",
+        position = {
+          183,
+          128
+        },
+        scale = 1,
+        tint = {
+          b = 0,
+          g = 162,
+          r = 255
+        }
+      }
+    },
+    padding = 0,
+    parent = "button",
+    selected_clicked_graphical_set = {
+      base = {
+        center = {
+          position = {
+            42,
+            8
+          },
+          size = {
+            1,
+            1
+          }
+        },
+        corner_size = 8,
+        draw_type = "outer",
+        position = {
+          17,
+          0
+        }
+      },
+      shadow = {
+        corner_size = 8,
+        draw_type = "inner",
+        position = {
+          183,
+          128
+        },
+        scale = 0.5,
+        tint = {
+          0,
+          0,
+          0,
+          1
+        }
+      }
+    },
+    selected_graphical_set = {
+      base = {
+        center = {
+          position = {
+            42,
+            8
+          },
+          size = {
+            1,
+            1
+          }
+        },
+        corner_size = 8,
+        draw_type = "outer",
+        position = {
+          17,
+          0
+        }
+      },
+      shadow = {
+        corner_size = 8,
+        draw_type = "inner",
+        position = {
+          183,
+          128
+        },
+        scale = 0.5,
+        tint = {
+          0,
+          0,
+          0,
+          1
+        }
+      }
+    },
+    selected_hovered_graphical_set = {
+      base = {
+        center = {
+          position = {
+            42,
+            8
+          },
+          size = {
+            1,
+            1
+          }
+        },
+        corner_size = 8,
+        draw_type = "outer",
+        position = {
+          17,
+          0
+        }
+      },
+      shadow = {
+        corner_size = 8,
+        draw_type = "inner",
+        position = {
+          183,
+          128
+        },
+        scale = 0.5,
+        tint = {
+          0,
+          0,
+          0,
+          1
+        }
+      }
+    },
+    size = 240,
+    type = "button_style"
+  },
   minimap_widget_under_subheader = {
     graphical_set = {
       shadow = {
@@ -28337,7 +28535,11 @@ return {
     parent = "list_box",
     scroll_pane_style = {
       parent = "naked_scroll_pane",
-      type = "scroll_pane_style"
+      type = "scroll_pane_style",
+      vertical_flow_style = {
+        parent = "packed_vertical_flow",
+        type = "vertical_flow_style"
+      }
     },
     type = "list_box_style"
   },
@@ -29389,6 +29591,15 @@ return {
     parent = "crafting_queue_slot",
     type = "button_style"
   },
+  purple_label = {
+    font = "default",
+    font_color = {
+      0.82099999999999991,
+      0.44000000000000004,
+      0.99800000000000004
+    },
+    type = "label_style"
+  },
   qf_item_group_table = {
     background_graphical_set = {
       corner_size = 8,
@@ -29958,6 +30169,16 @@ return {
   recipe_count_line_label = {
     parent = "count_label",
     top_padding = 16,
+    type = "label_style"
+  },
+  recipe_ghost_count_line_label = {
+    font_color = {
+      170,
+      222,
+      255,
+      200
+    },
+    parent = "recipe_count_line_label",
     type = "label_style"
   },
   recipe_tooltip_horizontal_image = {
@@ -32417,12 +32638,15 @@ return {
         }
       }
     },
+    horizontal_flow_style = {
+      type = "horizontal_flow_style",
+      vertical_align = "center"
+    },
     left_padding = 4,
     padding = 0,
     right_margin = 4,
     right_padding = 4,
-    type = "frame_style",
-    vertical_align = "center"
+    type = "frame_style"
   },
   search_popup_textfield = {
     type = "textbox_style",
@@ -38428,6 +38652,9 @@ return {
     scrollbars_go_outside = true,
     top_margin = 4,
     type = "scroll_pane_style",
+    vertical_flow_style = {
+      type = "vertical_flow_style"
+    },
     vertically_stretchable = "on",
     width = 400
   },
@@ -39313,11 +39540,6 @@ return {
     parent = "transparent_slot",
     size = 16,
     type = "button_style"
-  },
-  universe_widget = {
-    horizontally_stretchable = "on",
-    type = "empty_widget_style",
-    vertically_stretchable = "on"
   },
   vehicle_health_progressbar = {
     color = {

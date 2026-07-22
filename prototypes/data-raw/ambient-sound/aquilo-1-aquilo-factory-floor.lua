@@ -1,6 +1,7 @@
 return {
   name = "aquilo-1-aquilo-factory-floor",
   planet = "aquilo-factory-floor",
+  title = "Aquilo 1 - -77.7  Celsius",
   track_type = "main-track",
   type = "ambient-sound",
   variable_sound = {

@@ -1,6 +1,4 @@
 return {
-  ["compaktcircuit-processor"] = require("___KHAOSDATA___.prototypes.data-raw.simple-entity-with-owner.compaktcircuit-processor"),
-  ["compaktcircuit-processor_1x1"] = require("___KHAOSDATA___.prototypes.data-raw.simple-entity-with-owner.compaktcircuit-processor_1x1"),
   ["crash-site-spaceship-wreck-small-1"] = require("___KHAOSDATA___.prototypes.data-raw.simple-entity-with-owner.crash-site-spaceship-wreck-small-1"),
   ["crash-site-spaceship-wreck-small-2"] = require("___KHAOSDATA___.prototypes.data-raw.simple-entity-with-owner.crash-site-spaceship-wreck-small-2"),
   ["crash-site-spaceship-wreck-small-3"] = require("___KHAOSDATA___.prototypes.data-raw.simple-entity-with-owner.crash-site-spaceship-wreck-small-3"),

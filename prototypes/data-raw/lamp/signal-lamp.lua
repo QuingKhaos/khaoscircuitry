@@ -2,8 +2,8 @@ return {
   always_on = true,
   circuit_wire_max_distance = 9,
   close_sound = {
-    filename = "__base__/sound/open-close/combinator-close.ogg",
-    volume = 0.54000000000000004
+    filename = "__base__/sound/open-close/electric-small-close.ogg",
+    volume = 0.7
   },
   collision_box = {
     {
@@ -108,8 +108,8 @@ return {
   },
   name = "signal-lamp",
   open_sound = {
-    filename = "__base__/sound/open-close/combinator-open.ogg",
-    volume = 0.55
+    filename = "__base__/sound/open-close/electric-small-open.ogg",
+    volume = 0.7
   },
   picture_off = {
     layers = {

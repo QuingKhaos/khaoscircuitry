@@ -52,7 +52,6 @@ return {
   ["personal-logistics"] = require("___KHAOSDATA___.prototypes.data-raw.tips-and-tricks-item.personal-logistics"),
   ["pipette"] = require("___KHAOSDATA___.prototypes.data-raw.tips-and-tricks-item.pipette"),
   ["pole-dragging-coverage"] = require("___KHAOSDATA___.prototypes.data-raw.tips-and-tricks-item.pole-dragging-coverage"),
-  ["power-combinator"] = require("___KHAOSDATA___.prototypes.data-raw.tips-and-tricks-item.power-combinator"),
   ["pump-connection"] = require("___KHAOSDATA___.prototypes.data-raw.tips-and-tricks-item.pump-connection"),
   ["quality"] = require("___KHAOSDATA___.prototypes.data-raw.tips-and-tricks-item.quality"),
   ["quality-factoriopedia"] = require("___KHAOSDATA___.prototypes.data-raw.tips-and-tricks-item.quality-factoriopedia"),

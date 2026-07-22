@@ -1,5 +1,7 @@
 return {
-  category = "incineration",
+  categories = {
+    "incineration"
+  },
   enabled = true,
   energy_required = 1,
   hidden_in_factoriopedia = true,
@@ -8,7 +10,7 @@ return {
   icon_size = 64,
   icons = {
     {
-      icon = "__quality__/graphics/icons/recycler.png"
+      icon = "__recycler__/graphics/icons/recycler.png"
     },
     {
       icon = "__Flare Stack__/graphics/icon/no.png",

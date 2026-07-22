@@ -232,7 +232,7 @@ return {
       line_length = 9,
       scale = 0.5,
       shift = {
-        0.1171875,
+        0.234375,
         -0.171875
       },
       width = 192,
@@ -245,7 +245,7 @@ return {
       line_length = 9,
       scale = 0.5,
       shift = {
-        0.1171875,
+        0.234375,
         -0.171875
       },
       width = 192,
@@ -258,7 +258,7 @@ return {
       line_length = 9,
       scale = 0.5,
       shift = {
-        0.1171875,
+        0.234375,
         -0.171875
       },
       width = 192,
@@ -271,7 +271,7 @@ return {
       line_length = 9,
       scale = 0.5,
       shift = {
-        0.1171875,
+        0.234375,
         -0.171875
       },
       width = 192,
@@ -284,7 +284,7 @@ return {
       line_length = 9,
       scale = 0.5,
       shift = {
-        0.1171875,
+        0.234375,
         -0.171875
       },
       width = 192,
@@ -297,7 +297,7 @@ return {
       line_length = 9,
       scale = 0.5,
       shift = {
-        0.1171875,
+        0.234375,
         -0.171875
       },
       width = 192,
@@ -310,7 +310,7 @@ return {
       line_length = 9,
       scale = 0.5,
       shift = {
-        0.1171875,
+        0.234375,
         -0.171875
       },
       width = 192,
@@ -323,7 +323,7 @@ return {
       line_length = 9,
       scale = 0.5,
       shift = {
-        0.1171875,
+        0.234375,
         -0.171875
       },
       width = 192,
@@ -336,7 +336,7 @@ return {
       line_length = 9,
       scale = 0.5,
       shift = {
-        0.1171875,
+        0.234375,
         -0.171875
       },
       width = 192,
@@ -349,7 +349,7 @@ return {
       line_length = 9,
       scale = 0.5,
       shift = {
-        0.1171875,
+        0.234375,
         -0.171875
       },
       width = 192,
@@ -362,7 +362,7 @@ return {
       line_length = 9,
       scale = 0.5,
       shift = {
-        0.1171875,
+        0.234375,
         -0.171875
       },
       width = 192,
@@ -375,7 +375,7 @@ return {
       line_length = 9,
       scale = 0.5,
       shift = {
-        0.1171875,
+        0.234375,
         -0.171875
       },
       width = 192,
@@ -388,7 +388,7 @@ return {
       line_length = 9,
       scale = 0.5,
       shift = {
-        0.1171875,
+        0.234375,
         -0.171875
       },
       width = 192,
@@ -401,7 +401,7 @@ return {
       line_length = 9,
       scale = 0.5,
       shift = {
-        0.1171875,
+        0.234375,
         -0.171875
       },
       width = 192,
@@ -414,7 +414,7 @@ return {
       line_length = 9,
       scale = 0.5,
       shift = {
-        0.1171875,
+        0.234375,
         -0.171875
       },
       width = 192,
@@ -427,7 +427,7 @@ return {
       line_length = 9,
       scale = 0.5,
       shift = {
-        0.1171875,
+        0.234375,
         -0.171875
       },
       width = 192,
@@ -440,7 +440,7 @@ return {
       line_length = 9,
       scale = 0.5,
       shift = {
-        0.1171875,
+        0.234375,
         -0.171875
       },
       width = 192,
@@ -453,7 +453,7 @@ return {
       line_length = 9,
       scale = 0.5,
       shift = {
-        0.1171875,
+        0.234375,
         -0.171875
       },
       width = 192,
@@ -466,7 +466,7 @@ return {
       line_length = 9,
       scale = 0.5,
       shift = {
-        0.1171875,
+        0.234375,
         -0.171875
       },
       width = 192,
@@ -479,7 +479,7 @@ return {
       line_length = 9,
       scale = 0.5,
       shift = {
-        0.1171875,
+        0.234375,
         -0.171875
       },
       width = 192,
@@ -492,7 +492,7 @@ return {
       line_length = 9,
       scale = 0.5,
       shift = {
-        0.1171875,
+        0.234375,
         -0.171875
       },
       width = 192,
@@ -505,7 +505,7 @@ return {
       line_length = 9,
       scale = 0.5,
       shift = {
-        0.1171875,
+        0.234375,
         -0.171875
       },
       width = 192,
@@ -518,7 +518,7 @@ return {
       line_length = 9,
       scale = 0.5,
       shift = {
-        0.1171875,
+        0.234375,
         -0.171875
       },
       width = 192,
@@ -531,7 +531,7 @@ return {
       line_length = 9,
       scale = 0.5,
       shift = {
-        0.1171875,
+        0.234375,
         -0.171875
       },
       width = 192,
@@ -544,7 +544,7 @@ return {
       line_length = 9,
       scale = 0.5,
       shift = {
-        0.1171875,
+        0.234375,
         -0.171875
       },
       width = 192,
@@ -557,11 +557,24 @@ return {
       line_length = 9,
       scale = 0.5,
       shift = {
-        0.1171875,
+        0.234375,
         -0.171875
       },
       width = 192,
       x = 1344,
+      y = 384
+    },
+    {
+      filename = "__space-age__/graphics/decorative/fulgoran-ruin/fulgoran-ruin-small.png",
+      height = 192,
+      line_length = 9,
+      scale = 0.5,
+      shift = {
+        0.234375,
+        -0.171875
+      },
+      width = 192,
+      x = 1536,
       y = 384
     },
     {
@@ -571,7 +584,7 @@ return {
       scale = 0.5,
       shift = {
         0.484375,
-        -0.6015625
+        -0.59375
       },
       width = 256,
       x = 0,
@@ -584,7 +597,7 @@ return {
       scale = 0.5,
       shift = {
         0.484375,
-        -0.6015625
+        -0.59375
       },
       width = 256,
       x = 256,
@@ -597,7 +610,7 @@ return {
       scale = 0.5,
       shift = {
         0.484375,
-        -0.6015625
+        -0.59375
       },
       width = 256,
       x = 512,
@@ -610,7 +623,7 @@ return {
       scale = 0.5,
       shift = {
         0.484375,
-        -0.6015625
+        -0.59375
       },
       width = 256,
       x = 768,
@@ -623,7 +636,7 @@ return {
       scale = 0.5,
       shift = {
         0.484375,
-        -0.6015625
+        -0.59375
       },
       width = 256,
       x = 1024,
@@ -636,7 +649,7 @@ return {
       scale = 0.5,
       shift = {
         0.484375,
-        -0.6015625
+        -0.59375
       },
       width = 256,
       x = 1280,
@@ -649,7 +662,7 @@ return {
       scale = 0.5,
       shift = {
         0.484375,
-        -0.6015625
+        -0.59375
       },
       width = 256,
       x = 1536,
@@ -676,6 +689,7 @@ return {
       0.88000000000000007
     }
   },
+  shuffled_variation_on_chunk_generated = true,
   subgroup = "grass",
   type = "simple-entity"
 }

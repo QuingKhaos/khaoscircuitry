@@ -98,15 +98,15 @@
     },
     {
       "enabled": true,
-      "name": "recycler"
-    },
-    {
-      "enabled": true,
       "name": "quantum-fabricator"
     },
     {
       "enabled": true,
       "name": "recipe_combinator"
+    },
+    {
+      "enabled": true,
+      "name": "recycler"
     },
     {
       "enabled": true,

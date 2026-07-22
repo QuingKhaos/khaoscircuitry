@@ -75,80 +75,11 @@ return {
       setting_type = "runtime-global",
       type = "bool-setting"
     },
-    blueprint_reader_quality_enabled = {
-      default_value = true,
-      name = "blueprint_reader_quality_enabled",
-      setting_type = "runtime-global",
-      type = "bool-setting"
-    },
     ["brcombinator-count-tiles"] = {
       default_value = true,
       name = "brcombinator-count-tiles",
       order = "a-b",
       setting_type = "runtime-global",
-      type = "bool-setting"
-    },
-    ["compaktcircuit-allow-external"] = {
-      default_value = false,
-      name = "compaktcircuit-allow-external",
-      order = "la",
-      setting_type = "runtime-global",
-      type = "bool-setting"
-    },
-    ["compaktcircuit-autosave"] = {
-      default_value = true,
-      name = "compaktcircuit-autosave",
-      order = "ka",
-      setting_type = "runtime-per-user",
-      type = "bool-setting"
-    },
-    ["compaktcircuit-comm_enabled"] = {
-      default_value = true,
-      name = "compaktcircuit-comm_enabled",
-      order = "ma",
-      setting_type = "startup",
-      type = "bool-setting"
-    },
-    ["compaktcircuit-disable-display"] = {
-      default_value = false,
-      name = "compaktcircuit-disable-display",
-      order = "ia",
-      setting_type = "runtime-global",
-      type = "bool-setting"
-    },
-    ["compaktcircuit-iopoint_with_alt"] = {
-      default_value = true,
-      name = "compaktcircuit-iopoint_with_alt",
-      order = "ab",
-      setting_type = "startup",
-      type = "bool-setting"
-    },
-    ["compaktcircuit-mine_processor_as_tags"] = {
-      default_value = false,
-      name = "compaktcircuit-mine_processor_as_tags",
-      order = "aa",
-      setting_type = "runtime-global",
-      type = "bool-setting"
-    },
-    ["compaktcircuit-no_energy"] = {
-      default_value = true,
-      name = "compaktcircuit-no_energy",
-      order = "da",
-      setting_type = "startup",
-      type = "bool-setting"
-    },
-    ["compaktcircuit-no_processor_in_build"] = {
-      default_value = false,
-      name = "compaktcircuit-no_processor_in_build",
-      order = "ja",
-      setting_type = "startup",
-      type = "bool-setting"
-    },
-    ["compaktcircuit-show-iopoint-name"] = {
-      default_value = true,
-      name = "compaktcircuit-show-iopoint-name",
-      order = "ea",
-      setting_type = "runtime-per-user",
       type = "bool-setting"
     },
     ["cybersyn-allow-cargo-in-depot"] = {
@@ -277,13 +208,6 @@ return {
       setting_type = "runtime-global",
       type = "bool-setting"
     },
-    cybersyn_content_reader_same_surface = {
-      default_value = false,
-      name = "cybersyn_content_reader_same_surface",
-      order = "aa",
-      setting_type = "runtime-global",
-      type = "bool-setting"
-    },
     ["display-plates-text-above"] = {
       default_value = true,
       name = "display-plates-text-above",
@@ -356,6 +280,13 @@ return {
       default_value = false,
       name = "loc-eqpm-grid",
       order = "da",
+      setting_type = "startup",
+      type = "bool-setting"
+    },
+    ["loc-eqpm-module"] = {
+      default_value = true,
+      name = "loc-eqpm-module",
+      order = "dd",
       setting_type = "startup",
       type = "bool-setting"
     },
@@ -772,44 +703,12 @@ return {
       setting_type = "runtime-global",
       type = "int-setting"
     },
-    ["blueprint_reader_refresh-rate"] = {
-      default_value = 60,
-      minimum_value = 1,
-      name = "blueprint_reader_refresh-rate",
-      setting_type = "runtime-global",
-      type = "int-setting"
-    },
     ["brcombinator-update-interval"] = {
       default_value = 0,
       maximum_value = 3600,
       minimum_value = 0,
       name = "brcombinator-update-interval",
       order = "a-a",
-      setting_type = "runtime-global",
-      type = "int-setting"
-    },
-    ["compaktcircuit-comm_interval"] = {
-      default_value = 30,
-      maximum_value = 6000,
-      minimum_value = 5,
-      name = "compaktcircuit-comm_interval",
-      order = "mb",
-      setting_type = "startup",
-      type = "int-setting"
-    },
-    ["compaktcircuit-entity-per-tick"] = {
-      default_value = 50,
-      minimum_value = 1,
-      name = "compaktcircuit-entity-per-tick",
-      order = "ga",
-      setting_type = "runtime-global",
-      type = "int-setting"
-    },
-    ["compaktcircuit-response-time"] = {
-      default_value = 20,
-      minimum_value = 10,
-      name = "compaktcircuit-response-time",
-      order = "ha",
       setting_type = "runtime-global",
       type = "int-setting"
     },
@@ -890,15 +789,6 @@ return {
       minimum_value = 1,
       name = "cybersyn-update-rate",
       order = "ac",
-      setting_type = "runtime-global",
-      type = "int-setting"
-    },
-    cybersyn_content_reader_update_interval = {
-      default_value = 120,
-      maximum_value = 216000,
-      minimum_value = 1,
-      name = "cybersyn_content_reader_update_interval",
-      order = "aa",
       setting_type = "runtime-global",
       type = "int-setting"
     },
@@ -1094,13 +984,6 @@ return {
       setting_type = "runtime-global",
       type = "int-setting"
     },
-    ["power-combinator-update-tick"] = {
-      default_value = 5,
-      minimum_value = 1,
-      name = "power-combinator-update-tick",
-      setting_type = "startup",
-      type = "int-setting"
-    },
     ["qf-chests-processed-per-second"] = {
       allowed_values = {
         1,
@@ -1270,41 +1153,6 @@ return {
       name = "atp-custom-colors-list",
       order = "cc",
       setting_type = "runtime-global",
-      type = "string-setting"
-    },
-    ["compaktcircuit-iopoint_color"] = {
-      default_value = "0000FF",
-      name = "compaktcircuit-iopoint_color",
-      order = "color4",
-      setting_type = "startup",
-      type = "string-setting"
-    },
-    ["compaktcircuit-iopoint_connected_color"] = {
-      default_value = "FF0000",
-      name = "compaktcircuit-iopoint_connected_color",
-      order = "color2",
-      setting_type = "startup",
-      type = "string-setting"
-    },
-    ["compaktcircuit-iopoint_default_color"] = {
-      default_value = "00FF00",
-      name = "compaktcircuit-iopoint_default_color",
-      order = "color1",
-      setting_type = "startup",
-      type = "string-setting"
-    },
-    ["compaktcircuit-iopoint_disconnected_color"] = {
-      default_value = "FFFF00",
-      name = "compaktcircuit-iopoint_disconnected_color",
-      order = "color3",
-      setting_type = "startup",
-      type = "string-setting"
-    },
-    ["compaktcircuit-iopoint_text_color"] = {
-      default_value = "0000FF",
-      name = "compaktcircuit-iopoint_text_color",
-      order = "color5",
-      setting_type = "startup",
       type = "string-setting"
     },
     ["cybersyn-combinator-loglevel"] = {

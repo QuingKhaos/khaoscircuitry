@@ -1,6 +1,8 @@
 return {
   allow_decomposition = false,
-  category = "recycling",
+  categories = {
+    "recycling"
+  },
   crafting_machine_tint = {
     primary = {
       0.5,
@@ -27,11 +29,12 @@ return {
       0.5
     }
   },
+  enabled = false,
   energy_required = 1.875,
   hidden = true,
   icons = {
     {
-      icon = "__quality__/graphics/icons/recycling.png"
+      icon = "__recycler__/graphics/icons/recycling.png"
     },
     {
       icon = "__base__/graphics/icons/arithmetic-combinator.png",
@@ -44,7 +47,7 @@ return {
       }
     },
     {
-      icon = "__quality__/graphics/icons/recycling-top.png"
+      icon = "__recycler__/graphics/icons/recycling-top.png"
     }
   },
   ingredients = {
@@ -63,25 +66,25 @@ return {
   name = "recipe-combinator-main-recycling",
   results = {
     {
-      amount = 0.25,
+      amount = 0,
       extra_count_fraction = 0.25,
       name = "arithmetic-combinator",
       type = "item"
     },
     {
-      amount = 0.25,
+      amount = 0,
       extra_count_fraction = 0.25,
       name = "decider-combinator",
       type = "item"
     },
     {
-      amount = 0.25,
+      amount = 0,
       extra_count_fraction = 0.25,
       name = "selector-combinator",
       type = "item"
     },
     {
-      amount = 0.25,
+      amount = 0,
       extra_count_fraction = 0.25,
       name = "constant-combinator",
       type = "item"

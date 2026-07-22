@@ -28,8 +28,6 @@ return {
   ["circuit-network-explosions"] = require("___KHAOSDATA___.prototypes.data-raw.item-subgroup.circuit-network-explosions"),
   ["circuit-network-remnants"] = require("___KHAOSDATA___.prototypes.data-raw.item-subgroup.circuit-network-remnants"),
   ["cliffs"] = require("___KHAOSDATA___.prototypes.data-raw.item-subgroup.cliffs"),
-  ["combinator-signals"] = require("___KHAOSDATA___.prototypes.data-raw.item-subgroup.combinator-signals"),
-  ["compaktcircuit-signal"] = require("___KHAOSDATA___.prototypes.data-raw.item-subgroup.compaktcircuit-signal"),
   ["corpses"] = require("___KHAOSDATA___.prototypes.data-raw.item-subgroup.corpses"),
   ["creatures"] = require("___KHAOSDATA___.prototypes.data-raw.item-subgroup.creatures"),
   ["cybersyn-signal"] = require("___KHAOSDATA___.prototypes.data-raw.item-subgroup.cybersyn-signal"),

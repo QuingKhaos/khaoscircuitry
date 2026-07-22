@@ -1,5 +1,5 @@
 return {
-  filename = "__filter-combinator-improved__/framework/graphics/indicators.png",
+  filename = "__ltn-train-info__/framework/graphics/indicators.png",
   flags = {
     "icon"
   },

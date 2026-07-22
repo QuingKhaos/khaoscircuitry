@@ -17,6 +17,7 @@ return {
       }
     }
   },
+  title = "Gleba 10 - Stingfrond Song",
   track_type = "main-track",
   type = "ambient-sound",
   weight = 12

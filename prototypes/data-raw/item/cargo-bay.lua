@@ -28,6 +28,7 @@ return {
     volume = 0.8
   },
   place_result = "cargo-bay",
+  space_platform_request_priority = true,
   stack_size = 10,
   subgroup = "space-platform",
   type = "item",

@@ -1,4 +1,5 @@
 return {
+  auto_recycle = false,
   factoriopedia_alternative = "factory-2",
   flags = {
     "not-stackable"

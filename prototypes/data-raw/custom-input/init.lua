@@ -1,8 +1,6 @@
 return {
   ["chv2_gui_hud_toggle"] = require("___KHAOSDATA___.prototypes.data-raw.custom-input.chv2_gui_hud_toggle"),
   ["chv2_gui_settings_open"] = require("___KHAOSDATA___.prototypes.data-raw.custom-input.chv2_gui_settings_open"),
-  ["compaktcircuit-click"] = require("___KHAOSDATA___.prototypes.data-raw.custom-input.compaktcircuit-click"),
-  ["compaktcircuit-control-click"] = require("___KHAOSDATA___.prototypes.data-raw.custom-input.compaktcircuit-control-click"),
   ["crash-site-skip-cutscene"] = require("___KHAOSDATA___.prototypes.data-raw.custom-input.crash-site-skip-cutscene"),
   ["cybersyn-combinator-confirm-gui"] = require("___KHAOSDATA___.prototypes.data-raw.custom-input.cybersyn-combinator-confirm-gui"),
   ["cybersyn-combinator-focus-search"] = require("___KHAOSDATA___.prototypes.data-raw.custom-input.cybersyn-combinator-focus-search"),

@@ -1,6 +1,8 @@
 return {
   allow_productivity = true,
-  category = "borehole-pump",
+  categories = {
+    "borehole-pump"
+  },
   enabled = false,
   energy_required = 4,
   hide_from_player_crafting = true,

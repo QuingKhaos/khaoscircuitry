@@ -229,7 +229,7 @@ return {
     {
       filename = "__space-age__/graphics/decorative/fulgoran-ruin/fulgoran-ruin-medium.png",
       height = 256,
-      line_length = 8,
+      line_length = 5,
       scale = 0.5,
       shift = {
         0.2578125,
@@ -242,7 +242,7 @@ return {
     {
       filename = "__space-age__/graphics/decorative/fulgoran-ruin/fulgoran-ruin-medium.png",
       height = 256,
-      line_length = 8,
+      line_length = 5,
       scale = 0.5,
       shift = {
         0.2578125,
@@ -255,7 +255,7 @@ return {
     {
       filename = "__space-age__/graphics/decorative/fulgoran-ruin/fulgoran-ruin-medium.png",
       height = 256,
-      line_length = 8,
+      line_length = 5,
       scale = 0.5,
       shift = {
         0.2578125,
@@ -268,7 +268,7 @@ return {
     {
       filename = "__space-age__/graphics/decorative/fulgoran-ruin/fulgoran-ruin-medium.png",
       height = 256,
-      line_length = 8,
+      line_length = 5,
       scale = 0.5,
       shift = {
         0.2578125,
@@ -281,7 +281,7 @@ return {
     {
       filename = "__space-age__/graphics/decorative/fulgoran-ruin/fulgoran-ruin-medium.png",
       height = 256,
-      line_length = 8,
+      line_length = 5,
       scale = 0.5,
       shift = {
         0.2578125,
@@ -294,41 +294,67 @@ return {
     {
       filename = "__space-age__/graphics/decorative/fulgoran-ruin/fulgoran-ruin-medium.png",
       height = 256,
-      line_length = 8,
+      line_length = 5,
       scale = 0.5,
       shift = {
         0.2578125,
         -0.3671875
       },
       width = 256,
-      x = 1280,
-      y = 0
+      x = 0,
+      y = 256
     },
     {
       filename = "__space-age__/graphics/decorative/fulgoran-ruin/fulgoran-ruin-medium.png",
       height = 256,
-      line_length = 8,
+      line_length = 5,
       scale = 0.5,
       shift = {
         0.2578125,
         -0.3671875
       },
       width = 256,
-      x = 1536,
-      y = 0
+      x = 256,
+      y = 256
     },
     {
       filename = "__space-age__/graphics/decorative/fulgoran-ruin/fulgoran-ruin-medium.png",
       height = 256,
-      line_length = 8,
+      line_length = 5,
       scale = 0.5,
       shift = {
         0.2578125,
         -0.3671875
       },
       width = 256,
-      x = 1792,
-      y = 0
+      x = 512,
+      y = 256
+    },
+    {
+      filename = "__space-age__/graphics/decorative/fulgoran-ruin/fulgoran-ruin-medium.png",
+      height = 256,
+      line_length = 5,
+      scale = 0.5,
+      shift = {
+        0.2578125,
+        -0.3671875
+      },
+      width = 256,
+      x = 768,
+      y = 256
+    },
+    {
+      filename = "__space-age__/graphics/decorative/fulgoran-ruin/fulgoran-ruin-medium.png",
+      height = 256,
+      line_length = 5,
+      scale = 0.5,
+      shift = {
+        0.2578125,
+        -0.3671875
+      },
+      width = 256,
+      x = 1024,
+      y = 256
     },
     {
       filename = "__space-age__/graphics/decorative/fulgoran-ruin/fulgoran-ruin-medium-tall.png",
@@ -403,6 +429,7 @@ return {
       1.0600000000000001
     }
   },
+  shuffled_variation_on_chunk_generated = true,
   subgroup = "grass",
   type = "simple-entity"
 }

@@ -40,24 +40,16 @@ return {
     texture_variations_rows = 1,
     textures = {
       {
-        filename = "__space-age__/graphics/terrain/oilNoise.png",
-        height = 512,
-        width = 512
+        filename = "__space-age__/graphics/terrain/oilNoise.png"
       },
       {
-        filename = "__space-age__/graphics/terrain/oil-ocean-deep-shader.png",
-        height = 1024,
-        width = 2048
+        filename = "__space-age__/graphics/terrain/oil-ocean-deep-shader.png"
       },
       {
-        filename = "__space-age__/graphics/terrain/oilGradient.png",
-        height = 32,
-        width = 512
+        filename = "__space-age__/graphics/terrain/oilGradient.png"
       },
       {
-        filename = "__space-age__/graphics/terrain/oil-ocean-deep-spec.png",
-        height = 1024,
-        width = 2048
+        filename = "__space-age__/graphics/terrain/oil-ocean-deep-spec.png"
       }
     },
     tick_scale = 1

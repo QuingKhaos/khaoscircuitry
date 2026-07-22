@@ -1,5 +1,5 @@
 return {
-  filename = "__filter-combinator-improved__/framework/graphics/nav-backward-black.png",
+  filename = "__ltn-train-info__/framework/graphics/nav-backward-black.png",
   flags = {
     "gui-icon"
   },

@@ -135,7 +135,827 @@ return {
     "placeable-off-grid",
     "breaths-air"
   },
+  growth_mounds = {
+    {
+      filename = "__space-age__/graphics/entity/plant/yumako-tree/yumako-tree-mound.png",
+      height = 75,
+      scale = 0.42900000000000009,
+      width = 100,
+      x = 0,
+      y = 0
+    },
+    {
+      filename = "__space-age__/graphics/entity/plant/yumako-tree/yumako-tree-mound.png",
+      height = 75,
+      scale = 0.42900000000000009,
+      width = 100,
+      x = 0,
+      y = 0
+    },
+    {
+      filename = "__space-age__/graphics/entity/plant/yumako-tree/yumako-tree-mound.png",
+      height = 75,
+      scale = 0.42900000000000009,
+      width = 100,
+      x = 0,
+      y = 0
+    },
+    {
+      filename = "__space-age__/graphics/entity/plant/yumako-tree/yumako-tree-mound.png",
+      height = 75,
+      scale = 0.42900000000000009,
+      width = 100,
+      x = 0,
+      y = 0
+    },
+    {
+      filename = "__space-age__/graphics/entity/plant/yumako-tree/yumako-tree-mound.png",
+      height = 75,
+      scale = 0.42900000000000009,
+      width = 100,
+      x = 0,
+      y = 0
+    },
+    {
+      filename = "__space-age__/graphics/entity/plant/yumako-tree/yumako-tree-mound.png",
+      height = 75,
+      scale = 0.42900000000000009,
+      width = 100,
+      x = 0,
+      y = 0
+    },
+    {
+      filename = "__space-age__/graphics/entity/plant/yumako-tree/yumako-tree-mound.png",
+      height = 75,
+      scale = 0.42900000000000009,
+      width = 100,
+      x = 0,
+      y = 0
+    },
+    {
+      filename = "__space-age__/graphics/entity/plant/yumako-tree/yumako-tree-mound.png",
+      height = 75,
+      scale = 0.42900000000000009,
+      width = 100,
+      x = 0,
+      y = 0
+    }
+  },
   growth_ticks = 18000,
+  growth_variations = {
+    {
+      growth_warp = {
+        filename = "__space-age__/graphics/entity/plant/yumako-tree/yumako-tree-growth-warp.png",
+        height = 560,
+        scale = 0.42900000000000009,
+        shift = {
+          1.625,
+          -2.28125
+        },
+        surface = "gleba",
+        width = 640,
+        x = 0,
+        y = 0
+      },
+      harvest_alpha = {
+        filename = "__space-age__/graphics/entity/plant/yumako-tree/yumako-tree-harvest-alpha.png",
+        height = 560,
+        scale = 0.42900000000000009,
+        shift = {
+          1.625,
+          -2.28125
+        },
+        surface = "gleba",
+        width = 640,
+        x = 0,
+        y = 0
+      },
+      harvest_warp = {
+        filename = "__space-age__/graphics/entity/plant/yumako-tree/yumako-tree-harvest-warp.png",
+        height = 560,
+        scale = 0.42900000000000009,
+        shift = {
+          1.625,
+          -2.28125
+        },
+        surface = "gleba",
+        width = 640,
+        x = 0,
+        y = 0
+      },
+      progress_exponent = 1,
+      shadow_alpha = {
+        filename = "__space-age__/graphics/entity/plant/yumako-tree/yumako-tree-shadow-alpha.png",
+        height = 560,
+        scale = 0.42900000000000009,
+        shift = {
+          1.625,
+          -2.28125
+        },
+        surface = "gleba",
+        width = 640,
+        x = 0,
+        y = 0
+      },
+      shadow_warp = {
+        filename = "__space-age__/graphics/entity/plant/yumako-tree/yumako-tree-shadow-warp.png",
+        height = 560,
+        scale = 0.42900000000000009,
+        shift = {
+          1.625,
+          -2.28125
+        },
+        surface = "gleba",
+        width = 640,
+        x = 0,
+        y = 0
+      },
+      trunk_alpha = {
+        filename = "__space-age__/graphics/entity/plant/yumako-tree/yumako-tree-trunk-alpha.png",
+        height = 560,
+        scale = 0.42900000000000009,
+        shift = {
+          1.625,
+          -2.28125
+        },
+        surface = "gleba",
+        width = 640,
+        x = 0,
+        y = 0
+      },
+      trunk_warp = {
+        filename = "__space-age__/graphics/entity/plant/yumako-tree/yumako-tree-trunk-warp.png",
+        height = 560,
+        scale = 0.42900000000000009,
+        shift = {
+          1.625,
+          -2.28125
+        },
+        surface = "gleba",
+        width = 640,
+        x = 0,
+        y = 0
+      }
+    },
+    {
+      growth_warp = {
+        filename = "__space-age__/graphics/entity/plant/yumako-tree/yumako-tree-growth-warp.png",
+        height = 560,
+        scale = 0.42900000000000009,
+        shift = {
+          1.625,
+          -2.28125
+        },
+        surface = "gleba",
+        width = 640,
+        x = 640,
+        y = 0
+      },
+      harvest_alpha = {
+        filename = "__space-age__/graphics/entity/plant/yumako-tree/yumako-tree-harvest-alpha.png",
+        height = 560,
+        scale = 0.42900000000000009,
+        shift = {
+          1.625,
+          -2.28125
+        },
+        surface = "gleba",
+        width = 640,
+        x = 640,
+        y = 0
+      },
+      harvest_warp = {
+        filename = "__space-age__/graphics/entity/plant/yumako-tree/yumako-tree-harvest-warp.png",
+        height = 560,
+        scale = 0.42900000000000009,
+        shift = {
+          1.625,
+          -2.28125
+        },
+        surface = "gleba",
+        width = 640,
+        x = 640,
+        y = 0
+      },
+      progress_exponent = 1,
+      shadow_alpha = {
+        filename = "__space-age__/graphics/entity/plant/yumako-tree/yumako-tree-shadow-alpha.png",
+        height = 560,
+        scale = 0.42900000000000009,
+        shift = {
+          1.625,
+          -2.28125
+        },
+        surface = "gleba",
+        width = 640,
+        x = 640,
+        y = 0
+      },
+      shadow_warp = {
+        filename = "__space-age__/graphics/entity/plant/yumako-tree/yumako-tree-shadow-warp.png",
+        height = 560,
+        scale = 0.42900000000000009,
+        shift = {
+          1.625,
+          -2.28125
+        },
+        surface = "gleba",
+        width = 640,
+        x = 640,
+        y = 0
+      },
+      trunk_alpha = {
+        filename = "__space-age__/graphics/entity/plant/yumako-tree/yumako-tree-trunk-alpha.png",
+        height = 560,
+        scale = 0.42900000000000009,
+        shift = {
+          1.625,
+          -2.28125
+        },
+        surface = "gleba",
+        width = 640,
+        x = 640,
+        y = 0
+      },
+      trunk_warp = {
+        filename = "__space-age__/graphics/entity/plant/yumako-tree/yumako-tree-trunk-warp.png",
+        height = 560,
+        scale = 0.42900000000000009,
+        shift = {
+          1.625,
+          -2.28125
+        },
+        surface = "gleba",
+        width = 640,
+        x = 640,
+        y = 0
+      }
+    },
+    {
+      growth_warp = {
+        filename = "__space-age__/graphics/entity/plant/yumako-tree/yumako-tree-growth-warp.png",
+        height = 560,
+        scale = 0.42900000000000009,
+        shift = {
+          1.625,
+          -2.28125
+        },
+        surface = "gleba",
+        width = 640,
+        x = 1280,
+        y = 0
+      },
+      harvest_alpha = {
+        filename = "__space-age__/graphics/entity/plant/yumako-tree/yumako-tree-harvest-alpha.png",
+        height = 560,
+        scale = 0.42900000000000009,
+        shift = {
+          1.625,
+          -2.28125
+        },
+        surface = "gleba",
+        width = 640,
+        x = 1280,
+        y = 0
+      },
+      harvest_warp = {
+        filename = "__space-age__/graphics/entity/plant/yumako-tree/yumako-tree-harvest-warp.png",
+        height = 560,
+        scale = 0.42900000000000009,
+        shift = {
+          1.625,
+          -2.28125
+        },
+        surface = "gleba",
+        width = 640,
+        x = 1280,
+        y = 0
+      },
+      progress_exponent = 1,
+      shadow_alpha = {
+        filename = "__space-age__/graphics/entity/plant/yumako-tree/yumako-tree-shadow-alpha.png",
+        height = 560,
+        scale = 0.42900000000000009,
+        shift = {
+          1.625,
+          -2.28125
+        },
+        surface = "gleba",
+        width = 640,
+        x = 1280,
+        y = 0
+      },
+      shadow_warp = {
+        filename = "__space-age__/graphics/entity/plant/yumako-tree/yumako-tree-shadow-warp.png",
+        height = 560,
+        scale = 0.42900000000000009,
+        shift = {
+          1.625,
+          -2.28125
+        },
+        surface = "gleba",
+        width = 640,
+        x = 1280,
+        y = 0
+      },
+      trunk_alpha = {
+        filename = "__space-age__/graphics/entity/plant/yumako-tree/yumako-tree-trunk-alpha.png",
+        height = 560,
+        scale = 0.42900000000000009,
+        shift = {
+          1.625,
+          -2.28125
+        },
+        surface = "gleba",
+        width = 640,
+        x = 1280,
+        y = 0
+      },
+      trunk_warp = {
+        filename = "__space-age__/graphics/entity/plant/yumako-tree/yumako-tree-trunk-warp.png",
+        height = 560,
+        scale = 0.42900000000000009,
+        shift = {
+          1.625,
+          -2.28125
+        },
+        surface = "gleba",
+        width = 640,
+        x = 1280,
+        y = 0
+      }
+    },
+    {
+      growth_warp = {
+        filename = "__space-age__/graphics/entity/plant/yumako-tree/yumako-tree-growth-warp.png",
+        height = 560,
+        scale = 0.42900000000000009,
+        shift = {
+          1.625,
+          -2.28125
+        },
+        surface = "gleba",
+        width = 640,
+        x = 1920,
+        y = 0
+      },
+      harvest_alpha = {
+        filename = "__space-age__/graphics/entity/plant/yumako-tree/yumako-tree-harvest-alpha.png",
+        height = 560,
+        scale = 0.42900000000000009,
+        shift = {
+          1.625,
+          -2.28125
+        },
+        surface = "gleba",
+        width = 640,
+        x = 1920,
+        y = 0
+      },
+      harvest_warp = {
+        filename = "__space-age__/graphics/entity/plant/yumako-tree/yumako-tree-harvest-warp.png",
+        height = 560,
+        scale = 0.42900000000000009,
+        shift = {
+          1.625,
+          -2.28125
+        },
+        surface = "gleba",
+        width = 640,
+        x = 1920,
+        y = 0
+      },
+      progress_exponent = 1,
+      shadow_alpha = {
+        filename = "__space-age__/graphics/entity/plant/yumako-tree/yumako-tree-shadow-alpha.png",
+        height = 560,
+        scale = 0.42900000000000009,
+        shift = {
+          1.625,
+          -2.28125
+        },
+        surface = "gleba",
+        width = 640,
+        x = 1920,
+        y = 0
+      },
+      shadow_warp = {
+        filename = "__space-age__/graphics/entity/plant/yumako-tree/yumako-tree-shadow-warp.png",
+        height = 560,
+        scale = 0.42900000000000009,
+        shift = {
+          1.625,
+          -2.28125
+        },
+        surface = "gleba",
+        width = 640,
+        x = 1920,
+        y = 0
+      },
+      trunk_alpha = {
+        filename = "__space-age__/graphics/entity/plant/yumako-tree/yumako-tree-trunk-alpha.png",
+        height = 560,
+        scale = 0.42900000000000009,
+        shift = {
+          1.625,
+          -2.28125
+        },
+        surface = "gleba",
+        width = 640,
+        x = 1920,
+        y = 0
+      },
+      trunk_warp = {
+        filename = "__space-age__/graphics/entity/plant/yumako-tree/yumako-tree-trunk-warp.png",
+        height = 560,
+        scale = 0.42900000000000009,
+        shift = {
+          1.625,
+          -2.28125
+        },
+        surface = "gleba",
+        width = 640,
+        x = 1920,
+        y = 0
+      }
+    },
+    {
+      growth_warp = {
+        filename = "__space-age__/graphics/entity/plant/yumako-tree/yumako-tree-growth-warp.png",
+        height = 560,
+        scale = 0.42900000000000009,
+        shift = {
+          1.625,
+          -2.28125
+        },
+        surface = "gleba",
+        width = 640,
+        x = 0,
+        y = 560
+      },
+      harvest_alpha = {
+        filename = "__space-age__/graphics/entity/plant/yumako-tree/yumako-tree-harvest-alpha.png",
+        height = 560,
+        scale = 0.42900000000000009,
+        shift = {
+          1.625,
+          -2.28125
+        },
+        surface = "gleba",
+        width = 640,
+        x = 0,
+        y = 560
+      },
+      harvest_warp = {
+        filename = "__space-age__/graphics/entity/plant/yumako-tree/yumako-tree-harvest-warp.png",
+        height = 560,
+        scale = 0.42900000000000009,
+        shift = {
+          1.625,
+          -2.28125
+        },
+        surface = "gleba",
+        width = 640,
+        x = 0,
+        y = 560
+      },
+      progress_exponent = 1,
+      shadow_alpha = {
+        filename = "__space-age__/graphics/entity/plant/yumako-tree/yumako-tree-shadow-alpha.png",
+        height = 560,
+        scale = 0.42900000000000009,
+        shift = {
+          1.625,
+          -2.28125
+        },
+        surface = "gleba",
+        width = 640,
+        x = 0,
+        y = 560
+      },
+      shadow_warp = {
+        filename = "__space-age__/graphics/entity/plant/yumako-tree/yumako-tree-shadow-warp.png",
+        height = 560,
+        scale = 0.42900000000000009,
+        shift = {
+          1.625,
+          -2.28125
+        },
+        surface = "gleba",
+        width = 640,
+        x = 0,
+        y = 560
+      },
+      trunk_alpha = {
+        filename = "__space-age__/graphics/entity/plant/yumako-tree/yumako-tree-trunk-alpha.png",
+        height = 560,
+        scale = 0.42900000000000009,
+        shift = {
+          1.625,
+          -2.28125
+        },
+        surface = "gleba",
+        width = 640,
+        x = 0,
+        y = 560
+      },
+      trunk_warp = {
+        filename = "__space-age__/graphics/entity/plant/yumako-tree/yumako-tree-trunk-warp.png",
+        height = 560,
+        scale = 0.42900000000000009,
+        shift = {
+          1.625,
+          -2.28125
+        },
+        surface = "gleba",
+        width = 640,
+        x = 0,
+        y = 560
+      }
+    },
+    {
+      growth_warp = {
+        filename = "__space-age__/graphics/entity/plant/yumako-tree/yumako-tree-growth-warp.png",
+        height = 560,
+        scale = 0.42900000000000009,
+        shift = {
+          1.625,
+          -2.28125
+        },
+        surface = "gleba",
+        width = 640,
+        x = 640,
+        y = 560
+      },
+      harvest_alpha = {
+        filename = "__space-age__/graphics/entity/plant/yumako-tree/yumako-tree-harvest-alpha.png",
+        height = 560,
+        scale = 0.42900000000000009,
+        shift = {
+          1.625,
+          -2.28125
+        },
+        surface = "gleba",
+        width = 640,
+        x = 640,
+        y = 560
+      },
+      harvest_warp = {
+        filename = "__space-age__/graphics/entity/plant/yumako-tree/yumako-tree-harvest-warp.png",
+        height = 560,
+        scale = 0.42900000000000009,
+        shift = {
+          1.625,
+          -2.28125
+        },
+        surface = "gleba",
+        width = 640,
+        x = 640,
+        y = 560
+      },
+      progress_exponent = 1,
+      shadow_alpha = {
+        filename = "__space-age__/graphics/entity/plant/yumako-tree/yumako-tree-shadow-alpha.png",
+        height = 560,
+        scale = 0.42900000000000009,
+        shift = {
+          1.625,
+          -2.28125
+        },
+        surface = "gleba",
+        width = 640,
+        x = 640,
+        y = 560
+      },
+      shadow_warp = {
+        filename = "__space-age__/graphics/entity/plant/yumako-tree/yumako-tree-shadow-warp.png",
+        height = 560,
+        scale = 0.42900000000000009,
+        shift = {
+          1.625,
+          -2.28125
+        },
+        surface = "gleba",
+        width = 640,
+        x = 640,
+        y = 560
+      },
+      trunk_alpha = {
+        filename = "__space-age__/graphics/entity/plant/yumako-tree/yumako-tree-trunk-alpha.png",
+        height = 560,
+        scale = 0.42900000000000009,
+        shift = {
+          1.625,
+          -2.28125
+        },
+        surface = "gleba",
+        width = 640,
+        x = 640,
+        y = 560
+      },
+      trunk_warp = {
+        filename = "__space-age__/graphics/entity/plant/yumako-tree/yumako-tree-trunk-warp.png",
+        height = 560,
+        scale = 0.42900000000000009,
+        shift = {
+          1.625,
+          -2.28125
+        },
+        surface = "gleba",
+        width = 640,
+        x = 640,
+        y = 560
+      }
+    },
+    {
+      growth_warp = {
+        filename = "__space-age__/graphics/entity/plant/yumako-tree/yumako-tree-growth-warp.png",
+        height = 560,
+        scale = 0.42900000000000009,
+        shift = {
+          1.625,
+          -2.28125
+        },
+        surface = "gleba",
+        width = 640,
+        x = 1280,
+        y = 560
+      },
+      harvest_alpha = {
+        filename = "__space-age__/graphics/entity/plant/yumako-tree/yumako-tree-harvest-alpha.png",
+        height = 560,
+        scale = 0.42900000000000009,
+        shift = {
+          1.625,
+          -2.28125
+        },
+        surface = "gleba",
+        width = 640,
+        x = 1280,
+        y = 560
+      },
+      harvest_warp = {
+        filename = "__space-age__/graphics/entity/plant/yumako-tree/yumako-tree-harvest-warp.png",
+        height = 560,
+        scale = 0.42900000000000009,
+        shift = {
+          1.625,
+          -2.28125
+        },
+        surface = "gleba",
+        width = 640,
+        x = 1280,
+        y = 560
+      },
+      progress_exponent = 1,
+      shadow_alpha = {
+        filename = "__space-age__/graphics/entity/plant/yumako-tree/yumako-tree-shadow-alpha.png",
+        height = 560,
+        scale = 0.42900000000000009,
+        shift = {
+          1.625,
+          -2.28125
+        },
+        surface = "gleba",
+        width = 640,
+        x = 1280,
+        y = 560
+      },
+      shadow_warp = {
+        filename = "__space-age__/graphics/entity/plant/yumako-tree/yumako-tree-shadow-warp.png",
+        height = 560,
+        scale = 0.42900000000000009,
+        shift = {
+          1.625,
+          -2.28125
+        },
+        surface = "gleba",
+        width = 640,
+        x = 1280,
+        y = 560
+      },
+      trunk_alpha = {
+        filename = "__space-age__/graphics/entity/plant/yumako-tree/yumako-tree-trunk-alpha.png",
+        height = 560,
+        scale = 0.42900000000000009,
+        shift = {
+          1.625,
+          -2.28125
+        },
+        surface = "gleba",
+        width = 640,
+        x = 1280,
+        y = 560
+      },
+      trunk_warp = {
+        filename = "__space-age__/graphics/entity/plant/yumako-tree/yumako-tree-trunk-warp.png",
+        height = 560,
+        scale = 0.42900000000000009,
+        shift = {
+          1.625,
+          -2.28125
+        },
+        surface = "gleba",
+        width = 640,
+        x = 1280,
+        y = 560
+      }
+    },
+    {
+      growth_warp = {
+        filename = "__space-age__/graphics/entity/plant/yumako-tree/yumako-tree-growth-warp.png",
+        height = 560,
+        scale = 0.42900000000000009,
+        shift = {
+          1.625,
+          -2.28125
+        },
+        surface = "gleba",
+        width = 640,
+        x = 1920,
+        y = 560
+      },
+      harvest_alpha = {
+        filename = "__space-age__/graphics/entity/plant/yumako-tree/yumako-tree-harvest-alpha.png",
+        height = 560,
+        scale = 0.42900000000000009,
+        shift = {
+          1.625,
+          -2.28125
+        },
+        surface = "gleba",
+        width = 640,
+        x = 1920,
+        y = 560
+      },
+      harvest_warp = {
+        filename = "__space-age__/graphics/entity/plant/yumako-tree/yumako-tree-harvest-warp.png",
+        height = 560,
+        scale = 0.42900000000000009,
+        shift = {
+          1.625,
+          -2.28125
+        },
+        surface = "gleba",
+        width = 640,
+        x = 1920,
+        y = 560
+      },
+      progress_exponent = 1,
+      shadow_alpha = {
+        filename = "__space-age__/graphics/entity/plant/yumako-tree/yumako-tree-shadow-alpha.png",
+        height = 560,
+        scale = 0.42900000000000009,
+        shift = {
+          1.625,
+          -2.28125
+        },
+        surface = "gleba",
+        width = 640,
+        x = 1920,
+        y = 560
+      },
+      shadow_warp = {
+        filename = "__space-age__/graphics/entity/plant/yumako-tree/yumako-tree-shadow-warp.png",
+        height = 560,
+        scale = 0.42900000000000009,
+        shift = {
+          1.625,
+          -2.28125
+        },
+        surface = "gleba",
+        width = 640,
+        x = 1920,
+        y = 560
+      },
+      trunk_alpha = {
+        filename = "__space-age__/graphics/entity/plant/yumako-tree/yumako-tree-trunk-alpha.png",
+        height = 560,
+        scale = 0.42900000000000009,
+        shift = {
+          1.625,
+          -2.28125
+        },
+        surface = "gleba",
+        width = 640,
+        x = 1920,
+        y = 560
+      },
+      trunk_warp = {
+        filename = "__space-age__/graphics/entity/plant/yumako-tree/yumako-tree-trunk-warp.png",
+        height = 560,
+        scale = 0.42900000000000009,
+        shift = {
+          1.625,
+          -2.28125
+        },
+        surface = "gleba",
+        width = 640,
+        x = 1920,
+        y = 560
+      }
+    }
+  },
   harvest_emissions = {
     spores = 15
   },
@@ -395,7 +1215,7 @@ return {
           scale = 0.42900000000000009,
           shift = {
             1.625,
-            2.5
+            2.28125
           },
           surface = "gleba",
           width = 640,
@@ -533,7 +1353,7 @@ return {
           scale = 0.42900000000000009,
           shift = {
             1.625,
-            2.5
+            2.28125
           },
           surface = "gleba",
           width = 640,
@@ -671,7 +1491,7 @@ return {
           scale = 0.42900000000000009,
           shift = {
             1.625,
-            2.5
+            2.28125
           },
           surface = "gleba",
           width = 640,
@@ -809,7 +1629,7 @@ return {
           scale = 0.42900000000000009,
           shift = {
             1.625,
-            2.5
+            2.28125
           },
           surface = "gleba",
           width = 640,
@@ -947,7 +1767,7 @@ return {
           scale = 0.42900000000000009,
           shift = {
             1.625,
-            2.5
+            2.28125
           },
           surface = "gleba",
           width = 640,
@@ -1085,7 +1905,7 @@ return {
           scale = 0.42900000000000009,
           shift = {
             1.625,
-            2.5
+            2.28125
           },
           surface = "gleba",
           width = 640,
@@ -1223,7 +2043,7 @@ return {
           scale = 0.42900000000000009,
           shift = {
             1.625,
-            2.5
+            2.28125
           },
           surface = "gleba",
           width = 640,
@@ -1361,7 +2181,7 @@ return {
           scale = 0.42900000000000009,
           shift = {
             1.625,
-            2.5
+            2.28125
           },
           surface = "gleba",
           width = 640,

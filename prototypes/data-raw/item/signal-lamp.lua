@@ -4,8 +4,8 @@ return {
       max_count = 1,
       remove = true
     },
-    filename = "__base__/sound/item/combinator-inventory-move.ogg",
-    volume = 0.5
+    filename = "__base__/sound/item/electric-small-inventory-move.ogg",
+    volume = 1
   },
   icon = "__signal-lamp__/graphics/icons/signal-lamp.png",
   icon_mipmaps = 4,
@@ -15,8 +15,8 @@ return {
       max_count = 1,
       remove = true
     },
-    filename = "__base__/sound/item/combinator-inventory-move.ogg",
-    volume = 0.5
+    filename = "__base__/sound/item/electric-small-inventory-move.ogg",
+    volume = 1
   },
   name = "signal-lamp",
   order = "a[light]-b[signal-lamp]",
@@ -25,8 +25,8 @@ return {
       max_count = 1,
       remove = true
     },
-    filename = "__base__/sound/item/combinator-inventory-pickup.ogg",
-    volume = 0.6
+    filename = "__base__/sound/item/electric-small-inventory-pickup.ogg",
+    volume = 0.7
   },
   place_result = "signal-lamp",
   stack_size = 50,

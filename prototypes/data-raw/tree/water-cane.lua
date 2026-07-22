@@ -342,7 +342,7 @@ return {
           scale = 0.33000000000000003,
           shift = {
             0.9375,
-            -0.625
+            -0.5625
           },
           surface = "gleba",
           width = 340,
@@ -467,7 +467,7 @@ return {
           scale = 0.33000000000000003,
           shift = {
             0.9375,
-            -0.625
+            -0.5625
           },
           surface = "gleba",
           width = 340,
@@ -592,7 +592,7 @@ return {
           scale = 0.33000000000000003,
           shift = {
             0.9375,
-            -0.625
+            -0.5625
           },
           surface = "gleba",
           width = 340,
@@ -717,7 +717,7 @@ return {
           scale = 0.33000000000000003,
           shift = {
             0.9375,
-            -0.625
+            -0.5625
           },
           surface = "gleba",
           width = 340,
@@ -842,7 +842,7 @@ return {
           scale = 0.33000000000000003,
           shift = {
             0.9375,
-            -0.625
+            -0.5625
           },
           surface = "gleba",
           width = 340,
@@ -967,7 +967,7 @@ return {
           scale = 0.33000000000000003,
           shift = {
             0.9375,
-            -0.625
+            -0.5625
           },
           surface = "gleba",
           width = 340,
@@ -1092,7 +1092,7 @@ return {
           scale = 0.33000000000000003,
           shift = {
             0.9375,
-            -0.625
+            -0.5625
           },
           surface = "gleba",
           width = 340,
@@ -1217,7 +1217,7 @@ return {
           scale = 0.33000000000000003,
           shift = {
             0.9375,
-            -0.625
+            -0.5625
           },
           surface = "gleba",
           width = 340,
@@ -1342,7 +1342,7 @@ return {
           scale = 0.33000000000000003,
           shift = {
             0.9375,
-            -0.625
+            -0.5625
           },
           surface = "gleba",
           width = 340,
@@ -1467,7 +1467,7 @@ return {
           scale = 0.33000000000000003,
           shift = {
             0.9375,
-            -0.625
+            -0.5625
           },
           surface = "gleba",
           width = 340,
@@ -1592,7 +1592,7 @@ return {
           scale = 0.33000000000000003,
           shift = {
             0.9375,
-            -0.625
+            -0.5625
           },
           surface = "gleba",
           width = 340,
@@ -1717,7 +1717,7 @@ return {
           scale = 0.33000000000000003,
           shift = {
             0.9375,
-            -0.625
+            -0.5625
           },
           surface = "gleba",
           width = 340,
@@ -1842,7 +1842,7 @@ return {
           scale = 0.33000000000000003,
           shift = {
             0.9375,
-            -0.625
+            -0.5625
           },
           surface = "gleba",
           width = 340,
@@ -1967,7 +1967,7 @@ return {
           scale = 0.33000000000000003,
           shift = {
             0.9375,
-            -0.625
+            -0.5625
           },
           surface = "gleba",
           width = 340,
@@ -2092,7 +2092,7 @@ return {
           scale = 0.33000000000000003,
           shift = {
             0.9375,
-            -0.625
+            -0.5625
           },
           surface = "gleba",
           width = 340,
@@ -2217,7 +2217,7 @@ return {
           scale = 0.33000000000000003,
           shift = {
             0.9375,
-            -0.625
+            -0.5625
           },
           surface = "gleba",
           width = 340,

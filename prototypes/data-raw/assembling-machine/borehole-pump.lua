@@ -640,7 +640,6 @@ return {
     type = "create-entity"
   },
   dying_explosion = "burner-mining-drill-explosion",
-  enable_logistic_control_behavior = false,
   energy_source = {
     emissions_per_minute = {
       pollution = 15
@@ -653,7 +652,8 @@ return {
   flags = {
     "placeable-neutral",
     "player-creation",
-    "filter-directions"
+    "filter-directions",
+    "no-logistic-connection"
   },
   fluid_boxes = {
     {

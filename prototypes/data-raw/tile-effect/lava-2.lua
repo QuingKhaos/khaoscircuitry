@@ -40,14 +40,10 @@ return {
     texture_variations_rows = 1,
     textures = {
       {
-        filename = "__space-age__/graphics/terrain/vulcanus/lava-textures/lava-noise-texture.png",
-        height = 512,
-        width = 512
+        filename = "__space-age__/graphics/terrain/vulcanus/lava-textures/lava-noise-texture.png"
       },
       {
-        filename = "__space-age__/graphics/terrain/vulcanus/lava-textures/coastal-lava.png",
-        height = 1024,
-        width = 2048
+        filename = "__space-age__/graphics/terrain/vulcanus/lava-textures/coastal-lava.png"
       }
     },
     tick_scale = 1

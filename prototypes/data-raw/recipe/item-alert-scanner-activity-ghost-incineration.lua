@@ -1,5 +1,7 @@
 return {
-  category = "incineration",
+  categories = {
+    "incineration"
+  },
   enabled = true,
   energy_required = 1,
   hidden_in_factoriopedia = true,

@@ -244,5 +244,14 @@ return {
       0.5
     }
   },
-  type = "linked-container"
+  type = "linked-container",
+  water_reflection = {
+    pictures = {
+      filename = "__base__/graphics/entity/wooden-chest/chest-reflection.png",
+      height = 20,
+      scale = 5,
+      width = 13
+    },
+    rotate = false
+  }
 }

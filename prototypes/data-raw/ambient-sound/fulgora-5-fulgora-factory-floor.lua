@@ -1,6 +1,7 @@
 return {
   name = "fulgora-5-fulgora-factory-floor",
   planet = "fulgora-factory-floor",
+  title = "Fulgora 5 - Dying Battery",
   track_type = "main-track",
   type = "ambient-sound",
   variable_sound = {

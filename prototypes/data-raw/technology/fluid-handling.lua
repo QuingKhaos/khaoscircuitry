@@ -13,10 +13,6 @@ return {
       type = "unlock-recipe"
     },
     {
-      recipe = "simple-gauge",
-      type = "unlock-recipe"
-    },
-    {
       recipe = "water-barrel",
       type = "unlock-recipe"
     },

@@ -1,37 +1,40 @@
 return {
-  category = "recycling",
+  allow_decomposition = false,
+  categories = {
+    "recycling"
+  },
   crafting_machine_tint = {
     primary = {
-      0.125,
-      0.125,
-      0.125,
-      0.125
+      0.5,
+      0.5,
+      0.5,
+      0.5
     },
     quaternary = {
-      0.125,
-      0.125,
-      0.125,
-      0.125
+      0.5,
+      0.5,
+      0.5,
+      0.5
     },
     secondary = {
-      0.125,
-      0.125,
-      0.125,
-      0.125
+      0.5,
+      0.5,
+      0.5,
+      0.5
     },
     tertiary = {
-      0.125,
-      0.125,
-      0.125,
-      0.125
+      0.5,
+      0.5,
+      0.5,
+      0.5
     }
   },
-  enabled = true,
+  enabled = false,
   energy_required = 3.75,
   hidden = true,
   icons = {
     {
-      icon = "__quality__/graphics/icons/recycling.png"
+      icon = "__recycler__/graphics/icons/recycling.png"
     },
     {
       icon = "__factorissimo-2-notnotmelon__/graphics/icon/space-factory-3.png",
@@ -39,13 +42,12 @@ return {
       scale = 0.4
     },
     {
-      icon = "__quality__/graphics/icons/recycling-top.png"
+      icon = "__recycler__/graphics/icons/recycling-top.png"
     }
   },
   ingredients = {
     {
       amount = 1,
-      ignored_by_stats = 1,
       name = "space-factory-3",
       type = "item"
     }
@@ -59,10 +61,27 @@ return {
   name = "space-factory-3-recycling",
   results = {
     {
-      amount = 1,
-      ignored_by_stats = 1,
-      name = "space-factory-3",
-      probability = 0.25,
+      amount = 0,
+      extra_count_fraction = 0.25,
+      name = "factory-3",
+      type = "item"
+    },
+    {
+      amount = 500,
+      extra_count_fraction = 0,
+      name = "low-density-structure",
+      type = "item"
+    },
+    {
+      amount = 12,
+      extra_count_fraction = 0.5,
+      name = "solar-panel",
+      type = "item"
+    },
+    {
+      amount = 225,
+      extra_count_fraction = 0,
+      name = "space-platform-foundation",
       type = "item"
     }
   },

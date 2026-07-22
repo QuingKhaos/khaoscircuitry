@@ -1,6 +1,8 @@
 return {
   allow_decomposition = false,
-  category = "recycling",
+  categories = {
+    "recycling"
+  },
   crafting_machine_tint = {
     primary = {
       0.5,
@@ -27,11 +29,12 @@ return {
       0.5
     }
   },
+  enabled = false,
   energy_required = 2.8125,
   hidden = true,
   icons = {
     {
-      icon = "__quality__/graphics/icons/recycling.png"
+      icon = "__recycler__/graphics/icons/recycling.png"
     },
     {
       icon = "__factorissimo-2-notnotmelon__/graphics/icon/factory-2.png",
@@ -39,7 +42,7 @@ return {
       scale = 0.4
     },
     {
-      icon = "__quality__/graphics/icons/recycling-top.png"
+      icon = "__recycler__/graphics/icons/recycling-top.png"
     }
   },
   ingredients = {
@@ -64,13 +67,13 @@ return {
       type = "item"
     },
     {
-      amount = 62.5,
+      amount = 62,
       extra_count_fraction = 0.5,
       name = "steel-plate",
       type = "item"
     },
     {
-      amount = 12.5,
+      amount = 12,
       extra_count_fraction = 0.5,
       name = "big-electric-pole",
       type = "item"

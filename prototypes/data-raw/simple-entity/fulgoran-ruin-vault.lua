@@ -261,6 +261,7 @@ return {
       4.2000000000000002
     }
   },
+  shuffled_variation_on_chunk_generated = true,
   subgroup = "grass",
   type = "simple-entity"
 }

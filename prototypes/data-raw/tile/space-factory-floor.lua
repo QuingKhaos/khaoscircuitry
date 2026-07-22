@@ -114,7 +114,7 @@ return {
               volume_percentage = 0
             },
             to = {
-              control = 0.6,
+              control = 1,
               volume_percentage = 100
             }
           }
@@ -305,56 +305,56 @@ return {
     transition = {
       mask_layout = {
         inner_corner = {
-          count = 16,
+          count = 8,
           scale = 0.5,
-          spritesheet = "__base__/graphics/terrain/concrete/concrete-inner-corner-mask.png"
+          spritesheet = "__base__/graphics/terrain/concrete/refined-concrete-inner-corner-mask.png"
         },
         o_transition = {
           count = 4,
           scale = 0.5,
-          spritesheet = "__base__/graphics/terrain/concrete/concrete-o-mask.png"
+          spritesheet = "__base__/graphics/terrain/concrete/refined-concrete-o-mask.png"
         },
         outer_corner = {
-          count = 8,
+          count = 1,
           scale = 0.5,
-          spritesheet = "__base__/graphics/terrain/concrete/concrete-outer-corner-mask.png"
+          spritesheet = "__base__/graphics/terrain/concrete/refined-concrete-outer-corner-mask.png"
         },
         side = {
-          count = 16,
-          scale = 0.5,
-          spritesheet = "__base__/graphics/terrain/concrete/concrete-side-mask.png"
-        },
-        u_transition = {
           count = 8,
           scale = 0.5,
-          spritesheet = "__base__/graphics/terrain/concrete/concrete-u-mask.png"
+          spritesheet = "__base__/graphics/terrain/concrete/refined-concrete-side-mask.png"
+        },
+        u_transition = {
+          count = 4,
+          scale = 0.5,
+          spritesheet = "__base__/graphics/terrain/concrete/refined-concrete-u-mask.png"
         }
       },
       overlay_layout = {
         inner_corner = {
-          count = 16,
+          count = 8,
           scale = 0.5,
-          spritesheet = "__base__/graphics/terrain/concrete/concrete-inner-corner.png"
+          spritesheet = "__base__/graphics/terrain/concrete/refined-concrete-inner-corner.png"
         },
         o_transition = {
           count = 4,
           scale = 0.5,
-          spritesheet = "__base__/graphics/terrain/concrete/concrete-o.png"
+          spritesheet = "__base__/graphics/terrain/concrete/refined-concrete-o.png"
         },
         outer_corner = {
-          count = 8,
+          count = 1,
           scale = 0.5,
-          spritesheet = "__base__/graphics/terrain/concrete/concrete-outer-corner.png"
+          spritesheet = "__base__/graphics/terrain/concrete/refined-concrete-outer-corner.png"
         },
         side = {
-          count = 16,
-          scale = 0.5,
-          spritesheet = "__base__/graphics/terrain/concrete/concrete-side.png"
-        },
-        u_transition = {
           count = 8,
           scale = 0.5,
-          spritesheet = "__base__/graphics/terrain/concrete/concrete-u.png"
+          spritesheet = "__base__/graphics/terrain/concrete/refined-concrete-side.png"
+        },
+        u_transition = {
+          count = 4,
+          scale = 0.5,
+          spritesheet = "__base__/graphics/terrain/concrete/refined-concrete-u.png"
         }
       }
     }

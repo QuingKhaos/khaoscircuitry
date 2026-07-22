@@ -1,6 +1,7 @@
 return {
   name = "vulcanus-9-vulcanus-factory-floor",
   planet = "vulcanus-factory-floor",
+  title = "Vulcanus 9 - Molten Dreams",
   track_type = "main-track",
   type = "ambient-sound",
   variable_sound = {

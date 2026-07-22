@@ -1,6 +1,8 @@
 return {
   allow_decomposition = false,
-  category = "recycling",
+  categories = {
+    "recycling"
+  },
   crafting_machine_tint = {
     primary = {
       0.5,
@@ -27,11 +29,12 @@ return {
       0.5
     }
   },
+  enabled = false,
   energy_required = 0.03125,
   hidden = true,
   icons = {
     {
-      icon = "__quality__/graphics/icons/recycling.png"
+      icon = "__recycler__/graphics/icons/recycling.png"
     },
     {
       icon = "__cybersyn__/graphics/icons/cybernetic-combinator.png",
@@ -39,7 +42,7 @@ return {
       scale = 0.4
     },
     {
-      icon = "__quality__/graphics/icons/recycling-top.png"
+      icon = "__recycler__/graphics/icons/recycling-top.png"
     }
   },
   ingredients = {
@@ -58,13 +61,13 @@ return {
   name = "cybersyn-combinator-recycling",
   results = {
     {
-      amount = 1.25,
+      amount = 1,
       extra_count_fraction = 0.25,
       name = "copper-cable",
       type = "item"
     },
     {
-      amount = 1.25,
+      amount = 1,
       extra_count_fraction = 0.25,
       name = "electronic-circuit",
       type = "item"

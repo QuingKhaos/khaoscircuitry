@@ -147,24 +147,273 @@ return {
   },
   platform_procession_set = {
     arrival = {
-      "planet-to-platform-b"
+      "planet-to-platform-b",
+      "platform-to-platform-b"
     },
     departure = {
-      "platform-to-planet-a"
+      "platform-to-planet-a",
+      "platform-to-platform-a"
+    }
+  },
+  platform_surface_render_parameters = {
+    platform_backdrop = {
+      atmosphere_color = {
+        0.070000000000000009,
+        0.057000000000000011,
+        0.075,
+        0.1
+      },
+      cloud_flow_intensity = 1.5,
+      cloud_panning_rate = 0.1,
+      cloud_vertical_offset = 0.070000000000000009,
+      cloudiness = 0.05,
+      emission_scales_with_shadow = false,
+      global_cloud = {
+        filename = "__space-age__/graphics/space/fulgora-cloud.png",
+        height = 1024,
+        width = 2048
+      },
+      global_cloud_flow = {
+        filename = "__space-age__/graphics/space/fulgora-cloud-flow.png",
+        height = 1024,
+        width = 2048
+      },
+      global_cloud_normal = {
+        filename = "__space-age__/graphics/space/fulgora-cloud-normal.png",
+        height = 1024,
+        width = 2048
+      },
+      hero_cloud_texture_1 = {
+        animation_speed = 0.5,
+        filename = "__space-age__/graphics/space/planet-lightning.png",
+        frame_count = 12,
+        frame_sequence = {
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12
+        },
+        height = 780,
+        line_length = 4,
+        shift = {
+          0.578125,
+          0.265625
+        },
+        width = 756
+      },
+      hero_clouds = {
+        {
+          position_deviation = {
+            -0.05,
+            -0.3
+          },
+          positions = {
+            {
+              0.2,
+              0.5
+            }
+          },
+          rotate_with_planet = false,
+          rotation_deviation = 100,
+          size = {
+            0.3,
+            0.3
+          },
+          sprite_index = 1,
+          starting_frame_offset = 0
+        },
+        {
+          position_deviation = {
+            0.05,
+            -0.2
+          },
+          positions = {
+            {
+              0.21000000000000001,
+              0.7
+            }
+          },
+          rotate_with_planet = false,
+          rotation_deviation = 1,
+          size = {
+            0.3,
+            0.3
+          },
+          sprite_index = 1,
+          starting_frame_offset = 24
+        },
+        {
+          position_deviation = {
+            -0.05,
+            -0.4
+          },
+          positions = {
+            {
+              0.21000000000000001,
+              0.9
+            }
+          },
+          rotate_with_planet = false,
+          rotation_deviation = 1,
+          size = {
+            0.3,
+            0.3
+          },
+          sprite_index = 1,
+          starting_frame_offset = 32
+        },
+        {
+          position_deviation = {
+            -0.05,
+            -0.4
+          },
+          positions = {
+            {
+              0.21000000000000001,
+              0.9
+            }
+          },
+          rotate_with_planet = false,
+          rotation_deviation = 1,
+          size = {
+            0.3,
+            0.3
+          },
+          sprite_index = 1,
+          starting_frame_offset = 64
+        }
+      },
+      hero_clouds_are_emissive = true,
+      light_direction = {
+        -0.42000000000000002,
+        0.23000000000000003,
+        0.4
+      },
+      light_intensity_contrast = 0.3,
+      light_radius = 5.9000000000000004,
+      parallax_strength = {
+        0.95,
+        0.95
+      },
+      planet_axis = {
+        3,
+        13
+      },
+      planet_axis_deviation_amplitude = {
+        10,
+        10
+      },
+      planet_axis_deviation_seconds = {
+        494.72222222222223,
+        418.72222222222223
+      },
+      planet_normal = {
+        filename = "__space-age__/graphics/space/fulgora-normal.png",
+        height = 1024,
+        width = 2048
+      },
+      planet_reflectivity = {
+        filename = "__space-age__/graphics/space/fulgora-reflectivity.png",
+        height = 1024,
+        width = 2048
+      },
+      planet_surface = {
+        filename = "__space-age__/graphics/space/fulgora.png",
+        height = 1024,
+        width = 2048
+      },
+      position = {
+        -400,
+        270
+      },
+      radius = 420,
+      rotation_seconds = -366.66666666666669,
+      specular_color = {
+        0.95,
+        0.82999999999999989,
+        0.52000000000000002,
+        1
+      },
+      specular_intensity = 0.7,
+      surface_vertical_offset = 0.1
+    },
+    shadow_opacity = 0.5,
+    space_dust_background = {
+      animation_speed = 1,
+      asteroid_normal_texture = {
+        filename = "__space-age__/graphics/space/asteroidNormalTexture.png",
+        size = 1024
+      },
+      asteroid_texture = {
+        filename = "__space-age__/graphics/space/asteroidTexture.png",
+        size = 1024
+      },
+      noise_texture = {
+        filename = "__space-age__/graphics/space/dustTrailSpeckDust.png",
+        premul_alpha = false,
+        size = 4096
+      }
+    },
+    space_dust_foreground = {
+      animation_speed = 1,
+      asteroid_normal_texture = {
+        filename = "__space-age__/graphics/space/asteroidNormalTexture.png",
+        size = 1024
+      },
+      asteroid_texture = {
+        filename = "__space-age__/graphics/space/asteroidTexture.png",
+        size = 1024
+      },
+      noise_texture = {
+        filename = "__space-age__/graphics/space/dustTrailSpeckDust.png",
+        premul_alpha = false,
+        size = 4096
+      }
     }
   },
   procession_graphic_catalogue = {
     {
       index = 400,
       sprite = {
-        filename = "__space-age__/graphics/procession/clouds/gleba-cloudscape.png",
+        filename = "__space-age__/graphics/procession/clouds/fulgora-cloudscape.png",
         flags = {
-          "group=effect-texture",
-          "linear-minification",
-          "linear-magnification"
+          "procession-cover"
         },
         height = 960,
-        priority = "no-atlas",
+        priority = "medium",
         width = 960
       },
       type = "sprite"
@@ -174,12 +423,26 @@ return {
       sprite = {
         filename = "__space-age__/graphics/procession/clouds/mask-cloudscape.png",
         flags = {
-          "group=effect-texture",
+          "procession-cover"
+        },
+        height = 960,
+        priority = "medium",
+        width = 960
+      },
+      type = "sprite"
+    },
+    {
+      index = 420,
+      sprite = {
+        blend_mode = "additive",
+        draw_as_glow = false,
+        filename = "__space-age__/graphics/procession/clouds/fulgora-cloudscape-lightning.png",
+        flags = {
+          "group=procession-cover",
           "linear-minification",
           "linear-magnification"
         },
         height = 960,
-        priority = "no-atlas",
         width = 960
       },
       type = "sprite"
@@ -187,14 +450,12 @@ return {
     {
       index = 402,
       sprite = {
-        filename = "__space-age__/graphics/procession/clouds/gleba-cloudscape-layered-0.png",
+        filename = "__space-age__/graphics/procession/clouds/fulgora-cloudscape-layered-0.png",
         flags = {
-          "group=effect-texture",
-          "linear-minification",
-          "linear-magnification"
+          "procession-cover"
         },
         height = 1500,
-        priority = "no-atlas",
+        priority = "medium",
         width = 2000
       },
       type = "sprite"
@@ -204,12 +465,26 @@ return {
       sprite = {
         filename = "__space-age__/graphics/procession/clouds/mask-cloudscape-layered-0.png",
         flags = {
-          "group=effect-texture",
+          "procession-cover"
+        },
+        height = 1500,
+        priority = "medium",
+        width = 2000
+      },
+      type = "sprite"
+    },
+    {
+      index = 421,
+      sprite = {
+        blend_mode = "additive",
+        draw_as_glow = false,
+        filename = "__space-age__/graphics/procession/clouds/fulgora-cloudscape-layered-0-lightning.png",
+        flags = {
+          "group=procession-cover",
           "linear-minification",
           "linear-magnification"
         },
         height = 1500,
-        priority = "no-atlas",
         width = 2000
       },
       type = "sprite"
@@ -217,14 +492,12 @@ return {
     {
       index = 404,
       sprite = {
-        filename = "__space-age__/graphics/procession/clouds/gleba-cloudscape-layered-1.png",
+        filename = "__space-age__/graphics/procession/clouds/fulgora-cloudscape-layered-1.png",
         flags = {
-          "group=effect-texture",
-          "linear-minification",
-          "linear-magnification"
+          "procession-cover"
         },
         height = 1200,
-        priority = "no-atlas",
+        priority = "medium",
         width = 1600
       },
       type = "sprite"
@@ -234,12 +507,26 @@ return {
       sprite = {
         filename = "__space-age__/graphics/procession/clouds/mask-cloudscape-layered-1.png",
         flags = {
-          "group=effect-texture",
+          "procession-cover"
+        },
+        height = 1200,
+        priority = "medium",
+        width = 1600
+      },
+      type = "sprite"
+    },
+    {
+      index = 422,
+      sprite = {
+        blend_mode = "additive",
+        draw_as_glow = false,
+        filename = "__space-age__/graphics/procession/clouds/fulgora-cloudscape-layered-1-lightning.png",
+        flags = {
+          "group=procession-cover",
           "linear-minification",
           "linear-magnification"
         },
         height = 1200,
-        priority = "no-atlas",
         width = 1600
       },
       type = "sprite"
@@ -247,14 +534,12 @@ return {
     {
       index = 406,
       sprite = {
-        filename = "__space-age__/graphics/procession/clouds/gleba-cloudscape-layered-2.png",
+        filename = "__space-age__/graphics/procession/clouds/fulgora-cloudscape-layered-2.png",
         flags = {
-          "group=effect-texture",
-          "linear-minification",
-          "linear-magnification"
+          "procession-cover"
         },
         height = 1050,
-        priority = "no-atlas",
+        priority = "medium",
         width = 1400
       },
       type = "sprite"
@@ -264,12 +549,26 @@ return {
       sprite = {
         filename = "__space-age__/graphics/procession/clouds/mask-cloudscape-layered-2.png",
         flags = {
-          "group=effect-texture",
+          "procession-cover"
+        },
+        height = 1050,
+        priority = "medium",
+        width = 1400
+      },
+      type = "sprite"
+    },
+    {
+      index = 423,
+      sprite = {
+        blend_mode = "additive",
+        draw_as_glow = false,
+        filename = "__space-age__/graphics/procession/clouds/fulgora-cloudscape-layered-2-lightning.png",
+        flags = {
+          "group=procession-cover",
           "linear-minification",
           "linear-magnification"
         },
         height = 1050,
-        priority = "no-atlas",
         width = 1400
       },
       type = "sprite"
@@ -277,14 +576,12 @@ return {
     {
       index = 408,
       sprite = {
-        filename = "__space-age__/graphics/procession/clouds/gleba-cloudscape-layered-3.png",
+        filename = "__space-age__/graphics/procession/clouds/fulgora-cloudscape-layered-3.png",
         flags = {
-          "group=effect-texture",
-          "linear-minification",
-          "linear-magnification"
+          "procession-cover"
         },
         height = 900,
-        priority = "no-atlas",
+        priority = "medium",
         width = 1200
       },
       type = "sprite"
@@ -294,12 +591,26 @@ return {
       sprite = {
         filename = "__space-age__/graphics/procession/clouds/mask-cloudscape-layered-3.png",
         flags = {
-          "group=effect-texture",
+          "procession-cover"
+        },
+        height = 900,
+        priority = "medium",
+        width = 1200
+      },
+      type = "sprite"
+    },
+    {
+      index = 424,
+      sprite = {
+        blend_mode = "additive",
+        draw_as_glow = false,
+        filename = "__space-age__/graphics/procession/clouds/fulgora-cloudscape-layered-3-lightning.png",
+        flags = {
+          "group=procession-cover",
           "linear-minification",
           "linear-magnification"
         },
         height = 900,
-        priority = "no-atlas",
         width = 1200
       },
       type = "sprite"
@@ -309,12 +620,10 @@ return {
       sprite = {
         filename = "__space-age__/graphics/procession/space-rear-star.png",
         flags = {
-          "group=effect-texture",
-          "linear-minification",
-          "linear-magnification"
+          "procession-cover"
         },
         height = 1024,
-        priority = "no-atlas",
+        priority = "medium",
         width = 1024
       },
       type = "sprite"
@@ -324,12 +633,10 @@ return {
       sprite = {
         filename = "__space-age__/graphics/procession/clouds/fulgora-sky-tint.png",
         flags = {
-          "group=effect-texture",
-          "linear-minification",
-          "linear-magnification"
+          "procession-cover"
         },
         height = 16,
-        priority = "no-atlas",
+        priority = "medium",
         width = 16
       },
       type = "sprite"
@@ -338,7 +645,7 @@ return {
       index = 509,
       sprite = {
         blend_mode = "additive",
-        draw_as_glow = true,
+        draw_as_glow = false,
         filename = "__space-age__/graphics/entity/cargo-hubs/hatches/shared-cargo-bay-pod-emission.png",
         height = 120,
         line_length = 1,
@@ -355,7 +662,7 @@ return {
       index = 500,
       sprite = {
         blend_mode = "additive",
-        draw_as_glow = true,
+        draw_as_glow = false,
         filename = "__space-age__/graphics/entity/cargo-hubs/hatches/platform-lower-hatch-pod-emission-A.png",
         height = 268,
         line_length = 1,
@@ -372,7 +679,7 @@ return {
       index = 501,
       sprite = {
         blend_mode = "additive",
-        draw_as_glow = true,
+        draw_as_glow = false,
         filename = "__space-age__/graphics/entity/cargo-hubs/hatches/platform-lower-hatch-pod-emission-B.png",
         height = 286,
         line_length = 1,
@@ -389,7 +696,7 @@ return {
       index = 502,
       sprite = {
         blend_mode = "additive",
-        draw_as_glow = true,
+        draw_as_glow = false,
         filename = "__space-age__/graphics/entity/cargo-hubs/hatches/platform-lower-hatch-pod-emission-C.png",
         height = 308,
         line_length = 1,
@@ -406,7 +713,7 @@ return {
       index = 503,
       sprite = {
         blend_mode = "additive",
-        draw_as_glow = true,
+        draw_as_glow = false,
         filename = "__space-age__/graphics/entity/cargo-hubs/hatches/platform-upper-hatch-pod-emission-A.png",
         height = 310,
         line_length = 1,
@@ -423,7 +730,7 @@ return {
       index = 504,
       sprite = {
         blend_mode = "additive",
-        draw_as_glow = true,
+        draw_as_glow = false,
         filename = "__space-age__/graphics/entity/cargo-hubs/hatches/platform-upper-hatch-pod-emission-B.png",
         height = 318,
         line_length = 1,
@@ -440,7 +747,7 @@ return {
       index = 505,
       sprite = {
         blend_mode = "additive",
-        draw_as_glow = true,
+        draw_as_glow = false,
         filename = "__space-age__/graphics/entity/cargo-hubs/hatches/platform-upper-hatch-pod-emission-C.png",
         height = 318,
         line_length = 1,
@@ -457,7 +764,7 @@ return {
       index = 506,
       sprite = {
         blend_mode = "additive",
-        draw_as_glow = true,
+        draw_as_glow = false,
         filename = "__base__/graphics/entity/cargo-hubs/hatches/planet-lower-hatch-pod-emission-A.png",
         height = 316,
         line_length = 1,
@@ -474,7 +781,7 @@ return {
       index = 507,
       sprite = {
         blend_mode = "additive",
-        draw_as_glow = true,
+        draw_as_glow = false,
         filename = "__base__/graphics/entity/cargo-hubs/hatches/planet-lower-hatch-pod-emission-B.png",
         height = 388,
         line_length = 1,
@@ -491,7 +798,7 @@ return {
       index = 508,
       sprite = {
         blend_mode = "additive",
-        draw_as_glow = true,
+        draw_as_glow = false,
         filename = "__base__/graphics/entity/cargo-hubs/hatches/planet-lower-hatch-pod-emission-C.png",
         height = 358,
         line_length = 1,
@@ -569,12 +876,13 @@ return {
       global_intensity = 0.3,
       global_scale = 0.25,
       intensity = {
-        0.2,
         0.4,
-        0.3,
-        0.25
+        0.4,
+        0.4,
+        0.7
       },
       noise_texture = {
+        color_channels = 3,
         filename = "__space-age__/graphics/terrain/vulcanus/tint-noise.png",
         size = 4096
       },
@@ -585,16 +893,16 @@ return {
         0.8
       },
       scale_u = {
+        1.1000000000000001,
         1.85,
         1.85,
-        1.85,
-        1.85
+        0.5
       },
       scale_v = {
+        0.45,
         1,
         1,
-        1,
-        1
+        0.7
       },
       zoom_factor = 3.7999999999999998,
       zoom_intensity = 0.75

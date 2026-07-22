@@ -122,7 +122,7 @@ return {
               volume_percentage = 0
             },
             to = {
-              control = 0.6,
+              control = 1,
               volume_percentage = 100
             }
           }
@@ -180,7 +180,7 @@ return {
   subgroup = "aquilo-tiles",
   thawed_variant = "factory-entrance",
   transition_merges_with_tile = "concrete",
-  transition_overlay_layer_offset = 2,
+  transition_overlay_layer_offset = 0,
   trigger_effect = {
     {
       affects_target = false,
@@ -368,7 +368,7 @@ return {
             volume_percentage = 0
           },
           to = {
-            control = 0.6,
+            control = 1,
             volume_percentage = 100
           }
         }

@@ -33,11 +33,7 @@ return {
       type = "unlock-recipe"
     },
     {
-      recipe = "belt-arithmetic-combinator",
-      type = "unlock-recipe"
-    },
-    {
-      recipe = "blueprint_reader_blueprint-combinator",
+      recipe = "hps__fc-filter-combinator",
       type = "unlock-recipe"
     },
     {
@@ -54,14 +50,6 @@ return {
     },
     {
       recipe = "hud-combinator",
-      type = "unlock-recipe"
-    },
-    {
-      recipe = "alchemical-combinator",
-      type = "unlock-recipe"
-    },
-    {
-      recipe = "hps__fc-filter-combinator",
       type = "unlock-recipe"
     },
     {

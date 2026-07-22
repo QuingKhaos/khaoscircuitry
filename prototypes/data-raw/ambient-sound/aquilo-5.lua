@@ -1,6 +1,7 @@
 return {
   name = "aquilo-5",
   planet = "aquilo",
+  title = "Aquilo 5 - Sublimation",
   track_type = "main-track",
   type = "ambient-sound",
   variable_sound = {

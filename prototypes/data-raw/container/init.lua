@@ -3,7 +3,6 @@ return {
   ["alert-scanner-activity-upgrade-from"] = require("___KHAOSDATA___.prototypes.data-raw.container.alert-scanner-activity-upgrade-from"),
   ["alert-scanner-activity-upgrade-to"] = require("___KHAOSDATA___.prototypes.data-raw.container.alert-scanner-activity-upgrade-to"),
   ["blue-chest"] = require("___KHAOSDATA___.prototypes.data-raw.container.blue-chest"),
-  ["blueprint_reader_combinator-chest"] = require("___KHAOSDATA___.prototypes.data-raw.container.blueprint_reader_combinator-chest"),
   ["bottomless-chest"] = require("___KHAOSDATA___.prototypes.data-raw.container.bottomless-chest"),
   ["crash-site-chest-1"] = require("___KHAOSDATA___.prototypes.data-raw.container.crash-site-chest-1"),
   ["crash-site-chest-2"] = require("___KHAOSDATA___.prototypes.data-raw.container.crash-site-chest-2"),

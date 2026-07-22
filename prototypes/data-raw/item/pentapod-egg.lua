@@ -102,6 +102,7 @@ return {
                 5
               }
             },
+            show_details_in_tooltip = false,
             show_in_tooltip = true,
             type = "create-entity"
           }

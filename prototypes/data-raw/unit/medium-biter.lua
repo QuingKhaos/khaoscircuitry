@@ -4,7 +4,8 @@ return {
   },
   ai_settings = {
     allow_try_return_to_spawner = true,
-    destroy_when_commands_fail = true
+    destroy_when_commands_fail = true,
+    size_in_group = 1
   },
   attack_parameters = {
     ammo_category = "melee",
@@ -209,6 +210,10 @@ return {
       }
     },
     type = "projectile"
+  },
+  buildable_entities = {
+    "biter-spawner",
+    "spitter-spawner"
   },
   collision_box = {
     {
@@ -452,6 +457,14 @@ return {
     {
       0.7,
       0.3
+    }
+  },
+  steering = {
+    move = {
+      radius = 2
+    },
+    stay = {
+      radius = 3.5
     }
   },
   sticker_box = {

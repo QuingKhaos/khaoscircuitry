@@ -1,5 +1,7 @@
 return {
-  category = "flaring",
+  categories = {
+    "flaring"
+  },
   emissions_multiplier = 1,
   enabled = true,
   energy_required = 1,

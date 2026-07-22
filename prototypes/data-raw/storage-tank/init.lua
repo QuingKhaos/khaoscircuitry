@@ -24,7 +24,6 @@ return {
   ["factory-connection-indicator-heat-b120"] = require("___KHAOSDATA___.prototypes.data-raw.storage-tank.factory-connection-indicator-heat-b120"),
   ["factory-connection-indicator-heat-b30"] = require("___KHAOSDATA___.prototypes.data-raw.storage-tank.factory-connection-indicator-heat-b30"),
   ["factory-connection-indicator-heat-b5"] = require("___KHAOSDATA___.prototypes.data-raw.storage-tank.factory-connection-indicator-heat-b5"),
-  ["simple-gauge"] = require("___KHAOSDATA___.prototypes.data-raw.storage-tank.simple-gauge"),
   ["space-factory-1"] = require("___KHAOSDATA___.prototypes.data-raw.storage-tank.space-factory-1"),
   ["space-factory-2"] = require("___KHAOSDATA___.prototypes.data-raw.storage-tank.space-factory-2"),
   ["space-factory-3"] = require("___KHAOSDATA___.prototypes.data-raw.storage-tank.space-factory-3"),

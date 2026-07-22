@@ -127,10 +127,116 @@ return {
   },
   platform_procession_set = {
     arrival = {
-      "planet-to-platform-b"
+      "planet-to-platform-b",
+      "platform-to-platform-b"
     },
     departure = {
-      "platform-to-planet-a"
+      "platform-to-planet-a",
+      "platform-to-platform-a"
+    }
+  },
+  platform_surface_render_parameters = {
+    platform_backdrop = {
+      atmosphere_color = {
+        0.071999999999999993,
+        0.072999999999999998,
+        0.067000000000000002,
+        0.1
+      },
+      cloud_flow_intensity = 0.8,
+      cloud_panning_rate = -0.025,
+      cloud_vertical_offset = 0.05,
+      cloudiness = 0.5,
+      emission_scales_with_shadow = false,
+      global_cloud = {
+        filename = "__space-age__/graphics/space/vulcanus-cloud.png",
+        height = 1024,
+        width = 2048
+      },
+      global_cloud_flow = {
+        filename = "__space-age__/graphics/space/vulcanus-cloud-flow.png",
+        height = 1024,
+        width = 2048
+      },
+      global_cloud_normal = {
+        filename = "__space-age__/graphics/space/vulcanus-cloud-normal.png",
+        height = 1024,
+        width = 2048
+      },
+      light_direction = {
+        -0.42000000000000002,
+        0.23000000000000003,
+        0.67000000000000002
+      },
+      light_intensity_contrast = 0.3,
+      light_radius = 13.350000000000001,
+      parallax_strength = {
+        0.95,
+        0.95
+      },
+      planet_axis = {
+        3,
+        13
+      },
+      planet_axis_deviation_amplitude = {
+        10,
+        10
+      },
+      planet_axis_deviation_seconds = {
+        382.18884120171674,
+        323.47639484978544
+      },
+      planet_emission = {
+        filename = "__space-age__/graphics/space/vulcanus-emission.png",
+        height = 1024,
+        width = 2048
+      },
+      planet_surface = {
+        filename = "__space-age__/graphics/space/vulcanus.png",
+        height = 1024,
+        width = 2048
+      },
+      position = {
+        -680,
+        601
+      },
+      radius = 772,
+      rotation_seconds = -283.26180257510731,
+      specular_intensity = 0,
+      surface_vertical_offset = 0.12
+    },
+    shadow_opacity = 0.5,
+    space_dust_background = {
+      animation_speed = 1,
+      asteroid_normal_texture = {
+        filename = "__space-age__/graphics/space/asteroidNormalTexture.png",
+        size = 1024
+      },
+      asteroid_texture = {
+        filename = "__space-age__/graphics/space/asteroidTexture.png",
+        size = 1024
+      },
+      noise_texture = {
+        filename = "__space-age__/graphics/space/dustTrailSpeckDust.png",
+        premul_alpha = false,
+        size = 4096
+      }
+    },
+    space_dust_foreground = {
+      animation_speed = 1,
+      asteroid_normal_texture = {
+        filename = "__space-age__/graphics/space/asteroidNormalTexture.png",
+        size = 1024
+      },
+      asteroid_texture = {
+        filename = "__space-age__/graphics/space/asteroidTexture.png",
+        size = 1024
+      },
+      noise_texture = {
+        filename = "__space-age__/graphics/space/dustTrailSpeckDust.png",
+        premul_alpha = false,
+        size = 4096
+      }
     }
   },
   procession_graphic_catalogue = {
@@ -139,12 +245,10 @@ return {
       sprite = {
         filename = "__space-age__/graphics/procession/clouds/vulcanus-cloudscape.png",
         flags = {
-          "group=effect-texture",
-          "linear-minification",
-          "linear-magnification"
+          "procession-cover"
         },
         height = 960,
-        priority = "no-atlas",
+        priority = "medium",
         width = 960
       },
       type = "sprite"
@@ -154,12 +258,10 @@ return {
       sprite = {
         filename = "__space-age__/graphics/procession/clouds/mask-cloudscape.png",
         flags = {
-          "group=effect-texture",
-          "linear-minification",
-          "linear-magnification"
+          "procession-cover"
         },
         height = 960,
-        priority = "no-atlas",
+        priority = "medium",
         width = 960
       },
       type = "sprite"
@@ -169,12 +271,10 @@ return {
       sprite = {
         filename = "__space-age__/graphics/procession/clouds/vulcanus-cloudscape-layered-0.png",
         flags = {
-          "group=effect-texture",
-          "linear-minification",
-          "linear-magnification"
+          "procession-cover"
         },
         height = 1500,
-        priority = "no-atlas",
+        priority = "medium",
         width = 2000
       },
       type = "sprite"
@@ -184,12 +284,10 @@ return {
       sprite = {
         filename = "__space-age__/graphics/procession/clouds/mask-cloudscape-layered-0.png",
         flags = {
-          "group=effect-texture",
-          "linear-minification",
-          "linear-magnification"
+          "procession-cover"
         },
         height = 1500,
-        priority = "no-atlas",
+        priority = "medium",
         width = 2000
       },
       type = "sprite"
@@ -199,12 +297,10 @@ return {
       sprite = {
         filename = "__space-age__/graphics/procession/clouds/vulcanus-cloudscape-layered-1.png",
         flags = {
-          "group=effect-texture",
-          "linear-minification",
-          "linear-magnification"
+          "procession-cover"
         },
         height = 1200,
-        priority = "no-atlas",
+        priority = "medium",
         width = 1600
       },
       type = "sprite"
@@ -214,12 +310,10 @@ return {
       sprite = {
         filename = "__space-age__/graphics/procession/clouds/mask-cloudscape-layered-1.png",
         flags = {
-          "group=effect-texture",
-          "linear-minification",
-          "linear-magnification"
+          "procession-cover"
         },
         height = 1200,
-        priority = "no-atlas",
+        priority = "medium",
         width = 1600
       },
       type = "sprite"
@@ -229,12 +323,10 @@ return {
       sprite = {
         filename = "__space-age__/graphics/procession/clouds/vulcanus-cloudscape-layered-2.png",
         flags = {
-          "group=effect-texture",
-          "linear-minification",
-          "linear-magnification"
+          "procession-cover"
         },
         height = 1050,
-        priority = "no-atlas",
+        priority = "medium",
         width = 1400
       },
       type = "sprite"
@@ -244,12 +336,10 @@ return {
       sprite = {
         filename = "__space-age__/graphics/procession/clouds/mask-cloudscape-layered-2.png",
         flags = {
-          "group=effect-texture",
-          "linear-minification",
-          "linear-magnification"
+          "procession-cover"
         },
         height = 1050,
-        priority = "no-atlas",
+        priority = "medium",
         width = 1400
       },
       type = "sprite"
@@ -259,12 +349,10 @@ return {
       sprite = {
         filename = "__space-age__/graphics/procession/clouds/vulcanus-cloudscape-layered-3.png",
         flags = {
-          "group=effect-texture",
-          "linear-minification",
-          "linear-magnification"
+          "procession-cover"
         },
         height = 900,
-        priority = "no-atlas",
+        priority = "medium",
         width = 1200
       },
       type = "sprite"
@@ -274,12 +362,10 @@ return {
       sprite = {
         filename = "__space-age__/graphics/procession/clouds/mask-cloudscape-layered-3.png",
         flags = {
-          "group=effect-texture",
-          "linear-minification",
-          "linear-magnification"
+          "procession-cover"
         },
         height = 900,
-        priority = "no-atlas",
+        priority = "medium",
         width = 1200
       },
       type = "sprite"
@@ -289,12 +375,10 @@ return {
       sprite = {
         filename = "__space-age__/graphics/procession/space-rear-star.png",
         flags = {
-          "group=effect-texture",
-          "linear-minification",
-          "linear-magnification"
+          "procession-cover"
         },
         height = 1024,
-        priority = "no-atlas",
+        priority = "medium",
         width = 1024
       },
       type = "sprite"
@@ -304,12 +388,10 @@ return {
       sprite = {
         filename = "__space-age__/graphics/procession/clouds/vulcanus-sky-tint.png",
         flags = {
-          "group=effect-texture",
-          "linear-minification",
-          "linear-magnification"
+          "procession-cover"
         },
         height = 16,
-        priority = "no-atlas",
+        priority = "medium",
         width = 16
       },
       type = "sprite"
@@ -551,6 +633,7 @@ return {
         1
       },
       noise_texture = {
+        color_channels = 3,
         filename = "__space-age__/graphics/terrain/vulcanus/tint-noise.png",
         size = 4096
       },

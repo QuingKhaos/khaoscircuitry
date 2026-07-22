@@ -86,19 +86,6 @@ return {
     "not-in-kill-statistics",
     "not-in-made-in"
   },
-  frozen_patch = {
-    sheet = {
-      filename = "__space-age__/graphics/entity/frozen/combinator/arithmetic-combinator-frozen.png",
-      height = 124,
-      scale = 0.5,
-      shift = {
-        0.015625,
-        0.234375
-      },
-      width = 144
-    }
-  },
-  heating_energy = "50kW",
   hidden = true,
   hidden_in_factoriopedia = true,
   icon = "__base__/graphics/icons/arithmetic-combinator.png",
@@ -394,6 +381,23 @@ return {
     width = 1
   },
   type = "arithmetic-combinator",
+  water_reflection = {
+    orientation_to_variation = true,
+    pictures = {
+      filename = "__base__/graphics/entity/combinator/combinators-reflection.png",
+      height = 16,
+      priority = "extra-high",
+      repeat_count = 2,
+      scale = 5,
+      shift = {
+        0,
+        0.78125
+      },
+      variation_count = 2,
+      width = 16
+    },
+    rotate = false
+  },
   working_sound = {
     fade_in_ticks = 4,
     fade_out_ticks = 20,

@@ -1,6 +1,8 @@
 return {
   allow_decomposition = false,
-  category = "recycling",
+  categories = {
+    "recycling"
+  },
   crafting_machine_tint = {
     primary = {
       0.5,
@@ -27,11 +29,12 @@ return {
       0.5
     }
   },
+  enabled = false,
   energy_required = 0.625,
   hidden = true,
   icons = {
     {
-      icon = "__quality__/graphics/icons/recycling.png"
+      icon = "__recycler__/graphics/icons/recycling.png"
     },
     {
       icon = "__space-platform-flow-monitor__/graphics/icons/item_64.png",
@@ -45,7 +48,7 @@ return {
       }
     },
     {
-      icon = "__quality__/graphics/icons/recycling-top.png"
+      icon = "__recycler__/graphics/icons/recycling-top.png"
     }
   },
   ingredients = {
@@ -64,19 +67,19 @@ return {
   name = "spfm-master-monitor-recycling",
   results = {
     {
-      amount = 0.5,
+      amount = 0,
       extra_count_fraction = 0.5,
       name = "constant-combinator",
       type = "item"
     },
     {
-      amount = 1.25,
+      amount = 1,
       extra_count_fraction = 0.25,
       name = "processing-unit",
       type = "item"
     },
     {
-      amount = 2.5,
+      amount = 2,
       extra_count_fraction = 0.5,
       name = "advanced-circuit",
       type = "item"
