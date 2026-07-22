@@ -1,4 +1,10 @@
 ---------------------------------------------------------------------------------------------------
+Version: 2.1.2
+Date: ????
+  Compatibility:
+    - Bump Circuit HUD V2 version, it got updated for Factorio 2.1.
+    - Bump Stack Combinator (Redux) version, it got updated for Factorio 2.1.
+---------------------------------------------------------------------------------------------------
 Version: 2.1.1
 Date: 2026-07-21
   Compatibility:

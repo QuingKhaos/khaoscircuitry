@@ -17,7 +17,7 @@ There are also some non-circuitry mods in this list, because they contain circui
 - [Belt Counter 2.0](https://mods.factorio.com/mod/beltcounter2)ᵃ
 - [Blueprint Reader Combinator (`blueprint_reader`)](https://mods.factorio.com/mod/blueprint_reader)ᵃ
 - [Blueprint Reader Combinator (`BRCombinator`)](https://mods.factorio.com/mod/BRCombinator)
-- [Circuit HUD V2](https://mods.factorio.com/mod/CircuitHUD-V2)ᵃ
+- [Circuit HUD V2](https://mods.factorio.com/mod/CircuitHUD-V2)
 - [Compact Circuits](https://mods.factorio.com/mod/compaktcircuit)ᵃ
 - [Cybersyn](https://mods.factorio.com/mod/cybersyn)
 - [Cybersyn Combinator](https://mods.factorio.com/mod/cybersyn-combinator)
@@ -42,14 +42,14 @@ There are also some non-circuitry mods in this list, because they contain circui
 - [Smart Train Combinator](https://mods.factorio.com/mod/smart-train-combinator)
 - [Space Platform Flow Monitor](https://mods.factorio.com/mod/space-platform-flow-monitor)
 - [Spoilage Scanner](https://mods.factorio.com/mod/spoilage-scanner)
-- [Stack Combinator (Redux)](https://mods.factorio.com/mod/stack-combinator-redux)ᵃ
+- [Stack Combinator (Redux)](https://mods.factorio.com/mod/stack-combinator-redux)
 - [Stack Constant Combinator](https://mods.factorio.com/mod/stack-constant-combinator)ᵃ
 - [Statistics Combinator Updated](https://mods.factorio.com/mod/statistics-combinator-updated)
 - [Utility Combinators](https://mods.factorio.com/mod/utility-combinators)
 
 If you want to see another mod tweaked, please open a discussion thread on the mod portal, or an issue on GitHub, or join the Discord server and let me know.
 
-ᵃ: As of 2026-07-18 this mod is not yet available for Factorio 2.1. The tweaks for this mod are still included, so if the mod is updated for Factorio 2.1, the tweaks will be applied automatically.
+ᵃ: As of 2026-07-22 this mod is not yet available for Factorio 2.1. The tweaks for this mod are still included, so if the mod is updated for Factorio 2.1, the tweaks will be applied automatically.
 
 ## Credits
 
