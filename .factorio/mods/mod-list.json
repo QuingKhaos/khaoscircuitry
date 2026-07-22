@@ -78,6 +78,18 @@
     },
     {
       "enabled": true,
+      "name": "khaosbash"
+    },
+    {
+      "enabled": true,
+      "name": "khaoscircuitry"
+    },
+    {
+      "enabled": true,
+      "name": "khaoscircuitrygroup"
+    },
+    {
+      "enabled": true,
       "name": "khaosdata-extractor"
     },
     {
