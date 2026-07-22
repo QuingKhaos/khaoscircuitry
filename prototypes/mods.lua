@@ -24,7 +24,7 @@ return {
   khaosbash = "2.0.0",
   khaoscircuitry = "2.1.2",
   khaoscircuitrygroup = "2.0.1",
-  ["khaosdata-extractor"] = "22026.722.1306",
+  ["khaosdata-extractor"] = "22026.722.1651",
   khaoslib = "2.0.0",
   ["ltn-train-info"] = "2.0.3",
   ["m-microcontroller"] = "0.13.1",
