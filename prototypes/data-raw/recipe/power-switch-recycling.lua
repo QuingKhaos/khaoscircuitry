@@ -75,6 +75,7 @@ return {
       type = "item"
     }
   },
+  subgroup = "circuit-connection",
   type = "recipe",
   unlock_results = false
 }

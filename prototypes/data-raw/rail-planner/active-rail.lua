@@ -7,7 +7,17 @@ return {
     filename = "__base__/sound/item/train-inventory-move.ogg",
     volume = 0.5
   },
-  icon = "__base__/graphics/icons/rail.png",
+  icons = {
+    {
+      icon = "__base__/graphics/icons/rail.png",
+      tint = {
+        a = 0.5,
+        b = 0,
+        g = 0,
+        r = 1
+      }
+    }
+  },
   inventory_move_sound = {
     aggregation = {
       max_count = 1,
@@ -41,7 +51,7 @@ return {
     "elevated-half-diagonal-rail"
   },
   stack_size = 100,
-  subgroup = "train-transport",
+  subgroup = "circuit-combinator",
   support = "rail-support",
   type = "rail-planner"
 }

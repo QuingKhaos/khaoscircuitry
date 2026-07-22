@@ -163,6 +163,7 @@ return {
     }
   },
   spawn_and_station_height = -0.1,
+  subgroup = "circuit-connection",
   type = "roboport",
   vehicle_impact_sound = {
     filename = "__base__/sound/car-metal-impact.ogg",

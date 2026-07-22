@@ -54,7 +54,7 @@ return {
     1
   },
   stack_size = 100,
-  subgroup = "energy-pipe-distribution",
+  subgroup = "circuit-input",
   type = "item",
   weight = 5000
 }

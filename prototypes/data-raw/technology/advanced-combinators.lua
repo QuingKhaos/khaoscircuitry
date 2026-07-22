@@ -31,6 +31,14 @@ return {
     {
       recipe = "spoilage-scanner",
       type = "unlock-recipe"
+    },
+    {
+      recipe = "production-combinator",
+      type = "unlock-recipe"
+    },
+    {
+      recipe = "consumption-combinator",
+      type = "unlock-recipe"
     }
   },
   icon = "__base__/graphics/technology/advanced-combinators.png",

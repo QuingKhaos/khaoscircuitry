@@ -516,6 +516,7 @@ return {
       }
     }
   },
+  subgroup = "circuit-combinator",
   type = "decider-combinator",
   working_sound = {
     fade_in_ticks = 4,

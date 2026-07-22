@@ -8,7 +8,24 @@ return {
     volume = 0.5
   },
   enabled = true,
-  icon = "__compaktcircuit__/graphics/item/input.png",
+  icons = {
+    {
+      draw_background = true,
+      icon = "__khaosbash__/graphics/base/icons/constant-combinator-base.png",
+      icon_size = 64
+    },
+    {
+      draw_background = false,
+      icon = "__khaosbash__/graphics/base/icons/constant-combinator-mask-main-color.png",
+      icon_size = 64,
+      tint = {
+        a = 1,
+        b = 0.96078431606292725,
+        g = 0.35294118523597717,
+        r = 0.32941177487373352
+      }
+    }
+  },
   inventory_move_sound = {
     aggregation = {
       max_count = 1,
@@ -29,6 +46,6 @@ return {
   },
   place_result = "compaktcircuit-input",
   stack_size = 1,
-  subgroup = "circuit-network",
+  subgroup = "circuit-combinator",
   type = "item"
 }

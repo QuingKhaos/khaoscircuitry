@@ -376,5 +376,6 @@ return {
       type = "virtual"
     }
   },
+  subgroup = "circuit-visual",
   type = "lamp"
 }

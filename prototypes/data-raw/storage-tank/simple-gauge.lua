@@ -881,6 +881,7 @@ return {
       0.5
     }
   },
+  subgroup = "circuit-input",
   two_direction_only = true,
   type = "storage-tank",
   window_bounding_box = {

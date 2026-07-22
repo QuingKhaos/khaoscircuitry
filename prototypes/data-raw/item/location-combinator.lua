@@ -27,6 +27,6 @@ return {
   order = "b[combinators]-d[location-combinator]",
   place_result = "location-combinator",
   stack_size = 50,
-  subgroup = "circuit-network",
+  subgroup = "circuit-input",
   type = "item"
 }

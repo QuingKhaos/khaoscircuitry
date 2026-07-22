@@ -29,6 +29,6 @@ return {
   },
   place_result = "hps__lti-ltn-train-info",
   stack_size = 50,
-  subgroup = "circuit-network",
+  subgroup = "circuit-input",
   type = "item"
 }

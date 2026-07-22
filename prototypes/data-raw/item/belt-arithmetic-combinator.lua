@@ -38,6 +38,6 @@ return {
   },
   place_result = "belt-arithmetic-combinator",
   stack_size = 50,
-  subgroup = "circuit-network",
+  subgroup = "circuit-combinator",
   type = "item"
 }

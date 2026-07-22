@@ -28,6 +28,6 @@ return {
   },
   place_result = "decider-combinator",
   stack_size = 50,
-  subgroup = "circuit-network",
+  subgroup = "circuit-combinator",
   type = "item"
 }

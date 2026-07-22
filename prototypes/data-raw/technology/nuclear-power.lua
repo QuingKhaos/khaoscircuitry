@@ -19,6 +19,10 @@ return {
     {
       recipe = "uranium-fuel-cell",
       type = "unlock-recipe"
+    },
+    {
+      recipe = "heat-sensor",
+      type = "unlock-recipe"
     }
   },
   icon = "__base__/graphics/technology/nuclear-power.png",

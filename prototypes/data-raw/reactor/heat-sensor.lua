@@ -3,22 +3,22 @@ return {
     points = {
       shadow = {
         green = {
-          0.2,
-          0
+          0.28125,
+          0.625
         },
         red = {
-          -0.2,
-          0
+          0.78125,
+          0.625
         }
       },
       wire = {
         green = {
-          0.2,
-          0
+          -0.203125,
+          0.234375
         },
         red = {
-          -0.2,
-          0
+          0.28125,
+          0.234375
         }
       }
     }
@@ -83,6 +83,24 @@ return {
     max_transfer = "1GW",
     specific_heat = "1J"
   },
+  icons = {
+    {
+      draw_background = true,
+      icon = "__khaosbash__/graphics/base/icons/constant-combinator-base.png",
+      icon_size = 64
+    },
+    {
+      draw_background = false,
+      icon = "__khaosbash__/graphics/base/icons/constant-combinator-mask-main-color.png",
+      icon_size = 64,
+      tint = {
+        a = 1,
+        b = 0.23137255012989044,
+        g = 0.61568629741668701,
+        r = 0.69019609689712524
+      }
+    }
+  },
   minable = {
     count = 1,
     mining_time = 0.5,
@@ -90,13 +108,58 @@ return {
   },
   name = "heat-sensor",
   picture = {
-    filename = "__base__/graphics/icons/heat-interface.png",
-    flags = {
-      "no-crop"
-    },
-    height = 64,
-    scale = 0.5,
-    width = 64
+    layers = {
+      {
+        filename = "__khaosbash__/graphics/base/entity/combinator/constant-combinator-base.png",
+        height = 102,
+        priority = "high",
+        scale = 0.5,
+        shift = {
+          0,
+          0.15625
+        },
+        tint_as_overlay = false,
+        width = 114,
+        x = 228,
+        y = 0
+      },
+      {
+        blend_mode = "normal",
+        filename = "__khaosbash__/graphics/base/entity/combinator/constant-combinator-mask-main-color.png",
+        height = 102,
+        priority = "high",
+        scale = 0.5,
+        shift = {
+          0,
+          0.15625
+        },
+        tint = {
+          a = 1,
+          b = 0.23137255012989044,
+          g = 0.61568629741668701,
+          r = 0.69019609689712524
+        },
+        tint_as_overlay = false,
+        width = 114,
+        x = 228,
+        y = 0
+      },
+      {
+        draw_as_shadow = true,
+        filename = "__base__/graphics/entity/combinator/constant-combinator-shadow.png",
+        height = 66,
+        priority = "high",
+        scale = 0.5,
+        shift = {
+          0.265625,
+          0.171875
+        },
+        tint_as_overlay = false,
+        width = 98,
+        x = 196,
+        y = 0
+      }
+    }
   },
   placeable_by = {
     count = 1,
@@ -112,5 +175,6 @@ return {
       0.5
     }
   },
+  subgroup = "circuit-input",
   type = "reactor"
 }

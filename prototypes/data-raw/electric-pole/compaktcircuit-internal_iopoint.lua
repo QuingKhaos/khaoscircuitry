@@ -228,6 +228,7 @@ return {
       0.5
     }
   },
+  subgroup = "circuit-connection",
   supply_area_distance = 3.5,
   type = "electric-pole",
   water_reflection = {

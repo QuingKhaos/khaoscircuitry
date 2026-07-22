@@ -236,34 +236,53 @@ return {
     east = {
       layers = {
         {
-          filename = "__Cybersyn-Content-Reader__/graphics/entity/cybersyn-requester-reader.png",
-          frame_count = 1,
-          height = 52,
+          filename = "__khaosbash__/graphics/base/entity/combinator/constant-combinator-base.png",
+          height = 102,
           priority = "high",
-          scale = 1,
+          scale = 0.5,
           shift = {
             0,
             0.15625
           },
           tint_as_overlay = false,
-          width = 58,
-          x = 58,
+          width = 114,
+          x = 114,
+          y = 0
+        },
+        {
+          blend_mode = "normal",
+          filename = "__khaosbash__/graphics/base/entity/combinator/constant-combinator-mask-main-color.png",
+          height = 102,
+          priority = "high",
+          scale = 0.5,
+          shift = {
+            0,
+            0.15625
+          },
+          tint = {
+            a = 1,
+            b = 0.9529411792755127,
+            g = 0.67843139171600342,
+            r = 0.25882354378700256
+          },
+          tint_as_overlay = false,
+          width = 114,
+          x = 114,
           y = 0
         },
         {
           draw_as_shadow = true,
           filename = "__base__/graphics/entity/combinator/constant-combinator-shadow.png",
-          frame_count = 1,
-          height = 34,
+          height = 66,
           priority = "high",
-          scale = 1,
+          scale = 0.5,
           shift = {
-            0.28125,
-            0.1875
+            0.265625,
+            0.171875
           },
           tint_as_overlay = false,
-          width = 50,
-          x = 50,
+          width = 98,
+          x = 98,
           y = 0
         }
       }
@@ -271,33 +290,52 @@ return {
     north = {
       layers = {
         {
-          filename = "__Cybersyn-Content-Reader__/graphics/entity/cybersyn-requester-reader.png",
-          frame_count = 1,
-          height = 52,
+          filename = "__khaosbash__/graphics/base/entity/combinator/constant-combinator-base.png",
+          height = 102,
           priority = "high",
-          scale = 1,
+          scale = 0.5,
           shift = {
             0,
             0.15625
           },
           tint_as_overlay = false,
-          width = 58,
+          width = 114,
+          x = 0,
+          y = 0
+        },
+        {
+          blend_mode = "normal",
+          filename = "__khaosbash__/graphics/base/entity/combinator/constant-combinator-mask-main-color.png",
+          height = 102,
+          priority = "high",
+          scale = 0.5,
+          shift = {
+            0,
+            0.15625
+          },
+          tint = {
+            a = 1,
+            b = 0.9529411792755127,
+            g = 0.67843139171600342,
+            r = 0.25882354378700256
+          },
+          tint_as_overlay = false,
+          width = 114,
           x = 0,
           y = 0
         },
         {
           draw_as_shadow = true,
           filename = "__base__/graphics/entity/combinator/constant-combinator-shadow.png",
-          frame_count = 1,
-          height = 34,
+          height = 66,
           priority = "high",
-          scale = 1,
+          scale = 0.5,
           shift = {
-            0.28125,
-            0.1875
+            0.265625,
+            0.171875
           },
           tint_as_overlay = false,
-          width = 50,
+          width = 98,
           x = 0,
           y = 0
         }
@@ -306,34 +344,53 @@ return {
     south = {
       layers = {
         {
-          filename = "__Cybersyn-Content-Reader__/graphics/entity/cybersyn-requester-reader.png",
-          frame_count = 1,
-          height = 52,
+          filename = "__khaosbash__/graphics/base/entity/combinator/constant-combinator-base.png",
+          height = 102,
           priority = "high",
-          scale = 1,
+          scale = 0.5,
           shift = {
             0,
             0.15625
           },
           tint_as_overlay = false,
-          width = 58,
-          x = 116,
+          width = 114,
+          x = 228,
+          y = 0
+        },
+        {
+          blend_mode = "normal",
+          filename = "__khaosbash__/graphics/base/entity/combinator/constant-combinator-mask-main-color.png",
+          height = 102,
+          priority = "high",
+          scale = 0.5,
+          shift = {
+            0,
+            0.15625
+          },
+          tint = {
+            a = 1,
+            b = 0.9529411792755127,
+            g = 0.67843139171600342,
+            r = 0.25882354378700256
+          },
+          tint_as_overlay = false,
+          width = 114,
+          x = 228,
           y = 0
         },
         {
           draw_as_shadow = true,
           filename = "__base__/graphics/entity/combinator/constant-combinator-shadow.png",
-          frame_count = 1,
-          height = 34,
+          height = 66,
           priority = "high",
-          scale = 1,
+          scale = 0.5,
           shift = {
-            0.28125,
-            0.1875
+            0.265625,
+            0.171875
           },
           tint_as_overlay = false,
-          width = 50,
-          x = 100,
+          width = 98,
+          x = 196,
           y = 0
         }
       }
@@ -341,38 +398,58 @@ return {
     west = {
       layers = {
         {
-          filename = "__Cybersyn-Content-Reader__/graphics/entity/cybersyn-requester-reader.png",
-          frame_count = 1,
-          height = 52,
+          filename = "__khaosbash__/graphics/base/entity/combinator/constant-combinator-base.png",
+          height = 102,
           priority = "high",
-          scale = 1,
+          scale = 0.5,
           shift = {
             0,
             0.15625
           },
           tint_as_overlay = false,
-          width = 58,
-          x = 174,
+          width = 114,
+          x = 342,
+          y = 0
+        },
+        {
+          blend_mode = "normal",
+          filename = "__khaosbash__/graphics/base/entity/combinator/constant-combinator-mask-main-color.png",
+          height = 102,
+          priority = "high",
+          scale = 0.5,
+          shift = {
+            0,
+            0.15625
+          },
+          tint = {
+            a = 1,
+            b = 0.9529411792755127,
+            g = 0.67843139171600342,
+            r = 0.25882354378700256
+          },
+          tint_as_overlay = false,
+          width = 114,
+          x = 342,
           y = 0
         },
         {
           draw_as_shadow = true,
           filename = "__base__/graphics/entity/combinator/constant-combinator-shadow.png",
-          frame_count = 1,
-          height = 34,
+          height = 66,
           priority = "high",
-          scale = 1,
+          scale = 0.5,
           shift = {
-            0.28125,
-            0.1875
+            0.265625,
+            0.171875
           },
           tint_as_overlay = false,
-          width = 50,
-          x = 150,
+          width = 98,
+          x = 294,
           y = 0
         }
       }
     }
   },
+  subgroup = "circuit-input",
   type = "constant-combinator"
 }

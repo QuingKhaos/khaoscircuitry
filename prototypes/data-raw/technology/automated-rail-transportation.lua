@@ -11,10 +11,6 @@ return {
     {
       recipe = "rail-chain-signal",
       type = "unlock-recipe"
-    },
-    {
-      recipe = "manual-color-module",
-      type = "unlock-recipe"
     }
   },
   icon = "__base__/graphics/technology/automated-rail-transportation.png",

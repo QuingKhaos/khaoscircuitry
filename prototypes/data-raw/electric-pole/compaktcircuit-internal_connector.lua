@@ -232,6 +232,7 @@ return {
       0.5
     }
   },
+  subgroup = "circuit-connection",
   supply_area_distance = 1,
   type = "electric-pole"
 }

@@ -13,7 +13,7 @@ return {
     },
     {
       amount = 1,
-      name = "power-switch",
+      name = "arithmetic-combinator",
       type = "item"
     }
   },
@@ -25,5 +25,6 @@ return {
       type = "item"
     }
   },
+  subgroup = "circuit-combinator",
   type = "recipe"
 }

@@ -1,5 +1,5 @@
 return {
-  enabled = true,
+  enabled = false,
   ingredients = {
     {
       amount = 1,
@@ -20,5 +20,6 @@ return {
       type = "item"
     }
   },
+  subgroup = "circuit-combinator",
   type = "recipe"
 }

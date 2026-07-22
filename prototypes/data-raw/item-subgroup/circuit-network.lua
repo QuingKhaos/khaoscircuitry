@@ -1,6 +1,6 @@
 return {
-  group = "logistics",
+  group = "circuitry",
   name = "circuit-network",
-  order = "h",
+  order = "a[circuit-network]",
   type = "item-subgroup"
 }

@@ -684,6 +684,7 @@ return {
       1.5
     }
   },
+  subgroup = "circuit-visual",
   text_color = {
     1,
     1,

@@ -5,7 +5,7 @@ return {
   order = "p[rocessor]",
   place_result = "compaktcircuit-processor",
   stack_size = 50,
-  subgroup = "circuit-network",
+  subgroup = "circuit-combinator",
   type = "item",
   weight = 200000
 }

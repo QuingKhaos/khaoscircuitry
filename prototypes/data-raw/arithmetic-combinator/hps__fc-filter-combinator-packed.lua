@@ -402,6 +402,7 @@ return {
     priority = "extra-high",
     width = 1
   },
+  subgroup = "circuit-combinator",
   type = "arithmetic-combinator",
   working_sound = {
     fade_in_ticks = 4,

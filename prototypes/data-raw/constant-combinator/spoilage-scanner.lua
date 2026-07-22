@@ -205,7 +205,7 @@ return {
     "placeable-neutral",
     "player-creation"
   },
-  icon = "__base__/graphics/icons/constant-combinator.png",
+  icon = "__spoilage-scanner__/graphics/icons/spoilage-scanner.png",
   icon_draw_specification = {
     scale = 0.7
   },
@@ -363,5 +363,6 @@ return {
       }
     }
   },
+  subgroup = "circuit-input",
   type = "constant-combinator"
 }

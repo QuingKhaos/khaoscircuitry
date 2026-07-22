@@ -28,6 +28,6 @@ return {
   },
   place_result = "hps__fc-filter-combinator",
   stack_size = 50,
-  subgroup = "circuit-network",
+  subgroup = "circuit-combinator",
   type = "item"
 }

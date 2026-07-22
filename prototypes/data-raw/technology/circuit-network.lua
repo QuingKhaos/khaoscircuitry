@@ -67,6 +67,14 @@ return {
     {
       recipe = "signal-lamp",
       type = "unlock-recipe"
+    },
+    {
+      recipe = "signal-diode-combinator",
+      type = "unlock-recipe"
+    },
+    {
+      recipe = "Research_Control_Combinator",
+      type = "unlock-recipe"
     }
   },
   icon = "__base__/graphics/technology/circuit-network.png",

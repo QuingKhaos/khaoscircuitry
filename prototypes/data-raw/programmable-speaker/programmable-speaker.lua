@@ -2564,6 +2564,7 @@ return {
       }
     }
   },
+  subgroup = "circuit-auditory",
   type = "programmable-speaker",
   water_reflection = {
     orientation_to_variation = false,

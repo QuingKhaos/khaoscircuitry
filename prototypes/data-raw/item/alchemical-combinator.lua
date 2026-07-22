@@ -28,6 +28,6 @@ return {
   },
   place_result = "alchemical-combinator",
   stack_size = 50,
-  subgroup = "circuit-network",
+  subgroup = "circuit-combinator",
   type = "item"
 }

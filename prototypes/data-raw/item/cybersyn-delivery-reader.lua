@@ -30,6 +30,6 @@ return {
   },
   place_result = "cybersyn-delivery-reader",
   stack_size = 50,
-  subgroup = "circuit-network-2",
+  subgroup = "circuit-input",
   type = "item"
 }

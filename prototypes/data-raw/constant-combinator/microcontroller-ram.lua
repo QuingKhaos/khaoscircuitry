@@ -366,5 +366,6 @@ return {
       }
     }
   },
+  subgroup = "circuit-combinator",
   type = "constant-combinator"
 }

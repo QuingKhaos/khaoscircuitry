@@ -10,7 +10,7 @@ return {
   pick_sound = "__base__/sound/item/combinator-inventory-pickup.ogg",
   place_result = "aai-signal-receiver",
   stack_size = 10,
-  subgroup = "circuit-network",
+  subgroup = "circuit-connection",
   type = "item",
   weight = 100000
 }

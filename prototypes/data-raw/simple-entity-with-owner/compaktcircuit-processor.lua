@@ -74,5 +74,6 @@ return {
     }
   },
   selection_priority = 60,
+  subgroup = "circuit-combinator",
   type = "simple-entity-with-owner"
 }

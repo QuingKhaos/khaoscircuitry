@@ -25,5 +25,6 @@ return {
       type = "item"
     }
   },
+  subgroup = "circuit-combinator",
   type = "recipe"
 }

@@ -39,6 +39,6 @@ return {
   },
   place_result = "spfm-master-monitor",
   stack_size = 50,
-  subgroup = "circuit-network",
+  subgroup = "circuit-input",
   type = "item"
 }

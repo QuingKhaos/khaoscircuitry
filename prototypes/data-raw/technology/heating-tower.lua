@@ -15,6 +15,10 @@ return {
     {
       recipe = "steam-turbine",
       type = "unlock-recipe"
+    },
+    {
+      recipe = "heat-sensor",
+      type = "unlock-recipe"
     }
   },
   icon = "__space-age__/graphics/technology/heating-tower.png",

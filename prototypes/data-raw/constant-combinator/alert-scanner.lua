@@ -223,5 +223,6 @@ return {
       }
     }
   },
+  subgroup = "circuit-input",
   type = "constant-combinator"
 }

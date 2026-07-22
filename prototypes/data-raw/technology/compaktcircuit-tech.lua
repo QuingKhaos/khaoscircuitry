@@ -14,7 +14,9 @@ return {
   name = "compaktcircuit-tech",
   order = "a-d-d-z",
   prerequisites = {
-    "processing-unit"
+    "processing-unit",
+    "circuit-network",
+    "advanced-circuit"
   },
   type = "technology",
   unit = {

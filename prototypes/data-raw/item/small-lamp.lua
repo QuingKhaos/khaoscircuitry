@@ -28,6 +28,6 @@ return {
   },
   place_result = "small-lamp",
   stack_size = 50,
-  subgroup = "circuit-network",
+  subgroup = "circuit-visual",
   type = "item"
 }

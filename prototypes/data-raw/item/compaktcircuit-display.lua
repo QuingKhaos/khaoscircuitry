@@ -29,6 +29,6 @@ return {
   },
   place_result = "compaktcircuit-display",
   stack_size = 1,
-  subgroup = "circuit-network",
+  subgroup = "circuit-visual",
   type = "item"
 }

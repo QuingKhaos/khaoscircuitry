@@ -29,6 +29,6 @@ return {
   },
   place_result = "hud-combinator",
   stack_size = 50,
-  subgroup = "circuit-network",
+  subgroup = "circuit-visual",
   type = "item"
 }

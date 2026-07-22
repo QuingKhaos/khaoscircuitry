@@ -9,18 +9,35 @@ return {
   },
   icons = {
     {
-      icon = "__base__/graphics/icons/constant-combinator.png",
+      draw_background = true,
+      icon = "__khaosbash__/graphics/base/icons/constant-combinator-base.png",
+      icon_size = 64
+    },
+    {
+      draw_background = false,
+      icon = "__khaosbash__/graphics/base/icons/constant-combinator-mask-main-color.png",
+      icon_size = 64,
       tint = {
         a = 1,
-        b = 0,
-        g = 1,
+        b = 0.364705890417099,
+        g = 0.70196080207824707,
         r = 1
       }
     },
     {
       icon = "__energy-combinator__/graphics/power-production.png",
       icon_size = 64,
-      scale = 0.5
+      scale = 0.5,
+      shift = {
+        0,
+        0
+      },
+      tint = {
+        a = 1,
+        b = 1,
+        g = 1,
+        r = 1
+      }
     }
   },
   inventory_move_sound = {
@@ -43,6 +60,6 @@ return {
   },
   place_result = "power-combinator",
   stack_size = 50,
-  subgroup = "circuit-network",
+  subgroup = "circuit-input",
   type = "item"
 }

@@ -1,21 +1,20 @@
 return {
   effects = {
     {
-      recipe = "signal-diode-combinator",
+      recipe = "active-rail",
       type = "unlock-recipe"
     }
   },
-  icon = "__base__/graphics/technology/circuit-network.png",
-  icon_mipmaps = 4,
+  icon = "__khaoscircuitry__/graphics/technology/active-rails.png",
   icon_size = 256,
-  name = "signal-diodes",
-  order = "a-d-e",
+  name = "active-rails",
   prerequisites = {
-    "circuit-network"
+    "circuit-network",
+    "automated-rail-transportation"
   },
   type = "technology",
   unit = {
-    count = 50,
+    count = 75,
     ingredients = {
       {
         "automation-science-pack",
@@ -26,6 +25,6 @@ return {
         1
       }
     },
-    time = 15
+    time = 30
   }
 }

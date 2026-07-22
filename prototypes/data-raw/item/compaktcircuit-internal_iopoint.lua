@@ -18,6 +18,6 @@ return {
   order = "a[miniaturization]-b[internal-iopoint]",
   place_result = "compaktcircuit-internal_iopoint",
   stack_size = 1,
-  subgroup = "circuit-network",
+  subgroup = "circuit-connection",
   type = "item"
 }

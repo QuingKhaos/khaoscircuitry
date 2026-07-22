@@ -896,6 +896,7 @@ return {
       y = 44
     }
   },
+  subgroup = "circuit-combinator",
   type = "selector-combinator",
   working_sound = {
     fade_in_ticks = 4,

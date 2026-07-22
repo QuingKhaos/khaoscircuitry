@@ -16,5 +16,6 @@ return {
       type = "item"
     }
   },
+  subgroup = "circuit-visual",
   type = "recipe"
 }

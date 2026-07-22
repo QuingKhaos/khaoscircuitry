@@ -196,7 +196,6 @@ return {
   ["long-handed-inserter"] = require("___KHAOSDATA___.prototypes.data-raw.item.long-handed-inserter"),
   ["low-density-structure"] = require("___KHAOSDATA___.prototypes.data-raw.item.low-density-structure"),
   ["lubricant-barrel"] = require("___KHAOSDATA___.prototypes.data-raw.item.lubricant-barrel"),
-  ["manual-color-module"] = require("___KHAOSDATA___.prototypes.data-raw.item.manual-color-module"),
   ["medium-electric-pole"] = require("___KHAOSDATA___.prototypes.data-raw.item.medium-electric-pole"),
   ["metallic-asteroid-chunk"] = require("___KHAOSDATA___.prototypes.data-raw.item.metallic-asteroid-chunk"),
   ["microcontroller"] = require("___KHAOSDATA___.prototypes.data-raw.item.microcontroller"),

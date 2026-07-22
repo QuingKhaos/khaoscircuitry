@@ -205,9 +205,26 @@ return {
     "placeable-neutral",
     "player-creation"
   },
-  icon = "__base__/graphics/icons/constant-combinator.png",
   icon_draw_specification = {
     scale = 0.7
+  },
+  icons = {
+    {
+      draw_background = true,
+      icon = "__khaosbash__/graphics/base/icons/constant-combinator-base.png",
+      icon_size = 64
+    },
+    {
+      draw_background = false,
+      icon = "__khaosbash__/graphics/base/icons/constant-combinator-mask-main-color.png",
+      icon_size = 64,
+      tint = {
+        a = 1,
+        b = 0.41568627953529358,
+        g = 0.41568627953529358,
+        r = 0.41568627953529358
+      }
+    }
   },
   max_health = 120,
   minable = {
@@ -233,13 +250,34 @@ return {
     east = {
       layers = {
         {
-          filename = "__base__/graphics/entity/combinator/constant-combinator.png",
+          filename = "__khaosbash__/graphics/base/entity/combinator/constant-combinator-base.png",
           height = 102,
           priority = "high",
           scale = 0.5,
           shift = {
             0,
             0.15625
+          },
+          tint_as_overlay = false,
+          width = 114,
+          x = 114,
+          y = 0
+        },
+        {
+          blend_mode = "normal",
+          filename = "__khaosbash__/graphics/base/entity/combinator/constant-combinator-mask-main-color.png",
+          height = 102,
+          priority = "high",
+          scale = 0.5,
+          shift = {
+            0,
+            0.15625
+          },
+          tint = {
+            a = 1,
+            b = 0.41568627953529358,
+            g = 0.41568627953529358,
+            r = 0.41568627953529358
           },
           tint_as_overlay = false,
           width = 114,
@@ -266,13 +304,34 @@ return {
     north = {
       layers = {
         {
-          filename = "__base__/graphics/entity/combinator/constant-combinator.png",
+          filename = "__khaosbash__/graphics/base/entity/combinator/constant-combinator-base.png",
           height = 102,
           priority = "high",
           scale = 0.5,
           shift = {
             0,
             0.15625
+          },
+          tint_as_overlay = false,
+          width = 114,
+          x = 0,
+          y = 0
+        },
+        {
+          blend_mode = "normal",
+          filename = "__khaosbash__/graphics/base/entity/combinator/constant-combinator-mask-main-color.png",
+          height = 102,
+          priority = "high",
+          scale = 0.5,
+          shift = {
+            0,
+            0.15625
+          },
+          tint = {
+            a = 1,
+            b = 0.41568627953529358,
+            g = 0.41568627953529358,
+            r = 0.41568627953529358
           },
           tint_as_overlay = false,
           width = 114,
@@ -299,13 +358,34 @@ return {
     south = {
       layers = {
         {
-          filename = "__base__/graphics/entity/combinator/constant-combinator.png",
+          filename = "__khaosbash__/graphics/base/entity/combinator/constant-combinator-base.png",
           height = 102,
           priority = "high",
           scale = 0.5,
           shift = {
             0,
             0.15625
+          },
+          tint_as_overlay = false,
+          width = 114,
+          x = 228,
+          y = 0
+        },
+        {
+          blend_mode = "normal",
+          filename = "__khaosbash__/graphics/base/entity/combinator/constant-combinator-mask-main-color.png",
+          height = 102,
+          priority = "high",
+          scale = 0.5,
+          shift = {
+            0,
+            0.15625
+          },
+          tint = {
+            a = 1,
+            b = 0.41568627953529358,
+            g = 0.41568627953529358,
+            r = 0.41568627953529358
           },
           tint_as_overlay = false,
           width = 114,
@@ -332,13 +412,34 @@ return {
     west = {
       layers = {
         {
-          filename = "__base__/graphics/entity/combinator/constant-combinator.png",
+          filename = "__khaosbash__/graphics/base/entity/combinator/constant-combinator-base.png",
           height = 102,
           priority = "high",
           scale = 0.5,
           shift = {
             0,
             0.15625
+          },
+          tint_as_overlay = false,
+          width = 114,
+          x = 342,
+          y = 0
+        },
+        {
+          blend_mode = "normal",
+          filename = "__khaosbash__/graphics/base/entity/combinator/constant-combinator-mask-main-color.png",
+          height = 102,
+          priority = "high",
+          scale = 0.5,
+          shift = {
+            0,
+            0.15625
+          },
+          tint = {
+            a = 1,
+            b = 0.41568627953529358,
+            g = 0.41568627953529358,
+            r = 0.41568627953529358
           },
           tint_as_overlay = false,
           width = 114,
@@ -363,5 +464,6 @@ return {
       }
     }
   },
+  subgroup = "circuit-input",
   type = "constant-combinator"
 }

@@ -7,6 +7,18 @@ return {
     {
       recipe = "cybersyn-constant-combinator",
       type = "unlock-recipe"
+    },
+    {
+      recipe = "cybersyn-provider-reader",
+      type = "unlock-recipe"
+    },
+    {
+      recipe = "cybersyn-requester-reader",
+      type = "unlock-recipe"
+    },
+    {
+      recipe = "cybersyn-delivery-reader",
+      type = "unlock-recipe"
     }
   },
   icon = "__cybersyn__/graphics/icons/tech.png",

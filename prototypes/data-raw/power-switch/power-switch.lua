@@ -210,6 +210,7 @@ return {
       1
     }
   },
+  subgroup = "circuit-connection",
   type = "power-switch",
   wire_max_distance = 10,
   working_sound = {

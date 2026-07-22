@@ -28,6 +28,6 @@ return {
   },
   place_result = "spoilage-scanner",
   stack_size = 50,
-  subgroup = "circuit-network",
+  subgroup = "circuit-input",
   type = "item"
 }

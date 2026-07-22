@@ -365,5 +365,6 @@ return {
       }
     }
   },
+  subgroup = "circuit-visual",
   type = "constant-combinator"
 }

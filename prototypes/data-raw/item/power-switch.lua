@@ -28,6 +28,6 @@ return {
   },
   place_result = "power-switch",
   stack_size = 10,
-  subgroup = "circuit-network",
+  subgroup = "circuit-connection",
   type = "item"
 }

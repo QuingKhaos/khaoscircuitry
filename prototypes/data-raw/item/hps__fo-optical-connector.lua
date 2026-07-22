@@ -9,6 +9,6 @@ return {
   order = "f[iber-optics]",
   place_result = "hps__fo-optical-connector",
   stack_size = 50,
-  subgroup = "circuit-network",
+  subgroup = "circuit-connection",
   type = "item"
 }

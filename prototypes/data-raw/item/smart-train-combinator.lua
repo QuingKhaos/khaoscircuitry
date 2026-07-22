@@ -9,6 +9,6 @@ return {
   order = "c[combinators]-e[smart-train-combinator]-a[main]",
   place_result = "smart-train-combinator",
   stack_size = 50,
-  subgroup = "circuit-network",
+  subgroup = "circuit-combinator",
   type = "item"
 }

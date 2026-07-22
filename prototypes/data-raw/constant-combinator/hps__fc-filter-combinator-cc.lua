@@ -179,5 +179,6 @@ return {
     priority = "extra-high",
     width = 1
   },
+  subgroup = "circuit-combinator",
   type = "constant-combinator"
 }
