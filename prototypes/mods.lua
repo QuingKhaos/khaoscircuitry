@@ -20,7 +20,7 @@ return {
   flib = "0.17.2",
   glib = "0.2.1",
   ["inventory-sensor-improved"] = "3.0.4",
-  ["khaosdata-extractor"] = "22026.722.1306",
+  ["khaosdata-extractor"] = "22026.722.1651",
   khaoslib = "2.0.0",
   ["ltn-train-info"] = "2.0.3",
   ["m-microcontroller"] = "0.13.1",
