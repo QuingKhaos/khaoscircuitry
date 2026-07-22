@@ -64,6 +64,8 @@
   ],
   "package": {
     "ignore": [
+      "mod_info.yml",
+      "**/*.md",
       "**/*.gimp",
       "**/*.xcf"
     ]
