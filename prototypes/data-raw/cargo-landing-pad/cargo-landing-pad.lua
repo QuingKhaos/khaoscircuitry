@@ -3342,6 +3342,10 @@ return {
     {
       min = 1,
       property = "gravity"
+    },
+    {
+      min = 1,
+      property = "ceiling"
     }
   },
   trash_inventory_size = 20,

@@ -102,5 +102,11 @@ return {
       1.5
     }
   },
+  surface_conditions = {
+    {
+      min = 1,
+      property = "solar-power"
+    }
+  },
   type = "solar-panel"
 }

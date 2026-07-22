@@ -32,6 +32,7 @@ return {
   ["parameter-7"] = require("___KHAOSDATA___.prototypes.data-raw.simple-entity.parameter-7"),
   ["parameter-8"] = require("___KHAOSDATA___.prototypes.data-raw.simple-entity.parameter-8"),
   ["parameter-9"] = require("___KHAOSDATA___.prototypes.data-raw.simple-entity.parameter-9"),
+  ["signal-lamp-pipette-helper"] = require("___KHAOSDATA___.prototypes.data-raw.simple-entity.signal-lamp-pipette-helper"),
   ["small-demolisher-corpse"] = require("___KHAOSDATA___.prototypes.data-raw.simple-entity.small-demolisher-corpse"),
   ["small-stomper-shell"] = require("___KHAOSDATA___.prototypes.data-raw.simple-entity.small-stomper-shell"),
   ["vulcanus-chimney"] = require("___KHAOSDATA___.prototypes.data-raw.simple-entity.vulcanus-chimney"),

@@ -1,4 +1,5 @@
 return {
+  ["alert-scanner-activity-cliff"] = require("___KHAOSDATA___.prototypes.data-raw.capsule.alert-scanner-activity-cliff"),
   ["artillery-targeting-remote"] = require("___KHAOSDATA___.prototypes.data-raw.capsule.artillery-targeting-remote"),
   ["bioflux"] = require("___KHAOSDATA___.prototypes.data-raw.capsule.bioflux"),
   ["cliff-explosives"] = require("___KHAOSDATA___.prototypes.data-raw.capsule.cliff-explosives"),

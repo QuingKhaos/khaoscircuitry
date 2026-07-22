@@ -1,0 +1,7 @@
+return {
+  name = "world-ambience-5-nauvis-factory-floor",
+  planet = "nauvis-factory-floor",
+  sound = "__base__/sound/ambient/world-ambience-5.ogg",
+  track_type = "interlude",
+  type = "ambient-sound"
+}

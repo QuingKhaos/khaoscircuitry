@@ -6,6 +6,11 @@ return {
       use_icon_overlay_constant = true
     },
     {
+      space_location = "aquilo-factory-floor",
+      type = "unlock-space-location",
+      use_icon_overlay_constant = false
+    },
+    {
       recipe = "ammoniacal-solution-separation",
       type = "unlock-recipe"
     },

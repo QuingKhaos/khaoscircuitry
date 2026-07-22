@@ -83,7 +83,7 @@ return {
     },
     type = "create-entity"
   },
-  default_copy_color_from_train_stop = true,
+  default_copy_color_from_train_stop = false,
   deliver_category = "vehicle",
   drawing_box_vertical_extension = 1,
   drive_over_elevated_tie_trigger = {

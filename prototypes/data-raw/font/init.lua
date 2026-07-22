@@ -1,6 +1,7 @@
 return {
   ["compi"] = require("___KHAOSDATA___.prototypes.data-raw.font.compi"),
   ["count-font"] = require("___KHAOSDATA___.prototypes.data-raw.font.count-font"),
+  ["cybersyn-combinator_signal-comparator-font"] = require("___KHAOSDATA___.prototypes.data-raw.font.cybersyn-combinator_signal-comparator-font"),
   ["default"] = require("___KHAOSDATA___.prototypes.data-raw.font.default"),
   ["default-bold"] = require("___KHAOSDATA___.prototypes.data-raw.font.default-bold"),
   ["default-dialog-button"] = require("___KHAOSDATA___.prototypes.data-raw.font.default-dialog-button"),
@@ -10,6 +11,7 @@ return {
   ["default-large-bold"] = require("___KHAOSDATA___.prototypes.data-raw.font.default-large-bold"),
   ["default-large-semibold"] = require("___KHAOSDATA___.prototypes.data-raw.font.default-large-semibold"),
   ["default-listbox"] = require("___KHAOSDATA___.prototypes.data-raw.font.default-listbox"),
+  ["default-mono"] = require("___KHAOSDATA___.prototypes.data-raw.font.default-mono"),
   ["default-semibold"] = require("___KHAOSDATA___.prototypes.data-raw.font.default-semibold"),
   ["default-small"] = require("___KHAOSDATA___.prototypes.data-raw.font.default-small"),
   ["default-small-bold"] = require("___KHAOSDATA___.prototypes.data-raw.font.default-small-bold"),
@@ -17,6 +19,7 @@ return {
   ["default-tiny-bold"] = require("___KHAOSDATA___.prototypes.data-raw.font.default-tiny-bold"),
   ["heading-1"] = require("___KHAOSDATA___.prototypes.data-raw.font.heading-1"),
   ["heading-2"] = require("___KHAOSDATA___.prototypes.data-raw.font.heading-2"),
+  ["heading-3"] = require("___KHAOSDATA___.prototypes.data-raw.font.heading-3"),
   ["locale-pick"] = require("___KHAOSDATA___.prototypes.data-raw.font.locale-pick"),
   ["scenario-message-dialog"] = require("___KHAOSDATA___.prototypes.data-raw.font.scenario-message-dialog"),
   ["technology-slot-level-font"] = require("___KHAOSDATA___.prototypes.data-raw.font.technology-slot-level-font"),

@@ -3,6 +3,7 @@ return {
   ["assembling-machine-2"] = require("___KHAOSDATA___.prototypes.data-raw.assembling-machine.assembling-machine-2"),
   ["assembling-machine-3"] = require("___KHAOSDATA___.prototypes.data-raw.assembling-machine.assembling-machine-3"),
   ["biochamber"] = require("___KHAOSDATA___.prototypes.data-raw.assembling-machine.biochamber"),
+  ["borehole-pump"] = require("___KHAOSDATA___.prototypes.data-raw.assembling-machine.borehole-pump"),
   ["captive-biter-spawner"] = require("___KHAOSDATA___.prototypes.data-raw.assembling-machine.captive-biter-spawner"),
   ["centrifuge"] = require("___KHAOSDATA___.prototypes.data-raw.assembling-machine.centrifuge"),
   ["chemical-plant"] = require("___KHAOSDATA___.prototypes.data-raw.assembling-machine.chemical-plant"),
@@ -11,4 +12,5 @@ return {
   ["electromagnetic-plant"] = require("___KHAOSDATA___.prototypes.data-raw.assembling-machine.electromagnetic-plant"),
   ["foundry"] = require("___KHAOSDATA___.prototypes.data-raw.assembling-machine.foundry"),
   ["oil-refinery"] = require("___KHAOSDATA___.prototypes.data-raw.assembling-machine.oil-refinery"),
+  ["recipe-combinator-spoilage-mechanic"] = require("___KHAOSDATA___.prototypes.data-raw.assembling-machine.recipe-combinator-spoilage-mechanic"),
 }

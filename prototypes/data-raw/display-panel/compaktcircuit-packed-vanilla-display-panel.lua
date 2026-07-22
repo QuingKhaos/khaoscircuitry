@@ -1,0 +1,200 @@
+return {
+  background_color = {
+    0,
+    0,
+    0,
+    0.25
+  },
+  circuit_connector = {
+    {
+      points = {
+        shadow = {
+          green = {
+            0.59375,
+            -0.21875
+          },
+          red = {
+            -0.125,
+            -0.21875
+          }
+        },
+        wire = {
+          green = {
+            0.375,
+            -0.546875
+          },
+          red = {
+            -0.34375,
+            -0.546875
+          }
+        }
+      }
+    },
+    {
+      points = {
+        shadow = {
+          green = {
+            0.8125,
+            0.40625
+          },
+          red = {
+            0.8125,
+            -0.03125
+          }
+        },
+        wire = {
+          green = {
+            0.5625,
+            -0.015625
+          },
+          red = {
+            0.46875,
+            -0.421875
+          }
+        }
+      }
+    },
+    {
+      points = {
+        shadow = {
+          green = {
+            -0.125,
+            0.515625
+          },
+          red = {
+            0.578125,
+            0.515625
+          }
+        },
+        wire = {
+          green = {
+            -0.34375,
+            0.1875
+          },
+          red = {
+            0.375,
+            0.1875
+          }
+        }
+      }
+    },
+    {
+      points = {
+        shadow = {
+          green = {
+            -0.359375,
+            -0.125
+          },
+          red = {
+            -0.359375,
+            0.296875
+          }
+        },
+        wire = {
+          green = {
+            -0.546875,
+            -0.4375
+          },
+          red = {
+            -0.453125,
+            -0.015625
+          }
+        }
+      }
+    }
+  },
+  circuit_wire_max_distance = 9,
+  close_sound = {
+    filename = "__base__/sound/machine-close.ogg",
+    volume = 0.29
+  },
+  collision_box = {
+    {
+      -0.0001,
+      -0.0001
+    },
+    {
+      0.0001,
+      0.0001
+    }
+  },
+  collision_mask = {
+    layers = {}
+  },
+  corpse = "display-panel-remnants",
+  draw_circuit_wires = false,
+  draw_copper_wires = false,
+  dying_explosion = "display-panel-explosion",
+  factoriopedia_simulation = {
+    init = "    game.simulation.camera_zoom = 3\n    game.simulation.camera_position = {1.5, 3.5}\n    game.surfaces[1].create_entities_from_blueprint_string\n    {\n      string = \"0eNqlVttuozAQ/Rc/4yokTZpG2i+pKmRggNli445NurTKv+8YGkiTVL2QvAC2z5kzntubSOsWLKHxYvcmMGuME7uHN+GwNKoO34zSIHYCasg8YSbBAJWd5BNAhcpAHCKBJod/YhcfoisnXZs6rzw2RkTiuVU1+o4/11CCyRV1JwDLw2MkwHj0CIMd/UuXmFanQMwQHVGDpV4ZL7NGp2iUb4jhbeOwZ2J6xtvcrCPBZHK5vFkzDR/y1NRJCpXaI5/gbY51YS/79Jmpj6IiUWDNYs+/vhuStvUTe8MB8Z4PCk1Dmj0RaLVV1Ju4E3/6D21weO+vo/QR0FnMGYzO/PUjtNWIRlCggVxW6lVRzt4yGYGH30PfjtCWmpKU1iqtQToL6mmOA9YnJluFJK3Knn4Pt4kuIrdoyYSA/TXm3SS91fbvLPu2IxbyTcsSFMmXCqD+PeT9R8iGZkiNF1OAK8+R3c3AmpKF1Iss0FUzwDhRfGeHOMnQBo3Hi9bWd7ICte9kg7VMFdEcf8ZTFlkEytCUknhb7qRWpXrlvJoBPuWRwbLyco+OS4+E5xat5rI3A3o9uqioW8wnD72oWTUq3ozAeyTf9gePVasv+zKrYE5WxHcjw1D5JwKu2aAbX8kU54nYfkqRVXw4m4c+JWFJAEa+4Jw0XC4+NXZ4l2XVuB/HyiP/D4HmrL2eNKG+ajb0zfbKNouclWbD6vazVjuAJryY49h1Gws0zAehQJi80Uw17E20Yh5PLbzPCMmx74sdu2bYnbQ258BO+pFkH2aPeH1V3pTPH2aSM1XbE03Xx5UL4Nvo6zHpgieU2JEobYsCKHH4CmFl/F0hmxpljs7WquNOafo6d0Zwf7yeePPp9BMCRMM43YwXE9YKJOeTaZ77IvWV6XzFNVIMVO+3FF/EYRj3soHh24gcr9OpK2PCIQyOIdWCjIc4iqNlFD9GD8toFa35iVe5auhQRsZ5NxJ7lt1rXW7j2+1qvblbLRabVXw4/AdSM7DC\",\n      position = {0, 0}\n    }\n  "
+  },
+  fast_replaceable_group = "display",
+  flags = {
+    "player-creation",
+    "not-upgradable",
+    "not-deconstructable",
+    "not-blueprintable",
+    "placeable-off-grid"
+  },
+  hidden_in_factoriopedia = true,
+  icon = "__base__/graphics/icons/display-panel.png",
+  icon_draw_specification = {
+    scale = 0.5,
+    shift = {
+      0.015625,
+      -0.25
+    }
+  },
+  icon_size = 64,
+  max_health = 50,
+  max_text_width = 400,
+  name = "compaktcircuit-packed-vanilla-display-panel",
+  open_sound = {
+    filename = "__base__/sound/machine-open.ogg",
+    volume = 0.5
+  },
+  selectable_in_game = false,
+  selection_box = {
+    {
+      -0.01,
+      -0.01
+    },
+    {
+      0.01,
+      0.01
+    }
+  },
+  sprites = {
+    east = {
+      filename = "__compaktcircuit__/graphics/invisible.png",
+      height = 1,
+      width = 1
+    },
+    north = {
+      filename = "__compaktcircuit__/graphics/invisible.png",
+      height = 1,
+      width = 1
+    },
+    south = {
+      filename = "__compaktcircuit__/graphics/invisible.png",
+      height = 1,
+      width = 1
+    },
+    west = {
+      filename = "__compaktcircuit__/graphics/invisible.png",
+      height = 1,
+      width = 1
+    }
+  },
+  text_color = {
+    1,
+    1,
+    1,
+    1
+  },
+  text_shift = {
+    0,
+    -0.75
+  },
+  type = "display-panel"
+}

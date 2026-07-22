@@ -38,6 +38,7 @@ return {
   ["gleba-tree-particle-smoke-orange"] = require("___KHAOSDATA___.prototypes.data-raw.trivial-smoke.gleba-tree-particle-smoke-orange"),
   ["gleba-tree-particle-smoke-pink"] = require("___KHAOSDATA___.prototypes.data-raw.trivial-smoke.gleba-tree-particle-smoke-pink"),
   ["gleba-tree-particle-smoke-red"] = require("___KHAOSDATA___.prototypes.data-raw.trivial-smoke.gleba-tree-particle-smoke-red"),
+  ["incinerator-smoke"] = require("___KHAOSDATA___.prototypes.data-raw.trivial-smoke.incinerator-smoke"),
   ["light-smoke"] = require("___KHAOSDATA___.prototypes.data-raw.trivial-smoke.light-smoke"),
   ["magma-eruption-bright-smoke"] = require("___KHAOSDATA___.prototypes.data-raw.trivial-smoke.magma-eruption-bright-smoke"),
   ["magma-eruption-dark-smoke"] = require("___KHAOSDATA___.prototypes.data-raw.trivial-smoke.magma-eruption-dark-smoke"),

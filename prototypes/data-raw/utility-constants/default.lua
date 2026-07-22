@@ -2728,7 +2728,7 @@ return {
     }
   },
   max_belt_stack_size = 4,
-  max_fluid_flow = 100,
+  max_fluid_flow = 500,
   max_logistic_filter_count = 1000,
   max_terrain_building_size = 255,
   maximum_quality_jump = 255,

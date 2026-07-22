@@ -1,0 +1,6 @@
+return {
+  from = "default-semibold",
+  name = "heading-3",
+  size = 14,
+  type = "font"
+}

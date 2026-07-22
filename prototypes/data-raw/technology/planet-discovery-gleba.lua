@@ -4,6 +4,11 @@ return {
       space_location = "gleba",
       type = "unlock-space-location",
       use_icon_overlay_constant = true
+    },
+    {
+      space_location = "gleba-factory-floor",
+      type = "unlock-space-location",
+      use_icon_overlay_constant = false
     }
   },
   essential = true,

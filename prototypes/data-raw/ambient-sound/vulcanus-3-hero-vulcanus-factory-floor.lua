@@ -1,0 +1,11 @@
+return {
+  name = "vulcanus-3-hero-vulcanus-factory-floor",
+  planet = "vulcanus-factory-floor",
+  sound = {
+    filename = "__space-age__/sound/ambient/vulcanus/vulcanus-3-hero.ogg",
+    volume = 0.7
+  },
+  track_type = "main-track",
+  type = "ambient-sound",
+  weight = 10
+}

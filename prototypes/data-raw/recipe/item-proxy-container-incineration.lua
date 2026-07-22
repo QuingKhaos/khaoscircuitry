@@ -1,0 +1,36 @@
+return {
+  category = "incineration",
+  enabled = true,
+  energy_required = 1,
+  hidden_in_factoriopedia = true,
+  hide_from_player_crafting = true,
+  hide_from_signal_gui = true,
+  icon_size = 64,
+  icons = {
+    {
+      icon = "__base__/graphics/icons/linked-chest-icon.png",
+      tint = {
+        0.8,
+        0.1,
+        0.3
+      }
+    },
+    {
+      icon = "__Flare Stack__/graphics/icon/no.png",
+      icon_size = 64
+    }
+  },
+  ingredients = {
+    {
+      amount = 1,
+      name = "proxy-container",
+      type = "item"
+    }
+  },
+  localised_name = "(item) proxy-container incineration",
+  name = "item-proxy-container-incineration",
+  order = "zz[incineration]",
+  results = {},
+  subgroup = "flare-incineration-items",
+  type = "recipe"
+}

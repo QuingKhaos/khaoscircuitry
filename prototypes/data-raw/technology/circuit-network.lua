@@ -31,6 +31,42 @@ return {
     {
       recipe = "iron-stick",
       type = "unlock-recipe"
+    },
+    {
+      recipe = "belt-arithmetic-combinator",
+      type = "unlock-recipe"
+    },
+    {
+      recipe = "blueprint_reader_blueprint-combinator",
+      type = "unlock-recipe"
+    },
+    {
+      recipe = "hps__is-inventory-sensor",
+      type = "unlock-recipe"
+    },
+    {
+      recipe = "pc-pollution-combinator",
+      type = "unlock-recipe"
+    },
+    {
+      recipe = "hps__sc-stack-combinator-redux",
+      type = "unlock-recipe"
+    },
+    {
+      recipe = "hud-combinator",
+      type = "unlock-recipe"
+    },
+    {
+      recipe = "alchemical-combinator",
+      type = "unlock-recipe"
+    },
+    {
+      recipe = "hps__fc-filter-combinator",
+      type = "unlock-recipe"
+    },
+    {
+      recipe = "signal-lamp",
+      type = "unlock-recipe"
     }
   },
   icon = "__base__/graphics/technology/circuit-network.png",

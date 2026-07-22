@@ -7,6 +7,18 @@ return {
     {
       recipe = "steel-chest",
       type = "unlock-recipe"
+    },
+    {
+      recipe = "steel-display-small",
+      type = "unlock-recipe"
+    },
+    {
+      recipe = "steel-display-medium",
+      type = "unlock-recipe"
+    },
+    {
+      recipe = "steel-display",
+      type = "unlock-recipe"
     }
   },
   icon = "__base__/graphics/technology/steel-processing.png",

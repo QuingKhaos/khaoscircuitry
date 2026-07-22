@@ -85,6 +85,7 @@ return {
     },
     type = "create-entity"
   },
+  default_copy_color_from_train_stop = false,
   deliver_category = "vehicle",
   door_closing_sound = {
     sound = {

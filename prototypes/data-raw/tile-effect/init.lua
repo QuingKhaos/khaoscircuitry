@@ -1,5 +1,6 @@
 return {
   ["brash-ice-2"] = require("___KHAOSDATA___.prototypes.data-raw.tile-effect.brash-ice-2"),
+  ["factorissimo-out-of-map"] = require("___KHAOSDATA___.prototypes.data-raw.tile-effect.factorissimo-out-of-map"),
   ["lava"] = require("___KHAOSDATA___.prototypes.data-raw.tile-effect.lava"),
   ["lava-2"] = require("___KHAOSDATA___.prototypes.data-raw.tile-effect.lava-2"),
   ["oil-deep"] = require("___KHAOSDATA___.prototypes.data-raw.tile-effect.oil-deep"),

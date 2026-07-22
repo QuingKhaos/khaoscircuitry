@@ -1,4 +1,5 @@
 return {
+  ["alert-scanner-activity-cliff"] = require("___KHAOSDATA___.prototypes.data-raw.cliff.alert-scanner-activity-cliff"),
   ["cliff"] = require("___KHAOSDATA___.prototypes.data-raw.cliff.cliff"),
   ["cliff-fulgora"] = require("___KHAOSDATA___.prototypes.data-raw.cliff.cliff-fulgora"),
   ["cliff-gleba"] = require("___KHAOSDATA___.prototypes.data-raw.cliff.cliff-gleba"),

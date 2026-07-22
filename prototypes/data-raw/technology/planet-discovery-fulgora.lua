@@ -6,6 +6,11 @@ return {
       use_icon_overlay_constant = true
     },
     {
+      space_location = "fulgora-factory-floor",
+      type = "unlock-space-location",
+      use_icon_overlay_constant = false
+    },
+    {
       recipe = "lightning-rod",
       type = "unlock-recipe"
     }

@@ -1436,6 +1436,10 @@ return {
       max = 2000,
       min = 1000,
       property = "pressure"
+    },
+    {
+      min = 1,
+      property = "solar-power"
     }
   },
   type = "agricultural-tower",

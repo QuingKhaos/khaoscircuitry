@@ -1,0 +1,30 @@
+return {
+  factoriopedia_alternative = "space-factory-1",
+  flags = {
+    "not-stackable"
+  },
+  hidden_in_factoriopedia = true,
+  icons = {
+    {
+      icon = "__factorissimo-2-notnotmelon__/graphics/icon/space-factory-1.png",
+      icon_size = 64
+    },
+    {
+      icon = "__factorissimo-2-notnotmelon__/graphics/icon/packing-tape.png",
+      icon_size = 64
+    }
+  },
+  localised_name = {
+    "item-name.factory-packed",
+    {
+      "entity-name.space-factory-1"
+    }
+  },
+  name = "space-factory-1-instantiated",
+  order = "a-a",
+  place_result = "space-factory-1",
+  stack_size = 1,
+  subgroup = "factorissimo2",
+  type = "item-with-tags",
+  weight = 1000000
+}

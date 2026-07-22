@@ -257,6 +257,13 @@ return {
     }
   },
   subgroup = "trees",
+  surface_conditions = {
+    {
+      max = 2000,
+      min = 2000,
+      property = "pressure"
+    }
+  },
   type = "plant",
   variations = {
     {

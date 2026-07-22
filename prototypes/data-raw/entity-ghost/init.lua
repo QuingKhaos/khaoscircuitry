@@ -1,4 +1,5 @@
 return {
+  ["alert-scanner-activity-ghost"] = require("___KHAOSDATA___.prototypes.data-raw.entity-ghost.alert-scanner-activity-ghost"),
   ["entity-ghost"] = require("___KHAOSDATA___.prototypes.data-raw.entity-ghost.entity-ghost"),
   ["entity-unknown"] = require("___KHAOSDATA___.prototypes.data-raw.entity-ghost.entity-unknown"),
   ["tile-proxy"] = require("___KHAOSDATA___.prototypes.data-raw.entity-ghost.tile-proxy"),

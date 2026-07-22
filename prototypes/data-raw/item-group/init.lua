@@ -3,6 +3,7 @@ return {
   ["effects"] = require("___KHAOSDATA___.prototypes.data-raw.item-group.effects"),
   ["enemies"] = require("___KHAOSDATA___.prototypes.data-raw.item-group.enemies"),
   ["environment"] = require("___KHAOSDATA___.prototypes.data-raw.item-group.environment"),
+  ["flare-incineration"] = require("___KHAOSDATA___.prototypes.data-raw.item-group.flare-incineration"),
   ["fluids"] = require("___KHAOSDATA___.prototypes.data-raw.item-group.fluids"),
   ["intermediate-products"] = require("___KHAOSDATA___.prototypes.data-raw.item-group.intermediate-products"),
   ["logistics"] = require("___KHAOSDATA___.prototypes.data-raw.item-group.logistics"),

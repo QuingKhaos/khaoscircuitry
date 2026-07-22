@@ -19,6 +19,10 @@ return {
     {
       modifier = true,
       type = "create-ghost-on-entity-death"
+    },
+    {
+      recipe = "alert-scanner",
+      type = "unlock-recipe"
     }
   },
   icon = "__base__/graphics/technology/construction-robotics.png",

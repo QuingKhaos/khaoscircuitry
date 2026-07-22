@@ -1,6 +1,16 @@
 return {
   ["big-electric-pole"] = require("___KHAOSDATA___.prototypes.data-raw.electric-pole.big-electric-pole"),
+  ["compaktcircuit-energy_pole"] = require("___KHAOSDATA___.prototypes.data-raw.electric-pole.compaktcircuit-energy_pole"),
+  ["compaktcircuit-epole"] = require("___KHAOSDATA___.prototypes.data-raw.electric-pole.compaktcircuit-epole"),
+  ["compaktcircuit-internal_connector"] = require("___KHAOSDATA___.prototypes.data-raw.electric-pole.compaktcircuit-internal_connector"),
+  ["compaktcircuit-internal_iopoint"] = require("___KHAOSDATA___.prototypes.data-raw.electric-pole.compaktcircuit-internal_iopoint"),
+  ["compaktcircuit-pole"] = require("___KHAOSDATA___.prototypes.data-raw.electric-pole.compaktcircuit-pole"),
+  ["factory-circuit-connector"] = require("___KHAOSDATA___.prototypes.data-raw.electric-pole.factory-circuit-connector"),
+  ["factory-circuit-connector-invisible"] = require("___KHAOSDATA___.prototypes.data-raw.electric-pole.factory-circuit-connector-invisible"),
+  ["factory-global-electric-network-pole"] = require("___KHAOSDATA___.prototypes.data-raw.electric-pole.factory-global-electric-network-pole"),
+  ["factory-power-pole"] = require("___KHAOSDATA___.prototypes.data-raw.electric-pole.factory-power-pole"),
   ["medium-electric-pole"] = require("___KHAOSDATA___.prototypes.data-raw.electric-pole.medium-electric-pole"),
+  ["power-combinator-meter-network"] = require("___KHAOSDATA___.prototypes.data-raw.electric-pole.power-combinator-meter-network"),
   ["small-electric-pole"] = require("___KHAOSDATA___.prototypes.data-raw.electric-pole.small-electric-pole"),
   ["substation"] = require("___KHAOSDATA___.prototypes.data-raw.electric-pole.substation"),
 }

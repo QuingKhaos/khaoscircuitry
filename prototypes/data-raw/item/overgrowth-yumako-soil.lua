@@ -41,7 +41,15 @@ return {
       "lowland-olive-blubber-2",
       "lowland-olive-blubber-3",
       "lowland-brown-blubber",
-      "lowland-pale-green"
+      "lowland-pale-green",
+      "factory-floor",
+      "factory-pattern-1",
+      "factory-pattern-2",
+      "factory-pattern-3",
+      "space-factory-floor",
+      "space-factory-pattern-1",
+      "space-factory-pattern-2",
+      "space-factory-pattern-3"
     }
   },
   stack_size = 100,

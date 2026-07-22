@@ -1140,6 +1140,10 @@ return {
     {
       min = 1,
       property = "pressure"
+    },
+    {
+      min = 1,
+      property = "ceiling"
     }
   },
   times_to_blink = 3,

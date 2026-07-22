@@ -43,7 +43,15 @@ return {
       "lowland-red-vein-4",
       "lowland-red-vein-dead",
       "lowland-red-infection",
-      "lowland-cream-red"
+      "lowland-cream-red",
+      "factory-floor",
+      "factory-pattern-1",
+      "factory-pattern-2",
+      "factory-pattern-3",
+      "space-factory-floor",
+      "space-factory-pattern-1",
+      "space-factory-pattern-2",
+      "space-factory-pattern-3"
     }
   },
   stack_size = 100,

@@ -549,6 +549,12 @@ return {
       1.5
     }
   },
+  surface_conditions = {
+    {
+      min = 1,
+      property = "ceiling"
+    }
+  },
   turn_after_shooting_cooldown = 60,
   turret_rotation_speed = 0.001,
   type = "artillery-turret",

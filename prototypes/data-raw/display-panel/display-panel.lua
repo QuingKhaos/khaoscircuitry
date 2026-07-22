@@ -123,6 +123,7 @@ return {
   factoriopedia_simulation = {
     init = "    game.simulation.camera_zoom = 3\n    game.simulation.camera_position = {1.5, 3.5}\n    game.surfaces[1].create_entities_from_blueprint_string\n    {\n      string = \"0eNqlVttuozAQ/Rc/4yokTZpG2i+pKmRggNli445NurTKv+8YGkiTVL2QvAC2z5kzntubSOsWLKHxYvcmMGuME7uHN+GwNKoO34zSIHYCasg8YSbBAJWd5BNAhcpAHCKBJod/YhcfoisnXZs6rzw2RkTiuVU1+o4/11CCyRV1JwDLw2MkwHj0CIMd/UuXmFanQMwQHVGDpV4ZL7NGp2iUb4jhbeOwZ2J6xtvcrCPBZHK5vFkzDR/y1NRJCpXaI5/gbY51YS/79Jmpj6IiUWDNYs+/vhuStvUTe8MB8Z4PCk1Dmj0RaLVV1Ju4E3/6D21weO+vo/QR0FnMGYzO/PUjtNWIRlCggVxW6lVRzt4yGYGH30PfjtCWmpKU1iqtQToL6mmOA9YnJluFJK3Knn4Pt4kuIrdoyYSA/TXm3SS91fbvLPu2IxbyTcsSFMmXCqD+PeT9R8iGZkiNF1OAK8+R3c3AmpKF1Iss0FUzwDhRfGeHOMnQBo3Hi9bWd7ICte9kg7VMFdEcf8ZTFlkEytCUknhb7qRWpXrlvJoBPuWRwbLyco+OS4+E5xat5rI3A3o9uqioW8wnD72oWTUq3ozAeyTf9gePVasv+zKrYE5WxHcjw1D5JwKu2aAbX8kU54nYfkqRVXw4m4c+JWFJAEa+4Jw0XC4+NXZ4l2XVuB/HyiP/D4HmrL2eNKG+ajb0zfbKNouclWbD6vazVjuAJryY49h1Gws0zAehQJi80Uw17E20Yh5PLbzPCMmx74sdu2bYnbQ258BO+pFkH2aPeH1V3pTPH2aSM1XbE03Xx5UL4Nvo6zHpgieU2JEobYsCKHH4CmFl/F0hmxpljs7WquNOafo6d0Zwf7yeePPp9BMCRMM43YwXE9YKJOeTaZ77IvWV6XzFNVIMVO+3FF/EYRj3soHh24gcr9OpK2PCIQyOIdWCjIc4iqNlFD9GD8toFa35iVe5auhQRsZ5NxJ7lt1rXW7j2+1qvblbLRabVXw4/AdSM7DC\",\n      position = {0, 0}\n    }\n  "
   },
+  fast_replaceable_group = "display",
   flags = {
     "player-creation"
   },

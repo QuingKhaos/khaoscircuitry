@@ -1039,6 +1039,7 @@ return {
     result = "train-stop"
   },
   name = "train-stop",
+  next_upgrade = "logistic-train-stop",
   open_sound = {
     filename = "__base__/sound/open-close/train-stop-open.ogg",
     volume = 0.6

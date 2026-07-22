@@ -1,4 +1,7 @@
 return {
+  additional_pastable_entities = {
+    "cybersyn-constant-combinator"
+  },
   allowed_effects = {
     "consumption",
     "speed",

@@ -1,4 +1,7 @@
 return {
+  additional_pastable_entities = {
+    "cybersyn-constant-combinator"
+  },
   alert_icon_shift = {
     0,
     -0.375

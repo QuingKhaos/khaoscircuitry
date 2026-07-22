@@ -1,4 +1,82 @@
 return {
+  CircuitHUD_button_with_icon = {
+    bottom_margin = 4,
+    clicked_graphical_set = {
+      filename = "__CircuitHUD-V2__/graphics/buttons/button-sprites.png",
+      height = 16,
+      priority = "extra-high-no-scale",
+      width = 16,
+      x = 32,
+      y = 0
+    },
+    default_graphical_set = {
+      filename = "__CircuitHUD-V2__/graphics/buttons/button-sprites.png",
+      height = 16,
+      priority = "extra-high-no-scale",
+      width = 16,
+      x = 0,
+      y = 0
+    },
+    height = 16,
+    hovered_graphical_set = {
+      filename = "__CircuitHUD-V2__/graphics/buttons/button-sprites.png",
+      height = 16,
+      priority = "extra-high-no-scale",
+      width = 16,
+      x = 16,
+      y = 0
+    },
+    left_padding = 1,
+    parent = "slot_button",
+    right_padding = 1,
+    scalable = true,
+    top_margin = 4,
+    type = "button_style",
+    width = 16
+  },
+  aai_icon_selector_button = {
+    height = 28,
+    padding = 0,
+    parent = "button",
+    top_margin = 1,
+    type = "button_style",
+    width = 28
+  },
+  aai_signal_transmission_titlebar_drag_handle = {
+    height = 24,
+    horizontally_stretchable = "on",
+    left_margin = 4,
+    parent = "draggable_space",
+    right_margin = 4,
+    type = "empty_widget_style"
+  },
+  aai_signal_transmission_titlebar_flow = {
+    horizontal_spacing = 8,
+    type = "horizontal_flow_style"
+  },
+  aai_signal_transmission_transceiver_invisible_frame = {
+    bottom_padding = 0,
+    header_flow_style = {
+      bottom_padding = 4,
+      type = "horizontal_flow_style"
+    },
+    horizontal_flow_style = {
+      horizontal_spacing = 0,
+      type = "horizontal_flow_style"
+    },
+    parent = "invisible_frame",
+    title_style = {
+      parent = "heading_3_label",
+      type = "label_style"
+    },
+    type = "frame_style",
+    use_header_filler = false,
+    vertical_flow_style = {
+      horizontal_align = "left",
+      type = "vertical_flow_style",
+      vertical_spacing = 4
+    }
+  },
   achievement_card_progressbar = {
     parent = "thick_progressbar",
     top_margin = 8,
@@ -2150,6 +2228,12 @@ return {
     },
     type = "radiobutton_style"
   },
+  ch_settings_category_frame = {
+    horizontally_stretchable = "on",
+    parent = "bordered_frame",
+    right_padding = 8,
+    type = "frame_style"
+  },
   changelog_textbox = {
     bottom_padding = 4,
     default_background = {
@@ -2907,6 +2991,153 @@ return {
     size = 28,
     type = "button_style"
   },
+  chv2_edit_button = {
+    clicked_graphical_set = {
+      filename = "__CircuitHUD-V2__/graphics/buttons/button-sprites.png",
+      height = 16,
+      priority = "extra-high-no-scale",
+      width = 16,
+      x = 32,
+      y = 16
+    },
+    default_graphical_set = {
+      filename = "__CircuitHUD-V2__/graphics/buttons/button-sprites.png",
+      height = 16,
+      priority = "extra-high-no-scale",
+      width = 16,
+      x = 0,
+      y = 16
+    },
+    hovered_graphical_set = {
+      filename = "__CircuitHUD-V2__/graphics/buttons/button-sprites.png",
+      height = 16,
+      priority = "extra-high-no-scale",
+      width = 16,
+      x = 16,
+      y = 16
+    },
+    parent = "CircuitHUD_button_with_icon",
+    type = "button_style"
+  },
+  chv2_go_to_button = {
+    clicked_graphical_set = {
+      filename = "__CircuitHUD-V2__/graphics/buttons/button-sprites.png",
+      height = 16,
+      priority = "extra-high-no-scale",
+      width = 16,
+      x = 32,
+      y = 0
+    },
+    default_graphical_set = {
+      filename = "__CircuitHUD-V2__/graphics/buttons/button-sprites.png",
+      height = 16,
+      priority = "extra-high-no-scale",
+      width = 16,
+      x = 0,
+      y = 0
+    },
+    hovered_graphical_set = {
+      filename = "__CircuitHUD-V2__/graphics/buttons/button-sprites.png",
+      height = 16,
+      priority = "extra-high-no-scale",
+      width = 16,
+      x = 16,
+      y = 0
+    },
+    parent = "CircuitHUD_button_with_icon",
+    type = "button_style"
+  },
+  chv2_hide_button = {
+    clicked_graphical_set = {
+      filename = "__CircuitHUD-V2__/graphics/buttons/button-sprites.png",
+      height = 16,
+      priority = "extra-high-no-scale",
+      width = 16,
+      x = 32,
+      y = 144
+    },
+    default_graphical_set = {
+      filename = "__CircuitHUD-V2__/graphics/buttons/button-sprites.png",
+      height = 16,
+      priority = "extra-high-no-scale",
+      width = 16,
+      x = 0,
+      y = 144
+    },
+    hovered_graphical_set = {
+      filename = "__CircuitHUD-V2__/graphics/buttons/button-sprites.png",
+      height = 16,
+      priority = "extra-high-no-scale",
+      width = 16,
+      x = 16,
+      y = 144
+    },
+    parent = "CircuitHUD_button_with_icon",
+    type = "button_style"
+  },
+  ["chv2_hud-root-frame-style"] = {
+    bottom_padding = 4,
+    header_filler_style = {
+      height = 24,
+      type = "empty_widget_style"
+    },
+    left_padding = 4,
+    minimal_height = 40,
+    minimal_width = 40,
+    right_padding = 4,
+    top_padding = 4,
+    type = "frame_style"
+  },
+  chv2_settings_slider_style = {
+    parent = "red_slider",
+    type = "slider_style"
+  },
+  chv2_settings_title_label = {
+    maximal_height = 28,
+    minimal_height = 28,
+    minimal_width = 150,
+    parent = "label",
+    top_padding = 4,
+    type = "label_style"
+  },
+  chv2_show_button = {
+    clicked_graphical_set = {
+      filename = "__CircuitHUD-V2__/graphics/buttons/button-sprites.png",
+      height = 16,
+      priority = "extra-high-no-scale",
+      width = 16,
+      x = 32,
+      y = 80
+    },
+    default_graphical_set = {
+      filename = "__CircuitHUD-V2__/graphics/buttons/button-sprites.png",
+      height = 16,
+      priority = "extra-high-no-scale",
+      width = 16,
+      x = 0,
+      y = 80
+    },
+    hovered_graphical_set = {
+      filename = "__CircuitHUD-V2__/graphics/buttons/button-sprites.png",
+      height = 16,
+      priority = "extra-high-no-scale",
+      width = 16,
+      x = 16,
+      y = 80
+    },
+    parent = "CircuitHUD_button_with_icon",
+    type = "button_style"
+  },
+  chv2_slider_count_label = {
+    margin_top = 4,
+    maximal_height = 24,
+    maximal_width = 40,
+    minimal_height = 24,
+    minimal_width = 40,
+    parent = "label",
+    single_line = true,
+    type = "label_style"
+  },
   circuit_condition_comparator_dropdown = {
     button_style = {
       clicked_graphical_set = {
@@ -3219,6 +3450,13 @@ return {
     maximal_width = 24,
     type = "label_style"
   },
+  combinator_flow_style = {
+    bottom_padding = 4,
+    left_padding = 4,
+    right_padding = 4,
+    top_padding = 4,
+    type = "vertical_flow_style"
+  },
   compact_horizontal_flow = {
     horizontal_spacing = 2,
     type = "horizontal_flow_style"
@@ -3306,6 +3544,65 @@ return {
     horizontal_spacing = 2,
     type = "table_style",
     vertical_spacing = 2
+  },
+  compaktcircuit_count_label_bottom = {
+    height = 40,
+    horizontal_align = "right",
+    parent = "count_label",
+    right_padding = 4,
+    type = "label_style",
+    vertical_align = "bottom",
+    width = 44
+  },
+  compaktcircuit_slot_button_blue = {
+    parent = "flib_slot_button_blue",
+    size = 40,
+    type = "button_style"
+  },
+  compaktcircuit_slot_button_cyan = {
+    parent = "flib_slot_button_cyan",
+    size = 40,
+    type = "button_style"
+  },
+  compaktcircuit_slot_button_default = {
+    parent = "flib_slot_button_default",
+    size = 40,
+    type = "button_style"
+  },
+  compaktcircuit_slot_button_green = {
+    parent = "flib_slot_button_green",
+    size = 40,
+    type = "button_style"
+  },
+  compaktcircuit_slot_button_grey = {
+    parent = "flib_slot_button_grey",
+    size = 40,
+    type = "button_style"
+  },
+  compaktcircuit_slot_button_orange = {
+    parent = "flib_slot_button_orange",
+    size = 40,
+    type = "button_style"
+  },
+  compaktcircuit_slot_button_pink = {
+    parent = "flib_slot_button_pink",
+    size = 40,
+    type = "button_style"
+  },
+  compaktcircuit_slot_button_purple = {
+    parent = "flib_slot_button_purple",
+    size = 40,
+    type = "button_style"
+  },
+  compaktcircuit_slot_button_red = {
+    parent = "flib_slot_button_red",
+    size = 40,
+    type = "button_style"
+  },
+  compaktcircuit_slot_button_yellow = {
+    parent = "flib_slot_button_yellow",
+    size = 40,
+    type = "button_style"
   },
   compilatron_gui_message = {
     arrow_graphical_set = {
@@ -4634,6 +4931,11 @@ return {
     top_padding = 0,
     type = "textbox_style"
   },
+  container_inside_shallow_frame = {
+    minimal_width = 184,
+    parent = "inside_shallow_frame",
+    type = "frame_style"
+  },
   control_input_shortcut_label = {
     font = "default-semibold",
     font_color = {
@@ -4786,6 +5088,297 @@ return {
       250
     },
     type = "list_box_style"
+  },
+  ["cybersyn-combinator_cs-signal-label"] = {
+    horizontally_stretchable = "on",
+    parent = "caption_label",
+    type = "label_style"
+  },
+  ["cybersyn-combinator_cs-signal-reset"] = {
+    horizontally_stretchable = "off",
+    parent = "tool_button_red",
+    type = "button_style"
+  },
+  ["cybersyn-combinator_cs-signal-sprite"] = {
+    left_padding = 2,
+    parent = "image",
+    size = 32,
+    stretch_image_to_widget_size = true,
+    type = "image_style"
+  },
+  ["cybersyn-combinator_cs-signal-text"] = {
+    horizontal_align = "right",
+    horizontally_stretchable = "off",
+    parent = "short_number_textfield",
+    type = "textbox_style"
+  },
+  ["cybersyn-combinator_encoder_bit-button"] = {
+    hovered_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          240,
+          80
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    parent = "flib_standalone_slot_button_grey",
+    size = 32,
+    type = "button_style"
+  },
+  ["cybersyn-combinator_encoder_bit-button_pressed"] = {
+    parent = "flib_selected_standalone_slot_button_grey",
+    size = 32,
+    type = "button_style"
+  },
+  ["cybersyn-combinator_frame_semitransparent"] = {
+    graphical_set = {
+      base = {
+        corner_size = 1,
+        filename = "__cybersyn-combinator__/graphics/frame/semitransparent-pixel.png",
+        position = {
+          0,
+          0
+        },
+        type = "composition"
+      }
+    },
+    type = "frame_style"
+  },
+  ["cybersyn-combinator_frame_transparent"] = {
+    graphical_set = {
+      base = {
+        corner_size = 1,
+        filename = "__cybersyn-combinator__/graphics/frame/transparent-pixel.png",
+        position = {
+          0,
+          0
+        },
+        type = "composition"
+      }
+    },
+    type = "frame_style"
+  },
+  ["cybersyn-combinator_group-list_scroll-pane"] = {
+    padding = 0,
+    parent = "list_box_in_shallow_frame_under_subheader_scroll_pane",
+    type = "scroll_pane_style",
+    vertical_flow_style = {
+      type = "vertical_flow_style",
+      vertical_spacing = 0
+    }
+  },
+  ["cybersyn-combinator_network-list_info-sprite"] = {
+    parent = "image",
+    size = 10,
+    stretch_image_to_widget_size = true,
+    type = "image_style",
+    vertical_align = "center"
+  },
+  ["cybersyn-combinator_network-list_item"] = {
+    horizontally_squashable = "on",
+    horizontally_stretchable = "on",
+    parent = "list_box_item",
+    type = "button_style"
+  },
+  ["cybersyn-combinator_network-list_item-active"] = {
+    clicked_graphical_set = {
+      base = {
+        corner_size = 8,
+        position = {
+          352,
+          17
+        }
+      },
+      shadow = {
+        corner_size = 8,
+        draw_type = "outer",
+        position = {
+          200,
+          128
+        },
+        scale = 0.5,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        }
+      }
+    },
+    default_font_color = {},
+    default_graphical_set = {
+      base = {
+        corner_size = 8,
+        position = {
+          225,
+          17
+        }
+      },
+      shadow = {
+        corner_size = 8,
+        draw_type = "outer",
+        position = {
+          200,
+          128
+        },
+        scale = 0.5,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        }
+      }
+    },
+    hovered_graphical_set = {
+      base = {
+        corner_size = 8,
+        position = {
+          369,
+          17
+        }
+      },
+      shadow = {
+        corner_size = 8,
+        draw_type = "outer",
+        position = {
+          200,
+          128
+        },
+        scale = 0.5,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        }
+      }
+    },
+    parent = "cybersyn-combinator_network-list_item",
+    type = "button_style"
+  },
+  ["cybersyn-combinator_network-list_scroll-pane"] = {
+    background_graphical_set = {
+      corner_size = 8,
+      overall_tiling_horizontal_padding = 4,
+      overall_tiling_vertical_padding = 4,
+      overall_tiling_vertical_size = 22,
+      overall_tiling_vertical_spacing = 6,
+      position = {
+        282,
+        17
+      }
+    },
+    horizontally_stretchable = "on",
+    padding = 0,
+    parent = "list_box_in_shallow_frame_scroll_pane",
+    type = "scroll_pane_style",
+    vertical_flow_style = {
+      type = "vertical_flow_style",
+      vertical_spacing = 0
+    },
+    vertically_stretchable = "on"
+  },
+  ["cybersyn-combinator_network-mask-text-input"] = {
+    horizontal_align = "right",
+    type = "textbox_style"
+  },
+  ["cybersyn-combinator_signal-button"] = {
+    parent = "flib_slot_button_default",
+    type = "button_style"
+  },
+  ["cybersyn-combinator_signal-button_pressed"] = {
+    parent = "flib_selected_slot_button_default",
+    type = "button_style"
+  },
+  ["cybersyn-combinator_signal-comparator"] = {
+    font = "cybersyn-combinator_signal-comparator-font",
+    horizontal_align = "left",
+    margin = 0,
+    padding = 0,
+    parent = "label",
+    parent_hovered_font_color = {
+      1,
+      1,
+      1
+    },
+    size = 36,
+    type = "label_style",
+    vertical_align = "top"
+  },
+  ["cybersyn-combinator_signal-count"] = {
+    horizontal_align = "right",
+    parent = "count_label",
+    parent_hovered_font_color = {
+      1,
+      1,
+      1
+    },
+    right_padding = 2,
+    size = 36,
+    type = "label_style",
+    vertical_align = "bottom"
+  },
+  cybersyn_chart_overlay_button = {
+    clicked_graphical_set = {},
+    default_graphical_set = {},
+    hovered_graphical_set = {},
+    minimal_height = 1,
+    minimal_width = 1,
+    padding = 0,
+    parent = "button",
+    type = "button_style"
+  },
+  cybersyn_content_reader_label_signal_count_inventory = {
+    horizontal_align = "right",
+    parent = "count_label",
+    parent_hovered_font_color = {
+      1,
+      1,
+      1
+    },
+    right_padding = 2,
+    size = 36,
+    type = "label_style",
+    vertical_align = "bottom",
+    width = 36
+  },
+  cybersyn_content_reader_network_selector = {
+    height = 28,
+    type = "textbox_style",
+    width = 30
+  },
+  cybersyn_content_reader_network_selector_frame = {
+    bottom_margin = 12,
+    horizontal_flow_style = {
+      horizontal_spacing = 12,
+      type = "horizontal_flow_style",
+      vertical_align = "center"
+    },
+    parent = "subheader_frame",
+    top_margin = 4,
+    type = "frame_style",
+    vertical_align = "center"
+  },
+  cybersyn_content_reader_signal_display = {
+    height = 300,
+    type = "frame_style",
+    width = 280
   },
   dark_button = {
     default_graphical_set = {
@@ -6436,6 +7029,15 @@ return {
     parent = "draggable_space",
     type = "empty_widget_style"
   },
+  draggable_space_hud_header = {
+    left_margin = 8,
+    minimal_height = 24,
+    minimal_width = 32,
+    parent = "draggable_space",
+    right_margin = 8,
+    top_margin = 0,
+    type = "empty_widget_style"
+  },
   draggable_space_in_shortcut_list = {
     parent = "draggable_space",
     type = "empty_widget_style",
@@ -8025,6 +8627,8284 @@ return {
     parent = "removed_content_table",
     type = "table_style"
   },
+  flib_dialog_footer_drag_handle = {
+    height = 32,
+    horizontally_stretchable = "on",
+    parent = "draggable_space",
+    type = "empty_widget_style"
+  },
+  flib_dialog_footer_drag_handle_no_right = {
+    parent = "flib_dialog_footer_drag_handle",
+    right_margin = 0,
+    type = "empty_widget_style"
+  },
+  flib_dialog_titlebar_drag_handle = {
+    parent = "flib_titlebar_drag_handle",
+    right_margin = 0,
+    type = "empty_widget_style"
+  },
+  flib_frame_title = {
+    bottom_padding = 3,
+    parent = "frame_title",
+    top_margin = -3,
+    type = "label_style"
+  },
+  flib_horizontal_pusher = {
+    horizontally_stretchable = "on",
+    type = "empty_widget_style"
+  },
+  flib_indicator = {
+    size = 16,
+    stretch_image_to_widget_size = true,
+    type = "image_style"
+  },
+  flib_indicator_flow = {
+    type = "horizontal_flow_style",
+    vertical_align = "center"
+  },
+  flib_naked_scroll_pane = {
+    extra_padding_when_activated = 0,
+    graphical_set = {
+      shadow = {
+        corner_size = 8,
+        draw_type = "inner",
+        position = {
+          183,
+          128
+        },
+        scale = 0.5,
+        tint = {
+          0,
+          0,
+          0,
+          1
+        }
+      }
+    },
+    padding = 12,
+    type = "scroll_pane_style"
+  },
+  flib_naked_scroll_pane_no_padding = {
+    padding = 0,
+    parent = "flib_naked_scroll_pane",
+    type = "scroll_pane_style"
+  },
+  flib_naked_scroll_pane_under_tabs = {
+    graphical_set = {
+      base = {
+        draw_type = "outer",
+        top = {
+          position = {
+            93,
+            0
+          },
+          size = {
+            1,
+            8
+          }
+        }
+      },
+      shadow = {
+        corner_size = 8,
+        draw_type = "inner",
+        position = {
+          183,
+          128
+        },
+        scale = 0.5,
+        tint = {
+          0,
+          0,
+          0,
+          1
+        }
+      }
+    },
+    parent = "flib_naked_scroll_pane",
+    type = "scroll_pane_style"
+  },
+  flib_selected_frame_action_button = {
+    bottom_padding = -1,
+    clicked_font_color = {},
+    clicked_graphical_set = {
+      base = {
+        corner_size = 8,
+        position = {
+          352,
+          17
+        }
+      },
+      shadow = {
+        corner_size = 8,
+        draw_type = "outer",
+        position = {
+          440,
+          24
+        }
+      }
+    },
+    clicked_vertical_offset = 0,
+    default_font_color = {},
+    default_graphical_set = {
+      base = {
+        corner_size = 8,
+        position = {
+          225,
+          17
+        }
+      },
+      shadow = {
+        corner_size = 8,
+        draw_type = "outer",
+        position = {
+          440,
+          24
+        }
+      }
+    },
+    hovered_font_color = {},
+    hovered_graphical_set = {
+      base = {
+        corner_size = 8,
+        position = {
+          369,
+          17
+        }
+      },
+      shadow = {
+        corner_size = 8,
+        draw_type = "outer",
+        position = {
+          440,
+          24
+        }
+      }
+    },
+    parent = "frame_action_button",
+    top_padding = 1,
+    type = "button_style"
+  },
+  flib_selected_slot_blue = {
+    clicked_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          160,
+          560
+        },
+        size = 80
+      }
+    },
+    clicked_vertical_offset = 0,
+    default_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          80,
+          560
+        },
+        size = 80
+      }
+    },
+    disabled_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          80,
+          560
+        },
+        size = 80
+      }
+    },
+    hovered_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          80,
+          560
+        },
+        size = 80
+      }
+    },
+    parent = "slot",
+    size = 40,
+    type = "button_style"
+  },
+  flib_selected_slot_button_blue = {
+    clicked_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          400,
+          560
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    clicked_vertical_offset = 0,
+    default_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          320,
+          560
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    disabled_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          320,
+          560
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    hovered_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          320,
+          560
+        },
+        size = 80
+      },
+      glow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          135,
+          186,
+          230
+        },
+        top_outer_border_shift = 4
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    parent = "slot_button",
+    size = 40,
+    type = "button_style"
+  },
+  flib_selected_slot_button_cyan = {
+    clicked_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          400,
+          480
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    clicked_vertical_offset = 0,
+    default_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          320,
+          480
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    disabled_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          320,
+          480
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    hovered_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          320,
+          480
+        },
+        size = 80
+      },
+      glow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          135,
+          230,
+          230
+        },
+        top_outer_border_shift = 4
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    parent = "slot_button",
+    size = 40,
+    type = "button_style"
+  },
+  flib_selected_slot_button_default = {
+    clicked_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          400,
+          0
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    clicked_vertical_offset = 0,
+    default_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          320,
+          0
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    disabled_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          320,
+          0
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    hovered_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          320,
+          0
+        },
+        size = 80
+      },
+      glow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          225,
+          177,
+          106,
+          255
+        },
+        top_outer_border_shift = 4
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    parent = "slot_button",
+    size = 40,
+    type = "button_style"
+  },
+  flib_selected_slot_button_green = {
+    clicked_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          400,
+          400
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    clicked_vertical_offset = 0,
+    default_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          320,
+          400
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    disabled_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          320,
+          400
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    hovered_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          320,
+          400
+        },
+        size = 80
+      },
+      glow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          153,
+          230,
+          135
+        },
+        top_outer_border_shift = 4
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    parent = "slot_button",
+    size = 40,
+    type = "button_style"
+  },
+  flib_selected_slot_button_grey = {
+    clicked_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          400,
+          80
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    clicked_vertical_offset = 0,
+    default_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          320,
+          80
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    disabled_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          320,
+          80
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    hovered_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          320,
+          80
+        },
+        size = 80
+      },
+      glow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          225,
+          177,
+          106,
+          255
+        },
+        top_outer_border_shift = 4
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    parent = "slot_button",
+    size = 40,
+    type = "button_style"
+  },
+  flib_selected_slot_button_orange = {
+    clicked_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          400,
+          240
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    clicked_vertical_offset = 0,
+    default_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          320,
+          240
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    disabled_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          320,
+          240
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    hovered_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          320,
+          240
+        },
+        size = 80
+      },
+      glow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          216,
+          169,
+          122
+        },
+        top_outer_border_shift = 4
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    parent = "slot_button",
+    size = 40,
+    type = "button_style"
+  },
+  flib_selected_slot_button_pink = {
+    clicked_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          400,
+          720
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    clicked_vertical_offset = 0,
+    default_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          320,
+          720
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    disabled_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          320,
+          720
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    hovered_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          320,
+          720
+        },
+        size = 80
+      },
+      glow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          230,
+          135,
+          230
+        },
+        top_outer_border_shift = 4
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    parent = "slot_button",
+    size = 40,
+    type = "button_style"
+  },
+  flib_selected_slot_button_purple = {
+    clicked_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          400,
+          640
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    clicked_vertical_offset = 0,
+    default_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          320,
+          640
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    disabled_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          320,
+          640
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    hovered_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          320,
+          640
+        },
+        size = 80
+      },
+      glow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          188,
+          135,
+          230
+        },
+        top_outer_border_shift = 4
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    parent = "slot_button",
+    size = 40,
+    type = "button_style"
+  },
+  flib_selected_slot_button_red = {
+    clicked_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          400,
+          160
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    clicked_vertical_offset = 0,
+    default_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          320,
+          160
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    disabled_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          320,
+          160
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    hovered_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          320,
+          160
+        },
+        size = 80
+      },
+      glow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          230,
+          135,
+          135
+        },
+        top_outer_border_shift = 4
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    parent = "slot_button",
+    size = 40,
+    type = "button_style"
+  },
+  flib_selected_slot_button_yellow = {
+    clicked_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          400,
+          320
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    clicked_vertical_offset = 0,
+    default_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          320,
+          320
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    disabled_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          320,
+          320
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    hovered_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          320,
+          320
+        },
+        size = 80
+      },
+      glow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          230,
+          218,
+          135
+        },
+        top_outer_border_shift = 4
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    parent = "slot_button",
+    size = 40,
+    type = "button_style"
+  },
+  flib_selected_slot_cyan = {
+    clicked_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          160,
+          480
+        },
+        size = 80
+      }
+    },
+    clicked_vertical_offset = 0,
+    default_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          80,
+          480
+        },
+        size = 80
+      }
+    },
+    disabled_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          80,
+          480
+        },
+        size = 80
+      }
+    },
+    hovered_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          80,
+          480
+        },
+        size = 80
+      }
+    },
+    parent = "slot",
+    size = 40,
+    type = "button_style"
+  },
+  flib_selected_slot_default = {
+    clicked_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          160,
+          0
+        },
+        size = 80
+      }
+    },
+    clicked_vertical_offset = 0,
+    default_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          80,
+          0
+        },
+        size = 80
+      }
+    },
+    disabled_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          80,
+          0
+        },
+        size = 80
+      }
+    },
+    hovered_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          80,
+          0
+        },
+        size = 80
+      }
+    },
+    parent = "slot",
+    size = 40,
+    type = "button_style"
+  },
+  flib_selected_slot_green = {
+    clicked_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          160,
+          400
+        },
+        size = 80
+      }
+    },
+    clicked_vertical_offset = 0,
+    default_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          80,
+          400
+        },
+        size = 80
+      }
+    },
+    disabled_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          80,
+          400
+        },
+        size = 80
+      }
+    },
+    hovered_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          80,
+          400
+        },
+        size = 80
+      }
+    },
+    parent = "slot",
+    size = 40,
+    type = "button_style"
+  },
+  flib_selected_slot_grey = {
+    clicked_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          160,
+          80
+        },
+        size = 80
+      }
+    },
+    clicked_vertical_offset = 0,
+    default_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          80,
+          80
+        },
+        size = 80
+      }
+    },
+    disabled_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          80,
+          80
+        },
+        size = 80
+      }
+    },
+    hovered_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          80,
+          80
+        },
+        size = 80
+      }
+    },
+    parent = "slot",
+    size = 40,
+    type = "button_style"
+  },
+  flib_selected_slot_orange = {
+    clicked_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          160,
+          240
+        },
+        size = 80
+      }
+    },
+    clicked_vertical_offset = 0,
+    default_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          80,
+          240
+        },
+        size = 80
+      }
+    },
+    disabled_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          80,
+          240
+        },
+        size = 80
+      }
+    },
+    hovered_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          80,
+          240
+        },
+        size = 80
+      }
+    },
+    parent = "slot",
+    size = 40,
+    type = "button_style"
+  },
+  flib_selected_slot_pink = {
+    clicked_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          160,
+          720
+        },
+        size = 80
+      }
+    },
+    clicked_vertical_offset = 0,
+    default_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          80,
+          720
+        },
+        size = 80
+      }
+    },
+    disabled_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          80,
+          720
+        },
+        size = 80
+      }
+    },
+    hovered_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          80,
+          720
+        },
+        size = 80
+      }
+    },
+    parent = "slot",
+    size = 40,
+    type = "button_style"
+  },
+  flib_selected_slot_purple = {
+    clicked_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          160,
+          640
+        },
+        size = 80
+      }
+    },
+    clicked_vertical_offset = 0,
+    default_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          80,
+          640
+        },
+        size = 80
+      }
+    },
+    disabled_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          80,
+          640
+        },
+        size = 80
+      }
+    },
+    hovered_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          80,
+          640
+        },
+        size = 80
+      }
+    },
+    parent = "slot",
+    size = 40,
+    type = "button_style"
+  },
+  flib_selected_slot_red = {
+    clicked_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          160,
+          160
+        },
+        size = 80
+      }
+    },
+    clicked_vertical_offset = 0,
+    default_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          80,
+          160
+        },
+        size = 80
+      }
+    },
+    disabled_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          80,
+          160
+        },
+        size = 80
+      }
+    },
+    hovered_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          80,
+          160
+        },
+        size = 80
+      }
+    },
+    parent = "slot",
+    size = 40,
+    type = "button_style"
+  },
+  flib_selected_slot_yellow = {
+    clicked_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          160,
+          320
+        },
+        size = 80
+      }
+    },
+    clicked_vertical_offset = 0,
+    default_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          80,
+          320
+        },
+        size = 80
+      }
+    },
+    disabled_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          80,
+          320
+        },
+        size = 80
+      }
+    },
+    hovered_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          80,
+          320
+        },
+        size = 80
+      }
+    },
+    parent = "slot",
+    size = 40,
+    type = "button_style"
+  },
+  flib_selected_standalone_slot_button_blue = {
+    clicked_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          400,
+          560
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    clicked_vertical_offset = 0,
+    default_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          320,
+          560
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    disabled_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          320,
+          560
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    hovered_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          320,
+          560
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    parent = "slot_button",
+    size = 40,
+    type = "button_style"
+  },
+  flib_selected_standalone_slot_button_cyan = {
+    clicked_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          400,
+          480
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    clicked_vertical_offset = 0,
+    default_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          320,
+          480
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    disabled_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          320,
+          480
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    hovered_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          320,
+          480
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    parent = "slot_button",
+    size = 40,
+    type = "button_style"
+  },
+  flib_selected_standalone_slot_button_default = {
+    clicked_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          400,
+          0
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    clicked_vertical_offset = 0,
+    default_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          320,
+          0
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    disabled_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          320,
+          0
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    hovered_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          320,
+          0
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    parent = "slot_button",
+    size = 40,
+    type = "button_style"
+  },
+  flib_selected_standalone_slot_button_green = {
+    clicked_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          400,
+          400
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    clicked_vertical_offset = 0,
+    default_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          320,
+          400
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    disabled_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          320,
+          400
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    hovered_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          320,
+          400
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    parent = "slot_button",
+    size = 40,
+    type = "button_style"
+  },
+  flib_selected_standalone_slot_button_grey = {
+    clicked_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          400,
+          80
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    clicked_vertical_offset = 0,
+    default_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          320,
+          80
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    disabled_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          320,
+          80
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    hovered_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          320,
+          80
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    parent = "slot_button",
+    size = 40,
+    type = "button_style"
+  },
+  flib_selected_standalone_slot_button_orange = {
+    clicked_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          400,
+          240
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    clicked_vertical_offset = 0,
+    default_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          320,
+          240
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    disabled_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          320,
+          240
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    hovered_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          320,
+          240
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    parent = "slot_button",
+    size = 40,
+    type = "button_style"
+  },
+  flib_selected_standalone_slot_button_pink = {
+    clicked_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          400,
+          720
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    clicked_vertical_offset = 0,
+    default_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          320,
+          720
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    disabled_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          320,
+          720
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    hovered_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          320,
+          720
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    parent = "slot_button",
+    size = 40,
+    type = "button_style"
+  },
+  flib_selected_standalone_slot_button_purple = {
+    clicked_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          400,
+          640
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    clicked_vertical_offset = 0,
+    default_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          320,
+          640
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    disabled_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          320,
+          640
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    hovered_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          320,
+          640
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    parent = "slot_button",
+    size = 40,
+    type = "button_style"
+  },
+  flib_selected_standalone_slot_button_red = {
+    clicked_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          400,
+          160
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    clicked_vertical_offset = 0,
+    default_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          320,
+          160
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    disabled_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          320,
+          160
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    hovered_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          320,
+          160
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    parent = "slot_button",
+    size = 40,
+    type = "button_style"
+  },
+  flib_selected_standalone_slot_button_yellow = {
+    clicked_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          400,
+          320
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    clicked_vertical_offset = 0,
+    default_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          320,
+          320
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    disabled_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          320,
+          320
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    hovered_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          320,
+          320
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    parent = "slot_button",
+    size = 40,
+    type = "button_style"
+  },
+  flib_selected_tool_button = {
+    bottom_padding = -1,
+    clicked_font_color = {},
+    clicked_graphical_set = {
+      base = {
+        corner_size = 8,
+        position = {
+          352,
+          17
+        }
+      },
+      shadow = {
+        corner_size = 8,
+        draw_type = "outer",
+        position = {
+          200,
+          128
+        },
+        scale = 0.5,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        }
+      }
+    },
+    clicked_vertical_offset = 0,
+    default_font_color = {},
+    default_graphical_set = {
+      base = {
+        corner_size = 8,
+        position = {
+          225,
+          17
+        }
+      },
+      shadow = {
+        corner_size = 8,
+        draw_type = "outer",
+        position = {
+          200,
+          128
+        },
+        scale = 0.5,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        }
+      }
+    },
+    hovered_font_color = {},
+    hovered_graphical_set = {
+      base = {
+        corner_size = 8,
+        position = {
+          369,
+          17
+        }
+      },
+      shadow = {
+        corner_size = 8,
+        draw_type = "outer",
+        position = {
+          200,
+          128
+        },
+        scale = 0.5,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        }
+      }
+    },
+    parent = "tool_button",
+    top_padding = 1,
+    type = "button_style"
+  },
+  flib_shallow_frame_in_shallow_frame = {
+    graphical_set = {
+      base = {
+        center = {
+          position = {
+            76,
+            8
+          },
+          size = {
+            1,
+            1
+          }
+        },
+        corner_size = 8,
+        draw_type = "outer",
+        position = {
+          85,
+          0
+        }
+      },
+      shadow = {
+        corner_size = 8,
+        draw_type = "inner",
+        position = {
+          183,
+          128
+        },
+        scale = 0.5,
+        tint = {
+          0,
+          0,
+          0,
+          1
+        }
+      }
+    },
+    padding = 0,
+    parent = "frame",
+    type = "frame_style",
+    vertical_flow_style = {
+      type = "vertical_flow_style",
+      vertical_spacing = 0
+    }
+  },
+  flib_shallow_scroll_pane = {
+    graphical_set = {
+      base = {
+        corner_size = 8,
+        draw_type = "outer",
+        position = {
+          85,
+          0
+        }
+      },
+      shadow = {
+        corner_size = 8,
+        draw_type = "inner",
+        position = {
+          183,
+          128
+        },
+        scale = 0.5,
+        tint = {
+          0,
+          0,
+          0,
+          1
+        }
+      }
+    },
+    padding = 0,
+    type = "scroll_pane_style"
+  },
+  flib_slot_blue = {
+    clicked_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          160,
+          560
+        },
+        size = 80
+      }
+    },
+    clicked_vertical_offset = 0,
+    default_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          0,
+          560
+        },
+        size = 80
+      }
+    },
+    disabled_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          0,
+          560
+        },
+        size = 80
+      }
+    },
+    hovered_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          80,
+          560
+        },
+        size = 80
+      }
+    },
+    parent = "slot",
+    size = 40,
+    type = "button_style"
+  },
+  flib_slot_button_blue = {
+    clicked_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          400,
+          560
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    clicked_vertical_offset = 0,
+    default_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          240,
+          560
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    disabled_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          240,
+          560
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    hovered_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          320,
+          560
+        },
+        size = 80
+      },
+      glow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          135,
+          186,
+          230
+        },
+        top_outer_border_shift = 4
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    parent = "slot_button",
+    size = 40,
+    type = "button_style"
+  },
+  flib_slot_button_cyan = {
+    clicked_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          400,
+          480
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    clicked_vertical_offset = 0,
+    default_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          240,
+          480
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    disabled_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          240,
+          480
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    hovered_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          320,
+          480
+        },
+        size = 80
+      },
+      glow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          135,
+          230,
+          230
+        },
+        top_outer_border_shift = 4
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    parent = "slot_button",
+    size = 40,
+    type = "button_style"
+  },
+  flib_slot_button_default = {
+    clicked_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          400,
+          0
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    clicked_vertical_offset = 0,
+    default_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          240,
+          0
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    disabled_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          240,
+          0
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    hovered_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          320,
+          0
+        },
+        size = 80
+      },
+      glow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          225,
+          177,
+          106,
+          255
+        },
+        top_outer_border_shift = 4
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    parent = "slot_button",
+    size = 40,
+    type = "button_style"
+  },
+  flib_slot_button_green = {
+    clicked_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          400,
+          400
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    clicked_vertical_offset = 0,
+    default_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          240,
+          400
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    disabled_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          240,
+          400
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    hovered_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          320,
+          400
+        },
+        size = 80
+      },
+      glow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          153,
+          230,
+          135
+        },
+        top_outer_border_shift = 4
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    parent = "slot_button",
+    size = 40,
+    type = "button_style"
+  },
+  flib_slot_button_grey = {
+    clicked_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          400,
+          80
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    clicked_vertical_offset = 0,
+    default_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          240,
+          80
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    disabled_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          240,
+          80
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    hovered_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          320,
+          80
+        },
+        size = 80
+      },
+      glow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          225,
+          177,
+          106,
+          255
+        },
+        top_outer_border_shift = 4
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    parent = "slot_button",
+    size = 40,
+    type = "button_style"
+  },
+  flib_slot_button_orange = {
+    clicked_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          400,
+          240
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    clicked_vertical_offset = 0,
+    default_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          240,
+          240
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    disabled_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          240,
+          240
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    hovered_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          320,
+          240
+        },
+        size = 80
+      },
+      glow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          216,
+          169,
+          122
+        },
+        top_outer_border_shift = 4
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    parent = "slot_button",
+    size = 40,
+    type = "button_style"
+  },
+  flib_slot_button_pink = {
+    clicked_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          400,
+          720
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    clicked_vertical_offset = 0,
+    default_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          240,
+          720
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    disabled_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          240,
+          720
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    hovered_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          320,
+          720
+        },
+        size = 80
+      },
+      glow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          230,
+          135,
+          230
+        },
+        top_outer_border_shift = 4
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    parent = "slot_button",
+    size = 40,
+    type = "button_style"
+  },
+  flib_slot_button_purple = {
+    clicked_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          400,
+          640
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    clicked_vertical_offset = 0,
+    default_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          240,
+          640
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    disabled_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          240,
+          640
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    hovered_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          320,
+          640
+        },
+        size = 80
+      },
+      glow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          188,
+          135,
+          230
+        },
+        top_outer_border_shift = 4
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    parent = "slot_button",
+    size = 40,
+    type = "button_style"
+  },
+  flib_slot_button_red = {
+    clicked_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          400,
+          160
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    clicked_vertical_offset = 0,
+    default_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          240,
+          160
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    disabled_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          240,
+          160
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    hovered_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          320,
+          160
+        },
+        size = 80
+      },
+      glow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          230,
+          135,
+          135
+        },
+        top_outer_border_shift = 4
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    parent = "slot_button",
+    size = 40,
+    type = "button_style"
+  },
+  flib_slot_button_yellow = {
+    clicked_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          400,
+          320
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    clicked_vertical_offset = 0,
+    default_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          240,
+          320
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    disabled_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          240,
+          320
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    hovered_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          320,
+          320
+        },
+        size = 80
+      },
+      glow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          230,
+          218,
+          135
+        },
+        top_outer_border_shift = 4
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    parent = "slot_button",
+    size = 40,
+    type = "button_style"
+  },
+  flib_slot_cyan = {
+    clicked_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          160,
+          480
+        },
+        size = 80
+      }
+    },
+    clicked_vertical_offset = 0,
+    default_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          0,
+          480
+        },
+        size = 80
+      }
+    },
+    disabled_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          0,
+          480
+        },
+        size = 80
+      }
+    },
+    hovered_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          80,
+          480
+        },
+        size = 80
+      }
+    },
+    parent = "slot",
+    size = 40,
+    type = "button_style"
+  },
+  flib_slot_default = {
+    clicked_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          160,
+          0
+        },
+        size = 80
+      }
+    },
+    clicked_vertical_offset = 0,
+    default_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          0,
+          0
+        },
+        size = 80
+      }
+    },
+    disabled_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          0,
+          0
+        },
+        size = 80
+      }
+    },
+    hovered_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          80,
+          0
+        },
+        size = 80
+      }
+    },
+    parent = "slot",
+    size = 40,
+    type = "button_style"
+  },
+  flib_slot_green = {
+    clicked_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          160,
+          400
+        },
+        size = 80
+      }
+    },
+    clicked_vertical_offset = 0,
+    default_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          0,
+          400
+        },
+        size = 80
+      }
+    },
+    disabled_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          0,
+          400
+        },
+        size = 80
+      }
+    },
+    hovered_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          80,
+          400
+        },
+        size = 80
+      }
+    },
+    parent = "slot",
+    size = 40,
+    type = "button_style"
+  },
+  flib_slot_grey = {
+    clicked_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          160,
+          80
+        },
+        size = 80
+      }
+    },
+    clicked_vertical_offset = 0,
+    default_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          0,
+          80
+        },
+        size = 80
+      }
+    },
+    disabled_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          0,
+          80
+        },
+        size = 80
+      }
+    },
+    hovered_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          80,
+          80
+        },
+        size = 80
+      }
+    },
+    parent = "slot",
+    size = 40,
+    type = "button_style"
+  },
+  flib_slot_orange = {
+    clicked_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          160,
+          240
+        },
+        size = 80
+      }
+    },
+    clicked_vertical_offset = 0,
+    default_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          0,
+          240
+        },
+        size = 80
+      }
+    },
+    disabled_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          0,
+          240
+        },
+        size = 80
+      }
+    },
+    hovered_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          80,
+          240
+        },
+        size = 80
+      }
+    },
+    parent = "slot",
+    size = 40,
+    type = "button_style"
+  },
+  flib_slot_pink = {
+    clicked_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          160,
+          720
+        },
+        size = 80
+      }
+    },
+    clicked_vertical_offset = 0,
+    default_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          0,
+          720
+        },
+        size = 80
+      }
+    },
+    disabled_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          0,
+          720
+        },
+        size = 80
+      }
+    },
+    hovered_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          80,
+          720
+        },
+        size = 80
+      }
+    },
+    parent = "slot",
+    size = 40,
+    type = "button_style"
+  },
+  flib_slot_purple = {
+    clicked_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          160,
+          640
+        },
+        size = 80
+      }
+    },
+    clicked_vertical_offset = 0,
+    default_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          0,
+          640
+        },
+        size = 80
+      }
+    },
+    disabled_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          0,
+          640
+        },
+        size = 80
+      }
+    },
+    hovered_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          80,
+          640
+        },
+        size = 80
+      }
+    },
+    parent = "slot",
+    size = 40,
+    type = "button_style"
+  },
+  flib_slot_red = {
+    clicked_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          160,
+          160
+        },
+        size = 80
+      }
+    },
+    clicked_vertical_offset = 0,
+    default_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          0,
+          160
+        },
+        size = 80
+      }
+    },
+    disabled_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          0,
+          160
+        },
+        size = 80
+      }
+    },
+    hovered_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          80,
+          160
+        },
+        size = 80
+      }
+    },
+    parent = "slot",
+    size = 40,
+    type = "button_style"
+  },
+  flib_slot_yellow = {
+    clicked_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          160,
+          320
+        },
+        size = 80
+      }
+    },
+    clicked_vertical_offset = 0,
+    default_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          0,
+          320
+        },
+        size = 80
+      }
+    },
+    disabled_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          0,
+          320
+        },
+        size = 80
+      }
+    },
+    hovered_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          80,
+          320
+        },
+        size = 80
+      }
+    },
+    parent = "slot",
+    size = 40,
+    type = "button_style"
+  },
+  flib_standalone_slot_button_blue = {
+    clicked_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          400,
+          560
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    clicked_vertical_offset = 0,
+    default_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          240,
+          560
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    disabled_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          240,
+          560
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    hovered_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          320,
+          560
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    parent = "slot_button",
+    size = 40,
+    type = "button_style"
+  },
+  flib_standalone_slot_button_cyan = {
+    clicked_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          400,
+          480
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    clicked_vertical_offset = 0,
+    default_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          240,
+          480
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    disabled_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          240,
+          480
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    hovered_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          320,
+          480
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    parent = "slot_button",
+    size = 40,
+    type = "button_style"
+  },
+  flib_standalone_slot_button_default = {
+    clicked_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          400,
+          0
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    clicked_vertical_offset = 0,
+    default_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          240,
+          0
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    disabled_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          240,
+          0
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    hovered_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          320,
+          0
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    parent = "slot_button",
+    size = 40,
+    type = "button_style"
+  },
+  flib_standalone_slot_button_green = {
+    clicked_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          400,
+          400
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    clicked_vertical_offset = 0,
+    default_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          240,
+          400
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    disabled_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          240,
+          400
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    hovered_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          320,
+          400
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    parent = "slot_button",
+    size = 40,
+    type = "button_style"
+  },
+  flib_standalone_slot_button_grey = {
+    clicked_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          400,
+          80
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    clicked_vertical_offset = 0,
+    default_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          240,
+          80
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    disabled_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          240,
+          80
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    hovered_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          320,
+          80
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    parent = "slot_button",
+    size = 40,
+    type = "button_style"
+  },
+  flib_standalone_slot_button_orange = {
+    clicked_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          400,
+          240
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    clicked_vertical_offset = 0,
+    default_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          240,
+          240
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    disabled_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          240,
+          240
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    hovered_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          320,
+          240
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    parent = "slot_button",
+    size = 40,
+    type = "button_style"
+  },
+  flib_standalone_slot_button_pink = {
+    clicked_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          400,
+          720
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    clicked_vertical_offset = 0,
+    default_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          240,
+          720
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    disabled_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          240,
+          720
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    hovered_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          320,
+          720
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    parent = "slot_button",
+    size = 40,
+    type = "button_style"
+  },
+  flib_standalone_slot_button_purple = {
+    clicked_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          400,
+          640
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    clicked_vertical_offset = 0,
+    default_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          240,
+          640
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    disabled_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          240,
+          640
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    hovered_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          320,
+          640
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    parent = "slot_button",
+    size = 40,
+    type = "button_style"
+  },
+  flib_standalone_slot_button_red = {
+    clicked_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          400,
+          160
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    clicked_vertical_offset = 0,
+    default_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          240,
+          160
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    disabled_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          240,
+          160
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    hovered_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          320,
+          160
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    parent = "slot_button",
+    size = 40,
+    type = "button_style"
+  },
+  flib_standalone_slot_button_yellow = {
+    clicked_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          400,
+          320
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    clicked_vertical_offset = 0,
+    default_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          240,
+          320
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    disabled_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          240,
+          320
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    hovered_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__flib__/graphics/slots.png",
+        position = {
+          320,
+          320
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    parent = "slot_button",
+    size = 40,
+    type = "button_style"
+  },
+  flib_subheader_horizontal_line = {
+    border = {
+      border_width = 8,
+      horizontal_line = {
+        filename = "__flib__/graphics/subheader-line.png",
+        size = {
+          1,
+          8
+        }
+      }
+    },
+    bottom_margin = -2,
+    horizontally_stretchable = "on",
+    left_margin = -8,
+    right_margin = -8,
+    top_margin = -2,
+    type = "line_style"
+  },
+  flib_tabbed_pane_with_no_padding = {
+    tab_content_frame = {
+      bottom_padding = 0,
+      graphical_set = {
+        base = {
+          center = {
+            position = {
+              76,
+              8
+            },
+            size = {
+              1,
+              1
+            }
+          },
+          top = {
+            position = {
+              76,
+              0
+            },
+            size = {
+              1,
+              8
+            }
+          }
+        },
+        shadow = {
+          center = {
+            position = {
+              208,
+              136
+            },
+            size = {
+              1,
+              1
+            }
+          },
+          draw_type = "outer",
+          scale = 0.5,
+          tint = {
+            0,
+            0,
+            0,
+            0.35
+          },
+          top = {
+            position = {
+              208,
+              128
+            },
+            size = {
+              1,
+              8
+            }
+          }
+        }
+      },
+      left_padding = 0,
+      right_padding = 0,
+      top_padding = 0,
+      type = "frame_style"
+    },
+    type = "tabbed_pane_style"
+  },
+  flib_technology_slot_available = {
+    clicked_graphical_set = {
+      base = {
+        filename = "__filter-combinator-improved__/framework/graphics/technology-slots.png",
+        position = {
+          144,
+          0
+        },
+        size = {
+          144,
+          200
+        }
+      },
+      shadow = {
+        corner_size = 8,
+        draw_type = "outer",
+        position = {
+          200,
+          128
+        },
+        scale = 0.5,
+        tint = {
+          0,
+          0,
+          0,
+          0.35
+        }
+      }
+    },
+    default_graphical_set = {
+      base = {
+        filename = "__filter-combinator-improved__/framework/graphics/technology-slots.png",
+        position = {
+          0,
+          0
+        },
+        size = {
+          144,
+          200
+        }
+      },
+      shadow = {
+        corner_size = 8,
+        draw_type = "outer",
+        position = {
+          200,
+          128
+        },
+        scale = 0.5,
+        tint = {
+          0,
+          0,
+          0,
+          0.35
+        }
+      }
+    },
+    hovered_graphical_set = {
+      base = {
+        filename = "__filter-combinator-improved__/framework/graphics/technology-slots.png",
+        position = {
+          144,
+          0
+        },
+        size = {
+          144,
+          200
+        }
+      },
+      shadow = {
+        corner_size = 8,
+        draw_type = "outer",
+        position = {
+          200,
+          128
+        },
+        scale = 0.5,
+        tint = {
+          0,
+          0,
+          0,
+          0.35
+        }
+      }
+    },
+    left_click_sound = {
+      filename = "__core__/sound/gui-square-button-large.ogg",
+      volume = 1
+    },
+    padding = 0,
+    selected_clicked_graphical_set = {
+      base = {
+        filename = "__filter-combinator-improved__/framework/graphics/technology-slots.png",
+        position = {
+          432,
+          0
+        },
+        size = {
+          144,
+          200
+        }
+      },
+      shadow = {
+        corner_size = 8,
+        draw_type = "outer",
+        position = {
+          200,
+          128
+        },
+        scale = 0.5,
+        tint = {
+          0,
+          0,
+          0,
+          0.35
+        }
+      }
+    },
+    selected_graphical_set = {
+      base = {
+        filename = "__filter-combinator-improved__/framework/graphics/technology-slots.png",
+        position = {
+          288,
+          0
+        },
+        size = {
+          144,
+          200
+        }
+      },
+      shadow = {
+        corner_size = 8,
+        draw_type = "outer",
+        position = {
+          200,
+          128
+        },
+        scale = 0.5,
+        tint = {
+          0,
+          0,
+          0,
+          0.35
+        }
+      }
+    },
+    selected_hovered_graphical_set = {
+      base = {
+        filename = "__filter-combinator-improved__/framework/graphics/technology-slots.png",
+        position = {
+          432,
+          0
+        },
+        size = {
+          144,
+          200
+        }
+      },
+      shadow = {
+        corner_size = 8,
+        draw_type = "outer",
+        position = {
+          200,
+          128
+        },
+        scale = 0.5,
+        tint = {
+          0,
+          0,
+          0,
+          0.35
+        }
+      }
+    },
+    size = {
+      72,
+      100
+    },
+    type = "button_style"
+  },
+  flib_technology_slot_available_multilevel = {
+    clicked_graphical_set = {
+      base = {
+        filename = "__filter-combinator-improved__/framework/graphics/technology-slots.png",
+        position = {
+          720,
+          0
+        },
+        size = {
+          144,
+          200
+        }
+      },
+      shadow = {
+        corner_size = 8,
+        draw_type = "outer",
+        position = {
+          200,
+          128
+        },
+        scale = 0.5,
+        tint = {
+          0,
+          0,
+          0,
+          0.35
+        }
+      }
+    },
+    default_graphical_set = {
+      base = {
+        filename = "__filter-combinator-improved__/framework/graphics/technology-slots.png",
+        position = {
+          576,
+          0
+        },
+        size = {
+          144,
+          200
+        }
+      },
+      shadow = {
+        corner_size = 8,
+        draw_type = "outer",
+        position = {
+          200,
+          128
+        },
+        scale = 0.5,
+        tint = {
+          0,
+          0,
+          0,
+          0.35
+        }
+      }
+    },
+    hovered_graphical_set = {
+      base = {
+        filename = "__filter-combinator-improved__/framework/graphics/technology-slots.png",
+        position = {
+          720,
+          0
+        },
+        size = {
+          144,
+          200
+        }
+      },
+      shadow = {
+        corner_size = 8,
+        draw_type = "outer",
+        position = {
+          200,
+          128
+        },
+        scale = 0.5,
+        tint = {
+          0,
+          0,
+          0,
+          0.35
+        }
+      }
+    },
+    left_click_sound = {
+      filename = "__core__/sound/gui-square-button-large.ogg",
+      volume = 1
+    },
+    padding = 0,
+    selected_clicked_graphical_set = {
+      base = {
+        filename = "__filter-combinator-improved__/framework/graphics/technology-slots.png",
+        position = {
+          1008,
+          0
+        },
+        size = {
+          144,
+          200
+        }
+      },
+      shadow = {
+        corner_size = 8,
+        draw_type = "outer",
+        position = {
+          200,
+          128
+        },
+        scale = 0.5,
+        tint = {
+          0,
+          0,
+          0,
+          0.35
+        }
+      }
+    },
+    selected_graphical_set = {
+      base = {
+        filename = "__filter-combinator-improved__/framework/graphics/technology-slots.png",
+        position = {
+          864,
+          0
+        },
+        size = {
+          144,
+          200
+        }
+      },
+      shadow = {
+        corner_size = 8,
+        draw_type = "outer",
+        position = {
+          200,
+          128
+        },
+        scale = 0.5,
+        tint = {
+          0,
+          0,
+          0,
+          0.35
+        }
+      }
+    },
+    selected_hovered_graphical_set = {
+      base = {
+        filename = "__filter-combinator-improved__/framework/graphics/technology-slots.png",
+        position = {
+          1008,
+          0
+        },
+        size = {
+          144,
+          200
+        }
+      },
+      shadow = {
+        corner_size = 8,
+        draw_type = "outer",
+        position = {
+          200,
+          128
+        },
+        scale = 0.5,
+        tint = {
+          0,
+          0,
+          0,
+          0.35
+        }
+      }
+    },
+    size = {
+      72,
+      100
+    },
+    type = "button_style"
+  },
+  flib_technology_slot_conditionally_available = {
+    clicked_graphical_set = {
+      base = {
+        filename = "__filter-combinator-improved__/framework/graphics/technology-slots.png",
+        position = {
+          144,
+          200
+        },
+        size = {
+          144,
+          200
+        }
+      },
+      shadow = {
+        corner_size = 8,
+        draw_type = "outer",
+        position = {
+          200,
+          128
+        },
+        scale = 0.5,
+        tint = {
+          0,
+          0,
+          0,
+          0.35
+        }
+      }
+    },
+    default_graphical_set = {
+      base = {
+        filename = "__filter-combinator-improved__/framework/graphics/technology-slots.png",
+        position = {
+          0,
+          200
+        },
+        size = {
+          144,
+          200
+        }
+      },
+      shadow = {
+        corner_size = 8,
+        draw_type = "outer",
+        position = {
+          200,
+          128
+        },
+        scale = 0.5,
+        tint = {
+          0,
+          0,
+          0,
+          0.35
+        }
+      }
+    },
+    hovered_graphical_set = {
+      base = {
+        filename = "__filter-combinator-improved__/framework/graphics/technology-slots.png",
+        position = {
+          144,
+          200
+        },
+        size = {
+          144,
+          200
+        }
+      },
+      shadow = {
+        corner_size = 8,
+        draw_type = "outer",
+        position = {
+          200,
+          128
+        },
+        scale = 0.5,
+        tint = {
+          0,
+          0,
+          0,
+          0.35
+        }
+      }
+    },
+    left_click_sound = {
+      filename = "__core__/sound/gui-square-button-large.ogg",
+      volume = 1
+    },
+    padding = 0,
+    selected_clicked_graphical_set = {
+      base = {
+        filename = "__filter-combinator-improved__/framework/graphics/technology-slots.png",
+        position = {
+          432,
+          200
+        },
+        size = {
+          144,
+          200
+        }
+      },
+      shadow = {
+        corner_size = 8,
+        draw_type = "outer",
+        position = {
+          200,
+          128
+        },
+        scale = 0.5,
+        tint = {
+          0,
+          0,
+          0,
+          0.35
+        }
+      }
+    },
+    selected_graphical_set = {
+      base = {
+        filename = "__filter-combinator-improved__/framework/graphics/technology-slots.png",
+        position = {
+          288,
+          200
+        },
+        size = {
+          144,
+          200
+        }
+      },
+      shadow = {
+        corner_size = 8,
+        draw_type = "outer",
+        position = {
+          200,
+          128
+        },
+        scale = 0.5,
+        tint = {
+          0,
+          0,
+          0,
+          0.35
+        }
+      }
+    },
+    selected_hovered_graphical_set = {
+      base = {
+        filename = "__filter-combinator-improved__/framework/graphics/technology-slots.png",
+        position = {
+          432,
+          200
+        },
+        size = {
+          144,
+          200
+        }
+      },
+      shadow = {
+        corner_size = 8,
+        draw_type = "outer",
+        position = {
+          200,
+          128
+        },
+        scale = 0.5,
+        tint = {
+          0,
+          0,
+          0,
+          0.35
+        }
+      }
+    },
+    size = {
+      72,
+      100
+    },
+    type = "button_style"
+  },
+  flib_technology_slot_conditionally_available_multilevel = {
+    clicked_graphical_set = {
+      base = {
+        filename = "__filter-combinator-improved__/framework/graphics/technology-slots.png",
+        position = {
+          720,
+          200
+        },
+        size = {
+          144,
+          200
+        }
+      },
+      shadow = {
+        corner_size = 8,
+        draw_type = "outer",
+        position = {
+          200,
+          128
+        },
+        scale = 0.5,
+        tint = {
+          0,
+          0,
+          0,
+          0.35
+        }
+      }
+    },
+    default_graphical_set = {
+      base = {
+        filename = "__filter-combinator-improved__/framework/graphics/technology-slots.png",
+        position = {
+          576,
+          200
+        },
+        size = {
+          144,
+          200
+        }
+      },
+      shadow = {
+        corner_size = 8,
+        draw_type = "outer",
+        position = {
+          200,
+          128
+        },
+        scale = 0.5,
+        tint = {
+          0,
+          0,
+          0,
+          0.35
+        }
+      }
+    },
+    hovered_graphical_set = {
+      base = {
+        filename = "__filter-combinator-improved__/framework/graphics/technology-slots.png",
+        position = {
+          720,
+          200
+        },
+        size = {
+          144,
+          200
+        }
+      },
+      shadow = {
+        corner_size = 8,
+        draw_type = "outer",
+        position = {
+          200,
+          128
+        },
+        scale = 0.5,
+        tint = {
+          0,
+          0,
+          0,
+          0.35
+        }
+      }
+    },
+    left_click_sound = {
+      filename = "__core__/sound/gui-square-button-large.ogg",
+      volume = 1
+    },
+    padding = 0,
+    selected_clicked_graphical_set = {
+      base = {
+        filename = "__filter-combinator-improved__/framework/graphics/technology-slots.png",
+        position = {
+          1008,
+          200
+        },
+        size = {
+          144,
+          200
+        }
+      },
+      shadow = {
+        corner_size = 8,
+        draw_type = "outer",
+        position = {
+          200,
+          128
+        },
+        scale = 0.5,
+        tint = {
+          0,
+          0,
+          0,
+          0.35
+        }
+      }
+    },
+    selected_graphical_set = {
+      base = {
+        filename = "__filter-combinator-improved__/framework/graphics/technology-slots.png",
+        position = {
+          864,
+          200
+        },
+        size = {
+          144,
+          200
+        }
+      },
+      shadow = {
+        corner_size = 8,
+        draw_type = "outer",
+        position = {
+          200,
+          128
+        },
+        scale = 0.5,
+        tint = {
+          0,
+          0,
+          0,
+          0.35
+        }
+      }
+    },
+    selected_hovered_graphical_set = {
+      base = {
+        filename = "__filter-combinator-improved__/framework/graphics/technology-slots.png",
+        position = {
+          1008,
+          200
+        },
+        size = {
+          144,
+          200
+        }
+      },
+      shadow = {
+        corner_size = 8,
+        draw_type = "outer",
+        position = {
+          200,
+          128
+        },
+        scale = 0.5,
+        tint = {
+          0,
+          0,
+          0,
+          0.35
+        }
+      }
+    },
+    size = {
+      72,
+      100
+    },
+    type = "button_style"
+  },
+  flib_technology_slot_disabled = {
+    clicked_graphical_set = {
+      base = {
+        filename = "__filter-combinator-improved__/framework/graphics/technology-slots.png",
+        position = {
+          144,
+          800
+        },
+        size = {
+          144,
+          200
+        }
+      },
+      shadow = {
+        corner_size = 8,
+        draw_type = "outer",
+        position = {
+          200,
+          128
+        },
+        scale = 0.5,
+        tint = {
+          0,
+          0,
+          0,
+          0.35
+        }
+      }
+    },
+    default_graphical_set = {
+      base = {
+        filename = "__filter-combinator-improved__/framework/graphics/technology-slots.png",
+        position = {
+          0,
+          800
+        },
+        size = {
+          144,
+          200
+        }
+      },
+      shadow = {
+        corner_size = 8,
+        draw_type = "outer",
+        position = {
+          200,
+          128
+        },
+        scale = 0.5,
+        tint = {
+          0,
+          0,
+          0,
+          0.35
+        }
+      }
+    },
+    hovered_graphical_set = {
+      base = {
+        filename = "__filter-combinator-improved__/framework/graphics/technology-slots.png",
+        position = {
+          144,
+          800
+        },
+        size = {
+          144,
+          200
+        }
+      },
+      shadow = {
+        corner_size = 8,
+        draw_type = "outer",
+        position = {
+          200,
+          128
+        },
+        scale = 0.5,
+        tint = {
+          0,
+          0,
+          0,
+          0.35
+        }
+      }
+    },
+    left_click_sound = {
+      filename = "__core__/sound/gui-square-button-large.ogg",
+      volume = 1
+    },
+    padding = 0,
+    selected_clicked_graphical_set = {
+      base = {
+        filename = "__filter-combinator-improved__/framework/graphics/technology-slots.png",
+        position = {
+          432,
+          800
+        },
+        size = {
+          144,
+          200
+        }
+      },
+      shadow = {
+        corner_size = 8,
+        draw_type = "outer",
+        position = {
+          200,
+          128
+        },
+        scale = 0.5,
+        tint = {
+          0,
+          0,
+          0,
+          0.35
+        }
+      }
+    },
+    selected_graphical_set = {
+      base = {
+        filename = "__filter-combinator-improved__/framework/graphics/technology-slots.png",
+        position = {
+          288,
+          800
+        },
+        size = {
+          144,
+          200
+        }
+      },
+      shadow = {
+        corner_size = 8,
+        draw_type = "outer",
+        position = {
+          200,
+          128
+        },
+        scale = 0.5,
+        tint = {
+          0,
+          0,
+          0,
+          0.35
+        }
+      }
+    },
+    selected_hovered_graphical_set = {
+      base = {
+        filename = "__filter-combinator-improved__/framework/graphics/technology-slots.png",
+        position = {
+          432,
+          800
+        },
+        size = {
+          144,
+          200
+        }
+      },
+      shadow = {
+        corner_size = 8,
+        draw_type = "outer",
+        position = {
+          200,
+          128
+        },
+        scale = 0.5,
+        tint = {
+          0,
+          0,
+          0,
+          0.35
+        }
+      }
+    },
+    size = {
+      72,
+      100
+    },
+    type = "button_style"
+  },
+  flib_technology_slot_disabled_multilevel = {
+    clicked_graphical_set = {
+      base = {
+        filename = "__filter-combinator-improved__/framework/graphics/technology-slots.png",
+        position = {
+          720,
+          800
+        },
+        size = {
+          144,
+          200
+        }
+      },
+      shadow = {
+        corner_size = 8,
+        draw_type = "outer",
+        position = {
+          200,
+          128
+        },
+        scale = 0.5,
+        tint = {
+          0,
+          0,
+          0,
+          0.35
+        }
+      }
+    },
+    default_graphical_set = {
+      base = {
+        filename = "__filter-combinator-improved__/framework/graphics/technology-slots.png",
+        position = {
+          576,
+          800
+        },
+        size = {
+          144,
+          200
+        }
+      },
+      shadow = {
+        corner_size = 8,
+        draw_type = "outer",
+        position = {
+          200,
+          128
+        },
+        scale = 0.5,
+        tint = {
+          0,
+          0,
+          0,
+          0.35
+        }
+      }
+    },
+    hovered_graphical_set = {
+      base = {
+        filename = "__filter-combinator-improved__/framework/graphics/technology-slots.png",
+        position = {
+          720,
+          800
+        },
+        size = {
+          144,
+          200
+        }
+      },
+      shadow = {
+        corner_size = 8,
+        draw_type = "outer",
+        position = {
+          200,
+          128
+        },
+        scale = 0.5,
+        tint = {
+          0,
+          0,
+          0,
+          0.35
+        }
+      }
+    },
+    left_click_sound = {
+      filename = "__core__/sound/gui-square-button-large.ogg",
+      volume = 1
+    },
+    padding = 0,
+    selected_clicked_graphical_set = {
+      base = {
+        filename = "__filter-combinator-improved__/framework/graphics/technology-slots.png",
+        position = {
+          1008,
+          800
+        },
+        size = {
+          144,
+          200
+        }
+      },
+      shadow = {
+        corner_size = 8,
+        draw_type = "outer",
+        position = {
+          200,
+          128
+        },
+        scale = 0.5,
+        tint = {
+          0,
+          0,
+          0,
+          0.35
+        }
+      }
+    },
+    selected_graphical_set = {
+      base = {
+        filename = "__filter-combinator-improved__/framework/graphics/technology-slots.png",
+        position = {
+          864,
+          800
+        },
+        size = {
+          144,
+          200
+        }
+      },
+      shadow = {
+        corner_size = 8,
+        draw_type = "outer",
+        position = {
+          200,
+          128
+        },
+        scale = 0.5,
+        tint = {
+          0,
+          0,
+          0,
+          0.35
+        }
+      }
+    },
+    selected_hovered_graphical_set = {
+      base = {
+        filename = "__filter-combinator-improved__/framework/graphics/technology-slots.png",
+        position = {
+          1008,
+          800
+        },
+        size = {
+          144,
+          200
+        }
+      },
+      shadow = {
+        corner_size = 8,
+        draw_type = "outer",
+        position = {
+          200,
+          128
+        },
+        scale = 0.5,
+        tint = {
+          0,
+          0,
+          0,
+          0.35
+        }
+      }
+    },
+    size = {
+      72,
+      100
+    },
+    type = "button_style"
+  },
+  flib_technology_slot_ingredient = {
+    size = 16,
+    stretch_image_to_widget_size = true,
+    type = "image_style"
+  },
+  flib_technology_slot_ingredients_flow = {
+    left_padding = 2,
+    top_padding = 82,
+    type = "horizontal_flow_style"
+  },
+  flib_technology_slot_level_label_available = {
+    font = "technology-slot-level-font",
+    font_color = {
+      77,
+      71,
+      48
+    },
+    horizontal_align = "center",
+    top_padding = 66,
+    type = "label_style",
+    width = 26
+  },
+  flib_technology_slot_level_label_conditionally_available = {
+    font = "technology-slot-level-font",
+    font_color = {
+      95,
+      68,
+      32
+    },
+    horizontal_align = "center",
+    top_padding = 66,
+    type = "label_style",
+    width = 26
+  },
+  flib_technology_slot_level_label_disabled = {
+    font = "technology-slot-level-font",
+    font_color = {
+      132,
+      132,
+      132
+    },
+    horizontal_align = "center",
+    top_padding = 66,
+    type = "label_style",
+    width = 26
+  },
+  flib_technology_slot_level_label_not_available = {
+    font = "technology-slot-level-font",
+    font_color = {
+      116,
+      34,
+      32
+    },
+    horizontal_align = "center",
+    top_padding = 66,
+    type = "label_style",
+    width = 26
+  },
+  flib_technology_slot_level_label_researched = {
+    font = "technology-slot-level-font",
+    font_color = {
+      0,
+      84,
+      5
+    },
+    horizontal_align = "center",
+    top_padding = 66,
+    type = "label_style",
+    width = 26
+  },
+  flib_technology_slot_level_range_label_available = {
+    font = "technology-slot-level-font",
+    font_color = {
+      255,
+      241,
+      183
+    },
+    horizontal_align = "right",
+    right_padding = 4,
+    top_padding = 66,
+    type = "label_style",
+    width = 72
+  },
+  flib_technology_slot_level_range_label_conditionally_available = {
+    font = "technology-slot-level-font",
+    font_color = {
+      255,
+      234,
+      206
+    },
+    horizontal_align = "right",
+    right_padding = 4,
+    top_padding = 66,
+    type = "label_style",
+    width = 72
+  },
+  flib_technology_slot_level_range_label_disabled = {
+    font = "technology-slot-level-font",
+    font_color = {
+      132,
+      132,
+      132
+    },
+    horizontal_align = "right",
+    right_padding = 4,
+    top_padding = 66,
+    type = "label_style",
+    width = 72
+  },
+  flib_technology_slot_level_range_label_not_available = {
+    font = "technology-slot-level-font",
+    font_color = {
+      255,
+      214,
+      213
+    },
+    horizontal_align = "right",
+    right_padding = 4,
+    top_padding = 66,
+    type = "label_style",
+    width = 72
+  },
+  flib_technology_slot_level_range_label_researched = {
+    font = "technology-slot-level-font",
+    font_color = {
+      165,
+      255,
+      171
+    },
+    horizontal_align = "right",
+    right_padding = 4,
+    top_padding = 66,
+    type = "label_style",
+    width = 72
+  },
+  flib_technology_slot_not_available = {
+    clicked_graphical_set = {
+      base = {
+        filename = "__filter-combinator-improved__/framework/graphics/technology-slots.png",
+        position = {
+          144,
+          400
+        },
+        size = {
+          144,
+          200
+        }
+      },
+      shadow = {
+        corner_size = 8,
+        draw_type = "outer",
+        position = {
+          200,
+          128
+        },
+        scale = 0.5,
+        tint = {
+          0,
+          0,
+          0,
+          0.35
+        }
+      }
+    },
+    default_graphical_set = {
+      base = {
+        filename = "__filter-combinator-improved__/framework/graphics/technology-slots.png",
+        position = {
+          0,
+          400
+        },
+        size = {
+          144,
+          200
+        }
+      },
+      shadow = {
+        corner_size = 8,
+        draw_type = "outer",
+        position = {
+          200,
+          128
+        },
+        scale = 0.5,
+        tint = {
+          0,
+          0,
+          0,
+          0.35
+        }
+      }
+    },
+    hovered_graphical_set = {
+      base = {
+        filename = "__filter-combinator-improved__/framework/graphics/technology-slots.png",
+        position = {
+          144,
+          400
+        },
+        size = {
+          144,
+          200
+        }
+      },
+      shadow = {
+        corner_size = 8,
+        draw_type = "outer",
+        position = {
+          200,
+          128
+        },
+        scale = 0.5,
+        tint = {
+          0,
+          0,
+          0,
+          0.35
+        }
+      }
+    },
+    left_click_sound = {
+      filename = "__core__/sound/gui-square-button-large.ogg",
+      volume = 1
+    },
+    padding = 0,
+    selected_clicked_graphical_set = {
+      base = {
+        filename = "__filter-combinator-improved__/framework/graphics/technology-slots.png",
+        position = {
+          432,
+          400
+        },
+        size = {
+          144,
+          200
+        }
+      },
+      shadow = {
+        corner_size = 8,
+        draw_type = "outer",
+        position = {
+          200,
+          128
+        },
+        scale = 0.5,
+        tint = {
+          0,
+          0,
+          0,
+          0.35
+        }
+      }
+    },
+    selected_graphical_set = {
+      base = {
+        filename = "__filter-combinator-improved__/framework/graphics/technology-slots.png",
+        position = {
+          288,
+          400
+        },
+        size = {
+          144,
+          200
+        }
+      },
+      shadow = {
+        corner_size = 8,
+        draw_type = "outer",
+        position = {
+          200,
+          128
+        },
+        scale = 0.5,
+        tint = {
+          0,
+          0,
+          0,
+          0.35
+        }
+      }
+    },
+    selected_hovered_graphical_set = {
+      base = {
+        filename = "__filter-combinator-improved__/framework/graphics/technology-slots.png",
+        position = {
+          432,
+          400
+        },
+        size = {
+          144,
+          200
+        }
+      },
+      shadow = {
+        corner_size = 8,
+        draw_type = "outer",
+        position = {
+          200,
+          128
+        },
+        scale = 0.5,
+        tint = {
+          0,
+          0,
+          0,
+          0.35
+        }
+      }
+    },
+    size = {
+      72,
+      100
+    },
+    type = "button_style"
+  },
+  flib_technology_slot_not_available_multilevel = {
+    clicked_graphical_set = {
+      base = {
+        filename = "__filter-combinator-improved__/framework/graphics/technology-slots.png",
+        position = {
+          720,
+          400
+        },
+        size = {
+          144,
+          200
+        }
+      },
+      shadow = {
+        corner_size = 8,
+        draw_type = "outer",
+        position = {
+          200,
+          128
+        },
+        scale = 0.5,
+        tint = {
+          0,
+          0,
+          0,
+          0.35
+        }
+      }
+    },
+    default_graphical_set = {
+      base = {
+        filename = "__filter-combinator-improved__/framework/graphics/technology-slots.png",
+        position = {
+          576,
+          400
+        },
+        size = {
+          144,
+          200
+        }
+      },
+      shadow = {
+        corner_size = 8,
+        draw_type = "outer",
+        position = {
+          200,
+          128
+        },
+        scale = 0.5,
+        tint = {
+          0,
+          0,
+          0,
+          0.35
+        }
+      }
+    },
+    hovered_graphical_set = {
+      base = {
+        filename = "__filter-combinator-improved__/framework/graphics/technology-slots.png",
+        position = {
+          720,
+          400
+        },
+        size = {
+          144,
+          200
+        }
+      },
+      shadow = {
+        corner_size = 8,
+        draw_type = "outer",
+        position = {
+          200,
+          128
+        },
+        scale = 0.5,
+        tint = {
+          0,
+          0,
+          0,
+          0.35
+        }
+      }
+    },
+    left_click_sound = {
+      filename = "__core__/sound/gui-square-button-large.ogg",
+      volume = 1
+    },
+    padding = 0,
+    selected_clicked_graphical_set = {
+      base = {
+        filename = "__filter-combinator-improved__/framework/graphics/technology-slots.png",
+        position = {
+          1008,
+          400
+        },
+        size = {
+          144,
+          200
+        }
+      },
+      shadow = {
+        corner_size = 8,
+        draw_type = "outer",
+        position = {
+          200,
+          128
+        },
+        scale = 0.5,
+        tint = {
+          0,
+          0,
+          0,
+          0.35
+        }
+      }
+    },
+    selected_graphical_set = {
+      base = {
+        filename = "__filter-combinator-improved__/framework/graphics/technology-slots.png",
+        position = {
+          864,
+          400
+        },
+        size = {
+          144,
+          200
+        }
+      },
+      shadow = {
+        corner_size = 8,
+        draw_type = "outer",
+        position = {
+          200,
+          128
+        },
+        scale = 0.5,
+        tint = {
+          0,
+          0,
+          0,
+          0.35
+        }
+      }
+    },
+    selected_hovered_graphical_set = {
+      base = {
+        filename = "__filter-combinator-improved__/framework/graphics/technology-slots.png",
+        position = {
+          1008,
+          400
+        },
+        size = {
+          144,
+          200
+        }
+      },
+      shadow = {
+        corner_size = 8,
+        draw_type = "outer",
+        position = {
+          200,
+          128
+        },
+        scale = 0.5,
+        tint = {
+          0,
+          0,
+          0,
+          0.35
+        }
+      }
+    },
+    size = {
+      72,
+      100
+    },
+    type = "button_style"
+  },
+  flib_technology_slot_progressbar = {
+    bar = {
+      corner_size = 4,
+      position = {
+        305,
+        39
+      }
+    },
+    bar_shadow = {
+      base = {
+        corner_size = 4,
+        position = {
+          296,
+          39
+        }
+      },
+      shadow = {
+        center = {
+          position = {
+            472,
+            152
+          },
+          size = {
+            1,
+            1
+          }
+        },
+        left = {
+          position = {
+            456,
+            152
+          },
+          size = {
+            16,
+            1
+          }
+        },
+        right = {
+          position = {
+            473,
+            152
+          },
+          size = {
+            16,
+            1
+          }
+        }
+      }
+    },
+    bar_width = 4,
+    color = {
+      g = 1
+    },
+    type = "progressbar_style",
+    width = 72
+  },
+  flib_technology_slot_researched = {
+    clicked_graphical_set = {
+      base = {
+        filename = "__filter-combinator-improved__/framework/graphics/technology-slots.png",
+        position = {
+          144,
+          600
+        },
+        size = {
+          144,
+          200
+        }
+      },
+      shadow = {
+        corner_size = 8,
+        draw_type = "outer",
+        position = {
+          200,
+          128
+        },
+        scale = 0.5,
+        tint = {
+          0,
+          0,
+          0,
+          0.35
+        }
+      }
+    },
+    default_graphical_set = {
+      base = {
+        filename = "__filter-combinator-improved__/framework/graphics/technology-slots.png",
+        position = {
+          0,
+          600
+        },
+        size = {
+          144,
+          200
+        }
+      },
+      shadow = {
+        corner_size = 8,
+        draw_type = "outer",
+        position = {
+          200,
+          128
+        },
+        scale = 0.5,
+        tint = {
+          0,
+          0,
+          0,
+          0.35
+        }
+      }
+    },
+    hovered_graphical_set = {
+      base = {
+        filename = "__filter-combinator-improved__/framework/graphics/technology-slots.png",
+        position = {
+          144,
+          600
+        },
+        size = {
+          144,
+          200
+        }
+      },
+      shadow = {
+        corner_size = 8,
+        draw_type = "outer",
+        position = {
+          200,
+          128
+        },
+        scale = 0.5,
+        tint = {
+          0,
+          0,
+          0,
+          0.35
+        }
+      }
+    },
+    left_click_sound = {
+      filename = "__core__/sound/gui-square-button-large.ogg",
+      volume = 1
+    },
+    padding = 0,
+    selected_clicked_graphical_set = {
+      base = {
+        filename = "__filter-combinator-improved__/framework/graphics/technology-slots.png",
+        position = {
+          432,
+          600
+        },
+        size = {
+          144,
+          200
+        }
+      },
+      shadow = {
+        corner_size = 8,
+        draw_type = "outer",
+        position = {
+          200,
+          128
+        },
+        scale = 0.5,
+        tint = {
+          0,
+          0,
+          0,
+          0.35
+        }
+      }
+    },
+    selected_graphical_set = {
+      base = {
+        filename = "__filter-combinator-improved__/framework/graphics/technology-slots.png",
+        position = {
+          288,
+          600
+        },
+        size = {
+          144,
+          200
+        }
+      },
+      shadow = {
+        corner_size = 8,
+        draw_type = "outer",
+        position = {
+          200,
+          128
+        },
+        scale = 0.5,
+        tint = {
+          0,
+          0,
+          0,
+          0.35
+        }
+      }
+    },
+    selected_hovered_graphical_set = {
+      base = {
+        filename = "__filter-combinator-improved__/framework/graphics/technology-slots.png",
+        position = {
+          432,
+          600
+        },
+        size = {
+          144,
+          200
+        }
+      },
+      shadow = {
+        corner_size = 8,
+        draw_type = "outer",
+        position = {
+          200,
+          128
+        },
+        scale = 0.5,
+        tint = {
+          0,
+          0,
+          0,
+          0.35
+        }
+      }
+    },
+    size = {
+      72,
+      100
+    },
+    type = "button_style"
+  },
+  flib_technology_slot_researched_multilevel = {
+    clicked_graphical_set = {
+      base = {
+        filename = "__filter-combinator-improved__/framework/graphics/technology-slots.png",
+        position = {
+          720,
+          600
+        },
+        size = {
+          144,
+          200
+        }
+      },
+      shadow = {
+        corner_size = 8,
+        draw_type = "outer",
+        position = {
+          200,
+          128
+        },
+        scale = 0.5,
+        tint = {
+          0,
+          0,
+          0,
+          0.35
+        }
+      }
+    },
+    default_graphical_set = {
+      base = {
+        filename = "__filter-combinator-improved__/framework/graphics/technology-slots.png",
+        position = {
+          576,
+          600
+        },
+        size = {
+          144,
+          200
+        }
+      },
+      shadow = {
+        corner_size = 8,
+        draw_type = "outer",
+        position = {
+          200,
+          128
+        },
+        scale = 0.5,
+        tint = {
+          0,
+          0,
+          0,
+          0.35
+        }
+      }
+    },
+    hovered_graphical_set = {
+      base = {
+        filename = "__filter-combinator-improved__/framework/graphics/technology-slots.png",
+        position = {
+          720,
+          600
+        },
+        size = {
+          144,
+          200
+        }
+      },
+      shadow = {
+        corner_size = 8,
+        draw_type = "outer",
+        position = {
+          200,
+          128
+        },
+        scale = 0.5,
+        tint = {
+          0,
+          0,
+          0,
+          0.35
+        }
+      }
+    },
+    left_click_sound = {
+      filename = "__core__/sound/gui-square-button-large.ogg",
+      volume = 1
+    },
+    padding = 0,
+    selected_clicked_graphical_set = {
+      base = {
+        filename = "__filter-combinator-improved__/framework/graphics/technology-slots.png",
+        position = {
+          1008,
+          600
+        },
+        size = {
+          144,
+          200
+        }
+      },
+      shadow = {
+        corner_size = 8,
+        draw_type = "outer",
+        position = {
+          200,
+          128
+        },
+        scale = 0.5,
+        tint = {
+          0,
+          0,
+          0,
+          0.35
+        }
+      }
+    },
+    selected_graphical_set = {
+      base = {
+        filename = "__filter-combinator-improved__/framework/graphics/technology-slots.png",
+        position = {
+          864,
+          600
+        },
+        size = {
+          144,
+          200
+        }
+      },
+      shadow = {
+        corner_size = 8,
+        draw_type = "outer",
+        position = {
+          200,
+          128
+        },
+        scale = 0.5,
+        tint = {
+          0,
+          0,
+          0,
+          0.35
+        }
+      }
+    },
+    selected_hovered_graphical_set = {
+      base = {
+        filename = "__filter-combinator-improved__/framework/graphics/technology-slots.png",
+        position = {
+          1008,
+          600
+        },
+        size = {
+          144,
+          200
+        }
+      },
+      shadow = {
+        corner_size = 8,
+        draw_type = "outer",
+        position = {
+          200,
+          128
+        },
+        scale = 0.5,
+        tint = {
+          0,
+          0,
+          0,
+          0.35
+        }
+      }
+    },
+    size = {
+      72,
+      100
+    },
+    type = "button_style"
+  },
+  flib_technology_slot_sprite = {
+    size = 64,
+    stretch_image_to_widget_size = true,
+    type = "image_style"
+  },
+  flib_technology_slot_sprite_flow = {
+    height = 68,
+    horizontal_align = "center",
+    type = "horizontal_flow_style",
+    vertical_align = "center",
+    width = 72
+  },
+  flib_titlebar_drag_handle = {
+    height = 24,
+    horizontally_stretchable = "on",
+    left_margin = 4,
+    parent = "draggable_space",
+    right_margin = 4,
+    type = "empty_widget_style"
+  },
+  flib_titlebar_flow = {
+    horizontal_spacing = 8,
+    type = "horizontal_flow_style"
+  },
+  flib_titlebar_search_textfield = {
+    bottom_margin = 1,
+    top_margin = -2,
+    type = "textbox_style",
+    width = 150
+  },
+  flib_titlebar_separator_line = {
+    bottom_margin = 2,
+    top_margin = -2,
+    type = "line_style"
+  },
+  flib_tool_button_dark_red = {
+    clicked_graphical_set = {
+      base = {
+        corner_size = 8,
+        filename = "__flib__/graphics/dark-red-button.png",
+        position = {
+          34,
+          0
+        }
+      },
+      shadow = {
+        corner_size = 8,
+        draw_type = "outer",
+        position = {
+          200,
+          128
+        },
+        scale = 0.5,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        }
+      }
+    },
+    default_graphical_set = {
+      base = {
+        corner_size = 8,
+        filename = "__flib__/graphics/dark-red-button.png",
+        position = {
+          0,
+          0
+        }
+      },
+      shadow = {
+        corner_size = 8,
+        draw_type = "outer",
+        position = {
+          200,
+          128
+        },
+        scale = 0.5,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        }
+      }
+    },
+    hovered_graphical_set = {
+      base = {
+        corner_size = 8,
+        filename = "__flib__/graphics/dark-red-button.png",
+        position = {
+          17,
+          0
+        }
+      },
+      glow = {
+        corner_size = 8,
+        draw_type = "outer",
+        position = {
+          200,
+          128
+        },
+        scale = 0.5,
+        tint = {
+          236,
+          130,
+          130,
+          127
+        }
+      },
+      shadow = {
+        corner_size = 8,
+        draw_type = "outer",
+        position = {
+          200,
+          128
+        },
+        scale = 0.5,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        }
+      }
+    },
+    parent = "tool_button",
+    type = "button_style"
+  },
+  flib_tool_button_light_green = {
+    padding = 2,
+    parent = "item_and_count_select_confirm",
+    tooltip = "",
+    top_margin = 0,
+    type = "button_style"
+  },
+  flib_vertical_pusher = {
+    type = "empty_widget_style",
+    vertically_stretchable = "on"
+  },
+  flib_widthless_invalid_textfield = {
+    parent = "invalid_value_textfield",
+    type = "textbox_style",
+    width = 0
+  },
+  flib_widthless_textfield = {
+    type = "textbox_style",
+    width = 0
+  },
   floating_train_station_list_box = {
     maximal_height = 800,
     minimal_height = 200,
@@ -9505,6 +18385,6304 @@ return {
     },
     type = "frame_style"
   },
+  framework_dialog_footer_drag_handle = {
+    height = 32,
+    horizontally_stretchable = "on",
+    parent = "draggable_space",
+    type = "empty_widget_style"
+  },
+  framework_dialog_footer_drag_handle_no_right = {
+    parent = "framework_dialog_footer_drag_handle",
+    right_margin = 0,
+    type = "empty_widget_style"
+  },
+  framework_dialog_titlebar_drag_handle = {
+    parent = "framework_titlebar_drag_handle",
+    right_margin = 0,
+    type = "empty_widget_style"
+  },
+  framework_horizontal_pusher = {
+    horizontally_stretchable = "on",
+    type = "empty_widget_style"
+  },
+  framework_indicator = {
+    size = 16,
+    stretch_image_to_widget_size = true,
+    type = "image_style"
+  },
+  framework_indicator_flow = {
+    type = "horizontal_flow_style",
+    vertical_align = "center"
+  },
+  framework_naked_scroll_pane = {
+    extra_padding_when_activated = 0,
+    graphical_set = {
+      shadow = {
+        corner_size = 8,
+        draw_type = "inner",
+        position = {
+          183,
+          128
+        },
+        scale = 0.5,
+        tint = {
+          0,
+          0,
+          0,
+          1
+        }
+      }
+    },
+    padding = 12,
+    type = "scroll_pane_style"
+  },
+  framework_naked_scroll_pane_no_padding = {
+    padding = 0,
+    parent = "framework_naked_scroll_pane",
+    type = "scroll_pane_style"
+  },
+  framework_naked_scroll_pane_under_tabs = {
+    graphical_set = {
+      base = {
+        draw_type = "outer",
+        top = {
+          position = {
+            93,
+            0
+          },
+          size = {
+            1,
+            8
+          }
+        }
+      },
+      shadow = {
+        corner_size = 8,
+        draw_type = "inner",
+        position = {
+          183,
+          128
+        },
+        scale = 0.5,
+        tint = {
+          0,
+          0,
+          0,
+          1
+        }
+      }
+    },
+    parent = "framework_naked_scroll_pane",
+    type = "scroll_pane_style"
+  },
+  framework_selected_frame_action_button = {
+    bottom_padding = -1,
+    clicked_font_color = {},
+    clicked_graphical_set = {
+      base = {
+        corner_size = 8,
+        position = {
+          352,
+          17
+        }
+      },
+      shadow = {
+        corner_size = 8,
+        draw_type = "outer",
+        position = {
+          440,
+          24
+        }
+      }
+    },
+    clicked_vertical_offset = 0,
+    default_font_color = {},
+    default_graphical_set = {
+      base = {
+        corner_size = 8,
+        position = {
+          225,
+          17
+        }
+      },
+      shadow = {
+        corner_size = 8,
+        draw_type = "outer",
+        position = {
+          440,
+          24
+        }
+      }
+    },
+    hovered_font_color = {},
+    hovered_graphical_set = {
+      base = {
+        corner_size = 8,
+        position = {
+          369,
+          17
+        }
+      },
+      shadow = {
+        corner_size = 8,
+        draw_type = "outer",
+        position = {
+          440,
+          24
+        }
+      }
+    },
+    parent = "frame_action_button",
+    top_padding = 1,
+    type = "button_style"
+  },
+  framework_selected_slot_blue = {
+    clicked_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          160,
+          560
+        },
+        size = 80
+      }
+    },
+    clicked_vertical_offset = 0,
+    default_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          80,
+          560
+        },
+        size = 80
+      }
+    },
+    disabled_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          80,
+          560
+        },
+        size = 80
+      }
+    },
+    hovered_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          80,
+          560
+        },
+        size = 80
+      }
+    },
+    parent = "slot",
+    size = 40,
+    type = "button_style"
+  },
+  framework_selected_slot_button_blue = {
+    clicked_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          400,
+          560
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    clicked_vertical_offset = 0,
+    default_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          320,
+          560
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    disabled_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          320,
+          560
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    hovered_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          320,
+          560
+        },
+        size = 80
+      },
+      glow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          225,
+          177,
+          106,
+          255
+        },
+        top_outer_border_shift = 4
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    parent = "slot_button",
+    size = 40,
+    type = "button_style"
+  },
+  framework_selected_slot_button_cyan = {
+    clicked_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          400,
+          480
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    clicked_vertical_offset = 0,
+    default_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          320,
+          480
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    disabled_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          320,
+          480
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    hovered_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          320,
+          480
+        },
+        size = 80
+      },
+      glow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          225,
+          177,
+          106,
+          255
+        },
+        top_outer_border_shift = 4
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    parent = "slot_button",
+    size = 40,
+    type = "button_style"
+  },
+  framework_selected_slot_button_default = {
+    clicked_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          400,
+          0
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    clicked_vertical_offset = 0,
+    default_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          320,
+          0
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    disabled_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          320,
+          0
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    hovered_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          320,
+          0
+        },
+        size = 80
+      },
+      glow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          225,
+          177,
+          106,
+          255
+        },
+        top_outer_border_shift = 4
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    parent = "slot_button",
+    size = 40,
+    type = "button_style"
+  },
+  framework_selected_slot_button_green = {
+    clicked_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          400,
+          400
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    clicked_vertical_offset = 0,
+    default_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          320,
+          400
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    disabled_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          320,
+          400
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    hovered_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          320,
+          400
+        },
+        size = 80
+      },
+      glow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          225,
+          177,
+          106,
+          255
+        },
+        top_outer_border_shift = 4
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    parent = "slot_button",
+    size = 40,
+    type = "button_style"
+  },
+  framework_selected_slot_button_grey = {
+    clicked_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          400,
+          80
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    clicked_vertical_offset = 0,
+    default_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          320,
+          80
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    disabled_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          320,
+          80
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    hovered_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          320,
+          80
+        },
+        size = 80
+      },
+      glow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          225,
+          177,
+          106,
+          255
+        },
+        top_outer_border_shift = 4
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    parent = "slot_button",
+    size = 40,
+    type = "button_style"
+  },
+  framework_selected_slot_button_orange = {
+    clicked_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          400,
+          240
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    clicked_vertical_offset = 0,
+    default_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          320,
+          240
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    disabled_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          320,
+          240
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    hovered_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          320,
+          240
+        },
+        size = 80
+      },
+      glow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          225,
+          177,
+          106,
+          255
+        },
+        top_outer_border_shift = 4
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    parent = "slot_button",
+    size = 40,
+    type = "button_style"
+  },
+  framework_selected_slot_button_pink = {
+    clicked_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          400,
+          720
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    clicked_vertical_offset = 0,
+    default_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          320,
+          720
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    disabled_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          320,
+          720
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    hovered_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          320,
+          720
+        },
+        size = 80
+      },
+      glow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          225,
+          177,
+          106,
+          255
+        },
+        top_outer_border_shift = 4
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    parent = "slot_button",
+    size = 40,
+    type = "button_style"
+  },
+  framework_selected_slot_button_purple = {
+    clicked_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          400,
+          640
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    clicked_vertical_offset = 0,
+    default_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          320,
+          640
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    disabled_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          320,
+          640
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    hovered_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          320,
+          640
+        },
+        size = 80
+      },
+      glow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          225,
+          177,
+          106,
+          255
+        },
+        top_outer_border_shift = 4
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    parent = "slot_button",
+    size = 40,
+    type = "button_style"
+  },
+  framework_selected_slot_button_red = {
+    clicked_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          400,
+          160
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    clicked_vertical_offset = 0,
+    default_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          320,
+          160
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    disabled_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          320,
+          160
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    hovered_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          320,
+          160
+        },
+        size = 80
+      },
+      glow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          225,
+          177,
+          106,
+          255
+        },
+        top_outer_border_shift = 4
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    parent = "slot_button",
+    size = 40,
+    type = "button_style"
+  },
+  framework_selected_slot_button_yellow = {
+    clicked_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          400,
+          320
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    clicked_vertical_offset = 0,
+    default_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          320,
+          320
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    disabled_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          320,
+          320
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    hovered_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          320,
+          320
+        },
+        size = 80
+      },
+      glow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          225,
+          177,
+          106,
+          255
+        },
+        top_outer_border_shift = 4
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    parent = "slot_button",
+    size = 40,
+    type = "button_style"
+  },
+  framework_selected_slot_cyan = {
+    clicked_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          160,
+          480
+        },
+        size = 80
+      }
+    },
+    clicked_vertical_offset = 0,
+    default_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          80,
+          480
+        },
+        size = 80
+      }
+    },
+    disabled_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          80,
+          480
+        },
+        size = 80
+      }
+    },
+    hovered_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          80,
+          480
+        },
+        size = 80
+      }
+    },
+    parent = "slot",
+    size = 40,
+    type = "button_style"
+  },
+  framework_selected_slot_default = {
+    clicked_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          160,
+          0
+        },
+        size = 80
+      }
+    },
+    clicked_vertical_offset = 0,
+    default_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          80,
+          0
+        },
+        size = 80
+      }
+    },
+    disabled_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          80,
+          0
+        },
+        size = 80
+      }
+    },
+    hovered_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          80,
+          0
+        },
+        size = 80
+      }
+    },
+    parent = "slot",
+    size = 40,
+    type = "button_style"
+  },
+  framework_selected_slot_green = {
+    clicked_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          160,
+          400
+        },
+        size = 80
+      }
+    },
+    clicked_vertical_offset = 0,
+    default_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          80,
+          400
+        },
+        size = 80
+      }
+    },
+    disabled_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          80,
+          400
+        },
+        size = 80
+      }
+    },
+    hovered_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          80,
+          400
+        },
+        size = 80
+      }
+    },
+    parent = "slot",
+    size = 40,
+    type = "button_style"
+  },
+  framework_selected_slot_grey = {
+    clicked_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          160,
+          80
+        },
+        size = 80
+      }
+    },
+    clicked_vertical_offset = 0,
+    default_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          80,
+          80
+        },
+        size = 80
+      }
+    },
+    disabled_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          80,
+          80
+        },
+        size = 80
+      }
+    },
+    hovered_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          80,
+          80
+        },
+        size = 80
+      }
+    },
+    parent = "slot",
+    size = 40,
+    type = "button_style"
+  },
+  framework_selected_slot_orange = {
+    clicked_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          160,
+          240
+        },
+        size = 80
+      }
+    },
+    clicked_vertical_offset = 0,
+    default_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          80,
+          240
+        },
+        size = 80
+      }
+    },
+    disabled_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          80,
+          240
+        },
+        size = 80
+      }
+    },
+    hovered_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          80,
+          240
+        },
+        size = 80
+      }
+    },
+    parent = "slot",
+    size = 40,
+    type = "button_style"
+  },
+  framework_selected_slot_pink = {
+    clicked_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          160,
+          720
+        },
+        size = 80
+      }
+    },
+    clicked_vertical_offset = 0,
+    default_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          80,
+          720
+        },
+        size = 80
+      }
+    },
+    disabled_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          80,
+          720
+        },
+        size = 80
+      }
+    },
+    hovered_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          80,
+          720
+        },
+        size = 80
+      }
+    },
+    parent = "slot",
+    size = 40,
+    type = "button_style"
+  },
+  framework_selected_slot_purple = {
+    clicked_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          160,
+          640
+        },
+        size = 80
+      }
+    },
+    clicked_vertical_offset = 0,
+    default_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          80,
+          640
+        },
+        size = 80
+      }
+    },
+    disabled_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          80,
+          640
+        },
+        size = 80
+      }
+    },
+    hovered_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          80,
+          640
+        },
+        size = 80
+      }
+    },
+    parent = "slot",
+    size = 40,
+    type = "button_style"
+  },
+  framework_selected_slot_red = {
+    clicked_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          160,
+          160
+        },
+        size = 80
+      }
+    },
+    clicked_vertical_offset = 0,
+    default_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          80,
+          160
+        },
+        size = 80
+      }
+    },
+    disabled_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          80,
+          160
+        },
+        size = 80
+      }
+    },
+    hovered_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          80,
+          160
+        },
+        size = 80
+      }
+    },
+    parent = "slot",
+    size = 40,
+    type = "button_style"
+  },
+  framework_selected_slot_yellow = {
+    clicked_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          160,
+          320
+        },
+        size = 80
+      }
+    },
+    clicked_vertical_offset = 0,
+    default_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          80,
+          320
+        },
+        size = 80
+      }
+    },
+    disabled_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          80,
+          320
+        },
+        size = 80
+      }
+    },
+    hovered_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          80,
+          320
+        },
+        size = 80
+      }
+    },
+    parent = "slot",
+    size = 40,
+    type = "button_style"
+  },
+  framework_selected_standalone_slot_button_blue = {
+    clicked_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          400,
+          560
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    clicked_vertical_offset = 0,
+    default_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          320,
+          560
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    disabled_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          320,
+          560
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    hovered_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          320,
+          560
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    parent = "slot_button",
+    size = 40,
+    type = "button_style"
+  },
+  framework_selected_standalone_slot_button_cyan = {
+    clicked_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          400,
+          480
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    clicked_vertical_offset = 0,
+    default_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          320,
+          480
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    disabled_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          320,
+          480
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    hovered_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          320,
+          480
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    parent = "slot_button",
+    size = 40,
+    type = "button_style"
+  },
+  framework_selected_standalone_slot_button_default = {
+    clicked_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          400,
+          0
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    clicked_vertical_offset = 0,
+    default_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          320,
+          0
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    disabled_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          320,
+          0
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    hovered_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          320,
+          0
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    parent = "slot_button",
+    size = 40,
+    type = "button_style"
+  },
+  framework_selected_standalone_slot_button_green = {
+    clicked_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          400,
+          400
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    clicked_vertical_offset = 0,
+    default_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          320,
+          400
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    disabled_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          320,
+          400
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    hovered_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          320,
+          400
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    parent = "slot_button",
+    size = 40,
+    type = "button_style"
+  },
+  framework_selected_standalone_slot_button_grey = {
+    clicked_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          400,
+          80
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    clicked_vertical_offset = 0,
+    default_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          320,
+          80
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    disabled_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          320,
+          80
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    hovered_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          320,
+          80
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    parent = "slot_button",
+    size = 40,
+    type = "button_style"
+  },
+  framework_selected_standalone_slot_button_orange = {
+    clicked_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          400,
+          240
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    clicked_vertical_offset = 0,
+    default_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          320,
+          240
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    disabled_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          320,
+          240
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    hovered_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          320,
+          240
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    parent = "slot_button",
+    size = 40,
+    type = "button_style"
+  },
+  framework_selected_standalone_slot_button_pink = {
+    clicked_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          400,
+          720
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    clicked_vertical_offset = 0,
+    default_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          320,
+          720
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    disabled_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          320,
+          720
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    hovered_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          320,
+          720
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    parent = "slot_button",
+    size = 40,
+    type = "button_style"
+  },
+  framework_selected_standalone_slot_button_purple = {
+    clicked_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          400,
+          640
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    clicked_vertical_offset = 0,
+    default_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          320,
+          640
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    disabled_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          320,
+          640
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    hovered_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          320,
+          640
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    parent = "slot_button",
+    size = 40,
+    type = "button_style"
+  },
+  framework_selected_standalone_slot_button_red = {
+    clicked_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          400,
+          160
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    clicked_vertical_offset = 0,
+    default_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          320,
+          160
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    disabled_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          320,
+          160
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    hovered_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          320,
+          160
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    parent = "slot_button",
+    size = 40,
+    type = "button_style"
+  },
+  framework_selected_standalone_slot_button_yellow = {
+    clicked_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          400,
+          320
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    clicked_vertical_offset = 0,
+    default_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          320,
+          320
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    disabled_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          320,
+          320
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    hovered_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          320,
+          320
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    parent = "slot_button",
+    size = 40,
+    type = "button_style"
+  },
+  framework_selected_tool_button = {
+    bottom_padding = -1,
+    clicked_font_color = {},
+    clicked_graphical_set = {
+      base = {
+        corner_size = 8,
+        position = {
+          352,
+          17
+        }
+      },
+      shadow = {
+        corner_size = 8,
+        draw_type = "outer",
+        position = {
+          200,
+          128
+        },
+        scale = 0.5,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        }
+      }
+    },
+    clicked_vertical_offset = 0,
+    default_font_color = {},
+    default_graphical_set = {
+      base = {
+        corner_size = 8,
+        position = {
+          225,
+          17
+        }
+      },
+      shadow = {
+        corner_size = 8,
+        draw_type = "outer",
+        position = {
+          200,
+          128
+        },
+        scale = 0.5,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        }
+      }
+    },
+    hovered_font_color = {},
+    hovered_graphical_set = {
+      base = {
+        corner_size = 8,
+        position = {
+          369,
+          17
+        }
+      },
+      shadow = {
+        corner_size = 8,
+        draw_type = "outer",
+        position = {
+          200,
+          128
+        },
+        scale = 0.5,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        }
+      }
+    },
+    parent = "tool_button",
+    top_padding = 1,
+    type = "button_style"
+  },
+  framework_shallow_frame_in_shallow_frame = {
+    graphical_set = {
+      base = {
+        center = {
+          position = {
+            76,
+            8
+          },
+          size = {
+            1,
+            1
+          }
+        },
+        corner_size = 8,
+        draw_type = "outer",
+        position = {
+          85,
+          0
+        }
+      },
+      shadow = {
+        corner_size = 8,
+        draw_type = "inner",
+        position = {
+          183,
+          128
+        },
+        scale = 0.5,
+        tint = {
+          0,
+          0,
+          0,
+          1
+        }
+      }
+    },
+    padding = 0,
+    parent = "frame",
+    type = "frame_style",
+    vertical_flow_style = {
+      type = "vertical_flow_style",
+      vertical_spacing = 0
+    }
+  },
+  framework_shallow_scroll_pane = {
+    graphical_set = {
+      base = {
+        corner_size = 8,
+        draw_type = "outer",
+        position = {
+          85,
+          0
+        }
+      },
+      shadow = {
+        corner_size = 8,
+        draw_type = "inner",
+        position = {
+          183,
+          128
+        },
+        scale = 0.5,
+        tint = {
+          0,
+          0,
+          0,
+          1
+        }
+      }
+    },
+    padding = 0,
+    type = "scroll_pane_style"
+  },
+  framework_slot_blue = {
+    clicked_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          160,
+          560
+        },
+        size = 80
+      }
+    },
+    clicked_vertical_offset = 0,
+    default_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          0,
+          560
+        },
+        size = 80
+      }
+    },
+    disabled_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          0,
+          560
+        },
+        size = 80
+      }
+    },
+    hovered_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          80,
+          560
+        },
+        size = 80
+      }
+    },
+    parent = "slot",
+    size = 40,
+    type = "button_style"
+  },
+  framework_slot_button_blue = {
+    clicked_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          400,
+          560
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    clicked_vertical_offset = 0,
+    default_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          240,
+          560
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    disabled_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          240,
+          560
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    hovered_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          320,
+          560
+        },
+        size = 80
+      },
+      glow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          225,
+          177,
+          106,
+          255
+        },
+        top_outer_border_shift = 4
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    parent = "slot_button",
+    size = 40,
+    type = "button_style"
+  },
+  framework_slot_button_cyan = {
+    clicked_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          400,
+          480
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    clicked_vertical_offset = 0,
+    default_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          240,
+          480
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    disabled_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          240,
+          480
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    hovered_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          320,
+          480
+        },
+        size = 80
+      },
+      glow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          225,
+          177,
+          106,
+          255
+        },
+        top_outer_border_shift = 4
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    parent = "slot_button",
+    size = 40,
+    type = "button_style"
+  },
+  framework_slot_button_default = {
+    clicked_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          400,
+          0
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    clicked_vertical_offset = 0,
+    default_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          240,
+          0
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    disabled_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          240,
+          0
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    hovered_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          320,
+          0
+        },
+        size = 80
+      },
+      glow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          225,
+          177,
+          106,
+          255
+        },
+        top_outer_border_shift = 4
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    parent = "slot_button",
+    size = 40,
+    type = "button_style"
+  },
+  framework_slot_button_green = {
+    clicked_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          400,
+          400
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    clicked_vertical_offset = 0,
+    default_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          240,
+          400
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    disabled_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          240,
+          400
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    hovered_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          320,
+          400
+        },
+        size = 80
+      },
+      glow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          225,
+          177,
+          106,
+          255
+        },
+        top_outer_border_shift = 4
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    parent = "slot_button",
+    size = 40,
+    type = "button_style"
+  },
+  framework_slot_button_grey = {
+    clicked_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          400,
+          80
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    clicked_vertical_offset = 0,
+    default_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          240,
+          80
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    disabled_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          240,
+          80
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    hovered_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          320,
+          80
+        },
+        size = 80
+      },
+      glow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          225,
+          177,
+          106,
+          255
+        },
+        top_outer_border_shift = 4
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    parent = "slot_button",
+    size = 40,
+    type = "button_style"
+  },
+  framework_slot_button_orange = {
+    clicked_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          400,
+          240
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    clicked_vertical_offset = 0,
+    default_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          240,
+          240
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    disabled_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          240,
+          240
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    hovered_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          320,
+          240
+        },
+        size = 80
+      },
+      glow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          225,
+          177,
+          106,
+          255
+        },
+        top_outer_border_shift = 4
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    parent = "slot_button",
+    size = 40,
+    type = "button_style"
+  },
+  framework_slot_button_pink = {
+    clicked_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          400,
+          720
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    clicked_vertical_offset = 0,
+    default_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          240,
+          720
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    disabled_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          240,
+          720
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    hovered_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          320,
+          720
+        },
+        size = 80
+      },
+      glow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          225,
+          177,
+          106,
+          255
+        },
+        top_outer_border_shift = 4
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    parent = "slot_button",
+    size = 40,
+    type = "button_style"
+  },
+  framework_slot_button_purple = {
+    clicked_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          400,
+          640
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    clicked_vertical_offset = 0,
+    default_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          240,
+          640
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    disabled_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          240,
+          640
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    hovered_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          320,
+          640
+        },
+        size = 80
+      },
+      glow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          225,
+          177,
+          106,
+          255
+        },
+        top_outer_border_shift = 4
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    parent = "slot_button",
+    size = 40,
+    type = "button_style"
+  },
+  framework_slot_button_red = {
+    clicked_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          400,
+          160
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    clicked_vertical_offset = 0,
+    default_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          240,
+          160
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    disabled_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          240,
+          160
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    hovered_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          320,
+          160
+        },
+        size = 80
+      },
+      glow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          225,
+          177,
+          106,
+          255
+        },
+        top_outer_border_shift = 4
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    parent = "slot_button",
+    size = 40,
+    type = "button_style"
+  },
+  framework_slot_button_yellow = {
+    clicked_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          400,
+          320
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    clicked_vertical_offset = 0,
+    default_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          240,
+          320
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    disabled_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          240,
+          320
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    hovered_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          320,
+          320
+        },
+        size = 80
+      },
+      glow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          225,
+          177,
+          106,
+          255
+        },
+        top_outer_border_shift = 4
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          240,
+          736
+        },
+        right_outer_border_shift = -4,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        },
+        top_outer_border_shift = 4
+      }
+    },
+    parent = "slot_button",
+    size = 40,
+    type = "button_style"
+  },
+  framework_slot_cyan = {
+    clicked_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          160,
+          480
+        },
+        size = 80
+      }
+    },
+    clicked_vertical_offset = 0,
+    default_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          0,
+          480
+        },
+        size = 80
+      }
+    },
+    disabled_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          0,
+          480
+        },
+        size = 80
+      }
+    },
+    hovered_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          80,
+          480
+        },
+        size = 80
+      }
+    },
+    parent = "slot",
+    size = 40,
+    type = "button_style"
+  },
+  framework_slot_default = {
+    clicked_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          160,
+          0
+        },
+        size = 80
+      }
+    },
+    clicked_vertical_offset = 0,
+    default_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          0,
+          0
+        },
+        size = 80
+      }
+    },
+    disabled_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          0,
+          0
+        },
+        size = 80
+      }
+    },
+    hovered_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          80,
+          0
+        },
+        size = 80
+      }
+    },
+    parent = "slot",
+    size = 40,
+    type = "button_style"
+  },
+  framework_slot_green = {
+    clicked_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          160,
+          400
+        },
+        size = 80
+      }
+    },
+    clicked_vertical_offset = 0,
+    default_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          0,
+          400
+        },
+        size = 80
+      }
+    },
+    disabled_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          0,
+          400
+        },
+        size = 80
+      }
+    },
+    hovered_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          80,
+          400
+        },
+        size = 80
+      }
+    },
+    parent = "slot",
+    size = 40,
+    type = "button_style"
+  },
+  framework_slot_grey = {
+    clicked_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          160,
+          80
+        },
+        size = 80
+      }
+    },
+    clicked_vertical_offset = 0,
+    default_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          0,
+          80
+        },
+        size = 80
+      }
+    },
+    disabled_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          0,
+          80
+        },
+        size = 80
+      }
+    },
+    hovered_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          80,
+          80
+        },
+        size = 80
+      }
+    },
+    parent = "slot",
+    size = 40,
+    type = "button_style"
+  },
+  framework_slot_orange = {
+    clicked_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          160,
+          240
+        },
+        size = 80
+      }
+    },
+    clicked_vertical_offset = 0,
+    default_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          0,
+          240
+        },
+        size = 80
+      }
+    },
+    disabled_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          0,
+          240
+        },
+        size = 80
+      }
+    },
+    hovered_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          80,
+          240
+        },
+        size = 80
+      }
+    },
+    parent = "slot",
+    size = 40,
+    type = "button_style"
+  },
+  framework_slot_pink = {
+    clicked_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          160,
+          720
+        },
+        size = 80
+      }
+    },
+    clicked_vertical_offset = 0,
+    default_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          0,
+          720
+        },
+        size = 80
+      }
+    },
+    disabled_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          0,
+          720
+        },
+        size = 80
+      }
+    },
+    hovered_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          80,
+          720
+        },
+        size = 80
+      }
+    },
+    parent = "slot",
+    size = 40,
+    type = "button_style"
+  },
+  framework_slot_purple = {
+    clicked_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          160,
+          640
+        },
+        size = 80
+      }
+    },
+    clicked_vertical_offset = 0,
+    default_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          0,
+          640
+        },
+        size = 80
+      }
+    },
+    disabled_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          0,
+          640
+        },
+        size = 80
+      }
+    },
+    hovered_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          80,
+          640
+        },
+        size = 80
+      }
+    },
+    parent = "slot",
+    size = 40,
+    type = "button_style"
+  },
+  framework_slot_red = {
+    clicked_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          160,
+          160
+        },
+        size = 80
+      }
+    },
+    clicked_vertical_offset = 0,
+    default_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          0,
+          160
+        },
+        size = 80
+      }
+    },
+    disabled_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          0,
+          160
+        },
+        size = 80
+      }
+    },
+    hovered_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          80,
+          160
+        },
+        size = 80
+      }
+    },
+    parent = "slot",
+    size = 40,
+    type = "button_style"
+  },
+  framework_slot_yellow = {
+    clicked_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          160,
+          320
+        },
+        size = 80
+      }
+    },
+    clicked_vertical_offset = 0,
+    default_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          0,
+          320
+        },
+        size = 80
+      }
+    },
+    disabled_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          0,
+          320
+        },
+        size = 80
+      }
+    },
+    hovered_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          80,
+          320
+        },
+        size = 80
+      }
+    },
+    parent = "slot",
+    size = 40,
+    type = "button_style"
+  },
+  framework_standalone_slot_button_blue = {
+    clicked_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          400,
+          560
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    clicked_vertical_offset = 0,
+    default_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          240,
+          560
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    disabled_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          240,
+          560
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    hovered_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          320,
+          560
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    parent = "slot_button",
+    size = 40,
+    type = "button_style"
+  },
+  framework_standalone_slot_button_cyan = {
+    clicked_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          400,
+          480
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    clicked_vertical_offset = 0,
+    default_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          240,
+          480
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    disabled_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          240,
+          480
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    hovered_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          320,
+          480
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    parent = "slot_button",
+    size = 40,
+    type = "button_style"
+  },
+  framework_standalone_slot_button_default = {
+    clicked_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          400,
+          0
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    clicked_vertical_offset = 0,
+    default_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          240,
+          0
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    disabled_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          240,
+          0
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    hovered_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          320,
+          0
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    parent = "slot_button",
+    size = 40,
+    type = "button_style"
+  },
+  framework_standalone_slot_button_green = {
+    clicked_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          400,
+          400
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    clicked_vertical_offset = 0,
+    default_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          240,
+          400
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    disabled_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          240,
+          400
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    hovered_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          320,
+          400
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    parent = "slot_button",
+    size = 40,
+    type = "button_style"
+  },
+  framework_standalone_slot_button_grey = {
+    clicked_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          400,
+          80
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    clicked_vertical_offset = 0,
+    default_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          240,
+          80
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    disabled_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          240,
+          80
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    hovered_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          320,
+          80
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    parent = "slot_button",
+    size = 40,
+    type = "button_style"
+  },
+  framework_standalone_slot_button_orange = {
+    clicked_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          400,
+          240
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    clicked_vertical_offset = 0,
+    default_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          240,
+          240
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    disabled_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          240,
+          240
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    hovered_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          320,
+          240
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    parent = "slot_button",
+    size = 40,
+    type = "button_style"
+  },
+  framework_standalone_slot_button_pink = {
+    clicked_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          400,
+          720
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    clicked_vertical_offset = 0,
+    default_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          240,
+          720
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    disabled_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          240,
+          720
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    hovered_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          320,
+          720
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    parent = "slot_button",
+    size = 40,
+    type = "button_style"
+  },
+  framework_standalone_slot_button_purple = {
+    clicked_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          400,
+          640
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    clicked_vertical_offset = 0,
+    default_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          240,
+          640
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    disabled_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          240,
+          640
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    hovered_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          320,
+          640
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    parent = "slot_button",
+    size = 40,
+    type = "button_style"
+  },
+  framework_standalone_slot_button_red = {
+    clicked_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          400,
+          160
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    clicked_vertical_offset = 0,
+    default_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          240,
+          160
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    disabled_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          240,
+          160
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    hovered_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          320,
+          160
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    parent = "slot_button",
+    size = 40,
+    type = "button_style"
+  },
+  framework_standalone_slot_button_yellow = {
+    clicked_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          400,
+          320
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    clicked_vertical_offset = 0,
+    default_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          240,
+          320
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    disabled_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          240,
+          320
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    hovered_graphical_set = {
+      base = {
+        border = 4,
+        filename = "__filter-combinator-improved__/framework/graphics/slots.png",
+        position = {
+          320,
+          320
+        },
+        size = 80
+      },
+      shadow = {
+        bottom_outer_border_shift = -4,
+        corner_size = 16,
+        draw_type = "outer",
+        left_outer_border_shift = 4,
+        position = {
+          345,
+          103
+        },
+        right_outer_border_shift = -4,
+        top_outer_border_shift = 4
+      }
+    },
+    parent = "slot_button",
+    size = 40,
+    type = "button_style"
+  },
+  framework_subheader_frame = {
+    horizontally_stretchable = "on",
+    left_margin = -12,
+    parent = "subheader_frame",
+    right_margin = -12,
+    top_margin = -8,
+    type = "frame_style",
+    vertically_stretchable = "on"
+  },
+  framework_subheader_horizontal_line = {
+    border = {
+      border_width = 8,
+      horizontal_line = {
+        filename = "__filter-combinator-improved__/framework/graphics/subheader-line.png",
+        size = {
+          1,
+          8
+        }
+      }
+    },
+    bottom_margin = -2,
+    horizontally_stretchable = "on",
+    left_margin = -8,
+    right_margin = -8,
+    top_margin = -2,
+    type = "line_style"
+  },
+  framework_tabbed_pane_parent = {
+    parent = "inside_deep_frame",
+    top_padding = 12,
+    type = "frame_style"
+  },
+  framework_tabbed_pane_with_no_padding = {
+    tab_content_frame = {
+      bottom_padding = 0,
+      graphical_set = {
+        base = {
+          center = {
+            position = {
+              76,
+              8
+            },
+            size = {
+              1,
+              1
+            }
+          },
+          top = {
+            position = {
+              76,
+              0
+            },
+            size = {
+              1,
+              8
+            }
+          }
+        },
+        shadow = {
+          center = {
+            position = {
+              208,
+              136
+            },
+            size = {
+              1,
+              1
+            }
+          },
+          draw_type = "outer",
+          scale = 0.5,
+          tint = {
+            0,
+            0,
+            0,
+            0.35
+          },
+          top = {
+            position = {
+              208,
+              128
+            },
+            size = {
+              1,
+              8
+            }
+          }
+        }
+      },
+      left_padding = 0,
+      right_padding = 0,
+      top_padding = 0,
+      type = "frame_style"
+    },
+    type = "tabbed_pane_style"
+  },
+  framework_titlebar_drag_handle = {
+    height = 24,
+    horizontally_stretchable = "on",
+    left_margin = 4,
+    parent = "draggable_space",
+    right_margin = 4,
+    type = "empty_widget_style"
+  },
+  framework_titlebar_flow = {
+    horizontal_spacing = 8,
+    type = "horizontal_flow_style"
+  },
+  framework_titlebar_search_textfield = {
+    bottom_margin = 1,
+    top_margin = -2,
+    type = "textbox_style",
+    width = 150
+  },
+  framework_titlebar_separator_line = {
+    bottom_margin = 2,
+    top_margin = -2,
+    type = "line_style"
+  },
+  framework_tool_button_dark_red = {
+    clicked_graphical_set = {
+      base = {
+        corner_size = 8,
+        filename = "__filter-combinator-improved__/framework/graphics/dark-red-button.png",
+        position = {
+          34,
+          0
+        }
+      },
+      shadow = {
+        corner_size = 8,
+        draw_type = "outer",
+        position = {
+          200,
+          128
+        },
+        scale = 0.5,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        }
+      }
+    },
+    default_graphical_set = {
+      base = {
+        corner_size = 8,
+        filename = "__filter-combinator-improved__/framework/graphics/dark-red-button.png",
+        position = {
+          0,
+          0
+        }
+      },
+      shadow = {
+        corner_size = 8,
+        draw_type = "outer",
+        position = {
+          200,
+          128
+        },
+        scale = 0.5,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        }
+      }
+    },
+    hovered_graphical_set = {
+      base = {
+        corner_size = 8,
+        filename = "__filter-combinator-improved__/framework/graphics/dark-red-button.png",
+        position = {
+          17,
+          0
+        }
+      },
+      glow = {
+        corner_size = 8,
+        draw_type = "outer",
+        position = {
+          200,
+          128
+        },
+        scale = 0.5,
+        tint = {
+          236,
+          130,
+          130,
+          127
+        }
+      },
+      shadow = {
+        corner_size = 8,
+        draw_type = "outer",
+        position = {
+          200,
+          128
+        },
+        scale = 0.5,
+        tint = {
+          15,
+          7,
+          3,
+          100
+        }
+      }
+    },
+    parent = "tool_button",
+    type = "button_style"
+  },
+  framework_tool_button_light_green = {
+    padding = 2,
+    parent = "item_and_count_select_confirm",
+    top_margin = 0,
+    type = "button_style"
+  },
+  framework_vertical_pusher = {
+    type = "empty_widget_style",
+    vertically_stretchable = "on"
+  },
+  framework_widthless_invalid_textfield = {
+    parent = "invalid_value_textfield",
+    type = "textbox_style",
+    width = 0
+  },
+  framework_widthless_textfield = {
+    type = "textbox_style",
+    width = 0
+  },
   fulfilled_draggable_space_in_train_schedule = {
     graphical_set = {
       base = {
@@ -9991,6 +25169,16 @@ return {
     parent = "label",
     type = "label_style"
   },
+  heading_3_label = {
+    font = "heading-3",
+    font_color = {
+      1,
+      1,
+      1
+    },
+    parent = "label",
+    type = "label_style"
+  },
   health_progressbar = {
     bar = {
       filename = "__core__/graphics/gui.png",
@@ -10317,6 +25505,66 @@ return {
   horizontally_limited_equipment_grid_scroll_pane = {
     maximal_width = 400,
     parent = "deep_scroll_pane",
+    type = "scroll_pane_style"
+  },
+  ["hps__fo-pin_table"] = {
+    cell_padding = 2,
+    column_alignments = {
+      {
+        alignment = "top-left",
+        column = 1
+      },
+      {
+        alignment = "top-left",
+        column = 2
+      }
+    },
+    margin = 4,
+    parent = "table",
+    type = "table_style"
+  },
+  ["hps__fo-title"] = {
+    maximal_width = 278,
+    parent = "label",
+    type = "label_style",
+    width = 278
+  },
+  ["hps__fo-title_dimmed"] = {
+    font_color = {
+      0.5,
+      0.5,
+      0.5
+    },
+    parent = "hps__fo-title",
+    type = "label_style"
+  },
+  hud_combinator_label = {
+    left_padding = 4,
+    maximal_height = 24,
+    maximal_width = 350,
+    minimal_height = 24,
+    minimal_width = 200,
+    parent = "label",
+    right_padding = 4,
+    top_margin = 0,
+    type = "label_style",
+    want_ellipsis = true
+  },
+  hud_combinator_warning = {
+    horizontal_align = "center",
+    horizontally_stretchable = "stretch_and_expand",
+    left_padding = 4,
+    parent = "label",
+    right_padding = 4,
+    type = "label_style"
+  },
+  hud_scrollpane_frame_style = {
+    extra_padding_when_activated = 0,
+    padding = 0,
+    type = "vertical_flow_style"
+  },
+  hud_scrollpane_style = {
+    extra_padding_when_activated = 0,
     type = "scroll_pane_style"
   },
   hyperlink_label = {
@@ -11900,6 +27148,495 @@ return {
     type = "textbox_style",
     width = 150
   },
+  ltnm_clickable_semibold_label = {
+    disabled_font_color = {
+      b = 0.5,
+      g = 64.5,
+      r = 128
+    },
+    hovered_font_color = {
+      b = 0.5,
+      g = 64.5,
+      r = 128
+    },
+    parent = "ltnm_semibold_label",
+    type = "label_style"
+  },
+  ltnm_column_label = {
+    font = "default-bold",
+    left_padding = 8,
+    type = "label_style"
+  },
+  ltnm_label_signal_count = {
+    bottom_padding = 3,
+    parent = "ltnm_label_signal_count_inventory",
+    right_padding = 4,
+    type = "label_style"
+  },
+  ltnm_label_signal_count_inventory = {
+    horizontal_align = "right",
+    parent = "count_label",
+    parent_hovered_font_color = {
+      1,
+      1,
+      1
+    },
+    right_padding = 2,
+    size = 36,
+    type = "label_style",
+    vertical_align = "bottom",
+    width = 36
+  },
+  ltnm_label_train_count = {
+    parent = "ltnm_label_train_count_inventory",
+    right_padding = 6,
+    top_padding = -5,
+    type = "label_style"
+  },
+  ltnm_label_train_count_inventory = {
+    horizontal_align = "right",
+    parent = "count_label",
+    parent_hovered_font_color = {
+      1,
+      1,
+      1
+    },
+    right_padding = 3,
+    size = 36,
+    top_padding = -4,
+    type = "label_style",
+    vertical_align = "top",
+    width = 36
+  },
+  ltnm_main_content_frame = {
+    height = 744,
+    parent = "deep_frame_in_shallow_frame",
+    type = "frame_style"
+  },
+  ltnm_main_toolbar_frame = {
+    bottom_margin = 12,
+    horizontal_flow_style = {
+      horizontal_spacing = 12,
+      type = "horizontal_flow_style",
+      vertical_align = "center"
+    },
+    parent = "subheader_frame",
+    top_margin = 4,
+    type = "frame_style",
+    vertical_align = "center"
+  },
+  ltnm_main_warning_frame = {
+    graphical_set = {
+      base = {
+        center = {
+          position = {
+            411,
+            25
+          },
+          size = {
+            1,
+            1
+          }
+        },
+        corner_size = 8,
+        draw_type = "outer",
+        position = {
+          85,
+          0
+        }
+      },
+      shadow = {
+        corner_size = 8,
+        draw_type = "inner",
+        position = {
+          183,
+          128
+        },
+        scale = 0.5,
+        tint = {
+          0,
+          0,
+          0,
+          1
+        }
+      }
+    },
+    height = 744,
+    parent = "deep_frame_in_shallow_frame",
+    type = "frame_style"
+  },
+  ltnm_minimap_label = {
+    font = "default-game",
+    horizontal_align = "right",
+    right_padding = 4,
+    size = 90,
+    type = "label_style",
+    vertical_align = "bottom"
+  },
+  ltnm_selected_small_slot_button_blue = {
+    parent = "flib_selected_slot_button_blue",
+    size = 36,
+    type = "button_style"
+  },
+  ltnm_selected_small_slot_button_default = {
+    parent = "flib_selected_slot_button_default",
+    size = 36,
+    type = "button_style"
+  },
+  ltnm_selected_small_slot_button_green = {
+    parent = "flib_selected_slot_button_green",
+    size = 36,
+    type = "button_style"
+  },
+  ltnm_selected_small_slot_button_orange = {
+    parent = "flib_selected_slot_button_orange",
+    size = 36,
+    type = "button_style"
+  },
+  ltnm_selected_small_slot_button_red = {
+    parent = "flib_selected_slot_button_red",
+    size = 36,
+    type = "button_style"
+  },
+  ltnm_selected_sort_checkbox = {
+    default_graphical_set = {
+      filename = "__core__/graphics/arrows/table-header-sort-arrow-down-active.png",
+      scale = 0.5,
+      size = {
+        16,
+        16
+      }
+    },
+    parent = "ltnm_sort_checkbox",
+    selected_graphical_set = {
+      filename = "__core__/graphics/arrows/table-header-sort-arrow-up-active.png",
+      scale = 0.5,
+      size = {
+        16,
+        16
+      }
+    },
+    type = "checkbox_style"
+  },
+  ltnm_semibold_label = {
+    font = "default-semibold",
+    type = "label_style"
+  },
+  ltnm_slot_table_scroll_pane = {
+    background_graphical_set = {
+      base = {
+        corner_size = 8,
+        overall_tiling_horizontal_padding = 4,
+        overall_tiling_horizontal_size = 32,
+        overall_tiling_horizontal_spacing = 8,
+        overall_tiling_vertical_padding = 4,
+        overall_tiling_vertical_size = 32,
+        overall_tiling_vertical_spacing = 8,
+        position = {
+          282,
+          17
+        }
+      }
+    },
+    horizontally_squashable = "off",
+    parent = "flib_naked_scroll_pane_no_padding",
+    type = "scroll_pane_style"
+  },
+  ltnm_small_slot_button_blue = {
+    parent = "flib_slot_button_blue",
+    size = 36,
+    type = "button_style"
+  },
+  ltnm_small_slot_button_default = {
+    parent = "flib_slot_button_default",
+    size = 36,
+    type = "button_style"
+  },
+  ltnm_small_slot_button_green = {
+    parent = "flib_slot_button_green",
+    size = 36,
+    type = "button_style"
+  },
+  ltnm_small_slot_button_orange = {
+    parent = "flib_slot_button_orange",
+    size = 36,
+    type = "button_style"
+  },
+  ltnm_small_slot_button_red = {
+    parent = "flib_slot_button_red",
+    size = 36,
+    type = "button_style"
+  },
+  ltnm_small_slot_table_frame_dark = {
+    background_graphical_set = {
+      base = {
+        corner_size = 8,
+        overall_tiling_horizontal_padding = 4,
+        overall_tiling_horizontal_size = 28,
+        overall_tiling_horizontal_spacing = 8,
+        overall_tiling_vertical_padding = 4,
+        overall_tiling_vertical_size = 28,
+        overall_tiling_vertical_spacing = 8,
+        position = {
+          282,
+          17
+        }
+      }
+    },
+    minimal_height = 36,
+    parent = "ltnm_table_inset_frame_dark",
+    type = "frame_style"
+  },
+  ltnm_small_slot_table_frame_light = {
+    background_graphical_set = {
+      base = {
+        corner_size = 8,
+        overall_tiling_horizontal_padding = 4,
+        overall_tiling_horizontal_size = 28,
+        overall_tiling_horizontal_spacing = 8,
+        overall_tiling_vertical_padding = 4,
+        overall_tiling_vertical_size = 28,
+        overall_tiling_vertical_spacing = 8,
+        position = {
+          282,
+          17
+        }
+      }
+    },
+    minimal_height = 36,
+    parent = "ltnm_table_inset_frame_light",
+    type = "frame_style"
+  },
+  ltnm_sort_checkbox = {
+    checkmark = {
+      filename = "__flib__/graphics/empty.png",
+      frame_count = 1,
+      height = 1,
+      priority = "very-low",
+      scale = 8,
+      width = 1
+    },
+    clicked_graphical_set = {
+      filename = "__core__/graphics/arrows/table-header-sort-arrow-down-white.png",
+      scale = 0.5,
+      size = {
+        16,
+        16
+      }
+    },
+    default_graphical_set = {
+      filename = "__core__/graphics/arrows/table-header-sort-arrow-down-white.png",
+      scale = 0.5,
+      size = {
+        16,
+        16
+      }
+    },
+    disabled_checkmark = {
+      filename = "__flib__/graphics/empty.png",
+      frame_count = 1,
+      height = 1,
+      priority = "very-low",
+      scale = 8,
+      width = 1
+    },
+    disabled_graphical_set = {
+      filename = "__core__/graphics/arrows/table-header-sort-arrow-down-white.png",
+      scale = 0.5,
+      size = {
+        16,
+        16
+      }
+    },
+    font = "default-bold",
+    hovered_graphical_set = {
+      filename = "__core__/graphics/arrows/table-header-sort-arrow-down-hover.png",
+      scale = 0.5,
+      size = {
+        16,
+        16
+      }
+    },
+    padding = 0,
+    selected_clicked_graphical_set = {
+      filename = "__core__/graphics/arrows/table-header-sort-arrow-up-white.png",
+      scale = 0.5,
+      size = {
+        16,
+        16
+      }
+    },
+    selected_disabled_graphical_set = {
+      filename = "__core__/graphics/arrows/table-header-sort-arrow-up-white.png",
+      scale = 0.5,
+      size = {
+        16,
+        16
+      }
+    },
+    selected_graphical_set = {
+      filename = "__core__/graphics/arrows/table-header-sort-arrow-up-white.png",
+      scale = 0.5,
+      size = {
+        16,
+        16
+      }
+    },
+    selected_hovered_graphical_set = {
+      filename = "__core__/graphics/arrows/table-header-sort-arrow-up-hover.png",
+      scale = 0.5,
+      size = {
+        16,
+        16
+      }
+    },
+    text_padding = 5,
+    type = "checkbox_style"
+  },
+  ltnm_tabbed_pane = {
+    tab_content_frame = {
+      bottom_padding = 8,
+      left_padding = 12,
+      parent = "tabbed_pane_frame",
+      right_padding = 12,
+      type = "frame_style"
+    },
+    type = "tabbed_pane_style"
+  },
+  ltnm_table_inset_frame_dark = {
+    graphical_set = {
+      base = {
+        center = {
+          position = {
+            42,
+            8
+          },
+          size = {
+            1,
+            1
+          }
+        },
+        corner_size = 8,
+        draw_type = "outer",
+        position = {
+          51,
+          0
+        }
+      },
+      shadow = {
+        corner_size = 8,
+        draw_type = "inner",
+        position = {
+          183,
+          128
+        },
+        scale = 0.5,
+        tint = {
+          0,
+          0,
+          0,
+          1
+        }
+      }
+    },
+    parent = "deep_frame_in_shallow_frame",
+    type = "frame_style"
+  },
+  ltnm_table_inset_frame_light = {
+    parent = "deep_frame_in_shallow_frame",
+    type = "frame_style"
+  },
+  ltnm_table_row_frame_dark = {
+    graphical_set = {},
+    parent = "ltnm_table_row_frame_light",
+    type = "frame_style"
+  },
+  ltnm_table_row_frame_light = {
+    bottom_padding = 8,
+    graphical_set = {
+      base = {
+        center = {
+          position = {
+            76,
+            8
+          },
+          size = {
+            1,
+            1
+          }
+        }
+      }
+    },
+    horizontal_flow_style = {
+      horizontal_spacing = 10,
+      horizontally_stretchable = "on",
+      type = "horizontal_flow_style",
+      vertical_align = "center"
+    },
+    left_padding = 8,
+    minimal_height = 52,
+    parent = "neutral_message_frame",
+    right_padding = 8,
+    top_padding = 8,
+    type = "frame_style"
+  },
+  ltnm_table_scroll_pane = {
+    parent = "flib_naked_scroll_pane_no_padding",
+    type = "scroll_pane_style",
+    vertical_flow_style = {
+      type = "vertical_flow_style",
+      vertical_spacing = 0
+    }
+  },
+  ltnm_table_toolbar_frame = {
+    horizontal_flow_style = {
+      horizontal_spacing = 10,
+      type = "horizontal_flow_style",
+      vertical_align = "center"
+    },
+    horizontally_stretchable = "on",
+    left_padding = 9,
+    parent = "subheader_frame",
+    right_padding = 19,
+    type = "frame_style"
+  },
+  ltnm_train_minimap = {
+    size = 90,
+    type = "minimap_style"
+  },
+  ltnm_train_minimap_button = {
+    clicked_graphical_set = {
+      opacity = 0.7,
+      position = {
+        70,
+        146
+      },
+      size = 1
+    },
+    default_graphical_set = {},
+    hovered_graphical_set = {
+      base = {
+        opacity = 0.7,
+        position = {
+          81,
+          80
+        },
+        size = 1
+      }
+    },
+    parent = "button",
+    size = 90,
+    type = "button_style"
+  },
+  ltnm_warning_flow = {
+    horizontal_align = "center",
+    horizontally_stretchable = "on",
+    padding = 12,
+    type = "horizontal_flow_style",
+    vertical_align = "center",
+    vertical_spacing = 8,
+    vertically_stretchable = "on"
+  },
   main_menu_version_label = {
     font = "default-game",
     hovered_font_color = {
@@ -12101,6 +27838,76 @@ return {
     },
     type = "table_style",
     vertical_spacing = 0
+  },
+  mc_notice_textbox = {
+    active_background = {
+      filename = "__m-microcontroller__/graphics/black.png",
+      height = 1,
+      width = 1
+    },
+    default_background = {
+      filename = "__m-microcontroller__/graphics/grey.png",
+      height = 1,
+      width = 1
+    },
+    disabled_font_color = {
+      b = 0,
+      g = 0,
+      r = 0
+    },
+    font = "default-mono",
+    font_color = {
+      b = 0,
+      g = 1,
+      r = 0
+    },
+    padding = 0,
+    parent = "textbox",
+    rich_text_setting = "disabled",
+    selection_background_color = {
+      b = 0,
+      g = 0,
+      r = 0
+    },
+    type = "textbox_style"
+  },
+  mc_program_input = {
+    active_background = {
+      filename = "__m-microcontroller__/graphics/black.png",
+      height = 1,
+      width = 1
+    },
+    default_background = {
+      filename = "__m-microcontroller__/graphics/input.png",
+      height = 1,
+      width = 1
+    },
+    disabled_font_color = {
+      b = 0,
+      g = 1,
+      r = 0
+    },
+    font = "default-mono",
+    font_color = {
+      b = 0,
+      g = 0.9,
+      r = 0
+    },
+    horizontally_stretchable = "on",
+    maximal_height = 0,
+    maximal_width = 0,
+    minimal_width = 280,
+    natural_width = 0,
+    padding = 0,
+    rich_text_setting = "disabled",
+    selection_background_color = {
+      b = 0.32000000000000002,
+      g = 0.32000000000000002,
+      r = 0.32000000000000002
+    },
+    type = "textbox_style",
+    vertically_stretchable = "on",
+    word_wrap = false
   },
   menu_button = {
     bottom_padding = 4,
@@ -13582,6 +29389,51 @@ return {
     parent = "crafting_queue_slot",
     type = "button_style"
   },
+  qf_item_group_table = {
+    background_graphical_set = {
+      corner_size = 8,
+      overall_tiling_horizontal_padding = 11,
+      overall_tiling_horizontal_size = 83,
+      overall_tiling_horizontal_spacing = 22,
+      overall_tiling_vertical_padding = 11,
+      overall_tiling_vertical_size = 53,
+      overall_tiling_vertical_spacing = 22,
+      position = {
+        0,
+        0
+      }
+    },
+    draw_type = "outer",
+    horizontal_spacing = 0,
+    padding = 0,
+    type = "table_style",
+    vertical_spacing = 0
+  },
+  qf_item_slots = {
+    background_graphical_set = {
+      corner_size = 8,
+      overall_tiling_horizontal_padding = 4,
+      overall_tiling_horizontal_size = 30,
+      overall_tiling_horizontal_spacing = 10,
+      overall_tiling_vertical_padding = 4,
+      overall_tiling_vertical_size = 30,
+      overall_tiling_vertical_spacing = 10,
+      position = {
+        282,
+        17
+      }
+    },
+    horizontal_flow_style = {
+      horizontal_spacing = 0,
+      type = "horizontal_flow_style"
+    },
+    parent = "deep_frame_in_shallow_frame",
+    type = "frame_style",
+    vertical_flow_style = {
+      type = "vertical_flow_style",
+      vertical_spacing = 0
+    }
+  },
   quick_bar_inner_panel = {
     graphical_set = {
       base = {
@@ -14025,6 +29877,83 @@ return {
     },
     text_padding = 8,
     type = "radiobutton_style"
+  },
+  ["recipe-combinator_checkbox_header"] = {
+    parent = "checkbox",
+    type = "checkbox_style"
+  },
+  ["recipe-combinator_checkbox_row"] = {
+    left_padding = 12,
+    right_padding = 12,
+    type = "horizontal_flow_style",
+    vertical_align = "center"
+  },
+  ["recipe-combinator_header_radio"] = {
+    font = "default-bold",
+    left_margin = 4,
+    parent = "caption_radiobutton",
+    type = "radiobutton_style"
+  },
+  ["recipe-combinator_indented_checkbox_row"] = {
+    left_padding = 24,
+    right_padding = 8,
+    type = "horizontal_flow_style",
+    vertical_align = "center"
+  },
+  ["recipe-combinator_label_toolip"] = {
+    left_padding = 0,
+    parent = "recipe-combinator_checkbox_row",
+    right_padding = 0,
+    type = "horizontal_flow_style"
+  },
+  ["recipe-combinator_machine_picker"] = {
+    parent = "slot_button",
+    right_margin = -4,
+    type = "button_style"
+  },
+  ["recipe-combinator_mini_checkbox"] = {
+    margin_left = 16,
+    parent = "checkbox",
+    text_padding = 0,
+    type = "checkbox_style"
+  },
+  ["recipe-combinator_section_divider_line"] = {
+    bottom_margin = 11,
+    parent = "inside_shallow_frame_with_padding_line",
+    top_margin = 11,
+    type = "line_style"
+  },
+  ["recipe-combinator_signal_button"] = {
+    height = 32,
+    parent = "flib_slot_button_default",
+    type = "button_style",
+    width = 32
+  },
+  ["recipe-combinator_stretch"] = {
+    horizontally_stretchable = "on",
+    type = "empty_widget_style"
+  },
+  ["recipe-combinator_subheader_caption_radio"] = {
+    bottom_margin = 4,
+    left_margin = 8,
+    parent = "caption_radiobutton",
+    type = "radiobutton_style"
+  },
+  ["recipe-combinator_tooltip_sprite"] = {
+    left_margin = 2,
+    size = 8,
+    stretch_image_to_widget_size = true,
+    type = "image_style"
+  },
+  ["recipe-combinator_unpadded_horizontal_flow"] = {
+    bottom_margin = 8,
+    top_margin = -12,
+    type = "horizontal_flow_style"
+  },
+  ["recipe-combinator_unpadded_horizontal_flow_first"] = {
+    bottom_margin = 8,
+    top_margin = 4,
+    type = "horizontal_flow_style"
   },
   recipe_count_line_label = {
     parent = "count_label",
@@ -18558,6 +34487,14 @@ return {
     stretch_image_to_widget_size = true,
     type = "image_style",
     width = 20
+  },
+  space_hud_header = {
+    left_margin = 8,
+    minimal_height = 24,
+    minimal_width = 32,
+    right_margin = 8,
+    top_margin = 0,
+    type = "empty_widget_style"
   },
   speech_bubble = {
     arrow_graphical_set = {

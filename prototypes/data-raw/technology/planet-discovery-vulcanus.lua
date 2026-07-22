@@ -4,6 +4,11 @@ return {
       space_location = "vulcanus",
       type = "unlock-space-location",
       use_icon_overlay_constant = true
+    },
+    {
+      space_location = "vulcanus-factory-floor",
+      type = "unlock-space-location",
+      use_icon_overlay_constant = false
     }
   },
   essential = true,

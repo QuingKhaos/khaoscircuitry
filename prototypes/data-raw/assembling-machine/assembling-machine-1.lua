@@ -1,4 +1,7 @@
 return {
+  additional_pastable_entities = {
+    "cybersyn-constant-combinator"
+  },
   alert_icon_shift = {
     0,
     -0.375
@@ -619,7 +622,8 @@ return {
     "basic-crafting",
     "advanced-crafting",
     "electronics",
-    "pressing"
+    "pressing",
+    "metallurgy-or-assembling"
   },
   crafting_speed = 0.5,
   damaged_trigger_effect = {

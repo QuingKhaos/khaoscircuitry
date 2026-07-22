@@ -2,35 +2,7 @@
   "mods": [
     {
       "enabled": true,
-      "name": "elevated-rails"
-    },
-    {
-      "enabled": true,
-      "name": "khaosdata-extractor"
-    },
-    {
-      "enabled": true,
-      "name": "khaoslib"
-    },
-    {
-      "enabled": true,
-      "name": "quality"
-    },
-    {
-      "enabled": true,
-      "name": "space-age"
-    },
-    {
-      "enabled": true,
-      "name": "aai-signal-transmission"
-    },
-    {
-      "enabled": true,
       "name": "Active_Rails"
-    },
-    {
-      "enabled": true,
-      "name": "alchemical-combinator"
     },
     {
       "enabled": true,
@@ -38,7 +10,47 @@
     },
     {
       "enabled": true,
-      "name": "khaoslib"
+      "name": "Automatic_Train_Painter"
+    },
+    {
+      "enabled": true,
+      "name": "BRCombinator"
+    },
+    {
+      "enabled": true,
+      "name": "CircuitHUD-V2"
+    },
+    {
+      "enabled": true,
+      "name": "Cybersyn-Content-Reader"
+    },
+    {
+      "enabled": true,
+      "name": "DisplayPlatesForked"
+    },
+    {
+      "enabled": true,
+      "name": "Flare Stack"
+    },
+    {
+      "enabled": true,
+      "name": "LogisticTrainNetwork"
+    },
+    {
+      "enabled": true,
+      "name": "PollutionCombinator-JamieFork"
+    },
+    {
+      "enabled": true,
+      "name": "Research_Control_Combinator_Updated"
+    },
+    {
+      "enabled": true,
+      "name": "aai-signal-transmission"
+    },
+    {
+      "enabled": true,
+      "name": "alchemical-combinator"
     },
     {
       "enabled": true,
@@ -50,11 +62,7 @@
     },
     {
       "enabled": true,
-      "name": "BRCombinator"
-    },
-    {
-      "enabled": true,
-      "name": "CircuitHUD-V2"
+      "name": "bplib"
     },
     {
       "enabled": true,
@@ -70,15 +78,11 @@
     },
     {
       "enabled": true,
-      "name": "Cybersyn-Content-Reader"
-    },
-    {
-      "enabled": true,
       "name": "diode-combinator"
     },
     {
       "enabled": true,
-      "name": "DisplayPlatesForked"
+      "name": "elevated-rails"
     },
     {
       "enabled": true,
@@ -98,11 +102,27 @@
     },
     {
       "enabled": true,
+      "name": "flib"
+    },
+    {
+      "enabled": true,
+      "name": "glib"
+    },
+    {
+      "enabled": true,
       "name": "heat-sensor"
     },
     {
       "enabled": true,
       "name": "inventory-sensor-improved"
+    },
+    {
+      "enabled": true,
+      "name": "khaosdata-extractor"
+    },
+    {
+      "enabled": true,
+      "name": "khaoslib"
     },
     {
       "enabled": true,
@@ -114,7 +134,7 @@
     },
     {
       "enabled": true,
-      "name": "PollutionCombinator-JamieFork"
+      "name": "quality"
     },
     {
       "enabled": true,
@@ -123,10 +143,6 @@
     {
       "enabled": true,
       "name": "recipe_combinator"
-    },
-    {
-      "enabled": true,
-      "name": "Research_Control_Combinator_Updated"
     },
     {
       "enabled": true,
@@ -139,6 +155,10 @@
     {
       "enabled": true,
       "name": "smart-train-combinator"
+    },
+    {
+      "enabled": true,
+      "name": "space-age"
     },
     {
       "enabled": true,
@@ -163,26 +183,6 @@
     {
       "enabled": true,
       "name": "utility-combinators"
-    },
-    {
-      "enabled": true,
-      "name": "Automatic_Train_Painter"
-    },
-    {
-      "enabled": true,
-      "name": "Flare Stack"
-    },
-    {
-      "enabled": true,
-      "name": "flib"
-    },
-    {
-      "enabled": true,
-      "name": "bplib"
-    },
-    {
-      "enabled": true,
-      "name": "LogisticTrainNetwork"
     }
   ]
 }
