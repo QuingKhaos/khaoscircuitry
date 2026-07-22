@@ -144,7 +144,7 @@ return {
       value = true
     },
     ["khaoscircuitry-factorissimo-circuit-subgroup"] = {
-      value = "circuit-combinator"
+      value = "circuit-connection"
     },
     ["khaoscircuitry-fiber-optics-circuit-group"] = {
       value = true

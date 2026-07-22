@@ -21,6 +21,6 @@ return {
       type = "item"
     }
   },
-  subgroup = "circuit-combinator",
+  subgroup = "circuit-connection",
   type = "recipe"
 }

@@ -1732,7 +1732,7 @@ return {
         "circuit-visual-lamp",
         "circuit-auditory"
       },
-      default_value = "circuit-combinator",
+      default_value = "circuit-connection",
       hidden = true,
       name = "khaoscircuitry-factorissimo-circuit-subgroup",
       order = "a[advanced]-b[factorissimo]-b[circuit-subgroup]",
