@@ -5,16 +5,30 @@ local khaoslib_technology = require("__khaoslib__.prototypes.technology")
 local settings_util = require("__khaoscircuitry__.prototypes.settings-util")
 
 if mods["compaktcircuit"] then
+  local processor_recipe = "compaktcircuit-processor"
+  local processor_1x1_recipe = "compaktcircuit-processor_1x1"
+  local processor_tech = "compaktcircuit-tech"
+  if mods["nullius"] then
+    -- When Nullius is active, compaktcircuit prefixes its processor recipes AND its
+    -- technology with "nullius-" (see compaktcircuit/data/data.lua) to escape
+    -- Nullius's prototype hiding. Entities and items keep their original names;
+    -- only the recipes and the technology are renamed. Load the correct names to
+    -- avoid a crash ("No such recipe/technology").
+    processor_recipe = "nullius-" .. processor_recipe
+    processor_1x1_recipe = "nullius-" .. processor_1x1_recipe
+    processor_tech = "nullius-" .. processor_tech
+  end
+
   if (mods["khaoscircuitrygroup"] or mods["SchallCircuitGroup"]) and settings.startup["khaoscircuitry-compaktcircuit-circuit-group"].value then
     local processor_subgroup = settings_util.get_circuit_subgroup("khaoscircuitry-compaktcircuit-processor-circuit-subgroup")
 
     khaoslib_entity:load("simple-entity-with-owner", "compaktcircuit-processor"):set {subgroup = processor_subgroup} :commit()
     khaoslib_item:load("compaktcircuit-processor"):set {subgroup = processor_subgroup} :commit()
-    khaoslib_recipe:load("compaktcircuit-processor"):set {subgroup = processor_subgroup} :commit()
+    khaoslib_recipe:load(processor_recipe):set {subgroup = processor_subgroup} :commit()
 
     khaoslib_entity:load("simple-entity-with-owner", "compaktcircuit-processor_1x1"):set {subgroup = processor_subgroup} :commit()
     khaoslib_item:load("compaktcircuit-processor_1x1"):set {subgroup = processor_subgroup} :commit()
-    khaoslib_recipe:load("compaktcircuit-processor_1x1"):set {subgroup = processor_subgroup} :commit()
+    khaoslib_recipe:load(processor_1x1_recipe):set {subgroup = processor_subgroup} :commit()
 
     local input_subgroup = settings_util.get_circuit_subgroup("khaoscircuitry-compaktcircuit-input-circuit-subgroup")
     khaoslib_entity:load("constant-combinator", "compaktcircuit-input"):set {subgroup = input_subgroup} :commit()
@@ -37,11 +51,11 @@ if mods["compaktcircuit"] then
   end
 
   local processors = {
-    khaoslib_recipe:load("compaktcircuit-processor"),
-    khaoslib_recipe:load("compaktcircuit-processor_1x1"),
+    khaoslib_recipe:load(processor_recipe),
+    khaoslib_recipe:load(processor_1x1_recipe),
   }
 
-  local tech = khaoslib_technology:load("compaktcircuit-tech")
+  local tech = khaoslib_technology:load(processor_tech)
     :add_prerequisite("circuit-network")
     :add_prerequisite("advanced-circuit")
 
